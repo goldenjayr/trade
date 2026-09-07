@@ -1,8 +1,8 @@
 {
-  "asOf": "2026-09-07",
+  "asOf": "2026-09-08",
   "timezone": "Asia/Manila",
   "stance": "NO_TRADE",
-  "stanceReason": "9pm level watch: primaries not printing. BTC ~79536 above 78-78.8k wait; XRP ~1.409 above 1.33-1.36. Soft BNB/LINK waits not printing. SUI out. Flat into CPI Sep 11 → FOMC Sep 15-16.",
+  "stanceReason": "CPI→FOMC event cluster. Primaries BTC/XRP wait zones not tagged at open. Sit flat; no PLAN.",
   "primaries": [
     "BTC",
     "XRP"
@@ -31,22 +31,30 @@
   },
   "catalysts": [
     {
+      "id": "ppi-2026-09-10",
+      "date": "2026-09-10",
+      "timeManila": "20:30",
+      "title": "US August PPI",
+      "impact": "high",
+      "status": "upcoming",
+      "notes": "Pre-CPI inflation print"
+    },
+    {
       "id": "cpi-2026-09-11",
       "date": "2026-09-11",
       "timeManila": "20:30",
-      "title": "US CPI",
+      "title": "US August CPI",
       "impact": "high",
       "status": "upcoming",
-      "notes": "Kill window for both books"
+      "notes": "Flatten any open Coins before print if no fresh edge"
     },
     {
-      "id": "fomc-2026-09-16",
-      "date": "2026-09-16",
-      "timeManila": "02:00",
-      "title": "FOMC decision",
+      "id": "fomc-2026-09-15",
+      "date": "2026-09-15",
+      "title": "FOMC meeting (Sep 15–16)",
       "impact": "high",
       "status": "upcoming",
-      "notes": "Sep 15-16 meeting; decision Wed night Manila"
+      "notes": "Quiet period already active"
     }
   ]
 }

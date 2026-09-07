@@ -1,0 +1,81 @@
+{
+  "date": "2026-09-08",
+  "stance": "NO_TRADE",
+  "headline": "Tue morning stand-down. US reopen into PPI/CPI week. BTC/XRP closer overnight but waits not printed.",
+  "scout": {
+    "headline": "Event week, not a hunt. Labor Day over; inflation prints dominate.",
+    "bullets": [
+      "US equities reopen after Labor Day; futures mixed/cautious with AI bid vs hike/CPI risk.",
+      "PPI Thu Sep 10 and CPI Fri Sep 11 (20:30 Manila) are the kill windows before FOMC Sep 15–16.",
+      "BTC ~$79.0k (was ~$79.5k EOD) — still above $78–78.8k wait; not a chase.",
+      "XRP ~$1.39 — still above $1.33–1.36 primary wait.",
+      "BNB ~$739 / LINK ~$12.73 near soft scout only; SUI ~$0.82 out into CPI.",
+      "Spot ETF bid constructive but macro caution (jobs, oil, hike odds) caps chase edge."
+    ],
+    "sources": [
+      "Coinbase/Kraken spot 2026-09-08",
+      "US economic calendar",
+      "Desk EOD 2026-09-07"
+    ]
+  },
+  "analyst": {
+    "thesis": "No high-conviction clip while CPI→FOMC risk dominates and primaries have not printed. Map only; do not promote soft BNB/LINK to PLAN.",
+    "levels": [
+      {
+        "symbol": "BTC",
+        "support": 78000,
+        "resistance": 80000,
+        "invalidation": "Market buy above wait into CPI candle",
+        "note": "Primary wait $78.0–78.8k; spot ~$79.0k"
+      },
+      {
+        "symbol": "XRP",
+        "support": 1.33,
+        "resistance": 1.42,
+        "invalidation": "Forcing scalp above wait to use cash",
+        "note": "Primary wait $1.33–1.36; spot ~$1.394"
+      },
+      {
+        "symbol": "BNB",
+        "support": 728,
+        "note": "Soft scout $728–737 only; not auto-PLAN"
+      },
+      {
+        "symbol": "LINK",
+        "support": 12.5,
+        "note": "Soft scout $12.50–12.65 retest only"
+      },
+      {
+        "symbol": "SUI",
+        "note": "NONE into CPI (Phantom Sep 24 headwind)"
+      },
+      {
+        "symbol": "SPY",
+        "note": "Benchmark only; no Gotrade clip into event week at $15–25 size"
+      }
+    ],
+    "notes": "Conviction at spot low. First Coins clip after events stays BTC or XRP if wait prints clean. Rails: Coins −3%/+6%; Gotrade bias $20–25."
+  },
+  "risk": {
+    "railsCheck": "Cash available (Coins ₱1723 / Gotrade $46.89) but permission denied — event risk. Primaries not tagged → no PLAN card.",
+    "sizeNote": "Do not downsize below ₱800 / $15 to force activity. Fee-skip on.",
+    "kills": [
+      "CPI Fri 20:30 Manila",
+      "PPI Thu",
+      "FOMC week until statement digested",
+      "No second clip to make the day",
+      "BNB/LINK soft waits are not auto-PLAN"
+    ],
+    "feeSkip": "Coins: skip if fees eat ≥~⅓ of +6% edge or clip <₱800. Gotrade: prefer $20–25; skip junk R:R."
+  },
+  "desk": {
+    "decision": "NO TRADE. Flat both books. Keep BTC/XRP primaries. Level watch 15:00 and 21:00 Manila.",
+    "actions": [
+      "Deliver 1:1 TLDR to jayr",
+      "Ping Trading Ops with stand-down",
+      "Hand DailyPacket to Trade Vision",
+      "No broker unlock/exec needed"
+    ],
+    "nextOpen": "Arm only if BTC $78–78.8k or XRP $1.33–1.36 prints clean before CPI with fee-aware R:R; else stay flat through print."
+  }
+}
