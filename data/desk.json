@@ -2,7 +2,7 @@
   "asOf": "2026-09-07",
   "timezone": "Asia/Manila",
   "stance": "NO_TRADE",
-  "stanceReason": "CPI print into FOMC week. Sit on hands. Primaries remain BTC and XRP for the first clip after the event cluster — not during it.",
+  "stanceReason": "9pm level watch: primaries not printing. BTC ~79536 above 78-78.8k wait; XRP ~1.409 above 1.33-1.36. Soft BNB/LINK waits not printing. SUI out. Flat into CPI Sep 11 → FOMC Sep 15-16.",
   "primaries": [
     "BTC",
     "XRP"
@@ -31,22 +31,22 @@
   },
   "catalysts": [
     {
-      "id": "cpi-2026-09-07",
-      "date": "2026-09-07",
+      "id": "cpi-2026-09-11",
+      "date": "2026-09-11",
       "timeManila": "20:30",
       "title": "US CPI",
       "impact": "high",
       "status": "upcoming",
-      "notes": "8:30 ET. Kill window for both books. Do not trade the number."
+      "notes": "Kill window for both books"
     },
     {
       "id": "fomc-2026-09-16",
       "date": "2026-09-16",
       "timeManila": "02:00",
-      "title": "FOMC decision + presser",
+      "title": "FOMC decision",
       "impact": "high",
       "status": "upcoming",
-      "notes": "Stand-down continues through statement and presser. First clip only after structure is clean."
+      "notes": "Sep 15-16 meeting; decision Wed night Manila"
     }
   ]
 }

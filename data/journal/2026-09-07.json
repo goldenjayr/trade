@@ -1,62 +1,59 @@
 {
   "date": "2026-09-07",
   "stance": "NO_TRADE",
-  "headline": "Monday weekly + US CPI. Dual-book stand-down. BTC and XRP stay primaries — permission is not granted today.",
+  "headline": "9pm level watch — no primary print. Stand-down holds into CPI week.",
   "scout": {
-    "headline": "Event cluster, not a setup. Asia quiet; US session is a print, not a hunt.",
+    "headline": "No fresh catalyst forcing a clip overnight into the print.",
     "bullets": [
-      "BTC digested last week's range overnight. No expansion that forces a Coins clip.",
-      "XRP still the preferred alt vs ETH/SOL/SUI for the first risk-on after events — watch only.",
-      "US CPI 20:30 Manila (08:30 ET). This is a kill window for both books.",
-      "Megacap bid into the print is not a Gotrade trade at $20 clip size.",
-      "Monday 08:00 weekly completed as a stand-down, not a search for something to buy."
+      "BTC consolidating ~79.5k; wait zone 78-78.8k not tagged",
+      "XRP ~1.41; wait 1.33-1.36 not tagged",
+      "BNB/LINK soft waits not printing; SUI remains out",
+      "US Labor Day — no cash equity session",
+      "CPI Fri Sep 11 / FOMC Sep 15-16 still the kill window"
     ],
     "sources": [
-      "Desk marks 2026-09-07",
-      "US economic calendar (CPI)",
-      "FOMC week map"
+      "9pm level watch 2026-09-07",
+      "Desk marks"
     ]
   },
   "analyst": {
-    "thesis": "No edge that survives a CPI → FOMC cluster at this book size. Map BTC and XRP so the first post-event clip is pre-decided. Do not promote watch levels to order levels today.",
+    "thesis": "No edge at spot. Primaries unchanged. Do not chase soft waits into CPI.",
     "levels": [
       {
         "symbol": "BTC",
-        "invalidation": "Any market buy of the CPI candle.",
-        "note": "Range digest. No breakout chase into the print."
+        "support": 78000,
+        "resistance": 82800,
+        "invalidation": "Market buy above wait without zone tag",
+        "note": "Wait 78.0-78.8k"
       },
       {
         "symbol": "XRP",
-        "invalidation": "Forcing a mean-reversion scalp to 'use' the ₱1,723 cash.",
-        "note": "Relative-strength watch vs alts. Primary for first Coins clip after FOMC — not today."
-      },
-      {
-        "symbol": "SPY",
-        "invalidation": "Single-name or ETF momentum chase at $15–$25 into the number.",
-        "note": "Benchmark only. No Gotrade clip into CPI."
+        "support": 1.33,
+        "resistance": 1.55,
+        "invalidation": "Chase at 1.41 into CPI",
+        "note": "Wait 1.33-1.36"
       }
     ],
-    "notes": "When armed later: Coins −3% / +6% (2R). Gotrade clip bias $20–$25. Until then, levels are a map, not a ticket."
+    "notes": "Conviction at spot remains low. First clip only after a primary prints clean post-event or in wait zone with Risk greenlight."
   },
   "risk": {
-    "railsCheck": "Coins cash ₱1,723 clears A+ (₱1,500) and the standard band (₱800–₱1,200). Gotrade cash $46.89 is ~two clips at the $20–$25 bias. Size is available. Permission is not — event risk zeros both books.",
-    "sizeNote": "Do not downsize below rails to 'just do something.' Fee-skip is on. A ₱300 or $8 ticket is a process breach, not a clever hedge.",
+    "railsCheck": "Size available (Coins ₱800-1200 / Gotrade $20-25). Permission not granted — event risk.",
+    "sizeNote": "No downsize-to-trade. Fee-skip on.",
     "kills": [
-      "CPI window (today 20:30 Manila)",
-      "FOMC week until statement + presser digested",
-      "No average-down, no revenge, no second clip to 'make the day'",
-      "Stance is NO_TRADE — the kill is the stance"
+      "CPI window",
+      "FOMC week until digested",
+      "No revenge clip",
+      "Stance NO_TRADE"
     ],
-    "feeSkip": "Coins: skip if fees > 0.8% of notional or clip < ₱800. Gotrade: skip if commission + spread > 1% of a $15 floor ticket; prefer $20–$25."
+    "feeSkip": "Coins skip if fees >0.8% notional or clip <₱800; Gotrade prefer $20-25."
   },
   "desk": {
-    "decision": "NO TRADE. Journal the stand-down. Keep BTC / XRP as primaries. Do not negotiate with the 3pm or 9pm 'is this a scalp' voice.",
+    "decision": "NO TRADE after 9pm watch. Publish EOD packet. Tomorrow 7am brief + US open watch; still prefer flat into CPI.",
     "actions": [
-      "Publish today's packet via desk:ingest + desk:publish.",
-      "Run the Manila 07:00 / 12:00 / 15:00 / 21:00 checks as observation only.",
-      "Leave both books FLAT. Cash is the position.",
-      "Next permission review: first clean session after FOMC."
+      "Publish DailyPacket via Trade Vision",
+      "Maintain BTC/XRP primaries",
+      "No broker orders"
     ],
-    "nextOpen": "First session after FOMC (statement + presser) with rails green and BTC/XRP structure that does not require chasing the event candle."
+    "nextOpen": "Tue 2026-09-08 US cash open + morning brief 07:00 Manila"
   }
 }
