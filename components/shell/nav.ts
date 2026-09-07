@@ -2,6 +2,7 @@ import {
   BookOpen,
   CalendarClock,
   ChartLine,
+  Crosshair,
   LayoutDashboard,
   Radar,
   ScrollText,
@@ -12,6 +13,7 @@ import {
 export const NAV = [
   { href: "/", label: "HUD", icon: LayoutDashboard },
   { href: "/journal", label: "Journal", icon: BookOpen },
+  { href: "/predictions", label: "Predictions", icon: Crosshair },
   { href: "/watchlists", label: "Watchlists", icon: Radar },
   { href: "/history", label: "History", icon: ScrollText },
   { href: "/analytics", label: "Analytics", icon: ChartLine },

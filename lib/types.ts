@@ -1,6 +1,47 @@
 export const VENUES = ["coins", "gotrade"] as const;
 export type Venue = (typeof VENUES)[number];
 
+export const PREDICTION_VENUES = ["coins", "gotrade", "macro"] as const;
+export type PredictionVenue = (typeof PREDICTION_VENUES)[number];
+
+export const PREDICTION_DIRECTIONS = [
+  "long_wait",
+  "short_watch",
+  "range",
+  "breakout",
+  "none",
+] as const;
+export type PredictionDirection = (typeof PREDICTION_DIRECTIONS)[number];
+
+export const PREDICTION_HORIZONS = ["intraday", "swing", "event"] as const;
+export type PredictionHorizon = (typeof PREDICTION_HORIZONS)[number];
+
+export const PREDICTION_STATUSES = [
+  "open",
+  "hit_entry",
+  "hit_target",
+  "invalidated",
+  "expired",
+  "cancelled",
+] as const;
+export type PredictionStatus = (typeof PREDICTION_STATUSES)[number];
+
+export const PREDICTION_SOURCES = ["analyst", "desk"] as const;
+export type PredictionSource = (typeof PREDICTION_SOURCES)[number];
+
+export const PREDICTION_ROLES = ["primary", "scout", "stance"] as const;
+export type PredictionRole = (typeof PREDICTION_ROLES)[number];
+
+export const PREDICTION_OUTCOMES = [
+  "OPEN",
+  "LIVE",
+  "HIT",
+  "MISS",
+  "EXPIRED",
+  "CANCELLED",
+] as const;
+export type PredictionOutcome = (typeof PREDICTION_OUTCOMES)[number];
+
 export const CURRENCIES = ["PHP", "USD"] as const;
 export type Currency = (typeof CURRENCIES)[number];
 
@@ -207,6 +248,39 @@ export interface Settings {
   };
 }
 
+export interface EntryZone {
+  low: number;
+  high: number;
+}
+
+export type PredictionTarget = number | { t1: number; t2?: number };
+
+export interface Prediction {
+  id: string;
+  dateOpened: string;
+  symbol: string;
+  venue: PredictionVenue;
+  thesis: string;
+  direction: PredictionDirection;
+  entryZone?: EntryZone;
+  target?: PredictionTarget;
+  invalidation?: string;
+  invalidationPrice?: number;
+  conviction: number;
+  horizon: PredictionHorizon;
+  status: PredictionStatus;
+  resolvedAt?: string;
+  outcomeNote?: string;
+  source: PredictionSource;
+  role?: PredictionRole;
+}
+
+export interface PredictionsFile {
+  asOf: string;
+  disclaimer?: string;
+  calls: Prediction[];
+}
+
 export interface DailyPacket {
   date: string;
   stance: Stance;
@@ -224,6 +298,7 @@ export interface DailyPacket {
     last: number;
     changePct?: number;
   }>;
+  predictions?: Prediction[];
   usdphp?: number;
   notes?: string;
 }

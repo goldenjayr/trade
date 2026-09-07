@@ -5,6 +5,7 @@ import type {
   DayLog,
   DeskState,
   JournalEntry,
+  PredictionsFile,
   RiskRails,
   Routine,
   Settings,
@@ -57,6 +58,10 @@ export function loadJournalIndex(): string[] {
 
 export function loadJournal(date: string): JournalEntry {
   return readJson(`journal/${date}.json`);
+}
+
+export function loadPredictions(): PredictionsFile {
+  return readJson("predictions.json");
 }
 
 export function loadLatestJournal(): JournalEntry {
