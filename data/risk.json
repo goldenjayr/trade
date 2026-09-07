@@ -1,0 +1,41 @@
+{
+  "coins": {
+    "sizeMin": 800,
+    "sizeMax": 1200,
+    "sizeAPlus": 1500,
+    "stopPct": -0.03,
+    "targetPct": 0.06,
+    "feeSkip": [
+      "Skip if all-in fees exceed 0.8% of notional on a standard clip.",
+      "Skip any clip below ₱800 — fees eat the edge.",
+      "Do not 'nibble' a ₱200–₱400 ticket to feel active."
+    ],
+    "kills": [
+      "Hard stop −3% from entry. No average-down.",
+      "Max one clip per session when armed.",
+      "If cash < ₱800, sit out — rails over heroics."
+    ]
+  },
+  "gotrade": {
+    "sizeMin": 15,
+    "sizeMax": 25,
+    "sizeBiasMin": 20,
+    "sizeBiasMax": 25,
+    "feeSkip": [
+      "Skip if commission + spread > 1% of a $15 ticket.",
+      "Prefer $20–$25 so fees dilute; $15 is the floor, not the habit.",
+      "Skip odd lots that look clever and fill expensive."
+    ],
+    "kills": [
+      "No single-name into CPI, FOMC, or earnings of that name.",
+      "Max two clips outstanding given ~$47 cash — never all-in.",
+      "No averaging losers. One thesis, one ticket."
+    ]
+  },
+  "globalKills": [
+    "CPI print window — do not invent a setup.",
+    "FOMC day and the session after the statement + presser until structure is clean.",
+    "No revenge clips after a stop.",
+    "If stance is NO_TRADE, the kill is the stance. Journal it. Do not negotiate."
+  ]
+}

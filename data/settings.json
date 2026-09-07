@@ -1,0 +1,19 @@
+{
+  "deskName": "Trade Vision",
+  "operator": "jayr",
+  "timezone": "Asia/Manila",
+  "usdphp": 58.15,
+  "fxAsOf": "2026-09-07",
+  "venues": {
+    "coins": {
+      "label": "Coins.ph",
+      "currency": "PHP",
+      "note": "PHP crypto book. Clip ₱800–₱1,200; A+ ~₱1,500."
+    },
+    "gotrade": {
+      "label": "Gotrade",
+      "currency": "USD",
+      "note": "USD US equities/ETFs. Clip $15–$25 with $20–$25 bias."
+    }
+  }
+}

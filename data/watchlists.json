@@ -1,0 +1,241 @@
+{
+  "asOf": "2026-09-07",
+  "crypto": [
+    {
+      "symbol": "BTC",
+      "name": "Bitcoin",
+      "assetClass": "crypto",
+      "role": "primary",
+      "venues": [
+        "coins"
+      ],
+      "last": 108450,
+      "currency": "USD",
+      "changePct": -0.0042,
+      "thesis": "Core crypto primary. First Coins clip after FOMC if structure is clean — not into CPI."
+    },
+    {
+      "symbol": "ETH",
+      "name": "Ethereum",
+      "assetClass": "crypto",
+      "role": "satellite",
+      "venues": [
+        "coins"
+      ],
+      "last": 4120,
+      "currency": "USD",
+      "changePct": -0.0068,
+      "thesis": "Beta to BTC. No clip until BTC primary is working."
+    },
+    {
+      "symbol": "SOL",
+      "name": "Solana",
+      "assetClass": "crypto",
+      "role": "satellite",
+      "venues": [
+        "coins"
+      ],
+      "last": 178.4,
+      "currency": "USD",
+      "changePct": 0.0112,
+      "thesis": "High-beta satellite. Size only after BTC/XRP permission, never as a CPI scalp."
+    },
+    {
+      "symbol": "XRP",
+      "name": "XRP",
+      "assetClass": "crypto",
+      "role": "primary",
+      "venues": [
+        "coins"
+      ],
+      "last": 2.64,
+      "currency": "USD",
+      "changePct": 0.0085,
+      "thesis": "Alt primary vs SOL/SUI. Preferred first Coins risk-on after the event cluster."
+    },
+    {
+      "symbol": "BNB",
+      "name": "BNB",
+      "assetClass": "crypto",
+      "role": "satellite",
+      "venues": [
+        "coins"
+      ],
+      "last": 690,
+      "currency": "USD",
+      "changePct": -0.0015,
+      "thesis": "Venue-adjacent satellite. Not a CPI trade."
+    },
+    {
+      "symbol": "LINK",
+      "name": "Chainlink",
+      "assetClass": "crypto",
+      "role": "satellite",
+      "venues": [
+        "coins"
+      ],
+      "last": 18.4,
+      "currency": "USD",
+      "changePct": 0.0044,
+      "thesis": "Satellite. Needs a clean BTC tape before a clip."
+    },
+    {
+      "symbol": "SUI",
+      "name": "Sui",
+      "assetClass": "crypto",
+      "role": "satellite",
+      "venues": [
+        "coins"
+      ],
+      "last": 3.12,
+      "currency": "USD",
+      "changePct": 0.0168,
+      "thesis": "High-beta satellite. Do not let relative strength talk you into a CPI ticket."
+    }
+  ],
+  "us": [
+    {
+      "symbol": "SPY",
+      "name": "SPDR S&P 500",
+      "assetClass": "etf",
+      "role": "benchmark",
+      "venues": [
+        "gotrade"
+      ],
+      "last": 580.2,
+      "currency": "USD",
+      "changePct": -0.0021,
+      "thesis": "US beta benchmark. Not a default clip at $20–$25 — map only into CPI."
+    },
+    {
+      "symbol": "QQQ",
+      "name": "Invesco QQQ",
+      "assetClass": "etf",
+      "role": "benchmark",
+      "venues": [
+        "gotrade"
+      ],
+      "last": 495.1,
+      "currency": "USD",
+      "changePct": -0.0034,
+      "thesis": "Nasdaq benchmark. Same rule: no event-day ticket."
+    },
+    {
+      "symbol": "VOO",
+      "name": "Vanguard S&P 500",
+      "assetClass": "etf",
+      "role": "benchmark",
+      "venues": [
+        "gotrade"
+      ],
+      "last": 532.4,
+      "currency": "USD",
+      "changePct": -0.002,
+      "thesis": "Lower-fee S&P twin. Benchmark, not a CPI clip."
+    },
+    {
+      "symbol": "IWM",
+      "name": "iShares Russell 2000",
+      "assetClass": "etf",
+      "role": "satellite",
+      "venues": [
+        "gotrade"
+      ],
+      "last": 220.7,
+      "currency": "USD",
+      "changePct": 0.0018,
+      "thesis": "Small-cap beta. Too noisy into CPI/FOMC for this book."
+    },
+    {
+      "symbol": "AAPL",
+      "name": "Apple",
+      "assetClass": "equity",
+      "role": "satellite",
+      "venues": [
+        "gotrade"
+      ],
+      "last": 235.6,
+      "currency": "USD",
+      "changePct": -0.0012,
+      "thesis": "Megacap satellite. No earnings/CPI overlap clips."
+    },
+    {
+      "symbol": "MSFT",
+      "name": "Microsoft",
+      "assetClass": "equity",
+      "role": "satellite",
+      "venues": [
+        "gotrade"
+      ],
+      "last": 430.2,
+      "currency": "USD",
+      "changePct": -0.0008,
+      "thesis": "Megacap satellite. Wait for post-FOMC structure."
+    },
+    {
+      "symbol": "NVDA",
+      "name": "NVIDIA",
+      "assetClass": "equity",
+      "role": "satellite",
+      "venues": [
+        "gotrade"
+      ],
+      "last": 172.4,
+      "currency": "USD",
+      "changePct": 0.0064,
+      "thesis": "High-beta megacap. Respect fee-skip — a $20 clip is not a hero trade."
+    },
+    {
+      "symbol": "GOOGL",
+      "name": "Alphabet",
+      "assetClass": "equity",
+      "role": "satellite",
+      "venues": [
+        "gotrade"
+      ],
+      "last": 175.8,
+      "currency": "USD",
+      "changePct": -0.0026,
+      "thesis": "Megacap satellite. Event week = watch."
+    },
+    {
+      "symbol": "AMZN",
+      "name": "Amazon",
+      "assetClass": "equity",
+      "role": "satellite",
+      "venues": [
+        "gotrade"
+      ],
+      "last": 195.3,
+      "currency": "USD",
+      "changePct": 0.0011,
+      "thesis": "Megacap satellite. Same rails as the rest of the US book."
+    },
+    {
+      "symbol": "META",
+      "name": "Meta",
+      "assetClass": "equity",
+      "role": "satellite",
+      "venues": [
+        "gotrade"
+      ],
+      "last": 620.5,
+      "currency": "USD",
+      "changePct": -0.0041,
+      "thesis": "High-beta megacap. Not a CPI print trade at $15–$25."
+    },
+    {
+      "symbol": "TSLA",
+      "name": "Tesla",
+      "assetClass": "equity",
+      "role": "satellite",
+      "venues": [
+        "gotrade"
+      ],
+      "last": 340.1,
+      "currency": "USD",
+      "changePct": 0.0122,
+      "thesis": "Volatility satellite. Easy to violate −3% mentally. Watch, don't chase."
+    }
+  ]
+}

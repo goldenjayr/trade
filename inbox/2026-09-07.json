@@ -1,0 +1,129 @@
+{
+  "date": "2026-09-07",
+  "stance": "NO_TRADE",
+  "stanceReason": "CPI print into FOMC week. Sit on hands. Primaries remain BTC and XRP for the first clip after the event cluster — not during it.",
+  "primaries": ["BTC", "XRP"],
+  "usdphp": 58.15,
+  "notes": "Seed day. Both books FLAT. Sample NO TRADE Monday.",
+  "books": {
+    "coins": {
+      "venue": "coins",
+      "currency": "PHP",
+      "cash": 1723,
+      "dayPnl": 0,
+      "totalPnl": 0,
+      "positions": []
+    },
+    "gotrade": {
+      "venue": "gotrade",
+      "currency": "USD",
+      "cash": 46.89,
+      "dayPnl": 0,
+      "totalPnl": 0,
+      "positions": []
+    }
+  },
+  "journal": {
+    "date": "2026-09-07",
+    "stance": "NO_TRADE",
+    "headline": "Monday weekly + US CPI. Dual-book stand-down. BTC and XRP stay primaries — permission is not granted today.",
+    "scout": {
+      "headline": "Event cluster, not a setup. Asia quiet; US session is a print, not a hunt.",
+      "bullets": [
+        "BTC digested last week's range overnight. No expansion that forces a Coins clip.",
+        "XRP still the preferred alt vs ETH/SOL/SUI for the first risk-on after events — watch only.",
+        "US CPI 20:30 Manila (08:30 ET). This is a kill window for both books.",
+        "Megacap bid into the print is not a Gotrade trade at $20 clip size.",
+        "Monday 08:00 weekly completed as a stand-down, not a search for something to buy."
+      ],
+      "sources": [
+        "Desk marks 2026-09-07",
+        "US economic calendar (CPI)",
+        "FOMC week map"
+      ]
+    },
+    "analyst": {
+      "thesis": "No edge that survives a CPI → FOMC cluster at this book size. Map BTC and XRP so the first post-event clip is pre-decided. Do not promote watch levels to order levels today.",
+      "levels": [
+        {
+          "symbol": "BTC",
+          "note": "Range digest. No breakout chase into the print.",
+          "invalidation": "Any market buy of the CPI candle."
+        },
+        {
+          "symbol": "XRP",
+          "note": "Relative-strength watch vs alts. Primary for first Coins clip after FOMC — not today.",
+          "invalidation": "Forcing a mean-reversion scalp to 'use' the ₱1,723 cash."
+        },
+        {
+          "symbol": "SPY",
+          "note": "Benchmark only. No Gotrade clip into CPI.",
+          "invalidation": "Single-name or ETF momentum chase at $15–$25 into the number."
+        }
+      ],
+      "notes": "When armed later: Coins −3% / +6% (2R). Gotrade clip bias $20–$25. Until then, levels are a map, not a ticket."
+    },
+    "risk": {
+      "railsCheck": "Coins cash ₱1,723 clears A+ (₱1,500) and the standard band (₱800–₱1,200). Gotrade cash $46.89 is ~two clips at the $20–$25 bias. Size is available. Permission is not — event risk zeros both books.",
+      "sizeNote": "Do not downsize below rails to 'just do something.' Fee-skip is on. A ₱300 or $8 ticket is a process breach, not a clever hedge.",
+      "kills": [
+        "CPI window (today 20:30 Manila)",
+        "FOMC week until statement + presser digested",
+        "No average-down, no revenge, no second clip to 'make the day'",
+        "Stance is NO_TRADE — the kill is the stance"
+      ],
+      "feeSkip": "Coins: skip if fees > 0.8% of notional or clip < ₱800. Gotrade: skip if commission + spread > 1% of a $15 floor ticket; prefer $20–$25."
+    },
+    "desk": {
+      "decision": "NO TRADE. Journal the stand-down. Keep BTC / XRP as primaries. Do not negotiate with the 3pm or 9pm 'is this a scalp' voice.",
+      "actions": [
+        "Publish today's packet via desk:ingest + desk:publish.",
+        "Run the Manila 07:00 / 12:00 / 15:00 / 21:00 checks as observation only.",
+        "Leave both books FLAT. Cash is the position.",
+        "Next permission review: first clean session after FOMC."
+      ],
+      "nextOpen": "First session after FOMC (statement + presser) with rails green and BTC/XRP structure that does not require chasing the event candle."
+    }
+  },
+  "trades": [],
+  "catalysts": [
+    {
+      "id": "cpi-2026-09-07",
+      "date": "2026-09-07",
+      "timeManila": "20:30",
+      "title": "US CPI",
+      "impact": "high",
+      "status": "upcoming",
+      "notes": "8:30 ET. Kill window for both books. Do not trade the number."
+    },
+    {
+      "id": "fomc-2026-09-16",
+      "date": "2026-09-16",
+      "timeManila": "02:00",
+      "title": "FOMC decision + presser",
+      "impact": "high",
+      "status": "upcoming",
+      "notes": "Stand-down continues through statement and presser. First clip only after structure is clean."
+    }
+  ],
+  "watchlistMarks": [
+    { "symbol": "BTC", "last": 108450, "changePct": -0.0042 },
+    { "symbol": "ETH", "last": 4120, "changePct": -0.0068 },
+    { "symbol": "SOL", "last": 178.4, "changePct": 0.0112 },
+    { "symbol": "XRP", "last": 2.64, "changePct": 0.0085 },
+    { "symbol": "BNB", "last": 690, "changePct": -0.0015 },
+    { "symbol": "LINK", "last": 18.4, "changePct": 0.0044 },
+    { "symbol": "SUI", "last": 3.12, "changePct": 0.0168 },
+    { "symbol": "SPY", "last": 580.2, "changePct": -0.0021 },
+    { "symbol": "QQQ", "last": 495.1, "changePct": -0.0034 },
+    { "symbol": "VOO", "last": 532.4, "changePct": -0.002 },
+    { "symbol": "IWM", "last": 220.7, "changePct": 0.0018 },
+    { "symbol": "AAPL", "last": 235.6, "changePct": -0.0012 },
+    { "symbol": "MSFT", "last": 430.2, "changePct": -0.0008 },
+    { "symbol": "NVDA", "last": 172.4, "changePct": 0.0064 },
+    { "symbol": "GOOGL", "last": 175.8, "changePct": -0.0026 },
+    { "symbol": "AMZN", "last": 195.3, "changePct": 0.0011 },
+    { "symbol": "META", "last": 620.5, "changePct": -0.0041 },
+    { "symbol": "TSLA", "last": 340.1, "changePct": 0.0122 }
+  ]
+}

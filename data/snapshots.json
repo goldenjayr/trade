@@ -1,0 +1,58 @@
+[
+  {
+    "date": "2026-09-01",
+    "coinsEquity": 1720,
+    "gotradeEquity": 46.5,
+    "coinsCash": 1720,
+    "gotradeCash": 46.5,
+    "usdphp": 58.2
+  },
+  {
+    "date": "2026-09-02",
+    "coinsEquity": 1720,
+    "gotradeEquity": 46.5,
+    "coinsCash": 1720,
+    "gotradeCash": 46.5,
+    "usdphp": 58.2
+  },
+  {
+    "date": "2026-09-03",
+    "coinsEquity": 1721,
+    "gotradeEquity": 46.62,
+    "coinsCash": 1721,
+    "gotradeCash": 46.62,
+    "usdphp": 58.18
+  },
+  {
+    "date": "2026-09-04",
+    "coinsEquity": 1722,
+    "gotradeEquity": 46.8,
+    "coinsCash": 1722,
+    "gotradeCash": 46.8,
+    "usdphp": 58.16
+  },
+  {
+    "date": "2026-09-05",
+    "coinsEquity": 1723,
+    "gotradeEquity": 46.85,
+    "coinsCash": 1723,
+    "gotradeCash": 46.85,
+    "usdphp": 58.15
+  },
+  {
+    "date": "2026-09-06",
+    "coinsEquity": 1723,
+    "gotradeEquity": 46.89,
+    "coinsCash": 1723,
+    "gotradeCash": 46.89,
+    "usdphp": 58.15
+  },
+  {
+    "date": "2026-09-07",
+    "coinsEquity": 1723,
+    "gotradeEquity": 46.89,
+    "coinsCash": 1723,
+    "gotradeCash": 46.89,
+    "usdphp": 58.15
+  }
+]

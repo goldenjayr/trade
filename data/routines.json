@@ -1,0 +1,75 @@
+[
+  {
+    "id": "am-scout",
+    "title": "Asia open / overnight debrief",
+    "time": "07:00",
+    "days": "daily",
+    "owner": "scout",
+    "checklist": [
+      "BTC overnight range vs Friday close",
+      "XRP relative strength vs ETH/SOL/SUI",
+      "US futures / megacap headlines",
+      "Catalysts in the next 24h",
+      "Stance check: still NO_TRADE through CPI→FOMC?"
+    ],
+    "notes": "Manila 7:00. Observation. No orders from the morning read on an event day."
+  },
+  {
+    "id": "midday",
+    "title": "Midday mark",
+    "time": "12:00",
+    "days": "daily",
+    "owner": "analyst",
+    "checklist": [
+      "Update desk marks on primaries",
+      "London tape vs Asia range",
+      "Rails still green (cash vs min clip)",
+      "Journal a line if anything changed — or journal that nothing did"
+    ],
+    "notes": "Manila 12:00. Keep the map honest. Do not promote a midday wiggle into a ticket."
+  },
+  {
+    "id": "us-open",
+    "title": "US cash open window",
+    "time": "15:00",
+    "days": "weekdays",
+    "owner": "risk",
+    "checklist": [
+      "Gotrade book: still flat?",
+      "Fee-skip reminder before any impulse",
+      "CPI/FOMC kill still on?",
+      "If armed (not today): size inside $20–$25 bias"
+    ],
+    "notes": "Manila 15:00 ≈ US pre/open depending on DST. Today: watch the window, do not trade it."
+  },
+  {
+    "id": "us-close",
+    "title": "US close / desk log",
+    "time": "21:00",
+    "days": "weekdays",
+    "owner": "desk",
+    "checklist": [
+      "CPI reaction note (no hindsight fills)",
+      "Both books marked",
+      "Write tomorrow's stance",
+      "desk:ingest the daily packet",
+      "desk:publish if data changed"
+    ],
+    "notes": "Manila 21:00. Close the day in git. Cash is the position until FOMC clears."
+  },
+  {
+    "id": "weekly",
+    "title": "Monday weekly desk",
+    "time": "08:00",
+    "days": ["mon"],
+    "owner": "desk",
+    "checklist": [
+      "Rails review (Coins ₱800–₱1,200 / A+ ₱1,500; Gotrade $15–$25 bias $20–$25)",
+      "Primaries: still BTC + XRP?",
+      "Week's catalysts (CPI today, FOMC later)",
+      "Kill list: event cluster = NO_TRADE",
+      "Do not hunt a Monday clip to 'start the week'"
+    ],
+    "notes": "Manila Monday 08:00. This week's weekly is a stand-down, not a shopping list."
+  }
+]

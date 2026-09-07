@@ -1,0 +1,52 @@
+{
+  "asOf": "2026-09-07",
+  "timezone": "Asia/Manila",
+  "stance": "NO_TRADE",
+  "stanceReason": "CPI print into FOMC week. Sit on hands. Primaries remain BTC and XRP for the first clip after the event cluster — not during it.",
+  "primaries": [
+    "BTC",
+    "XRP"
+  ],
+  "books": {
+    "coins": {
+      "venue": "coins",
+      "label": "Coins.ph",
+      "currency": "PHP",
+      "cash": 1723,
+      "equity": 1723,
+      "dayPnl": 0,
+      "totalPnl": 0,
+      "positions": []
+    },
+    "gotrade": {
+      "venue": "gotrade",
+      "label": "Gotrade",
+      "currency": "USD",
+      "cash": 46.89,
+      "equity": 46.89,
+      "dayPnl": 0,
+      "totalPnl": 0,
+      "positions": []
+    }
+  },
+  "catalysts": [
+    {
+      "id": "cpi-2026-09-07",
+      "date": "2026-09-07",
+      "timeManila": "20:30",
+      "title": "US CPI",
+      "impact": "high",
+      "status": "upcoming",
+      "notes": "8:30 ET. Kill window for both books. Do not trade the number."
+    },
+    {
+      "id": "fomc-2026-09-16",
+      "date": "2026-09-16",
+      "timeManila": "02:00",
+      "title": "FOMC decision + presser",
+      "impact": "high",
+      "status": "upcoming",
+      "notes": "Stand-down continues through statement and presser. First clip only after structure is clean."
+    }
+  ]
+}
