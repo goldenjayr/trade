@@ -1,0 +1,58 @@
+[
+  {
+    "date": "2026-09-01",
+    "stance": "WATCH",
+    "summary": "Desk online. Dual books funded. No clips — process stand-up.",
+    "tradeCount": 0,
+    "coinsEquity": 1720,
+    "gotradeEquity": 46.5
+  },
+  {
+    "date": "2026-09-02",
+    "stance": "WATCH",
+    "summary": "Rails written. BTC/XRP tagged as primaries. Flat.",
+    "tradeCount": 0,
+    "coinsEquity": 1720,
+    "gotradeEquity": 46.5
+  },
+  {
+    "date": "2026-09-03",
+    "stance": "WATCH",
+    "summary": "US calendar marked. Still pre-event. Flat.",
+    "tradeCount": 0,
+    "coinsEquity": 1721,
+    "gotradeEquity": 46.62
+  },
+  {
+    "date": "2026-09-04",
+    "stance": "WATCH",
+    "summary": "Weekend approach. No size into Friday noise.",
+    "tradeCount": 0,
+    "coinsEquity": 1722,
+    "gotradeEquity": 46.8
+  },
+  {
+    "date": "2026-09-05",
+    "stance": "WATCH",
+    "summary": "Saturday. Observation only.",
+    "tradeCount": 0,
+    "coinsEquity": 1723,
+    "gotradeEquity": 46.85
+  },
+  {
+    "date": "2026-09-06",
+    "stance": "WATCH",
+    "summary": "Sunday. CPI/FOMC map locked. Primaries unchanged.",
+    "tradeCount": 0,
+    "coinsEquity": 1723,
+    "gotradeEquity": 46.89
+  },
+  {
+    "date": "2026-09-07",
+    "stance": "NO_TRADE",
+    "summary": "Seed day. Both books FLAT. Sample NO TRADE Monday.",
+    "tradeCount": 0,
+    "coinsEquity": 1723,
+    "gotradeEquity": 46.89
+  }
+]
