@@ -132,10 +132,25 @@ export function filterPredictions(
   });
 }
 
+const ROLE_RANK: Record<string, number> = {
+  primary: 0,
+  scout: 1,
+  stance: 2,
+};
+
+export function sortCallsForDisplay(calls: Prediction[]): Prediction[] {
+  return [...calls].sort((a, b) => {
+    const rankA = ROLE_RANK[a.role ?? ""] ?? 3;
+    const rankB = ROLE_RANK[b.role ?? ""] ?? 3;
+    if (rankA !== rankB) return rankA - rankB;
+    return a.symbol.localeCompare(b.symbol) || a.id.localeCompare(b.id);
+  });
+}
+
 export function formatLevel(value: number): string {
   if (Math.abs(value) >= 1000) {
     const k = value / 1000;
-    const digits = Number.isInteger(k) ? 0 : 1;
+    const digits = Math.abs(value) % 10000 === 0 ? 0 : 1;
     return `$${k.toFixed(digits)}k`;
   }
   if (Math.abs(value) >= 100) return `$${value.toFixed(0)}`;

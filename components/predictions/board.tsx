@@ -24,6 +24,7 @@ import {
   outcomeBadge,
   predictionVenueLabel,
   scorePredictions,
+  sortCallsForDisplay,
 } from "@/lib/predictions";
 import type { Prediction, PredictionsFile } from "@/lib/types";
 import { cn } from "@/lib/utils";
@@ -71,8 +72,8 @@ export function PredictionsBoard({ file }: { file: PredictionsFile }) {
     [file.calls, symbol, status, venue],
   );
   const stats = useMemo(() => scorePredictions(file.calls), [file.calls]);
-  const open = visible.filter(isOpenCall);
-  const closed = visible.filter(isClosedCall);
+  const open = sortCallsForDisplay(visible.filter(isOpenCall));
+  const closed = sortCallsForDisplay(visible.filter(isClosedCall));
   const symbols = uniqueSymbols(file.calls);
 
   return (

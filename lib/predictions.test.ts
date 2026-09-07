@@ -5,8 +5,10 @@ import { predictionSchema } from "./schema";
 import type { Prediction } from "./types";
 import {
   filterPredictions,
+  formatLevel,
   outcomeBadge,
   scorePredictions,
+  sortCallsForDisplay,
   upsertPredictions,
 } from "./predictions";
 
@@ -112,6 +114,29 @@ describe("filterPredictions", () => {
       filterPredictions(book, { status: "open_book" }).map((p) => p.id),
       ["btc", "macro"],
     );
+  });
+});
+
+describe("sortCallsForDisplay", () => {
+  it("orders primary, then scout, then stance", () => {
+    const ordered = sortCallsForDisplay([
+      call({ id: "m", status: "open", conviction: 7, symbol: "MACRO", role: "stance" }),
+      call({ id: "b", status: "open", conviction: 2, symbol: "BNB", role: "scout" }),
+      call({ id: "x", status: "open", conviction: 3, symbol: "XRP", role: "primary" }),
+      call({ id: "t", status: "open", conviction: 3, symbol: "BTC", role: "primary" }),
+    ]);
+    assert.deepEqual(
+      ordered.map((p) => p.symbol),
+      ["BTC", "XRP", "BNB", "MACRO"],
+    );
+  });
+});
+
+describe("formatLevel", () => {
+  it("keeps wait-zone thousands readable", () => {
+    assert.equal(formatLevel(78000), "$78.0k");
+    assert.equal(formatLevel(78800), "$78.8k");
+    assert.equal(formatLevel(1.33), "$1.33");
   });
 });
 
