@@ -1,5 +1,7 @@
 # Trade Vision
 
+[![CI](https://github.com/goldenjayr/trade/actions/workflows/ci.yml/badge.svg)](https://github.com/goldenjayr/trade/actions/workflows/ci.yml)
+
 Personal trading command center for a **Coins.ph (PHP crypto)** book and a **Gotrade (USD US equities/ETFs)** book. Next.js App Router, TypeScript, Tailwind, shadcn/ui, Recharts. All desk state is **typed JSON under `data/`** — no live brokerage API, no secrets in git.
 
 Local Mac checkout: `/Users/dongje/dongje/personal/trade` (`git@github.com:goldenjayr/trade.git`).
@@ -7,8 +9,11 @@ Local Mac checkout: `/Users/dongje/dongje/personal/trade` (`git@github.com:golde
 ```bash
 npm install
 npm run dev      # http://localhost:3000
+npm run lint
 npm run build    # must pass before merge
 ```
+
+Pushes to `main` and pull requests run those same `lint` and `build` checks in [GitHub Actions](https://github.com/goldenjayr/trade/actions/workflows/ci.yml).
 
 ## Information architecture
 
