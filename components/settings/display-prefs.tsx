@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useSyncExternalStore } from "react";
 
 import { Switch } from "@/components/ui/switch";
 
@@ -9,14 +9,34 @@ const PREFS = {
   compact: "tv.compact",
 } as const;
 
-export function DisplayPrefs() {
-  const [combined, setCombined] = useState(true);
-  const [compact, setCompact] = useState(false);
+const listeners = new Set<() => void>();
 
-  useEffect(() => {
-    setCombined(window.localStorage.getItem(PREFS.combined) !== "0");
-    setCompact(window.localStorage.getItem(PREFS.compact) === "1");
-  }, []);
+function subscribe(onStoreChange: () => void) {
+  listeners.add(onStoreChange);
+  return () => listeners.delete(onStoreChange);
+}
+
+function emit() {
+  listeners.forEach((listener) => listener());
+}
+
+function readFlag(key: string, fallbackWhenMissing: boolean) {
+  const raw = window.localStorage.getItem(key);
+  if (raw === null) return fallbackWhenMissing;
+  return raw === "1";
+}
+
+function getCombined() {
+  return readFlag(PREFS.combined, true);
+}
+
+function getCompact() {
+  return readFlag(PREFS.compact, false);
+}
+
+export function DisplayPrefs() {
+  const combined = useSyncExternalStore(subscribe, getCombined, () => true);
+  const compact = useSyncExternalStore(subscribe, getCompact, () => false);
 
   return (
     <div className="space-y-4">
@@ -25,8 +45,8 @@ export function DisplayPrefs() {
         <Switch
           checked={combined}
           onCheckedChange={(checked) => {
-            setCombined(checked);
             window.localStorage.setItem(PREFS.combined, checked ? "1" : "0");
+            emit();
           }}
         />
       </label>
@@ -35,8 +55,8 @@ export function DisplayPrefs() {
         <Switch
           checked={compact}
           onCheckedChange={(checked) => {
-            setCompact(checked);
             window.localStorage.setItem(PREFS.compact, checked ? "1" : "0");
+            emit();
           }}
         />
       </label>
