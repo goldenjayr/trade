@@ -8,11 +8,13 @@ import {
 import { basename, dirname, join, resolve } from "node:path";
 
 import { finalizeBook } from "../lib/books";
+import { mergePredictionsFile } from "../lib/predictions";
 import { dailyPacketSchema } from "../lib/schema";
 import type {
   DayLog,
   DeskState,
   JournalEntry,
+  PredictionsFile,
   Settings,
   Snapshot,
   Trade,
@@ -124,6 +126,14 @@ function ingestOne(path: string) {
     }
     trades.sort((a, b) => a.date.localeCompare(b.date) || a.id.localeCompare(b.id));
     writeJson(join(dataDir, "trades.json"), trades);
+  }
+
+  if (packet.predictions?.length) {
+    const predPath = join(dataDir, "predictions.json");
+    const existing = existsSync(predPath)
+      ? readJson<PredictionsFile>(predPath)
+      : undefined;
+    writeJson(predPath, mergePredictionsFile(existing, packet.predictions, packet.date));
   }
 
   if (packet.watchlistMarks?.length) {

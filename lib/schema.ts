@@ -12,6 +12,79 @@ export const stanceSchema = z.enum([
 
 export const venueSchema = z.enum(["coins", "gotrade"]);
 
+export const predictionVenueSchema = z.enum(["coins", "gotrade", "macro"]);
+
+export const predictionDirectionSchema = z.enum([
+  "long_wait",
+  "short_watch",
+  "range",
+  "breakout",
+  "none",
+]);
+
+export const predictionHorizonSchema = z.enum(["intraday", "swing", "event"]);
+
+export const predictionStatusSchema = z.enum([
+  "open",
+  "hit_entry",
+  "hit_target",
+  "invalidated",
+  "expired",
+  "cancelled",
+]);
+
+export const predictionSourceSchema = z.enum(["analyst", "desk"]);
+
+export const predictionRoleSchema = z.enum(["primary", "scout", "stance"]);
+
+const entryZoneSchema = z
+  .object({
+    low: z.number(),
+    high: z.number(),
+  })
+  .refine((z0) => z0.high >= z0.low, {
+    message: "entryZone.high must be >= entryZone.low",
+  });
+
+const predictionTargetSchema = z.union([
+  z.number(),
+  z.object({
+    t1: z.number(),
+    t2: z.number().optional(),
+  }),
+]);
+
+export const predictionSchema = z
+  .object({
+    id: z.string().min(1),
+    dateOpened: z.string().regex(dateRe),
+    symbol: z.string().min(1),
+    venue: predictionVenueSchema,
+    thesis: z.string().min(1),
+    direction: predictionDirectionSchema,
+    entryZone: entryZoneSchema.optional(),
+    target: predictionTargetSchema.optional(),
+    invalidation: z.string().min(1).optional(),
+    invalidationPrice: z.number().optional(),
+    conviction: z.number().int().min(1).max(10),
+    horizon: predictionHorizonSchema,
+    status: predictionStatusSchema,
+    resolvedAt: z.string().regex(dateRe).optional(),
+    outcomeNote: z.string().optional(),
+    source: predictionSourceSchema,
+    role: predictionRoleSchema.optional(),
+  })
+  .refine(
+    (p) => Boolean(p.invalidation) || p.invalidationPrice !== undefined,
+    { message: "invalidation text and/or invalidationPrice is required" },
+  );
+
+export const predictionsFileSchema = z.object({
+  asOf: z.string().regex(dateRe),
+  disclaimer: z.string().optional(),
+  calls: z.array(predictionSchema),
+});
+
 const positionInputSchema = z.object({
   symbol: z.string().min(1),
   name: z.string().min(1),
@@ -113,6 +186,7 @@ export const dailyPacketSchema = z.object({
     .optional(),
   usdphp: z.number().positive().optional(),
   notes: z.string().optional(),
+  predictions: z.array(predictionSchema).optional(),
 });
 
 export type DailyPacketParsed = z.infer<typeof dailyPacketSchema>;

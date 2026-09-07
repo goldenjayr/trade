@@ -66,8 +66,9 @@ export default function SettingsPage() {
           </CardHeader>
           <CardContent className="space-y-2 font-mono text-xs text-muted-foreground">
             <p>1. Write inbox/YYYY-MM-DD.json (DailyPacket)</p>
-            <p>2. npm run desk:ingest</p>
-            <p>3. npm run desk:publish</p>
+            <p>2. Optional predictions[] upserts data/predictions.json</p>
+            <p>3. npm run desk:ingest</p>
+            <p>4. npm run desk:publish</p>
             <p>Commit message: desk: YYYY-MM-DD (Manila)</p>
             <p>No-op if data/ is clean. Refuses .env, keys, pems.</p>
           </CardContent>
