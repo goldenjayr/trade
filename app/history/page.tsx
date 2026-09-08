@@ -1,5 +1,6 @@
 import { PageHeader } from "@/components/page-header";
 import { StanceBadge } from "@/components/stance-badge";
+import { Term } from "@/components/term";
 import { Card, CardContent } from "@/components/ui/card";
 import {
   Table,
@@ -25,7 +26,13 @@ export default function HistoryPage() {
       <PageHeader
         kicker="Tape"
         title="Trade history"
-        description="Fills, skips, and NO TRADE days. Seed week is flat — cash is the position."
+        description={
+          <>
+            <Term id="fill">Fills</Term>, <Term id="skip">skips</Term>, and{" "}
+            <Term id="NO_TRADE">NO TRADE</Term> days. Seed week is{" "}
+            <Term id="flatten">flat</Term> — cash is the position.
+          </>
+        }
       />
 
       <Card className="mb-6">
@@ -36,8 +43,10 @@ export default function HistoryPage() {
                 No fills
               </p>
               <p className="mt-2 text-sm text-muted-foreground">
-                2026-09-07 is a sample NO TRADE day. History will list Coins.ph and Gotrade
-                clips here after the first post-FOMC ticket.
+                2026-09-07 is a sample <Term id="NO_TRADE">NO TRADE</Term> day. History
+                will list <Term id="coins">Coins.ph</Term> and{" "}
+                <Term id="gotrade">Gotrade</Term> <Term id="clip">clips</Term> here after
+                the first post-<Term id="FOMC">FOMC</Term> ticket.
               </p>
             </div>
           ) : (
@@ -45,7 +54,9 @@ export default function HistoryPage() {
               <TableHeader>
                 <TableRow>
                   <TableHead>Date</TableHead>
-                  <TableHead>Venue</TableHead>
+                  <TableHead>
+                    <Term id="venue">Venue</Term>
+                  </TableHead>
                   <TableHead>Symbol</TableHead>
                   <TableHead>Side</TableHead>
                   <TableHead className="text-right">Qty</TableHead>
@@ -88,7 +99,9 @@ export default function HistoryPage() {
             <TableHeader>
               <TableRow>
                 <TableHead>Date</TableHead>
-                <TableHead>Stance</TableHead>
+                <TableHead>
+                  <Term id="stance">Stance</Term>
+                </TableHead>
                 <TableHead>Summary</TableHead>
                 <TableHead className="text-right">Trades</TableHead>
                 <TableHead className="text-right">Coins</TableHead>

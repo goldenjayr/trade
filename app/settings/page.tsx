@@ -1,5 +1,8 @@
+import type { ReactNode } from "react";
+
 import { PageHeader } from "@/components/page-header";
 import { DisplayPrefs } from "@/components/settings/display-prefs";
+import { Term } from "@/components/term";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { loadSettings } from "@/lib/load";
 
@@ -15,7 +18,13 @@ export default function SettingsPage() {
       <PageHeader
         kicker="Desk config"
         title="Settings"
-        description="Timezone is locked to Asia/Manila. Display prefs stay in this browser. Books live in git JSON — never in secrets."
+        description={
+          <>
+            Timezone is locked to <Term id="manila-time">Asia/Manila</Term>. Display prefs
+            stay in this browser. <Term id="book">Books</Term> live in git JSON — never in
+            secrets.
+          </>
+        }
       />
 
       <div className="grid gap-4 lg:grid-cols-2">
@@ -27,15 +36,19 @@ export default function SettingsPage() {
           <CardContent className="space-y-3 font-mono text-sm">
             <Row k="Desk" v={settings.deskName} />
             <Row k="Operator" v={settings.operator} />
-            <Row k="Timezone" v={settings.timezone} />
-            <Row k="USDPHP" v={`${settings.usdphp} · ${settings.fxAsOf}`} />
+            <Row k={<Term id="manila-time">Timezone</Term>} v={settings.timezone} />
+            <Row k={<Term id="USDPHP">USDPHP</Term>} v={`${settings.usdphp} · ${settings.fxAsOf}`} />
           </CardContent>
         </Card>
 
         <Card>
           <CardHeader>
-            <CardTitle>Venues</CardTitle>
-            <CardDescription>Dual books, native currency</CardDescription>
+            <CardTitle>
+              <Term id="venue">Venues</Term>
+            </CardTitle>
+            <CardDescription>
+              Dual <Term id="book">books</Term>, native currency
+            </CardDescription>
           </CardHeader>
           <CardContent className="space-y-4 text-sm">
             <div>
@@ -78,7 +91,7 @@ export default function SettingsPage() {
   );
 }
 
-function Row({ k, v }: { k: string; v: string }) {
+function Row({ k, v }: { k: ReactNode; v: string }) {
   return (
     <div className="flex justify-between gap-4">
       <span className="text-muted-foreground">{k}</span>

@@ -4,6 +4,7 @@ import Link from "next/link";
 
 import { PageHeader } from "@/components/page-header";
 import { StanceBadge } from "@/components/stance-badge";
+import { Term } from "@/components/term";
 import { Badge } from "@/components/ui/badge";
 import { buttonVariants } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -39,7 +40,15 @@ export function JournalView({ date, dates }: { date: string; dates: string[] }) 
       </div>
 
       <div className="grid gap-4 xl:grid-cols-2">
-        <DeskCard kicker="01 Scout" title={entry.scout.headline} tone="coins">
+        <DeskCard
+          kicker={
+            <>
+              01 <Term id="scout">Scout</Term>
+            </>
+          }
+          title={entry.scout.headline}
+          tone="coins"
+        >
           <ul className="space-y-2 text-sm text-muted-foreground">
             {entry.scout.bullets.map((b) => (
               <li key={b} className="flex gap-2">
@@ -55,20 +64,32 @@ export function JournalView({ date, dates }: { date: string; dates: string[] }) 
           ) : null}
         </DeskCard>
 
-        <DeskCard kicker="02 Analyst" title="Map, not a ticket" tone="gotrade">
+        <DeskCard
+          kicker={
+            <>
+              02 <Term id="analyst">Analyst</Term>
+            </>
+          }
+          title="Map, not a ticket"
+          tone="gotrade"
+        >
           <p className="mb-4 text-sm text-muted-foreground">{entry.analyst.thesis}</p>
           <div className="space-y-2">
             {entry.analyst.levels.map((lvl) => (
               <div key={lvl.symbol} className="rounded-lg border border-border/70 px-3 py-2">
                 <div className="flex items-center justify-between">
                   <span className="font-mono text-sm">{lvl.symbol}</span>
-                  <Badge variant="outline">watch</Badge>
+                  <Badge variant="outline">
+                    <Term id="level-watch">watch</Term>
+                  </Badge>
                 </div>
                 {lvl.note ? (
                   <p className="mt-1 text-sm text-muted-foreground">{lvl.note}</p>
                 ) : null}
                 {lvl.invalidation ? (
-                  <p className="mt-1 text-xs text-loss">Invalidation: {lvl.invalidation}</p>
+                  <p className="mt-1 text-xs text-loss">
+                    <Term id="invalidation">Invalidation</Term>: {lvl.invalidation}
+                  </p>
                 ) : null}
               </div>
             ))}
@@ -76,9 +97,21 @@ export function JournalView({ date, dates }: { date: string; dates: string[] }) 
           <p className="mt-3 text-sm text-muted-foreground">{entry.analyst.notes}</p>
         </DeskCard>
 
-        <DeskCard kicker="03 Risk" title={entry.risk.sizeNote} tone="loss">
-          <p className="mb-3 text-sm text-muted-foreground">{entry.risk.railsCheck}</p>
-          <p className="mb-3 text-sm">{entry.risk.feeSkip}</p>
+        <DeskCard
+          kicker={
+            <>
+              03 <Term id="risk">Risk</Term>
+            </>
+          }
+          title={entry.risk.sizeNote}
+          tone="loss"
+        >
+          <p className="mb-3 text-sm text-muted-foreground">
+            <Term id="rails">Rails</Term>: {entry.risk.railsCheck}
+          </p>
+          <p className="mb-3 text-sm">
+            <Term id="fee-skip">Fee-skip</Term>: {entry.risk.feeSkip}
+          </p>
           <ul className="space-y-1.5 text-sm">
             {entry.risk.kills.map((k) => (
               <li
@@ -91,7 +124,15 @@ export function JournalView({ date, dates }: { date: string; dates: string[] }) 
           </ul>
         </DeskCard>
 
-        <DeskCard kicker="04 Desk" title={entry.desk.decision} tone="primary">
+        <DeskCard
+          kicker={
+            <>
+              04 <Term id="desk">Desk</Term>
+            </>
+          }
+          title={entry.desk.decision}
+          tone="primary"
+        >
           <ul className="mb-4 space-y-2 text-sm text-muted-foreground">
             {entry.desk.actions.map((a) => (
               <li key={a} className="flex gap-2">
@@ -119,7 +160,7 @@ function DeskCard({
   children,
   tone,
 }: {
-  kicker: string;
+  kicker: ReactNode;
   title: string;
   children: ReactNode;
   tone: "coins" | "gotrade" | "loss" | "primary";

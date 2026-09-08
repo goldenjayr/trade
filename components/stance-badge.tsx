@@ -1,3 +1,4 @@
+import { Term } from "@/components/term";
 import { stanceLabel } from "@/lib/format";
 import type { Stance } from "@/lib/types";
 import { cn } from "@/lib/utils";
@@ -26,7 +27,7 @@ export function StanceBadge({
       )}
     >
       <span className="size-1.5 rounded-full bg-current shadow-[0_0_8px_currentColor]" />
-      {stanceLabel(stance)}
+      <Term id={stance}>{stanceLabel(stance)}</Term>
     </span>
   );
 }

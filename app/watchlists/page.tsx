@@ -1,4 +1,5 @@
 import { PageHeader } from "@/components/page-header";
+import { Term } from "@/components/term";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import {
@@ -10,6 +11,7 @@ import {
   TableRow,
 } from "@/components/ui/table";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { isGlossaryId } from "@/lib/glossary";
 import { money, pct, pnlClass } from "@/lib/format";
 import { loadWatchlists } from "@/lib/load";
 import type { WatchItem } from "@/lib/types";
@@ -27,13 +29,24 @@ export default function WatchlistsPage() {
       <PageHeader
         kicker="Universe"
         title="Watchlists"
-        description={`Desk marks as of ${lists.asOf}. BTC and XRP are primaries. US book is megacaps + ETFs — benchmarks until permission.`}
+        description={
+          <>
+            Desk marks as of {lists.asOf}. BTC and XRP are{" "}
+            <Term id="primary">primaries</Term>. US <Term id="book">book</Term> is megacaps
+            + ETFs — <Term id="benchmark">benchmarks</Term> until{" "}
+            <Term id="permission">permission</Term>.
+          </>
+        }
       />
 
       <Tabs defaultValue="crypto">
         <TabsList>
-          <TabsTrigger value="crypto">Crypto · Coins.ph</TabsTrigger>
-          <TabsTrigger value="us">US · Gotrade</TabsTrigger>
+          <TabsTrigger value="crypto">
+            Crypto · <Term id="coins" nested>Coins.ph</Term>
+          </TabsTrigger>
+          <TabsTrigger value="us">
+            US · <Term id="gotrade" nested>Gotrade</Term>
+          </TabsTrigger>
         </TabsList>
         <TabsContent value="crypto" className="mt-4">
           <WatchTable items={lists.crypto} />
@@ -59,7 +72,9 @@ function WatchTable({ items }: { items: WatchItem[] }) {
           <TableHeader>
             <TableRow>
               <TableHead>Symbol</TableHead>
-              <TableHead>Role</TableHead>
+              <TableHead>
+                Role
+              </TableHead>
               <TableHead className="text-right">Last</TableHead>
               <TableHead className="text-right">Day</TableHead>
               <TableHead className="hidden md:table-cell">Thesis</TableHead>
@@ -77,7 +92,11 @@ function WatchTable({ items }: { items: WatchItem[] }) {
                 </TableCell>
                 <TableCell>
                   <Badge variant={item.role === "primary" ? "default" : "outline"}>
-                    {item.role}
+                    {isGlossaryId(item.role) ? (
+                      <Term id={item.role}>{item.role}</Term>
+                    ) : (
+                      item.role
+                    )}
                   </Badge>
                 </TableCell>
                 <TableCell className="text-right font-mono tabular">

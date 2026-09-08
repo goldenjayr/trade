@@ -1,6 +1,9 @@
+import type { ReactNode } from "react";
+
 import { SizeRail } from "@/components/hud/size-rail";
 import { PageHeader } from "@/components/page-header";
 import { FeeSkipCalc } from "@/components/risk/fee-skip-calc";
+import { Term } from "@/components/term";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { loadDesk, loadRisk } from "@/lib/load";
 import { pct } from "@/lib/format";
@@ -18,8 +21,18 @@ export default function RiskPage() {
     <div>
       <PageHeader
         kicker="Permission"
-        title="Risk rails"
-        description="Size, stops, fee-skip, kills. Today the rails are green and the event cluster still zeros permission."
+        title={
+          <>
+            Risk <Term id="rails">rails</Term>
+          </>
+        }
+        description={
+          <>
+            Size, <Term id="stop">stops</Term>, <Term id="fee-skip">fee-skip</Term>,{" "}
+            <Term id="kill">kills</Term>. Today the rails are green and the event cluster
+            still zeros <Term id="permission">permission</Term>.
+          </>
+        }
       />
 
       <div className="mb-6 grid gap-4 lg:grid-cols-2">
@@ -30,8 +43,13 @@ export default function RiskPage() {
             </CardDescription>
             <CardTitle>₱{risk.coins.sizeMin.toLocaleString()}–₱{risk.coins.sizeMax.toLocaleString()}</CardTitle>
             <p className="text-sm text-muted-foreground">
-              A+ ~₱{risk.coins.sizeAPlus.toLocaleString()} · stop {pct(risk.coins.stopPct, 0)} · target{" "}
-              {pct(risk.coins.targetPct, 0)} · {rr.toFixed(0)}R
+              <Term id="a-plus-size">A+</Term> ~₱{risk.coins.sizeAPlus.toLocaleString()} ·{" "}
+              <Term id="hard-stop">stop</Term> {pct(risk.coins.stopPct, 0)} ·{" "}
+              <Term id="take-profit">target</Term> {pct(risk.coins.targetPct, 0)} ·{" "}
+              {rr.toFixed(0)}
+              <Term id="r-r">R</Term>
+              {" · "}
+              <Term id="max-1">max-1</Term>
             </p>
           </CardHeader>
           <CardContent className="space-y-4">
@@ -43,8 +61,8 @@ export default function RiskPage() {
               tone="coins"
               unit="₱"
             />
-            <List title="Fee-skip" items={risk.coins.feeSkip} />
-            <List title="Kills" items={risk.coins.kills} danger />
+            <List title={<Term id="fee-skip">Fee-skip</Term>} items={risk.coins.feeSkip} />
+            <List title={<Term id="kill">Kills</Term>} items={risk.coins.kills} danger />
           </CardContent>
         </Card>
 
@@ -57,7 +75,8 @@ export default function RiskPage() {
               ${risk.gotrade.sizeMin}–${risk.gotrade.sizeMax}
             </CardTitle>
             <p className="text-sm text-muted-foreground">
-              Bias ${risk.gotrade.sizeBiasMin}–${risk.gotrade.sizeBiasMax} · cash $
+              <Term id="bias-size">Bias</Term> ${risk.gotrade.sizeBiasMin}–$
+              {risk.gotrade.sizeBiasMax} · cash $
               {desk.books.gotrade.cash} ≈{" "}
               {(desk.books.gotrade.cash / risk.gotrade.sizeBiasMin).toFixed(1)} clips
             </p>
@@ -70,8 +89,8 @@ export default function RiskPage() {
               tone="gotrade"
               unit="$"
             />
-            <List title="Fee-skip" items={risk.gotrade.feeSkip} />
-            <List title="Kills" items={risk.gotrade.kills} danger />
+            <List title={<Term id="fee-skip">Fee-skip</Term>} items={risk.gotrade.feeSkip} />
+            <List title={<Term id="kill">Kills</Term>} items={risk.gotrade.kills} danger />
           </CardContent>
         </Card>
       </div>
@@ -79,8 +98,13 @@ export default function RiskPage() {
       <div className="grid gap-4 lg:grid-cols-2">
         <Card>
           <CardHeader>
-            <CardTitle>Global kills</CardTitle>
-            <CardDescription>If any of these are live, stance is NO TRADE.</CardDescription>
+            <CardTitle>
+              Global <Term id="kill-switch">kills</Term>
+            </CardTitle>
+            <CardDescription>
+              If any of these are live, <Term id="stance">stance</Term> is{" "}
+              <Term id="NO_TRADE">NO TRADE</Term>.
+            </CardDescription>
           </CardHeader>
           <CardContent>
             <List items={risk.globalKills} danger />
@@ -88,9 +112,12 @@ export default function RiskPage() {
         </Card>
         <Card>
           <CardHeader>
-            <CardTitle>Fee-skip calculator</CardTitle>
+            <CardTitle>
+              <Term id="fee-skip">Fee-skip</Term> calculator
+            </CardTitle>
             <CardDescription>
-              Coins skip &gt; 0.8% of notional. Gotrade skip &gt; 1% of a floor ticket.
+              <Term id="coins">Coins</Term> skip &gt; 0.8% of <Term id="notional">notional</Term>.{" "}
+              <Term id="gotrade">Gotrade</Term> skip &gt; 1% of a floor ticket.
             </CardDescription>
           </CardHeader>
           <CardContent>
@@ -107,7 +134,7 @@ function List({
   items,
   danger = false,
 }: {
-  title?: string;
+  title?: ReactNode;
   items: string[];
   danger?: boolean;
 }) {

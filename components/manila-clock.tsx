@@ -2,6 +2,7 @@
 
 import { useSyncExternalStore } from "react";
 
+import { Term } from "@/components/term";
 import { MANILA_TZ } from "@/lib/manila";
 
 function subscribe(onStoreChange: () => void) {
@@ -43,7 +44,7 @@ export function ManilaClock() {
   return (
     <div className="flex items-baseline gap-2 font-mono tabular">
       <span className="text-[10px] tracking-[0.18em] text-muted-foreground uppercase">
-        Manila
+        <Term id="manila-time">Manila</Term>
       </span>
       <span className="text-sm text-foreground">{time}</span>
       <span className="text-xs text-muted-foreground">{date}</span>

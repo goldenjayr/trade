@@ -1,3 +1,4 @@
+import { Term } from "@/components/term";
 import { cn } from "@/lib/utils";
 
 export function SizeRail({
@@ -46,7 +47,12 @@ export function SizeRail({
           max {unit}
           {max.toLocaleString()}
         </span>
-        {aPlus ? <span>A+ {unit}{aPlus.toLocaleString()}</span> : null}
+        {aPlus ? (
+          <span>
+            <Term id="a-plus-size">A+</Term> {unit}
+            {aPlus.toLocaleString()}
+          </span>
+        ) : null}
         <span className="text-foreground">
           cash {unit}
           {cash.toLocaleString()}

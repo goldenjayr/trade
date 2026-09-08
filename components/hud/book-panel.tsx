@@ -1,6 +1,7 @@
 import type { ReactNode } from "react";
 
 import { Money } from "@/components/money";
+import { Term } from "@/components/term";
 import { Badge } from "@/components/ui/badge";
 import {
   Card,
@@ -53,8 +54,14 @@ export function BookPanel({
       </CardHeader>
       <CardContent className="grid grid-cols-3 gap-4 pt-4">
         <Metric label="Cash" value={<Money value={book.cash} currency={book.currency} />} />
-        <Metric label="Day P&L" value={<Money value={book.dayPnl} currency={book.currency} signed />} />
-        <Metric label="Total P&L" value={<Money value={book.totalPnl} currency={book.currency} signed />} />
+        <Metric
+          label={<Term id="day-pnl">Day P&L</Term>}
+          value={<Money value={book.dayPnl} currency={book.currency} signed />}
+        />
+        <Metric
+          label="Total P&L"
+          value={<Money value={book.totalPnl} currency={book.currency} signed />}
+        />
       </CardContent>
       <div className="px-4 pb-4">
         {flat ? (
@@ -99,7 +106,7 @@ export function BookPanel({
   );
 }
 
-function Metric({ label, value }: { label: string; value: ReactNode }) {
+function Metric({ label, value }: { label: ReactNode; value: ReactNode }) {
   return (
     <div>
       <p className="text-[10px] tracking-[0.16em] text-muted-foreground uppercase">{label}</p>

@@ -1,9 +1,11 @@
+import type { ReactNode } from "react";
 import Link from "next/link";
 
 import { BookPanel } from "@/components/hud/book-panel";
 import { SizeRail } from "@/components/hud/size-rail";
 import { PageHeader } from "@/components/page-header";
 import { StanceBadge } from "@/components/stance-badge";
+import { Term } from "@/components/term";
 import { Badge } from "@/components/ui/badge";
 import { buttonVariants } from "@/components/ui/button";
 import {
@@ -51,7 +53,11 @@ export default function HudPage() {
       <PageHeader
         kicker="Heads-up display"
         title="Dual-book desk"
-        description={`${formatManilaLong(desk.asOf)} · ${desk.stanceReason}`}
+        description={
+          <>
+            {formatManilaLong(desk.asOf)} · {desk.stanceReason}
+          </>
+        }
         actions={
           <Link href="/journal" className={buttonVariants({ variant: "outline", size: "sm" })}>
             Open journal
@@ -64,15 +70,20 @@ export default function HudPage() {
           <div className="flex items-start gap-3">
             <StanceBadge stance={desk.stance} />
             <div>
-              <p className="text-sm font-medium">CPI → FOMC stand-down</p>
+              <p className="text-sm font-medium">
+                <Term id="CPI">CPI</Term>
+                {" → "}
+                <Term id="FOMC">FOMC</Term> stand-down
+              </p>
               <p className="text-sm text-muted-foreground">
-                Primaries{" "}
+                <Term id="primary">Primaries</Term>{" "}
                 {desk.primaries.map((p) => (
                   <span key={p} className="mr-1 font-mono text-primary">
                     {p}
                   </span>
-                ))}
-                stay mapped. Permission is not granted.
+                ))}{" "}
+                stay mapped. <Term id="permission">Permission</Term> is not granted.{" "}
+                No <Term id="PLAN">PLAN</Term>.
               </p>
             </div>
           </div>
@@ -110,8 +121,10 @@ export default function HudPage() {
                 unit="$"
               />
               <p className="mt-2 font-mono text-[10px] text-muted-foreground">
-                Bias ${risk.gotrade.sizeBiasMin}–${risk.gotrade.sizeBiasMax} · ~
-                {Math.floor(desk.books.gotrade.cash / risk.gotrade.sizeBiasMin)} clips
+                <Term id="bias-size">Bias</Term> ${risk.gotrade.sizeBiasMin}–$
+                {risk.gotrade.sizeBiasMax} · ~
+                {Math.floor(desk.books.gotrade.cash / risk.gotrade.sizeBiasMin)}{" "}
+                <Term id="clip">clips</Term>
               </p>
             </div>
           }
@@ -119,15 +132,15 @@ export default function HudPage() {
         <Card className="bg-card/80 backdrop-blur-sm">
           <CardHeader>
             <CardDescription className="font-mono tracking-[0.18em] uppercase">
-              Combined NAV
+              <Term id="combined-nav">Combined NAV</Term>
             </CardDescription>
             <CardTitle className="font-mono text-3xl tabular">{money(navUsd, "USD")}</CardTitle>
             <p className="font-mono text-sm text-muted-foreground">{money(navPhp, "PHP")}</p>
           </CardHeader>
           <CardContent className="space-y-3 text-sm text-muted-foreground">
             <p>
-              FX {settings.usdphp} USDPHP as of {settings.fxAsOf}. Display only — books stay
-              native.
+              <Term id="FX">FX</Term> {settings.usdphp} <Term id="USDPHP">USDPHP</Term> as
+              of {settings.fxAsOf}. Display only — <Term id="book">books</Term> stay native.
             </p>
             <div className="flex flex-wrap gap-2">
               {primaries.map((p) => (
@@ -143,8 +156,12 @@ export default function HudPage() {
       <div className="mb-6 grid gap-4 lg:grid-cols-2">
         <Card>
           <CardHeader>
-            <CardTitle>Catalysts</CardTitle>
-            <CardDescription>Event cluster that zeros permission.</CardDescription>
+            <CardTitle>
+              <Term id="catalyst">Catalysts</Term>
+            </CardTitle>
+            <CardDescription>
+              Event cluster that zeros <Term id="permission">permission</Term>.
+            </CardDescription>
           </CardHeader>
           <CardContent className="space-y-3">
             {desk.catalysts.map((c) => (
@@ -176,10 +193,10 @@ export default function HudPage() {
             <CardDescription>{journal.headline}</CardDescription>
           </CardHeader>
           <CardContent className="grid gap-3 sm:grid-cols-2">
-            <Tape label="Scout" body={journal.scout.headline} />
-            <Tape label="Analyst" body={journal.analyst.thesis} />
-            <Tape label="Risk" body={journal.risk.railsCheck} />
-            <Tape label="Desk" body={journal.desk.decision} />
+            <Tape label={<Term id="scout">Scout</Term>} body={journal.scout.headline} />
+            <Tape label={<Term id="analyst">Analyst</Term>} body={journal.analyst.thesis} />
+            <Tape label={<Term id="risk">Risk</Term>} body={journal.risk.railsCheck} />
+            <Tape label={<Term id="desk">Desk</Term>} body={journal.desk.decision} />
           </CardContent>
         </Card>
       </div>
@@ -187,7 +204,7 @@ export default function HudPage() {
   );
 }
 
-function Tape({ label, body }: { label: string; body: string }) {
+function Tape({ label, body }: { label: ReactNode; body: string }) {
   return (
     <div className="rounded-lg bg-muted/40 px-3 py-2.5">
       <p className="mb-1 font-mono text-[10px] tracking-[0.18em] text-primary uppercase">

@@ -1,5 +1,8 @@
+import type { ReactNode } from "react";
+
 import { EquityChart } from "@/components/charts/equity-chart";
 import { PageHeader } from "@/components/page-header";
+import { Term } from "@/components/term";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { combinedNavUsd } from "@/lib/books";
 import { money } from "@/lib/format";
@@ -31,22 +34,37 @@ export default function AnalyticsPage() {
       <PageHeader
         kicker="Performance"
         title="P&L analytics"
-        description="Combined NAV in USD. Sample is a funded, flat week into CPI — not a trading edge yet."
+        description={
+          <>
+            <Term id="combined-nav">Combined NAV</Term> in USD. Sample is a funded,{" "}
+            <Term id="flatten">flat</Term> week into <Term id="CPI">CPI</Term> — not a
+            trading edge yet.
+          </>
+        }
       />
 
       <div className="mb-6 grid gap-4 sm:grid-cols-3">
         <Stat
-          label="Combined NAV"
+          label={<Term id="combined-nav">Combined NAV</Term>}
           value={money(endUsd, "USD")}
           hint={`vs ${money(startUsd, "USD")} on ${first?.date ?? "—"}`}
         />
         <Stat
           label="Path delta"
           value={money(delta, "USD")}
-          hint="Cash/FX dust. Zero trading P&L."
+          hint={
+            <>
+              Cash/<Term id="FX">FX</Term> dust. Zero trading{" "}
+              <Term id="realized-pnl">realized P&L</Term>.
+            </>
+          }
         />
         <Stat
-          label="Fills / NO TRADE days"
+          label={
+            <>
+              <Term id="fill">Fills</Term> / <Term id="NO_TRADE">NO TRADE</Term> days
+            </>
+          }
           value={`${fills.length} / ${noTradeDays}`}
           hint={`${days.length} sessions on the tape`}
         />
@@ -68,14 +86,20 @@ export default function AnalyticsPage() {
         <CardHeader>
           <CardTitle>Sample size</CardTitle>
           <CardDescription>
-            First clip after FOMC is the start of a real P&L series. Until then this page is a
-            cash path, not a scoreboard.
+            First <Term id="clip">clip</Term> after <Term id="FOMC">FOMC</Term> is the
+            start of a real P&L series. Until then this page is a cash path, not a
+            scoreboard.
           </CardDescription>
         </CardHeader>
         <CardContent className="grid gap-3 text-sm text-muted-foreground sm:grid-cols-3">
-          <p>Win rate — n/a (0 fills)</p>
+          <p>
+            Win rate — n/a (0 <Term id="fill">fills</Term>)
+          </p>
           <p>Expectancy — n/a</p>
-          <p>By venue — both books flat</p>
+          <p>
+            By <Term id="venue">venue</Term> — both <Term id="book">books</Term>{" "}
+            <Term id="flatten">flat</Term>
+          </p>
         </CardContent>
       </Card>
     </div>
@@ -87,9 +111,9 @@ function Stat({
   value,
   hint,
 }: {
-  label: string;
+  label: ReactNode;
   value: string;
-  hint: string;
+  hint: ReactNode;
 }) {
   return (
     <Card>
