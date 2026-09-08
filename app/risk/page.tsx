@@ -59,7 +59,12 @@ export default function RiskPage() {
               <Term id="coins">Coins</Term> has native{" "}
               <Term id="stop-market">Stop-Market</Term> and{" "}
               <Term id="stop-limit">Stop-Limit</Term>; no{" "}
-              <Term id="oco">OCO</Term>.
+              <Term id="oco">OCO</Term>. Enter with a{" "}
+              <Term id="limit-buy">limit buy</Term> in the{" "}
+              <Term id="wait-zone">wait zone</Term> — do not chase. Do not leave
+              a <Term id="resting">resting</Term> BTC bid into{" "}
+              <Term id="PPI">PPI</Term> / <Term id="CPI">CPI</Term> /{" "}
+              <Term id="FOMC">FOMC</Term>.
             </p>
           </CardHeader>
           <CardContent className="space-y-4">

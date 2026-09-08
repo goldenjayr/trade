@@ -34,6 +34,8 @@ const REQUIRED_IDS = [
   "stop-market",
   "stop-limit",
   "oco",
+  "limit-buy",
+  "resting",
   "r-r",
   "kill-switch",
   "flatten",
@@ -124,5 +126,29 @@ describe("glossary", () => {
       assert.equal(isGlossaryId(alias), true, `alias should resolve: ${alias}`);
       assert.equal(getTerm(alias).definition, getTerm("oco").definition);
     }
+  });
+
+  it("registers limit-buy and resting with beginner order-book copy", () => {
+    const limitBuy = getTerm("limit-buy");
+    assert.match(limitBuy.label, /limit buy/i);
+    assert.match(limitBuy.definition, /price or better|your price/i);
+    assert.match(limitBuy.definition, /wait zone|do not chase|don't chase/i);
+
+    const resting = getTerm("resting");
+    assert.match(resting.label, /resting/i);
+    assert.match(resting.definition, /open order|sitting|book/i);
+    assert.match(resting.definition, /not fill|has not filled|hasn't filled/i);
+    assert.match(resting.definition, /PPI|CPI|FOMC/);
+    assert.match(resting.definition, /does not|doesn't|do not|don't/);
+    assert.match(resting.definition, /BTC|bid/i);
+  });
+
+  it("resolves limit-buy aliases including spaced labels", () => {
+    for (const alias of ["Limit buy", "Limit-Buy", "limit-buy"] as const) {
+      assert.equal(isGlossaryId(alias), true, `alias should resolve: ${alias}`);
+      assert.equal(getTerm(alias).definition, getTerm("limit-buy").definition);
+    }
+    assert.equal(isGlossaryId("RESTING"), true);
+    assert.equal(getTerm("RESTING").definition, getTerm("resting").definition);
   });
 });
