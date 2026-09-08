@@ -137,7 +137,7 @@ export const GLOSSARY = {
   "stop-limit": {
     label: "Stop-Limit",
     definition:
-      "Becomes a limit order at your limit price once the stop trigger hits. It may not fill if price gaps through the limit.",
+      "A sell or buy that becomes a limit order at your limit price once the stop trigger hits. It may not fill if price gaps through the limit.",
   },
   oco: {
     label: "OCO",
