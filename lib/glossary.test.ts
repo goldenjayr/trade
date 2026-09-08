@@ -31,6 +31,11 @@ const REQUIRED_IDS = [
   "TP",
   "stop",
   "hard-stop",
+  "stop-market",
+  "stop-limit",
+  "oco",
+  "limit-buy",
+  "resting",
   "r-r",
   "kill-switch",
   "flatten",
@@ -87,5 +92,63 @@ describe("glossary", () => {
     assert.equal(isGlossaryId("fee-skip"), true);
     assert.equal(isGlossaryId("not-a-real-term"), false);
     assert.throws(() => getTerm("not-a-real-term" as GlossaryId), /unknown glossary/i);
+  });
+
+  it("registers Coins order types with beginner fill-rule copy", () => {
+    const stopMarket = getTerm("stop-market");
+    assert.match(stopMarket.label, /stop-market/i);
+    assert.match(stopMarket.definition, /market order/i);
+    assert.match(stopMarket.definition, /0\.97|−3%|-3%|3%/);
+    assert.match(stopMarket.definition, /Coins|fill/i);
+
+    const stopLimit = getTerm("stop-limit");
+    assert.match(stopLimit.label, /stop-limit/i);
+    assert.match(stopLimit.definition, /limit/i);
+    assert.match(stopLimit.definition, /gap/i);
+
+    const oco = getTerm("oco");
+    assert.match(oco.label, /oco/i);
+    assert.match(oco.definition, /one-cancels-the-other|one cancels the other/i);
+    assert.match(oco.definition, /does not|doesn't|no OCO|not offer/i);
+    assert.match(oco.definition, /separate/i);
+  });
+
+  it("resolves order-type aliases regardless of casing", () => {
+    for (const alias of ["Stop-Market", "STOP-MARKET", "stop-market"] as const) {
+      assert.equal(isGlossaryId(alias), true, `alias should resolve: ${alias}`);
+      assert.equal(getTerm(alias).definition, getTerm("stop-market").definition);
+    }
+    for (const alias of ["Stop-Limit", "STOP-LIMIT", "stop-limit"] as const) {
+      assert.equal(isGlossaryId(alias), true, `alias should resolve: ${alias}`);
+      assert.equal(getTerm(alias).definition, getTerm("stop-limit").definition);
+    }
+    for (const alias of ["OCO", "oco"] as const) {
+      assert.equal(isGlossaryId(alias), true, `alias should resolve: ${alias}`);
+      assert.equal(getTerm(alias).definition, getTerm("oco").definition);
+    }
+  });
+
+  it("registers limit-buy and resting with beginner order-book copy", () => {
+    const limitBuy = getTerm("limit-buy");
+    assert.match(limitBuy.label, /limit buy/i);
+    assert.match(limitBuy.definition, /price or better|your price/i);
+    assert.match(limitBuy.definition, /wait zone|do not chase|don't chase/i);
+
+    const resting = getTerm("resting");
+    assert.match(resting.label, /resting/i);
+    assert.match(resting.definition, /open order|sitting|book/i);
+    assert.match(resting.definition, /not fill|has not filled|hasn't filled/i);
+    assert.match(resting.definition, /PPI|CPI|FOMC/);
+    assert.match(resting.definition, /does not|doesn't|do not|don't/);
+    assert.match(resting.definition, /BTC|bid/i);
+  });
+
+  it("resolves limit-buy aliases including spaced labels", () => {
+    for (const alias of ["Limit buy", "Limit-Buy", "limit-buy"] as const) {
+      assert.equal(isGlossaryId(alias), true, `alias should resolve: ${alias}`);
+      assert.equal(getTerm(alias).definition, getTerm("limit-buy").definition);
+    }
+    assert.equal(isGlossaryId("RESTING"), true);
+    assert.equal(getTerm("RESTING").definition, getTerm("resting").definition);
   });
 });
