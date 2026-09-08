@@ -1,6 +1,8 @@
 import { PageHeader } from "@/components/page-header";
+import { Term } from "@/components/term";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { isGlossaryId } from "@/lib/glossary";
 import { loadDesk, loadRoutines } from "@/lib/load";
 import { weekdayKey } from "@/lib/manila";
 import type { Routine, Weekday } from "@/lib/types";
@@ -39,9 +41,14 @@ export default function CalendarPage() {
   return (
     <div>
       <PageHeader
-        kicker="Manila clock"
+        kicker={<Term id="manila-time">Manila clock</Term>}
         title="Routines calendar"
-        description="Daily 07:00 scout · 12:00 midday · 15:00 US open · 21:00 close. Monday 08:00 weekly. Week of the desk as-of date."
+        description={
+          <>
+            Daily 07:00 <Term id="scout">scout</Term> · 12:00 midday · 15:00 US open ·
+            21:00 close. Monday 08:00 weekly. Week of the desk as-of date.
+          </>
+        }
       />
 
       <div className="mb-6 flex flex-wrap gap-2">
@@ -56,7 +63,7 @@ export default function CalendarPage() {
         <CardContent className="p-0">
           <div className="grid grid-cols-[4.5rem_repeat(7,minmax(0,1fr))] text-xs">
             <div className="border-b border-border bg-muted/40 px-2 py-2 font-mono text-muted-foreground">
-              PHT
+              <Term id="PHT">PHT</Term>
             </div>
             {DAY_LABELS.map((d) => (
               <div
@@ -87,7 +94,8 @@ export default function CalendarPage() {
           <Card key={r.id}>
             <CardHeader>
               <p className="font-mono text-[10px] tracking-[0.18em] text-primary uppercase">
-                {r.time} · {typeof r.days === "string" ? r.days : r.days.join(", ")} · {r.owner}
+                {r.time} · {typeof r.days === "string" ? r.days : r.days.join(", ")} ·{" "}
+                {isGlossaryId(r.owner) ? <Term id={r.owner}>{r.owner}</Term> : r.owner}
               </p>
               <CardTitle>{r.title}</CardTitle>
             </CardHeader>

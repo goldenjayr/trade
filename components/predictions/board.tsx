@@ -1,8 +1,9 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useMemo, useState, type ReactNode } from "react";
 
 import { OutcomeBadge } from "@/components/predictions/outcome-badge";
+import { Term } from "@/components/term";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import {
@@ -26,6 +27,7 @@ import {
   scorePredictions,
   sortCallsForDisplay,
 } from "@/lib/predictions";
+import { isGlossaryId } from "@/lib/glossary";
 import type { Prediction, PredictionsFile } from "@/lib/types";
 import { cn } from "@/lib/utils";
 
@@ -85,8 +87,11 @@ export function PredictionsBoard({ file }: { file: PredictionsFile }) {
               Not a guarantee
             </p>
             <p className="mt-1 max-w-3xl text-sm text-muted-foreground">
-              {file.disclaimer ??
-                "These are scenario calls with invalidation — not guaranteed predictions. A wait zone is a map, not a ticket."}
+              Scenario calls with <Term id="invalidation">invalidation</Term> — not
+              guaranteed predictions. Graded <Term id="HIT">HIT</Term> /{" "}
+              <Term id="MISS">MISS</Term> / <Term id="EXPIRED">EXPIRED</Term> after the{" "}
+              <Term id="horizon">horizon</Term>. Cancelled and expired do not enter the hit
+              rate. A <Term id="wait-zone">wait zone</Term> is a map, not a ticket.
             </p>
           </div>
           <p className="font-mono text-[11px] tracking-[0.14em] text-muted-foreground uppercase">
@@ -105,20 +110,46 @@ export function PredictionsBoard({ file }: { file: PredictionsFile }) {
           label="Hit rate"
           value={fmtPct(stats.hitRate)}
           hint={
-            stats.graded === 0
-              ? "No HIT/MISS grades yet — sample is empty"
-              : `${stats.hits} HIT · ${stats.misses} MISS · n=${stats.graded}`
+            stats.graded === 0 ? (
+              <>
+                No <Term id="HIT">HIT</Term>/<Term id="MISS">MISS</Term> grades yet —
+                sample is empty
+              </>
+            ) : (
+              <>
+                {stats.hits} <Term id="HIT">HIT</Term> · {stats.misses}{" "}
+                <Term id="MISS">MISS</Term> · n={stats.graded}
+              </>
+            )
           }
         />
         <Stat
-          label="Avg conv · HIT"
+          label={
+            <>
+              Avg conv · <Term id="HIT">HIT</Term>
+            </>
+          }
           value={fmtConv(stats.avgConvictionHits)}
-          hint="Conviction 1–10 on hit_target only"
+          hint={
+            <>
+              <Term id="conviction">Conviction</Term> 1–10 on{" "}
+              <Term id="hit_target">hit_target</Term> only
+            </>
+          }
         />
         <Stat
-          label="Avg conv · MISS"
+          label={
+            <>
+              Avg conv · <Term id="MISS">MISS</Term>
+            </>
+          }
           value={fmtConv(stats.avgConvictionMisses)}
-          hint="Conviction 1–10 on invalidated only"
+          hint={
+            <>
+              <Term id="conviction">Conviction</Term> 1–10 on{" "}
+              <Term id="invalidated">invalidated</Term> only
+            </>
+          }
         />
       </div>
 
@@ -139,7 +170,7 @@ export function PredictionsBoard({ file }: { file: PredictionsFile }) {
           options={STATUS_OPTIONS}
         />
         <FilterSelect
-          label="Book"
+          label={<Term id="book">Book</Term>}
           value={venue}
           onChange={setVenue}
           options={BOOK_OPTIONS}
@@ -166,7 +197,9 @@ export function PredictionsBoard({ file }: { file: PredictionsFile }) {
         <CardContent className="pt-4">
           {closed.length === 0 ? (
             <p className="py-6 text-center text-sm text-muted-foreground">
-              No closed calls in this filter. HIT / MISS / EXPIRED land here after the horizon.
+              No closed calls in this filter. <Term id="HIT">HIT</Term> /{" "}
+              <Term id="MISS">MISS</Term> / <Term id="EXPIRED">EXPIRED</Term> land here
+              after the <Term id="horizon">horizon</Term>.
             </p>
           ) : (
             <Table>
@@ -176,7 +209,9 @@ export function PredictionsBoard({ file }: { file: PredictionsFile }) {
                   <TableHead>Symbol</TableHead>
                   <TableHead>Outcome</TableHead>
                   <TableHead className="hidden md:table-cell">Levels</TableHead>
-                  <TableHead className="text-right">Conv</TableHead>
+                  <TableHead className="text-right">
+                    <Term id="conviction">Conv</Term>
+                  </TableHead>
                   <TableHead className="hidden lg:table-cell">Note</TableHead>
                 </TableRow>
               </TableHeader>
@@ -224,7 +259,19 @@ function CallCard({ call }: { call: Prediction }) {
         <div className="flex flex-wrap items-start justify-between gap-2">
           <div>
             <CardDescription className="font-mono tracking-[0.18em] uppercase">
-              {predictionVenueLabel(call.venue)} · {call.horizon} · {call.source}
+              <Term id={call.venue}>{predictionVenueLabel(call.venue)}</Term>
+              {" · "}
+              {isGlossaryId(call.horizon) ? (
+                <Term id={call.horizon}>{call.horizon}</Term>
+              ) : (
+                call.horizon
+              )}
+              {" · "}
+              {isGlossaryId(call.source) ? (
+                <Term id={call.source}>{call.source}</Term>
+              ) : (
+                call.source
+              )}
             </CardDescription>
             <CardTitle className="font-mono text-2xl">{call.symbol}</CardTitle>
           </div>
@@ -232,7 +279,7 @@ function CallCard({ call }: { call: Prediction }) {
             <OutcomeBadge outcome={outcome} />
             {call.role ? (
               <Badge variant={call.role === "primary" ? "default" : "outline"}>
-                {call.role}
+                <Term id={call.role}>{call.role}</Term>
               </Badge>
             ) : null}
           </div>
@@ -241,22 +288,33 @@ function CallCard({ call }: { call: Prediction }) {
       </CardHeader>
       <CardContent className="space-y-3">
         <div className="grid grid-cols-2 gap-2 sm:grid-cols-4">
-          <Level k="Direction" v={directionLabel(call.direction)} />
-          <Level k="Entry" v={zone ?? "—"} />
-          <Level k="Target" v={target ?? "—"} />
           <Level
-            k="Inv px"
+            k="Direction"
+            v={
+              isGlossaryId(call.direction) ? (
+                <Term id={call.direction}>{directionLabel(call.direction)}</Term>
+              ) : (
+                directionLabel(call.direction)
+              )
+            }
+          />
+          <Level k={<Term id="entry-zone">Entry</Term>} v={zone ?? "—"} />
+          <Level k={<Term id="take-profit">Target</Term>} v={target ?? "—"} />
+          <Level
+            k={<Term id="invalidation">Inv px</Term>}
             v={call.invalidationPrice === undefined ? "—" : formatLevel(call.invalidationPrice)}
           />
         </div>
-        <p className="text-xs text-loss">Invalidation: {call.invalidation ?? "price only"}</p>
+        <p className="text-xs text-loss">
+          <Term id="invalidation">Invalidation</Term>: {call.invalidation ?? "price only"}
+        </p>
         <Conviction value={call.conviction} />
       </CardContent>
     </Card>
   );
 }
 
-function Level({ k, v }: { k: string; v: string }) {
+function Level({ k, v }: { k: ReactNode; v: ReactNode }) {
   return (
     <div className="rounded-lg bg-muted/40 px-2.5 py-2">
       <p className="font-mono text-[10px] tracking-[0.16em] text-muted-foreground uppercase">
@@ -271,7 +329,7 @@ function Conviction({ value }: { value: number }) {
   return (
     <div>
       <div className="mb-1 flex items-center justify-between font-mono text-[10px] tracking-[0.16em] text-muted-foreground uppercase">
-        <span>Conviction</span>
+        <Term id="conviction">Conviction</Term>
         <span className="tabular text-foreground">
           {value}
           <span className="text-muted-foreground">/10</span>
@@ -292,9 +350,9 @@ function Stat({
   value,
   hint,
 }: {
-  label: string;
+  label: ReactNode;
   value: string;
-  hint: string;
+  hint: ReactNode;
 }) {
   return (
     <Card>
@@ -315,7 +373,7 @@ function FilterSelect({
   onChange,
   options,
 }: {
-  label: string;
+  label: ReactNode;
   value: string;
   onChange: (value: string) => void;
   options: { value: string; label: string }[];

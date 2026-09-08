@@ -2,6 +2,7 @@
 
 import { useMemo, useState } from "react";
 
+import { Term } from "@/components/term";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import type { Venue } from "@/lib/types";
@@ -62,7 +63,7 @@ export function FeeSkipCalc() {
       </div>
       <div className="grid grid-cols-2 gap-3">
         <label className="space-y-1 text-xs text-muted-foreground">
-          Notional
+          <Term id="notional">Notional</Term>
           <Input
             value={notional}
             onChange={(e) => setNotional(e.target.value)}

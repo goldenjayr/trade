@@ -12,3 +12,5 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 
 Desk JSON is the product. UI reads `data/` via `lib/load.ts`. Daily flow: write `inbox/YYYY-MM-DD.json` → `npm run desk:ingest` → `npm run desk:publish`. Never commit secrets. Full contract is in the README.
 
+Beginner glossary rule — all new jargon must be registered in `lib/glossary.ts` and rendered via `Term`.
+

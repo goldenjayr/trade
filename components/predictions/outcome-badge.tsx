@@ -1,3 +1,4 @@
+import { Term } from "@/components/term";
 import type { PredictionOutcome } from "@/lib/types";
 import { cn } from "@/lib/utils";
 
@@ -26,7 +27,7 @@ export function OutcomeBadge({
       )}
     >
       <span className="size-1.5 rounded-full bg-current shadow-[0_0_8px_currentColor]" />
-      {outcome}
+      <Term id={outcome}>{outcome}</Term>
     </span>
   );
 }

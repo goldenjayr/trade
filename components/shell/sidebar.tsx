@@ -13,6 +13,7 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 import { NAV } from "@/components/shell/nav";
+import { Term } from "@/components/term";
 import { cn } from "@/lib/utils";
 
 function Brand() {
@@ -57,7 +58,20 @@ function NavLinks({ onNavigate }: { onNavigate?: () => void }) {
             )}
           >
             <Icon className={cn("size-4", active && "text-primary")} />
-            {item.label}
+            {item.href === "/" ? (
+              <Term id="HUD" nested>
+                HUD
+              </Term>
+            ) : item.href === "/risk" ? (
+              <>
+                Risk{" "}
+                <Term id="rails" nested>
+                  rails
+                </Term>
+              </>
+            ) : (
+              item.label
+            )}
           </Link>
         );
       })}

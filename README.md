@@ -32,6 +32,12 @@ Pushes to `main` and pull requests run those same `lint` and `build` checks in [
 
 Timezone is **Asia/Manila** everywhere. Combined NAV on the HUD is display-only (USDPHP in `data/settings.json`); each book stays native.
 
+## Beginner glossary
+
+Desk shorthand is hoverable. Every trading term in the UI is registered in `lib/glossary.ts` and rendered with `<Term id="…">` (dotted underline, no info icon). Hover or focus the word for a plain-English tooltip.
+
+**Beginner glossary rule:** all new jargon must be registered in `lib/glossary.ts` and rendered via `Term`. Do not add info icons. Do not wrap ordinary English.
+
 ## Seed — 2026-09-07 (Monday)
 
 - Coins.ph **₱1,723** cash, **FLAT**

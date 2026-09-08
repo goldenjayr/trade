@@ -2,6 +2,7 @@
 
 import { useSyncExternalStore } from "react";
 
+import { Term } from "@/components/term";
 import { Switch } from "@/components/ui/switch";
 
 const PREFS = {
@@ -41,7 +42,7 @@ export function DisplayPrefs() {
   return (
     <div className="space-y-4">
       <label className="flex items-center justify-between gap-3 text-sm">
-        Show combined NAV on HUD
+        Show <Term id="combined-nav">combined NAV</Term> on <Term id="HUD">HUD</Term>
         <Switch
           checked={combined}
           onCheckedChange={(checked) => {
