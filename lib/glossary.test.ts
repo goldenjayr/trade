@@ -31,6 +31,9 @@ const REQUIRED_IDS = [
   "TP",
   "stop",
   "hard-stop",
+  "stop-market",
+  "stop-limit",
+  "oco",
   "r-r",
   "kill-switch",
   "flatten",
@@ -87,5 +90,39 @@ describe("glossary", () => {
     assert.equal(isGlossaryId("fee-skip"), true);
     assert.equal(isGlossaryId("not-a-real-term"), false);
     assert.throws(() => getTerm("not-a-real-term" as GlossaryId), /unknown glossary/i);
+  });
+
+  it("registers Coins order types with beginner fill-rule copy", () => {
+    const stopMarket = getTerm("stop-market");
+    assert.match(stopMarket.label, /stop-market/i);
+    assert.match(stopMarket.definition, /market order/i);
+    assert.match(stopMarket.definition, /0\.97|−3%|-3%|3%/);
+    assert.match(stopMarket.definition, /Coins|fill/i);
+
+    const stopLimit = getTerm("stop-limit");
+    assert.match(stopLimit.label, /stop-limit/i);
+    assert.match(stopLimit.definition, /limit/i);
+    assert.match(stopLimit.definition, /gap/i);
+
+    const oco = getTerm("oco");
+    assert.match(oco.label, /oco/i);
+    assert.match(oco.definition, /one-cancels-the-other|one cancels the other/i);
+    assert.match(oco.definition, /does not|doesn't|no OCO|not offer/i);
+    assert.match(oco.definition, /separate/i);
+  });
+
+  it("resolves order-type aliases regardless of casing", () => {
+    for (const alias of ["Stop-Market", "STOP-MARKET", "stop-market"] as const) {
+      assert.equal(isGlossaryId(alias), true, `alias should resolve: ${alias}`);
+      assert.equal(getTerm(alias).definition, getTerm("stop-market").definition);
+    }
+    for (const alias of ["Stop-Limit", "STOP-LIMIT", "stop-limit"] as const) {
+      assert.equal(isGlossaryId(alias), true, `alias should resolve: ${alias}`);
+      assert.equal(getTerm(alias).definition, getTerm("stop-limit").definition);
+    }
+    for (const alias of ["OCO", "oco"] as const) {
+      assert.equal(isGlossaryId(alias), true, `alias should resolve: ${alias}`);
+      assert.equal(getTerm(alias).definition, getTerm("oco").definition);
+    }
   });
 });

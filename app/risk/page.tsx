@@ -51,6 +51,16 @@ export default function RiskPage() {
               {" · "}
               <Term id="max-1">max-1</Term>
             </p>
+            <p className="text-sm leading-relaxed text-muted-foreground">
+              After every buy <Term id="fill">fill</Term>, immediately place{" "}
+              <Term id="stop-market">Stop-Market</Term> at entry×0.97 for full
+              size — before anything else. +6%{" "}
+              <Term id="take-profit">take-profit</Term> is a separate limit sell.{" "}
+              <Term id="coins">Coins</Term> has native{" "}
+              <Term id="stop-market">Stop-Market</Term> and{" "}
+              <Term id="stop-limit">Stop-Limit</Term>; no{" "}
+              <Term id="oco">OCO</Term>.
+            </p>
           </CardHeader>
           <CardContent className="space-y-4">
             <SizeRail

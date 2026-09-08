@@ -129,6 +129,21 @@ export const GLOSSARY = {
     definition:
       "A stop you must honor, no averaging down. Coins hard stop is −3% from entry.",
   },
+  "stop-market": {
+    label: "Stop-Market",
+    definition:
+      "A sell or buy that becomes a market order once a trigger price is hit. After every Coins buy fill, place this first at entry × 0.97 (−3%) for the full size.",
+  },
+  "stop-limit": {
+    label: "Stop-Limit",
+    definition:
+      "Becomes a limit order at your limit price once the stop trigger hits. It may not fill if price gaps through the limit.",
+  },
+  oco: {
+    label: "OCO",
+    definition:
+      "One-cancels-the-other: when one order fills, the other is cancelled. Coins does not offer OCO — place the stop and the +6% take-profit as two separate orders.",
+  },
   "r-r": {
     label: "R:R",
     definition:
@@ -428,14 +443,22 @@ export const GLOSSARY = {
 
 export type GlossaryId = keyof typeof GLOSSARY;
 
-export function isGlossaryId(id: string): id is GlossaryId {
-  return Object.hasOwn(GLOSSARY, id);
+/** Exact key, or a different casing of a kebab/lowercase key (Stop-Market → stop-market, OCO → oco). */
+export function resolveGlossaryId(id: string): GlossaryId | undefined {
+  if (Object.hasOwn(GLOSSARY, id)) return id as GlossaryId;
+  const folded = id.toLowerCase();
+  if (folded !== id && Object.hasOwn(GLOSSARY, folded)) return folded as GlossaryId;
+  return undefined;
 }
 
-export function getTerm(id: GlossaryId): GlossaryEntry {
-  const entry = GLOSSARY[id];
-  if (!entry) {
+export function isGlossaryId(id: string): id is GlossaryId {
+  return resolveGlossaryId(id) !== undefined;
+}
+
+export function getTerm(id: GlossaryId | string): GlossaryEntry {
+  const resolved = resolveGlossaryId(id);
+  if (!resolved) {
     throw new Error(`Unknown glossary id: ${String(id)}`);
   }
-  return entry;
+  return GLOSSARY[resolved];
 }
