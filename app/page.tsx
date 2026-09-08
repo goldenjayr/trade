@@ -81,8 +81,8 @@ export default function HudPage() {
                   <span key={p} className="mr-1 font-mono text-primary">
                     {p}
                   </span>
-                ))}
-                stay mapped. <Term id="permission">Permission</Term> is not granted.
+                ))}{" "}
+                stay mapped. <Term id="permission">Permission</Term> is not granted.{" "}
                 No <Term id="PLAN">PLAN</Term>.
               </p>
             </div>
