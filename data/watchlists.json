@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-08",
+  "asOf": "2026-09-09",
   "crypto": [
     {
       "symbol": "BTC",
@@ -9,7 +9,7 @@
       "venues": [
         "coins"
       ],
-      "last": 79005,
+      "last": 79520.99,
       "currency": "USD",
       "changePct": -0.0042,
       "thesis": "Core crypto primary. First Coins clip after FOMC if structure is clean — not into CPI."
@@ -22,7 +22,7 @@
       "venues": [
         "coins"
       ],
-      "last": 2485,
+      "last": 2509.47,
       "currency": "USD",
       "changePct": -0.0068,
       "thesis": "Beta to BTC. No clip until BTC primary is working."
@@ -35,7 +35,7 @@
       "venues": [
         "coins"
       ],
-      "last": 103.7,
+      "last": 104.51,
       "currency": "USD",
       "changePct": 0.0112,
       "thesis": "High-beta satellite. Size only after BTC/XRP permission, never as a CPI scalp."
@@ -48,7 +48,7 @@
       "venues": [
         "coins"
       ],
-      "last": 1.394,
+      "last": 1.4345,
       "currency": "USD",
       "changePct": 0.0085,
       "thesis": "Alt primary vs SOL/SUI. Preferred first Coins risk-on after the event cluster."
@@ -61,7 +61,7 @@
       "venues": [
         "coins"
       ],
-      "last": 738.55,
+      "last": 749.54,
       "currency": "USD",
       "changePct": -0.0015,
       "thesis": "Venue-adjacent satellite. Not a CPI trade."
@@ -74,7 +74,7 @@
       "venues": [
         "coins"
       ],
-      "last": 12.73,
+      "last": 12.194,
       "currency": "USD",
       "changePct": 0.0044,
       "thesis": "Satellite. Needs a clean BTC tape before a clip."
@@ -87,7 +87,7 @@
       "venues": [
         "coins"
       ],
-      "last": 0.815,
+      "last": 0.816,
       "currency": "USD",
       "changePct": 0.0168,
       "thesis": "High-beta satellite. Do not let relative strength talk you into a CPI ticket."

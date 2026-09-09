@@ -1,8 +1,8 @@
 {
-  "asOf": "2026-09-08",
+  "asOf": "2026-09-09",
   "timezone": "Asia/Manila",
   "stance": "NO_TRADE",
-  "stanceReason": "CPI→FOMC event cluster. Primaries BTC/XRP wait zones not tagged at open. Sit flat; no PLAN.",
+  "stanceReason": "PPI Thu 10 → CPI Fri 11 20:30 Manila → FOMC Sep 15–16. BTC EOD ~$79,521 still above $78–78.8k wait; XRP ~$1.434 still above $1.33–1.36. A 14:06 wick toward $78.5k was a watch, not a hold. Hermes desk stood up; no PLAN; no broker send.",
   "primaries": [
     "BTC",
     "XRP"
@@ -37,7 +37,7 @@
       "title": "US August PPI",
       "impact": "high",
       "status": "upcoming",
-      "notes": "Pre-CPI inflation print"
+      "notes": "Pre-CPI inflation print. Kill window."
     },
     {
       "id": "cpi-2026-09-11",

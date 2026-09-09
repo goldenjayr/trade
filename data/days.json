@@ -62,5 +62,13 @@
     "tradeCount": 0,
     "coinsEquity": 1723,
     "gotradeEquity": 46.89
+  },
+  {
+    "date": "2026-09-09",
+    "stance": "NO_TRADE",
+    "summary": "Hermes Bot Mode desk live (trade-desk, market-scout, equity-analyst, risk-desk, trade-journal, trade-vision, macro-calendar, trade-reviewer). Skill jayr-trade-desk. Grok Bot Trade Desk is a sibling — do not race clips. Grok attempted a ~₱1,000 BTC Coins clip earlier; login/USDT-vs-PHP rails; Hermes did not send. Coins BTC/PHP UI showed 0/0 available on the pair — do not mark the PHP book empty without wallet confirm. Books carried ₱1723 / $46.89 FLAT from Sep 8 until a live wallet read.",
+    "tradeCount": 0,
+    "coinsEquity": 1723,
+    "gotradeEquity": 46.89
   }
 ]

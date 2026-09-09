@@ -1,0 +1,231 @@
+{
+  "date": "2026-09-09",
+  "stance": "NO_TRADE",
+  "stanceReason": "PPI Thu 10 → CPI Fri 11 20:30 Manila → FOMC Sep 15–16. BTC EOD ~$79,521 still above $78–78.8k wait; XRP ~$1.434 still above $1.33–1.36. A 14:06 wick toward $78.5k was a watch, not a hold. Hermes desk stood up; no PLAN; no broker send.",
+  "primaries": ["BTC", "XRP"],
+  "usdphp": 58.15,
+  "notes": "Hermes Bot Mode desk live (trade-desk, market-scout, equity-analyst, risk-desk, trade-journal, trade-vision, macro-calendar, trade-reviewer). Skill jayr-trade-desk. Grok Bot Trade Desk is a sibling — do not race clips. Grok attempted a ~₱1,000 BTC Coins clip earlier; login/USDT-vs-PHP rails; Hermes did not send. Coins BTC/PHP UI showed 0/0 available on the pair — do not mark the PHP book empty without wallet confirm. Books carried ₱1723 / $46.89 FLAT from Sep 8 until a live wallet read.",
+  "books": {
+    "coins": {
+      "venue": "coins",
+      "currency": "PHP",
+      "cash": 1723,
+      "dayPnl": 0,
+      "totalPnl": 0,
+      "positions": []
+    },
+    "gotrade": {
+      "venue": "gotrade",
+      "currency": "USD",
+      "cash": 46.89,
+      "dayPnl": 0,
+      "totalPnl": 0,
+      "positions": []
+    }
+  },
+  "journal": {
+    "date": "2026-09-09",
+    "stance": "NO_TRADE",
+    "headline": "Wed EOD stand-down. Hermes desk cloned Grok Trading Ops. 14:06 BTC tag was not a hold — EOD back above wait.",
+    "scout": {
+      "headline": "Event week holds. Primaries not printing a clean wait. Hermes roster online.",
+      "bullets": [
+        "Coinbase 21:02 Manila: BTC $79,520.99, ETH $2,509.47, SOL $104.51, XRP $1.4345, LINK $12.194",
+        "CoinGecko: BNB $749.54, SUI $0.816 — SUI still out; BNB above $728–737 scout wait",
+        "Grok Trade Desk 14:06 Manila printed BTC ~$78,530 (inside wait) via Coinbase/Kraken; EOD Coinbase $79.5k — wick/tag, not a hold",
+        "XRP $1.43 vs wait $1.33–1.36 — further from the band than Tue",
+        "PPI Thu Sep 10 20:30 Manila; CPI Fri Sep 11 20:30; FOMC Sep 15–16"
+      ],
+      "sources": [
+        "Coinbase spot 2026-09-09 21:02 Asia/Manila",
+        "CoinGecko simple price BNB/SUI",
+        "Grok Bot Trade Desk marks ~14:06 Manila",
+        "data/desk.json as-of 2026-09-08"
+      ]
+    },
+    "analyst": {
+      "thesis": "No clip. Event cluster dominates. A midday tag of the BTC wait without a hold is not permission. Keep BTC/XRP waits; do not chase XRP at $1.43. LINK under $12.50 is still scout-only into CPI.",
+      "levels": [
+        {
+          "symbol": "BTC",
+          "support": 78000,
+          "resistance": 80000,
+          "invalidation": "Market buy above wait into PPI/CPI, or treat a wick as a fill",
+          "note": "Primary wait $78.0–78.8k; EOD ~$79,521. 14:06 ~$78,530 was a watch."
+        },
+        {
+          "symbol": "XRP",
+          "support": 1.33,
+          "resistance": 1.45,
+          "invalidation": "Forcing a scalp at $1.43 into CPI",
+          "note": "Primary wait $1.33–1.36; EOD ~$1.4345"
+        },
+        {
+          "symbol": "LINK",
+          "support": 12.19,
+          "note": "Soft scout $12.50–12.65. Spot ~$12.19 is not a Coins PLAN into CPI."
+        },
+        {
+          "symbol": "SUI",
+          "note": "NONE into CPI"
+        }
+      ],
+      "notes": "Conviction at spot 2/10. First Coins clip remains BTC or XRP after the event cluster if a wait prints clean with Risk PASS. Hermes TA rule locked: zone tag ≠ hold."
+    },
+    "risk": {
+      "railsCheck": "Cash on books ₱1723 / $46.89 but permission denied — event risk. Pair-level 0/0 on Coins BTC/PHP is a rails warning, not a FLAT proof.",
+      "sizeNote": "Do not downsize below ₱800 / $15. Grok's ~₱1,000 clip size was inside rails; timing was not. Hermes sent nothing.",
+      "kills": [
+        "PPI Thu 20:30 Manila",
+        "CPI Fri 20:30 Manila",
+        "FOMC Sep 15–16 until digested",
+        "No wick-as-fill",
+        "No second writer racing Grok Bot on the same Coins ticket",
+        "Stance NO_TRADE"
+      ],
+      "feeSkip": "Coins: skip if fees >0.8% notional or clip <₱800. Gotrade: prefer $20–25."
+    },
+    "desk": {
+      "decision": "NO TRADE. Stand up Hermes Trading Ops. Do not send Coins/Gotrade. Cash is the position through CPI→FOMC unless jayr types approve JR-… on a Risk PASS after events.",
+      "actions": [
+        "Hermes profiles + jayr-trade-desk skill + five Manila routines installed",
+        "Record this packet in Trade Vision and ingest",
+        "jayr: Bots tab → right-click floor bots → Manage groups → Trading Ops (2–6 cap). Reviewer stays DM.",
+        "No broker orders from Hermes"
+      ],
+      "nextOpen": "Thu 2026-09-10 07:00 Manila scout. Arm only if a primary prints a clean hold after the print cluster with Risk PASS — not tomorrow's PPI candle."
+    }
+  },
+  "trades": [],
+  "catalysts": [
+    {
+      "id": "ppi-2026-09-10",
+      "date": "2026-09-10",
+      "timeManila": "20:30",
+      "title": "US August PPI",
+      "impact": "high",
+      "status": "upcoming",
+      "notes": "Pre-CPI inflation print. Kill window."
+    },
+    {
+      "id": "cpi-2026-09-11",
+      "date": "2026-09-11",
+      "timeManila": "20:30",
+      "title": "US August CPI",
+      "impact": "high",
+      "status": "upcoming",
+      "notes": "Flatten any open Coins before print if no fresh edge"
+    },
+    {
+      "id": "fomc-2026-09-15",
+      "date": "2026-09-15",
+      "title": "FOMC meeting (Sep 15–16)",
+      "impact": "high",
+      "status": "upcoming",
+      "notes": "Quiet period already active"
+    }
+  ],
+  "predictions": [
+    {
+      "id": "btc-wait-2026-09-08",
+      "dateOpened": "2026-09-08",
+      "symbol": "BTC",
+      "venue": "coins",
+      "role": "primary",
+      "thesis": "Primary wait. 14:06 Manila ~$78.5k was a tag not a hold; EOD ~$79.5k. Only $78–78.8k with a clean hold after the event cluster.",
+      "direction": "long_wait",
+      "entryZone": { "low": 78000, "high": 78800 },
+      "invalidation": "Break below structure, or chase a market buy into PPI/CPI without a zone hold",
+      "invalidationPrice": 77200,
+      "conviction": 3,
+      "horizon": "event",
+      "status": "open",
+      "source": "analyst"
+    },
+    {
+      "id": "xrp-wait-2026-09-08",
+      "dateOpened": "2026-09-08",
+      "symbol": "XRP",
+      "venue": "coins",
+      "role": "primary",
+      "thesis": "Alt primary wait. EOD ~$1.43 is further above $1.33–1.36 — do not chase into PPI/CPI.",
+      "direction": "long_wait",
+      "entryZone": { "low": 1.33, "high": 1.36 },
+      "invalidation": "Chase at $1.43 into CPI, or lose the 1.33 wait structure",
+      "invalidationPrice": 1.28,
+      "conviction": 3,
+      "horizon": "event",
+      "status": "open",
+      "source": "analyst"
+    },
+    {
+      "id": "bnb-scout-2026-09-08",
+      "dateOpened": "2026-09-08",
+      "symbol": "BNB",
+      "venue": "coins",
+      "role": "scout",
+      "thesis": "Soft scout $728–737. Spot ~$750. Map only — not a permissioned clip into CPI.",
+      "direction": "long_wait",
+      "entryZone": { "low": 728, "high": 737 },
+      "invalidation": "Scout-only. Any chase into CPI invalidates the idea.",
+      "conviction": 2,
+      "horizon": "swing",
+      "status": "open",
+      "source": "analyst"
+    },
+    {
+      "id": "link-scout-2026-09-08",
+      "dateOpened": "2026-09-08",
+      "symbol": "LINK",
+      "venue": "coins",
+      "role": "scout",
+      "thesis": "Soft scout $12.50–12.65. Spot ~$12.19 is not a Coins PLAN into CPI.",
+      "direction": "long_wait",
+      "entryZone": { "low": 12.5, "high": 12.65 },
+      "invalidation": "Scout-only. No clip into CPI.",
+      "conviction": 2,
+      "horizon": "swing",
+      "status": "open",
+      "source": "analyst"
+    },
+    {
+      "id": "sui-none-2026-09-08",
+      "dateOpened": "2026-09-08",
+      "symbol": "SUI",
+      "venue": "coins",
+      "role": "scout",
+      "thesis": "NONE into CPI. Relative strength is not a ticket.",
+      "direction": "none",
+      "invalidation": "Any long into the print",
+      "conviction": 6,
+      "horizon": "event",
+      "status": "cancelled",
+      "resolvedAt": "2026-09-08",
+      "outcomeNote": "Cancelled at the open — no scenario, no clip.",
+      "source": "desk"
+    },
+    {
+      "id": "macro-flat-cpi-fomc-2026-09-08",
+      "dateOpened": "2026-09-08",
+      "symbol": "MACRO",
+      "venue": "macro",
+      "role": "stance",
+      "thesis": "Stay flat through PPI Thu Sep 10, CPI Fri Sep 11, into FOMC Sep 15–16. Permission is not granted.",
+      "direction": "none",
+      "invalidation": "Desk grants permission, or a primary prints a clean post-event wait with Risk greenlight",
+      "conviction": 7,
+      "horizon": "event",
+      "status": "open",
+      "source": "desk"
+    }
+  ],
+  "watchlistMarks": [
+    { "symbol": "BTC", "last": 79520.99 },
+    { "symbol": "ETH", "last": 2509.47 },
+    { "symbol": "SOL", "last": 104.51 },
+    { "symbol": "XRP", "last": 1.4345 },
+    { "symbol": "BNB", "last": 749.54 },
+    { "symbol": "LINK", "last": 12.194 },
+    { "symbol": "SUI", "last": 0.816 }
+  ]
+}

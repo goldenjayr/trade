@@ -1,0 +1,73 @@
+{
+  "date": "2026-09-09",
+  "stance": "NO_TRADE",
+  "headline": "Wed EOD stand-down. Hermes desk cloned Grok Trading Ops. 14:06 BTC tag was not a hold — EOD back above wait.",
+  "scout": {
+    "headline": "Event week holds. Primaries not printing a clean wait. Hermes roster online.",
+    "bullets": [
+      "Coinbase 21:02 Manila: BTC $79,520.99, ETH $2,509.47, SOL $104.51, XRP $1.4345, LINK $12.194",
+      "CoinGecko: BNB $749.54, SUI $0.816 — SUI still out; BNB above $728–737 scout wait",
+      "Grok Trade Desk 14:06 Manila printed BTC ~$78,530 (inside wait) via Coinbase/Kraken; EOD Coinbase $79.5k — wick/tag, not a hold",
+      "XRP $1.43 vs wait $1.33–1.36 — further from the band than Tue",
+      "PPI Thu Sep 10 20:30 Manila; CPI Fri Sep 11 20:30; FOMC Sep 15–16"
+    ],
+    "sources": [
+      "Coinbase spot 2026-09-09 21:02 Asia/Manila",
+      "CoinGecko simple price BNB/SUI",
+      "Grok Bot Trade Desk marks ~14:06 Manila",
+      "data/desk.json as-of 2026-09-08"
+    ]
+  },
+  "analyst": {
+    "thesis": "No clip. Event cluster dominates. A midday tag of the BTC wait without a hold is not permission. Keep BTC/XRP waits; do not chase XRP at $1.43. LINK under $12.50 is still scout-only into CPI.",
+    "levels": [
+      {
+        "symbol": "BTC",
+        "support": 78000,
+        "resistance": 80000,
+        "invalidation": "Market buy above wait into PPI/CPI, or treat a wick as a fill",
+        "note": "Primary wait $78.0–78.8k; EOD ~$79,521. 14:06 ~$78,530 was a watch."
+      },
+      {
+        "symbol": "XRP",
+        "support": 1.33,
+        "resistance": 1.45,
+        "invalidation": "Forcing a scalp at $1.43 into CPI",
+        "note": "Primary wait $1.33–1.36; EOD ~$1.4345"
+      },
+      {
+        "symbol": "LINK",
+        "support": 12.19,
+        "note": "Soft scout $12.50–12.65. Spot ~$12.19 is not a Coins PLAN into CPI."
+      },
+      {
+        "symbol": "SUI",
+        "note": "NONE into CPI"
+      }
+    ],
+    "notes": "Conviction at spot 2/10. First Coins clip remains BTC or XRP after the event cluster if a wait prints clean with Risk PASS. Hermes TA rule locked: zone tag ≠ hold."
+  },
+  "risk": {
+    "railsCheck": "Cash on books ₱1723 / $46.89 but permission denied — event risk. Pair-level 0/0 on Coins BTC/PHP is a rails warning, not a FLAT proof.",
+    "sizeNote": "Do not downsize below ₱800 / $15. Grok's ~₱1,000 clip size was inside rails; timing was not. Hermes sent nothing.",
+    "kills": [
+      "PPI Thu 20:30 Manila",
+      "CPI Fri 20:30 Manila",
+      "FOMC Sep 15–16 until digested",
+      "No wick-as-fill",
+      "No second writer racing Grok Bot on the same Coins ticket",
+      "Stance NO_TRADE"
+    ],
+    "feeSkip": "Coins: skip if fees >0.8% notional or clip <₱800. Gotrade: prefer $20–25."
+  },
+  "desk": {
+    "decision": "NO TRADE. Stand up Hermes Trading Ops. Do not send Coins/Gotrade. Cash is the position through CPI→FOMC unless jayr types approve JR-… on a Risk PASS after events.",
+    "actions": [
+      "Hermes profiles + jayr-trade-desk skill + five Manila routines installed",
+      "Record this packet in Trade Vision and ingest",
+      "jayr: Bots tab → right-click floor bots → Manage groups → Trading Ops (2–6 cap). Reviewer stays DM.",
+      "No broker orders from Hermes"
+    ],
+    "nextOpen": "Thu 2026-09-10 07:00 Manila scout. Arm only if a primary prints a clean hold after the print cluster with Risk PASS — not tomorrow's PPI candle."
+  }
+}
