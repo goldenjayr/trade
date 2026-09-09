@@ -1,1 +1,44 @@
-[]
+[
+  {
+    "id": "JR-20260909-01",
+    "date": "2026-09-09",
+    "venue": "coins",
+    "symbol": "NONE",
+    "side": "buy",
+    "qty": 0,
+    "price": 0,
+    "fees": 0,
+    "notional": 0,
+    "skipped": true,
+    "skipReason": "JR-20260909-01 FAIL. Sample/capability clip into PPI Thu 10 → CPI Fri 11 20:30 Manila → FOMC Sep 15–16. Stance NO_TRADE is the kill. Floor ₱800 is not permission. No PLAN, no PASS. Not a fill. `approve JR-20260909-01` received; FAIL not flipped.",
+    "notes": "JR-20260909-01. Coins limit: not resting / not filled / not cancelled (no send). Protective sell: stop not resting. +6% limit not resting. 21:52 Manila: `approve JR-20260909-01` typed; still skip not fill. 23:00 close: still skip."
+  },
+  {
+    "id": "SKIP-20260909-COINS",
+    "date": "2026-09-09",
+    "venue": "coins",
+    "symbol": "BTC",
+    "side": "buy",
+    "qty": 0,
+    "price": 0,
+    "fees": 0,
+    "notional": 0,
+    "skipped": true,
+    "skipReason": "NO_TRADE stand-down. Clock change is not a hunt. No fill.",
+    "notes": "SKIP-20260909-COINS. No JR- live ticket. Coins limit: not resting / not filled / not cancelled (no send). Protective sell: stop not resting. +6% limit not resting. Process: six daily crypto checks 03/07/11/15/19/23 Manila. 23:00 date close: still skip."
+  },
+  {
+    "id": "SKIP-20260909-GOTRADE",
+    "date": "2026-09-09",
+    "venue": "gotrade",
+    "symbol": "CASH",
+    "side": "buy",
+    "qty": 0,
+    "price": 0,
+    "fees": 0,
+    "notional": 0,
+    "skipped": true,
+    "skipReason": "NO_TRADE. 23:00 weekday US cash marked; no ticket into PPI/oil/hike tape. No fill.",
+    "notes": "SKIP-20260909-GOTRADE. No JR- live ticket. No Gotrade send. Stop not resting. +6% not applicable. 23:00 Gotrade yes = mark only."
+  }
+]

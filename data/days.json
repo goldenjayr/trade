@@ -66,7 +66,7 @@
   {
     "date": "2026-09-09",
     "stance": "NO_TRADE",
-    "summary": "Hermes Bot Mode desk live (trade-desk, market-scout, equity-analyst, risk-desk, trade-journal, trade-vision, macro-calendar, trade-reviewer). Skill jayr-trade-desk. Grok Bot Trade Desk is a sibling — do not race clips. Grok attempted a ~₱1,000 BTC Coins clip earlier; login/USDT-vs-PHP rails; Hermes did not send. Coins BTC/PHP UI showed 0/0 available on the pair — do not mark the PHP book empty without wallet confirm. Books carried ₱1723 / $46.89 FLAT from Sep 8 until a live wallet read.",
+    "summary": "23:00 Manila date close (4-hour grid). US cash open ~11:00 ET. Books carried ₱1723 / $46.89 FLAT — cron did not read wallets. Desk FX usdphp 58.15 carried (snapshot continuity); live mid ~62.43 (exchange-rates.org 14:45 UTC Sep 9) / 62.54 (exchangerate-api 00:02 UTC Sep 9) — not a convert. Hermes did not send. Grok Bot Trade Desk is a sibling — no race. JR-20260909-01 remains FAIL skip; approve line does not lift NO_TRADE. SKIP-20260909-COINS / SKIP-20260909-GOTRADE. Tomorrow stance: NO_TRADE through PPI.",
     "tradeCount": 0,
     "coinsEquity": 1723,
     "gotradeEquity": 46.89

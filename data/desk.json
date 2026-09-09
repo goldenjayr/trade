@@ -2,7 +2,7 @@
   "asOf": "2026-09-09",
   "timezone": "Asia/Manila",
   "stance": "NO_TRADE",
-  "stanceReason": "PPI Thu 10 → CPI Fri 11 20:30 Manila → FOMC Sep 15–16. BTC EOD ~$79,521 still above $78–78.8k wait; XRP ~$1.434 still above $1.33–1.36. A 14:06 wick toward $78.5k was a watch, not a hold. Hermes desk stood up; no PLAN; no broker send.",
+  "stanceReason": "PPI Thu 10 20:30 Manila → CPI Fri 11 20:30 → FOMC Sep 15–16. 23:00 Manila Coinbase BTC $79,048.56 / Binance BTCUSDT $79,201.97 still above $78–78.8k wait; XRP Coinbase $1.427 / Binance $1.4299 still above $1.33–1.36. Cash is the position. No PLAN. No broker send.",
   "primaries": [
     "BTC",
     "XRP"
@@ -37,7 +37,7 @@
       "title": "US August PPI",
       "impact": "high",
       "status": "upcoming",
-      "notes": "Pre-CPI inflation print. Kill window."
+      "notes": "Pre-CPI inflation print. Kill window. Tomorrow."
     },
     {
       "id": "cpi-2026-09-11",
