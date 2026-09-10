@@ -1,0 +1,15 @@
+{
+  "asOf": "2026-09-10",
+  "timezone": "Asia/Manila",
+  "stance": "NO_TRADE",
+  "stanceReason": "Inherit swing kill PPI→CPI. PPI printed 20:30 MNL (headline +0.4% MoM / +5.4% YoY). CPI Fri 11 20:30 MNL still live, then FOMC Sep 15–16. Book flat. First 3 min NY cash 21:30–21:33 = map only. No DT- PLAN. No broker send.",
+  "book": "shared-with-swing",
+  "primaries": ["BTC", "XRP"],
+  "session": "ny-cash-map",
+  "clipsToday": 0,
+  "stopsToday": 0,
+  "dayPnl": 0,
+  "openTicket": null,
+  "flattenBy": null,
+  "notes": "2026-09-10 21:33 MNL tape-scout NY first-3 map (Coinbase 5m + ticker; Binance 5m + 24hr). Day NO_TRADE | swing NO_TRADE. Cash is the position. BTC Coinbase $76,860 (bid $76,849.14 / ask $76,851.4 @ 13:33:39Z) / Binance BTCUSDT $76,896 under Coinbase UTC-day VWAP $77,587 (Binance 24h WAP $78,138). Asia (00–07Z) H/L Coinbase $78,554 / $77,901 — Binance Asia L $77,952 still the break, not a hold. London (07–13:30Z) H/L Coinbase $78,394 / $76,630 (Binance $78,422 / $76,676). NY so far (13:30Z 5m) Coinbase $76,951–$76,730 last $76,852 — first 3 min inside London low, no reclaim of ~$77,200 inv or Asia L. Coinbase BTC top5 book thin (~0.14 bid vs 0.62 ask, ~$1.82 spread); Binance tight 1-tick, ~3.84 BTC on $76,900 bid. XRP Coinbase $1.3568 / Binance $1.3577 under Coinbase UTC VWAP $1.377 (Binance 24h WAP $1.392). Asia H/L Coinbase $1.396 / $1.376 (Binance Asia L $1.377). London $1.389–$1.344. NY so far $1.357–$1.354. XRP Coinbase top5 ask-heavy (~32k bid vs 49k ask). 24h Binance BTC $79,679–$76,676 / XRP $1.437–$1.342. Existing home sales 22:00 MNL. CPI Fri 11 20:30. Tape tag = watch, not a buy. No trigger. | 2026-09-10 21:00 MNL session-clock. Day NO_TRADE | swing NO_TRADE. NY cash 21:30–04:00 MNL; first 3 min 21:30–21:33 map only. Gotrade flatten-by 04:00 MNL if a clip ever opens — book is flat ($46.89 cash). Coins ₱1,723 cash, 0 clips, 0 stops. PPI 20:30 MNL: BLS final demand +0.4% MoM / +5.4% YoY; core +0.2% MoM. BTC Coinbase $76,889 / Binance BTCUSDT $76,944 under UTC-day VWAP $78,221 (24h H $79,679 / L $76,676) — broke 15:00 inv map ~$77,200 and Asia L $77,952. XRP Coinbase $1.358 / Binance $1.360 under VWAP $1.394 (24h H $1.439 / L $1.342) — under Asia L $1.377. Existing home sales 22:00 MNL. CPI Fri 11 20:30. No ping scalp-desk. No tickets. | 2026-09-10 21:29 MNL scalp-journal NO_TRADE session (first-class). Day NO_TRADE | swing NO_TRADE. Inherit PPI→CPI kill. Cash is the position — Coins ₱1,723 / Gotrade $46.89. clipsToday 0, stopsToday 0, dayPnl 0, openTicket none, flattenBy none. Limit not resting / not filled / not cancelled (no send). Protective stop not resting. Target limit not resting. No DT- id. First 3 min NY 21:30–21:33 map only; no hunt into CPI Fri. Process PASS — inherited kill, book already flat, no ticket, no send. Outcome FLAT 0 — sitting is not a P&L win or loss."
+}

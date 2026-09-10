@@ -40,5 +40,33 @@
     "skipped": true,
     "skipReason": "NO_TRADE. 23:00 weekday US cash marked; no ticket into PPI/oil/hike tape. No fill.",
     "notes": "SKIP-20260909-GOTRADE. No JR- live ticket. No Gotrade send. Stop not resting. +6% not applicable. 23:00 Gotrade yes = mark only."
+  },
+  {
+    "id": "SKIP-20260910-COINS",
+    "date": "2026-09-10",
+    "venue": "coins",
+    "symbol": "BTC",
+    "side": "buy",
+    "qty": 0,
+    "price": 0,
+    "fees": 0,
+    "notional": 0,
+    "skipped": true,
+    "skipReason": "NO_TRADE stand-down. BUY? NO. BTC below wait after PPI; L through inv ≠ buy-the-dip. CPI tomorrow. No fill.",
+    "notes": "SKIP-20260910-COINS. No JR- live ticket. Coins limit: not resting / not filled / not cancelled (no send). Protective sell: stop not resting. +6% limit not resting. Process: six daily crypto checks 03/07/11/15/19/23 Manila. 23:00 date close: still skip."
+  },
+  {
+    "id": "SKIP-20260910-GOTRADE",
+    "date": "2026-09-10",
+    "venue": "gotrade",
+    "symbol": "CASH",
+    "side": "buy",
+    "qty": 0,
+    "price": 0,
+    "fees": 0,
+    "notional": 0,
+    "skipped": true,
+    "skipReason": "NO_TRADE. 23:00 weekday US cash marked; no ticket into PPI/CPI tape. No fill.",
+    "notes": "SKIP-20260910-GOTRADE. No JR- live ticket. No Gotrade send. Stop not resting. +6% not applicable. 23:00 Gotrade yes = mark only."
   }
 ]

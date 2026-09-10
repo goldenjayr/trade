@@ -1,0 +1,44 @@
+{
+  "coins": {
+    "sizeMin": 800,
+    "sizeMax": 1200,
+    "stopPct": -0.01,
+    "targetPct": 0.02,
+    "feeSkipPct": 0.0035,
+    "maxClipsPerDay": 2,
+    "feeSkip": [
+      "Skip if all-in fees exceed 0.35% of notional.",
+      "Skip any clip below ₱800.",
+      "Skip 0.2–0.4% micro-scalps — fees eat the edge."
+    ],
+    "kills": [
+      "Hard stop −1% from entry. No average-down.",
+      "Max two day clips per Manila date when ARMED.",
+      "1 full stop → REDUCE. 2 full stops → NO_TRADE rest of day."
+    ]
+  },
+  "gotrade": {
+    "sizeMin": 15,
+    "sizeMax": 25,
+    "sizeBiasMin": 20,
+    "sizeBiasMax": 25,
+    "maxClipsAtOnce": 1,
+    "flatten": "before US cash close",
+    "feeSkip": [
+      "Skip if commission + spread > 0.8% of a $15 ticket.",
+      "Prefer $20–$25 so fees dilute."
+    ],
+    "kills": [
+      "No overnight. Flatten before US cash close.",
+      "No single-name into CPI, FOMC, or that name's earnings.",
+      "Max one Gotrade day clip at a time given ~$47 cash."
+    ]
+  },
+  "globalKills": [
+    "If data/desk.json stance is NO_TRADE, Day Desk is NO_TRADE.",
+    "If Trading Ops is IN_TRADE or a JR- clip is resting, Day Desk size = 0.",
+    "CPI / FOMC / PPI windows — do not invent a scalp.",
+    "First 3 minutes of NY cash: map only.",
+    "No revenge clips. No silent convert of a scalp into a swing."
+  ]
+}

@@ -70,5 +70,13 @@
     "tradeCount": 0,
     "coinsEquity": 1723,
     "gotradeEquity": 46.89
+  },
+  {
+    "date": "2026-09-10",
+    "stance": "NO_TRADE",
+    "summary": "23:00 Manila date close (4-hour grid). US cash open ~11:00 ET. Books carried ₱1723 / $46.89 FLAT — cron did not read wallets. Desk FX usdphp 58.15 carried (snapshot continuity); live Yahoo PHP=X 62.554 — not a convert. Hermes did not send. Grok Bot Trade Desk is a sibling — no race. SKIP-20260910-COINS / SKIP-20260910-GOTRADE. Tomorrow stance: NO_TRADE through CPI.",
+    "tradeCount": 0,
+    "coinsEquity": 1723,
+    "gotradeEquity": 46.89
   }
 ]

@@ -7,7 +7,8 @@
     "owner": "risk",
     "checklist": [
       "Crypto 24/7 including Sat/Sun: BTC/XRP vs wait — tag is a watch",
-      "US cash (weekdays only): Gotrade still flat? 03:00 Manila ≈ 15:00 ET (EDT) — regular hours",
+      "US cash (weekdays only): Yahoo marks SPY QQQ VOO IWM AAPL MSFT NVDA GOOGL AMZN META TSLA — map only",
+      "Gotrade still flat? 03:00 Manila ≈ 15:00 ET (EDT) — regular hours",
       "Fee-skip before any impulse. No Gotrade Sat/Sun or outside 09:30–16:00 ET",
       "PPI/CPI/FOMC kill still on?",
       "If ARMED and a primary held: size note only — still no send"
@@ -80,7 +81,8 @@
     "owner": "desk",
     "checklist": [
       "Crypto marks both books' cash",
-      "Gotrade (weekdays only): 23:00 Manila ≈ 11:00 ET — US regular hours. Sat/Sun: skip stocks",
+      "Gotrade (weekdays only): Yahoo marks SPY QQQ VOO IWM AAPL MSFT NVDA GOOGL AMZN META TSLA — map only, then iMessage digest",
+      "23:00 Manila ≈ 11:00 ET — US regular hours. Sat/Sun: skip stocks",
       "Write tomorrow's stance",
       "desk:ingest the Manila-date packet",
       "desk:publish if data changed"

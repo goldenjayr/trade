@@ -1,0 +1,304 @@
+{
+  "date": "2026-09-10",
+  "stance": "NO_TRADE",
+  "stanceReason": "PPI printed 20:30 Manila (Aug headline +0.4% m/m in line, +5.4% y/y vs ~5.3% est; core +0.2% m/m slightly soft; energy +4.2%). CPI Fri 11 20:30 Manila → FOMC Sep 15–16 still the kill. 23:00 Yahoo BTC-USD $77,299.66 below wait $78–78.8k (session L $76,731.84 through inv ~$77,200). Sit/tag ≠ hold. No new wait. XRP Yahoo $1.3579 inside $1.33–1.36 — watch, not a clip. Stance NO_TRADE is the kill. No PLAN. No broker send.",
+  "primaries": [
+    "BTC",
+    "XRP"
+  ],
+  "usdphp": 58.15,
+  "notes": "23:00 Manila date close (4-hour grid). US cash open ~11:00 ET. Books carried ₱1723 / $46.89 FLAT — cron did not read wallets. Desk FX usdphp 58.15 carried (snapshot continuity); live Yahoo PHP=X 62.554 — not a convert. Hermes did not send. Grok Bot Trade Desk is a sibling — no race. SKIP-20260910-COINS / SKIP-20260910-GOTRADE. Tomorrow stance: NO_TRADE through CPI.",
+  "books": {
+    "coins": {
+      "venue": "coins",
+      "currency": "PHP",
+      "cash": 1723,
+      "dayPnl": 0,
+      "totalPnl": 0,
+      "positions": []
+    },
+    "gotrade": {
+      "venue": "gotrade",
+      "currency": "USD",
+      "cash": 46.89,
+      "dayPnl": 0,
+      "totalPnl": 0,
+      "positions": []
+    }
+  },
+  "journal": {
+    "date": "2026-09-10",
+    "stance": "NO_TRADE",
+    "headline": "Thu 23:00 Manila date close. PPI done. BTC below wait, L through inv. Both books FLAT cash. US session marked. Tomorrow NO_TRADE into CPI.",
+    "scout": {
+      "headline": "NO_TRADE. 23:00 Manila — Yahoo BTC $77.3k below wait; PPI printed. US cash open, indexes mixed/red. Not a hunt.",
+      "bullets": [
+        "Yahoo v8 23:00 Manila: BTC-USD $77,299.66 (prev $78,291.64, −1.267%, H $78,497.55 / L $76,731.84). Binance BTCUSDT $77,278.80 (−1.827%, H $78,938.55 / L $76,676.07). Second source confirms below wait.",
+        "Yahoo XRP-USD $1.3579 (prev $1.3946, −2.633%, H $1.3950 / L $1.3521). Binance XRPUSDT $1.3571 (−4.497%, H $1.4253 / L $1.3421).",
+        "Yahoo ETH-USD $2,440.17 (−1.120%, H $2,482.85 / L $2,409.58) · SOL-USD $100.01 (−1.585%, H $102.10 / L $99.06) · 23:00 Manila",
+        "Yahoo BNB-USD $708.84 (−1.926%, H $725.45 / L $705.60) — below soft scout $728–737",
+        "Yahoo LINK-USD $11.64 (−1.391%, H $11.87 / L $11.60) — below soft scout $12.50–12.65",
+        "Binance SUIUSDT $0.7444 (−8.303%, H $0.8130 / L $0.7354) · 23:00 Manila — NONE into CPI. Yahoo SUI-USD unused.",
+        "BTC vs wait $78,000–78,800: BELOW. Yahoo last $77,299.66. Session L Yahoo $76,731.84 / Binance $76,676.07 tagged through inv ~$77,200. Last still ~$77.3k. Wick through inv ≠ new wait. Not a buy-the-dip.",
+        "XRP vs wait $1.33–1.36: IN ZONE at ~$1.358. Binance 24h L $1.3421 still in/near the band. Sit ≠ clean hold. Do not chase into CPI.",
+        "US cash ~11:00 ET (Yahoo v8 23:00 Manila): SPY $758.89 −0.46%; QQQ $711.17 −0.72%; VOO $697.66 −0.46%; IWM $288.73 −0.66%. AAPL $322.96 +2.42%; MSFT $492.28 +0.13%; NVDA $218.03 −2.52%; GOOGL $331.13 +0.14%; AMZN $252.57 +0.07%; META $658.19 +0.69%; TSLA $366.78 −0.28%. Mark only. No name.",
+        "PPI Thu 20:30 Manila DONE: BLS Aug final demand +0.4% m/m (in line), +5.4% y/y (vs ~5.3% est). Core +0.2% m/m (vs ~0.3%). Energy +4.2% (diesel +24.1%). CPI Fri 11 20:30 Manila remains the kill. FOMC Sep 15–16. Cash is the position."
+      ],
+      "sources": [
+        "Yahoo Finance chart v8 BTC-USD ETH-USD SOL-USD XRP-USD BNB-USD LINK-USD 2026-09-10 23:00 Asia/Manila (~11:00 ET)",
+        "Yahoo Finance chart v8 SPY QQQ VOO IWM AAPL MSFT NVDA GOOGL AMZN META TSLA 23:00 Manila",
+        "Binance 24hr ticker BTCUSDT XRPUSDT SUIUSDT 23:00 Manila (SUI primary; BTC/XRP confirm)",
+        "Yahoo PHP=X 62.554 (desk usdphp 58.15 carried)",
+        "BLS / CNBC: Aug 2026 PPI +0.4% m/m, +5.4% y/y; core +0.2% m/m. Printed 08:30 ET 2026-09-10",
+        "BLS CPI calendar: Aug CPI Fri 2026-09-11 08:30 ET (20:30 Manila)",
+        "data/desk.json asOf 2026-09-10 NO_TRADE; books carried ₱1723 / $46.89"
+      ]
+    },
+    "analyst": {
+      "thesis": "No clip. CPI in ~21.5h. Yahoo BTC $77,299.66 is below the $78–78.8k wait after PPI. Session L through ~$77,200 is a tag, not a new map and not a buy-the-dip. From $77,300 −3% (~$74,981) is further through inv; +6% (~$81,938) is a chase into CPI. Not 2R after fees. XRP $1.3579 is inside $1.33–1.36 — sit, not a hold into the print. Keep seeded waits until Analyst grades post-CPI. Do not invent a new wait. LINK/BNB/SUI map-only. Gotrade: PPI tape is not a $20–25 ticket into CPI.",
+      "levels": [
+        {
+          "symbol": "BTC",
+          "support": 78000,
+          "resistance": 80000,
+          "invalidation": "Lose ~$77,200, or market-buy into CPI. Wick through inv ≠ fill and ≠ new wait.",
+          "note": "Primary wait $78.0–78.8k. 23:00 Manila Yahoo $77,299.66 BELOW wait. Session L Yahoo $76,731.84 / Binance $76,676.07 through inv ~$77,200. Last ~$77.3k. Zones not revised by cron."
+        },
+        {
+          "symbol": "XRP",
+          "support": 1.33,
+          "resistance": 1.45,
+          "invalidation": "Forcing a scalp at $1.36 into CPI",
+          "note": "Primary wait $1.33–1.36; 23:00 Yahoo $1.3579 IN ZONE. Binance L $1.3421. Sit ≠ hold."
+        },
+        {
+          "symbol": "BNB",
+          "support": 728,
+          "note": "Soft scout $728–737. 23:00 Yahoo $708.84 below scout — still not a Coins PLAN into CPI."
+        },
+        {
+          "symbol": "LINK",
+          "support": 12.5,
+          "note": "Soft scout $12.50–12.65. 23:00 Yahoo $11.64 still below scout — not a Coins PLAN into CPI."
+        },
+        {
+          "symbol": "SUI",
+          "note": "NONE into CPI. 23:00 Binance SUIUSDT $0.7444."
+        }
+      ],
+      "notes": "Conviction at spot 2/10. Zones not revised. Cash above floors but permission is stance/Risk — map only. First Coins clip remains BTC or XRP after the event cluster if structure is clean with Risk PASS. Breakdown ≠ buy. Chase invalidation: market-buy here into CPI."
+    },
+    "risk": {
+      "railsCheck": "Cash on books ₱1723 / $46.89 — above floors (₱800 / $15) but permission denied. BTC below wait / L through inv is not a clip. Event risk (CPI tomorrow 20:30 Manila). Stance NO_TRADE is the kill. Pair-level 0/0 on Coins BTC/PHP is a rails warning, not a FLAT proof. No PLAN: stance is not ARMED; no clean hold.",
+      "sizeNote": "Do not downsize below ₱800 / $15. Size available is irrelevant under NO_TRADE. No clip sized. Cron does not send.",
+      "kills": [
+        "PPI Thu 20:30 Manila — PRINTED (done). Not permission.",
+        "CPI Fri 20:30 Manila — still the kill",
+        "FOMC Sep 15–16 until digested",
+        "No wick-as-fill — BTC L through inv is not a buy-the-dip",
+        "No invented wait after a breakdown",
+        "No PLAN into CPI/FOMC",
+        "No second writer racing Grok Bot on the same Coins ticket",
+        "Stance NO_TRADE"
+      ],
+      "feeSkip": "Coins: skip if fees >0.8% notional or clip <₱800. Gotrade: prefer $20–25; skip commission+spread >1% of $15."
+    },
+    "desk": {
+      "decision": "NO TRADE. 23:00 date close. BUY? NO all 18. Risk FAIL. Do not send Coins/Gotrade. Cash is the position through CPI→FOMC unless jayr types approve JR-… on a Risk PASS after events. Tomorrow stance: NO_TRADE.",
+      "actions": [
+        "23:00 Manila: both books marked cash-only ₱1723 / $46.89. No broker. No fill.",
+        "Gotrade this tick: YES (weekday, US cash open) — mark only, no ticket.",
+        "Coins: limit not resting / not filled / not cancelled (no send). Protective sell: stop not resting. +6% limit not resting.",
+        "SKIP-20260910-COINS / SKIP-20260910-GOTRADE held.",
+        "Watchlist marks refreshed from Yahoo v8 (crypto+US) + Binance SUI 23:00 Manila.",
+        "PPI logged done. No hunt into CPI candle.",
+        "BUY? NO on BTC XRP ETH SOL BNB LINK SUI SPY QQQ VOO IWM AAPL MSFT NVDA GOOGL AMZN META TSLA."
+      ],
+      "nextOpen": "Fri 2026-09-11 03:00 Manila overnight-us-pm (crypto daily; Gotrade weekday). Then 07:00 am-scout. Still NO_TRADE — CPI 20:30 Manila, not tomorrow's print."
+    }
+  },
+  "trades": [
+    {
+      "id": "SKIP-20260910-COINS",
+      "date": "2026-09-10",
+      "venue": "coins",
+      "symbol": "BTC",
+      "side": "buy",
+      "qty": 0,
+      "price": 0,
+      "fees": 0,
+      "notional": 0,
+      "skipped": true,
+      "skipReason": "NO_TRADE stand-down. BUY? NO. BTC below wait after PPI; L through inv ≠ buy-the-dip. CPI tomorrow. No fill.",
+      "notes": "SKIP-20260910-COINS. No JR- live ticket. Coins limit: not resting / not filled / not cancelled (no send). Protective sell: stop not resting. +6% limit not resting. Process: six daily crypto checks 03/07/11/15/19/23 Manila. 23:00 date close: still skip."
+    },
+    {
+      "id": "SKIP-20260910-GOTRADE",
+      "date": "2026-09-10",
+      "venue": "gotrade",
+      "symbol": "CASH",
+      "side": "buy",
+      "qty": 0,
+      "price": 0,
+      "fees": 0,
+      "notional": 0,
+      "skipped": true,
+      "skipReason": "NO_TRADE. 23:00 weekday US cash marked; no ticket into PPI/CPI tape. No fill.",
+      "notes": "SKIP-20260910-GOTRADE. No JR- live ticket. No Gotrade send. Stop not resting. +6% not applicable. 23:00 Gotrade yes = mark only."
+    }
+  ],
+  "catalysts": [
+    {
+      "id": "ppi-2026-09-10",
+      "date": "2026-09-10",
+      "timeManila": "20:30",
+      "title": "US August PPI",
+      "impact": "high",
+      "status": "done",
+      "notes": "Printed. Headline +0.4% m/m in line, +5.4% y/y vs ~5.3%. Core +0.2% m/m. Energy +4.2%. Not permission to clip."
+    },
+    {
+      "id": "cpi-2026-09-11",
+      "date": "2026-09-11",
+      "timeManila": "20:30",
+      "title": "US August CPI",
+      "impact": "high",
+      "status": "upcoming",
+      "notes": "Kill window. Tomorrow. Flatten any open Coins before print if no fresh edge."
+    },
+    {
+      "id": "fomc-2026-09-15",
+      "date": "2026-09-15",
+      "title": "FOMC meeting (Sep 15–16)",
+      "impact": "high",
+      "status": "upcoming",
+      "notes": "Quiet period already active"
+    }
+  ],
+  "predictions": [
+    {
+      "id": "btc-wait-2026-09-08",
+      "dateOpened": "2026-09-08",
+      "symbol": "BTC",
+      "venue": "coins",
+      "role": "primary",
+      "thesis": "Primary wait. 23:00 Manila Yahoo $77,300 below $78–78.8k. Session L ~$76.7k tagged through inv $77,200 — not a hold, not a new wait. Only a clean hold after the event cluster. Analyst grades post-CPI.",
+      "direction": "long_wait",
+      "entryZone": {
+        "low": 78000,
+        "high": 78800
+      },
+      "invalidation": "Break below structure, or chase a market buy into CPI without a zone hold",
+      "invalidationPrice": 77200,
+      "conviction": 3,
+      "horizon": "event",
+      "status": "open",
+      "source": "analyst"
+    },
+    {
+      "id": "xrp-wait-2026-09-08",
+      "dateOpened": "2026-09-08",
+      "symbol": "XRP",
+      "venue": "coins",
+      "role": "primary",
+      "thesis": "Alt primary wait. 23:00 Yahoo $1.3579 inside $1.33–1.36 — sit, not a hold into CPI.",
+      "direction": "long_wait",
+      "entryZone": {
+        "low": 1.33,
+        "high": 1.36
+      },
+      "invalidation": "Chase at $1.42 into CPI, or lose the 1.33 wait structure",
+      "invalidationPrice": 1.28,
+      "conviction": 3,
+      "horizon": "event",
+      "status": "open",
+      "source": "analyst"
+    },
+    {
+      "id": "bnb-scout-2026-09-08",
+      "dateOpened": "2026-09-08",
+      "symbol": "BNB",
+      "venue": "coins",
+      "role": "scout",
+      "thesis": "Soft scout $728–737. 23:00 Yahoo $708.84 below scout. Map only — not a permissioned clip into CPI.",
+      "direction": "long_wait",
+      "entryZone": {
+        "low": 728,
+        "high": 737
+      },
+      "invalidation": "Scout-only. Any chase into CPI invalidates the idea.",
+      "conviction": 2,
+      "horizon": "swing",
+      "status": "open",
+      "source": "analyst"
+    },
+    {
+      "id": "link-scout-2026-09-08",
+      "dateOpened": "2026-09-08",
+      "symbol": "LINK",
+      "venue": "coins",
+      "role": "scout",
+      "thesis": "Soft scout $12.50–12.65. 23:00 Yahoo $11.64 is not a Coins PLAN into CPI.",
+      "direction": "long_wait",
+      "entryZone": {
+        "low": 12.5,
+        "high": 12.65
+      },
+      "invalidation": "Scout-only. No clip into CPI.",
+      "conviction": 2,
+      "horizon": "swing",
+      "status": "open",
+      "source": "analyst"
+    },
+    {
+      "id": "sui-none-2026-09-08",
+      "dateOpened": "2026-09-08",
+      "symbol": "SUI",
+      "venue": "coins",
+      "role": "scout",
+      "thesis": "NONE into CPI. Relative strength is not a ticket.",
+      "direction": "none",
+      "invalidation": "Any long into the print",
+      "conviction": 6,
+      "horizon": "event",
+      "status": "cancelled",
+      "resolvedAt": "2026-09-08",
+      "outcomeNote": "Cancelled at the open — no scenario, no clip.",
+      "source": "desk"
+    },
+    {
+      "id": "macro-flat-cpi-fomc-2026-09-08",
+      "dateOpened": "2026-09-08",
+      "symbol": "MACRO",
+      "venue": "macro",
+      "role": "stance",
+      "thesis": "Stay flat through PPI Thu Sep 10 (printed), CPI Fri Sep 11, into FOMC Sep 15–16. Permission is not granted. Tomorrow (Fri) remains NO_TRADE.",
+      "direction": "none",
+      "invalidation": "Desk grants permission, or a primary prints a clean post-event wait with Risk greenlight",
+      "conviction": 7,
+      "horizon": "event",
+      "status": "open",
+      "source": "desk"
+    }
+  ],
+  "watchlistMarks": [
+    { "symbol": "BTC", "last": 77299.66, "changePct": -0.01267 },
+    { "symbol": "ETH", "last": 2440.17, "changePct": -0.011204 },
+    { "symbol": "SOL", "last": 100.01, "changePct": -0.015846 },
+    { "symbol": "XRP", "last": 1.3579, "changePct": -0.026329 },
+    { "symbol": "BNB", "last": 708.84, "changePct": -0.019257 },
+    { "symbol": "LINK", "last": 11.64, "changePct": -0.013907 },
+    { "symbol": "SUI", "last": 0.7444, "changePct": -0.08303 },
+    { "symbol": "SPY", "last": 758.89, "changePct": -0.004604 },
+    { "symbol": "QQQ", "last": 711.165, "changePct": -0.007183 },
+    { "symbol": "VOO", "last": 697.655, "changePct": -0.004587 },
+    { "symbol": "IWM", "last": 288.73, "changePct": -0.006572 },
+    { "symbol": "AAPL", "last": 322.96, "changePct": 0.024164 },
+    { "symbol": "MSFT", "last": 492.28, "changePct": 0.001281 },
+    { "symbol": "NVDA", "last": 218.03, "changePct": -0.025216 },
+    { "symbol": "GOOGL", "last": 331.125, "changePct": 0.001437 },
+    { "symbol": "AMZN", "last": 252.57, "changePct": 0.000674 },
+    { "symbol": "META", "last": 658.19, "changePct": 0.006884 },
+    { "symbol": "TSLA", "last": 366.777, "changePct": -0.002809 }
+  ]
+}
