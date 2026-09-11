@@ -7,7 +7,7 @@
     "XRP"
   ],
   "usdphp": 58.15,
-  "notes": "07:00 Manila am-scout (4-hour grid). US cash closed (\u224819:00 ET Thu 10). Crypto only. Books carried \u20b11723 / $46.89 FLAT \u2014 cron did not read wallets. Desk FX usdphp 58.15 carried. Kraken ticker reset \u2014 unused. Hermes did not send. Grok Bot Trade Desk is a sibling \u2014 no race. SKIP-20260911-COINS / SKIP-20260911-GOTRADE still skip. CPI is today 20:30 Manila (~13.5h). 03:00 process PASS / outcome FLAT 0 carried. | Amend: Gotrade/stocks section filled \u2014 SPY 757.8 QQQ 708.7 IWM 287.7 AAPL 326.6 MSFT 492.4 NVDA 218.4 GOOGL 332.6 AMZN 251.9 META 644.4 TSLA 363.6; still NO_TRADE both books into CPI. | Predictions graded CPI-morning: BTC-WAIT expired after hit; XRP-WAIT hit_entry unfilled; BNB/LINK invalidated.",
+  "notes": "07:00 Manila am-scout (4-hour grid). US cash closed (\u224819:00 ET Thu 10). Crypto only. Books carried \u20b11723 / $46.89 FLAT \u2014 cron did not read wallets. Desk FX usdphp 58.15 carried. Kraken ticker reset \u2014 unused. Hermes did not send. Grok Bot Trade Desk is a sibling \u2014 no race. SKIP-20260911-COINS / SKIP-20260911-GOTRADE still skip. CPI is today 20:30 Manila (~13.5h). 03:00 process PASS / outcome FLAT 0 carried. | Amend: Gotrade/stocks section filled \u2014 SPY 757.8 QQQ 708.7 IWM 287.7 AAPL 326.6 MSFT 492.4 NVDA 218.4 GOOGL 332.6 AMZN 251.9 META 644.4 TSLA 363.6; still NO_TRADE both books into CPI. | Predictions graded CPI-morning: BTC-WAIT expired after hit; XRP-WAIT hit_entry unfilled; BNB/LINK invalidated. | Seeded educational LT US watchlist (MSFT\u2192META; TSLA satellite; VTI/SPY ballast). NOT PLANs; still flat into CPI/FOMC.",
   "books": {
     "coins": {
       "venue": "coins",
@@ -120,7 +120,8 @@
         "BUY? NO on BTC XRP ETH SOL BNB LINK SUI SPY QQQ VOO IWM AAPL MSFT NVDA GOOGL AMZN META TSLA.",
         "Journal process vs outcome (03:03 Manila): Process PASS \u2014 NO_TRADE kill, BTC Yahoo $77,176 below wait / session L through inv ~$77,200 is not a dip buy, XRP $1.3543 in $1.33\u20131.36 is a watch not a hold, Risk FAIL skips SKIP-20260911-COINS / SKIP-20260911-GOTRADE, no JR- live ticket, Coins limit not resting / not filled / not cancelled, stop not resting, +6% not resting, Gotrade mark only no send. Outcome FLAT 0 \u2014 \u20b11723 / $46.89, dayPnl 0, tradeCount 0. Sitting is not a P&L win or loss.",
         "Log Gotrade/stocks marks on Vision (Desk amend \u2014 jayr called out the miss)",
-        "Grade Predictions: BTC-WAIT hit\u2192expired; XRP-WAIT hit/in-zone unfilled; BNB/LINK scout miss"
+        "Grade Predictions: BTC-WAIT hit\u2192expired; XRP-WAIT hit/in-zone unfilled; BNB/LINK scout miss",
+        "Seed LT educational Gotrade watchlist on Vision (not armed)"
       ],
       "nextOpen": "Fri 2026-09-11 07:00 Manila am-scout. Still NO_TRADE \u2014 CPI 20:30 Manila today."
     }

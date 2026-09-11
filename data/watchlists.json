@@ -95,6 +95,19 @@
   ],
   "us": [
     {
+      "symbol": "VTI",
+      "name": "Vanguard Total Stock Market",
+      "assetClass": "etf",
+      "role": "benchmark",
+      "venues": [
+        "gotrade"
+      ],
+      "last": 0,
+      "currency": "USD",
+      "changePct": 0,
+      "thesis": "Optional ETF core / ballast (with SPY). Prefer over stacking 10 micro singles on ~$47. Educational — NOT a PLAN into CPI/FOMC."
+    },
+    {
       "symbol": "SPY",
       "name": "SPDR S&P 500",
       "assetClass": "etf",
@@ -105,7 +118,7 @@
       "last": 757.8,
       "currency": "USD",
       "changePct": -0.006243,
-      "thesis": "US beta benchmark. Not a default clip at $20–$25 — map only into CPI."
+      "thesis": "US beta benchmark + optional ETF ballast. Educational LT map. Still NO TRADE into CPI/FOMC."
     },
     {
       "symbol": "QQQ",
@@ -118,7 +131,7 @@
       "last": 708.7,
       "currency": "USD",
       "changePct": -0.009563,
-      "thesis": "Nasdaq benchmark. Same rule: no event-day ticket."
+      "thesis": "Nasdaq-100 duration risk into CPI. Map only. NOT a PLAN."
     },
     {
       "symbol": "VOO",
@@ -131,33 +144,20 @@
       "last": 696.43,
       "currency": "USD",
       "changePct": -0.006335,
-      "thesis": "Lower-fee S&P twin. Benchmark, not a CPI clip."
+      "thesis": "S&P 500 ballast twin to SPY. Educational. NOT a PLAN into CPI/FOMC."
     },
     {
       "symbol": "IWM",
       "name": "iShares Russell 2000",
       "assetClass": "etf",
-      "role": "satellite",
+      "role": "benchmark",
       "venues": [
         "gotrade"
       ],
       "last": 287.7,
       "currency": "USD",
       "changePct": -0.010941,
-      "thesis": "Small-cap beta. Too noisy into CPI/FOMC for this book."
-    },
-    {
-      "symbol": "AAPL",
-      "name": "Apple",
-      "assetClass": "equity",
-      "role": "satellite",
-      "venues": [
-        "gotrade"
-      ],
-      "last": 326.6,
-      "currency": "USD",
-      "changePct": 0.031902,
-      "thesis": "Megacap satellite. No earnings/CPI overlap clips."
+      "thesis": "Small-cap beta — often fades first on hike scare. Avoid into CPI print. NOT a PLAN."
     },
     {
       "symbol": "MSFT",
@@ -170,20 +170,20 @@
       "last": 492.4,
       "currency": "USD",
       "changePct": -0.002034,
-      "thesis": "Megacap satellite. Wait for post-FOMC structure."
+      "thesis": "LT educational #1 — Office/Azure/AI copilots; switching costs. Rich-fair vibe. Broadest beginner compounder. NOT a PLAN into CPI/FOMC."
     },
     {
-      "symbol": "NVDA",
-      "name": "NVIDIA",
+      "symbol": "V",
+      "name": "Visa",
       "assetClass": "equity",
       "role": "satellite",
       "venues": [
         "gotrade"
       ],
-      "last": 218.4,
+      "last": 0,
       "currency": "USD",
-      "changePct": -0.024679,
-      "thesis": "High-beta megacap. Respect fee-skip — a $20 clip is not a hero trade."
+      "changePct": 0,
+      "thesis": "LT educational #2 — payment rails (not a bank); network moat. Rich vibe. Purest tollbooth. NOT a PLAN."
     },
     {
       "symbol": "GOOGL",
@@ -196,7 +196,33 @@
       "last": 332.6,
       "currency": "USD",
       "changePct": 0.004022,
-      "thesis": "Megacap satellite. Event week = watch."
+      "thesis": "LT educational #3 — Search/YouTube/Cloud. Fair-vs-megas vibe. Ads+AI. NOT a PLAN into CPI/FOMC."
+    },
+    {
+      "symbol": "COST",
+      "name": "Costco",
+      "assetClass": "equity",
+      "role": "satellite",
+      "venues": [
+        "gotrade"
+      ],
+      "last": 0,
+      "currency": "USD",
+      "changePct": 0,
+      "thesis": "LT educational #4 — membership warehouse moat. Rich vibe. Simplest “I get this” store. NOT a PLAN."
+    },
+    {
+      "symbol": "BRK.B",
+      "name": "Berkshire Hathaway B",
+      "assetClass": "equity",
+      "role": "satellite",
+      "venues": [
+        "gotrade"
+      ],
+      "last": 0,
+      "currency": "USD",
+      "changePct": 0,
+      "thesis": "LT educational #5 — mini-portfolio / capital allocator. Fairer vibe. Ballast. NOT a PLAN."
     },
     {
       "symbol": "AMZN",
@@ -209,11 +235,50 @@
       "last": 251.9,
       "currency": "USD",
       "changePct": -0.002655,
-      "thesis": "Megacap satellite. Same rails as the rest of the US book."
+      "thesis": "LT educational #6 — retail+AWS+ads. Fair-rich vibe. CapEx fog. NOT a PLAN into CPI/FOMC."
+    },
+    {
+      "symbol": "AAPL",
+      "name": "Apple",
+      "assetClass": "equity",
+      "role": "satellite",
+      "venues": [
+        "gotrade"
+      ],
+      "last": 326.6,
+      "currency": "USD",
+      "changePct": 0.031902,
+      "thesis": "LT educational #7 — iPhone+services ecosystem. Rich vibe. Mature cycle risk. NOT a PLAN."
+    },
+    {
+      "symbol": "MA",
+      "name": "Mastercard",
+      "assetClass": "equity",
+      "role": "satellite",
+      "venues": [
+        "gotrade"
+      ],
+      "last": 0,
+      "currency": "USD",
+      "changePct": 0,
+      "thesis": "LT educational #8 — Visa twin. Rich vibe. Overlaps V (diversification haircut). NOT a PLAN."
+    },
+    {
+      "symbol": "NVDA",
+      "name": "NVIDIA",
+      "assetClass": "equity",
+      "role": "satellite",
+      "venues": [
+        "gotrade"
+      ],
+      "last": 218.4,
+      "currency": "USD",
+      "changePct": -0.024679,
+      "thesis": "LT educational #9 — AI compute/CUDA. Rich vibe. Must-own business, not beginner #1. NOT a PLAN into CPI/FOMC."
     },
     {
       "symbol": "META",
-      "name": "Meta",
+      "name": "Meta Platforms",
       "assetClass": "equity",
       "role": "satellite",
       "venues": [
@@ -222,7 +287,7 @@
       "last": 644.4,
       "currency": "USD",
       "changePct": -0.013921,
-      "thesis": "High-beta megacap. Not a CPI print trade at $15–$25."
+      "thesis": "LT educational #10 — social ads. Fair-rich vibe. CapEx/reg fog. NOT a PLAN."
     },
     {
       "symbol": "TSLA",
@@ -235,7 +300,7 @@
       "last": 363.6,
       "currency": "USD",
       "changePct": -0.004364,
-      "thesis": "Volatility satellite. Easy to violate −3% mentally. Watch, don't chase."
+      "thesis": "NOT LT core — narrative/robotaxi premium, contested moat. Satellite only. NOT a PLAN into CPI/FOMC."
     }
   ]
 }
