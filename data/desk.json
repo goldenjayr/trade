@@ -2,7 +2,7 @@
   "asOf": "2026-09-11",
   "timezone": "Asia/Manila",
   "stance": "IN_TRADE",
-  "stanceReason": "Gotrade LT starter QUEUED for US open: MSFT ~$20 (0.0405 @ 491.32) + GOOGL ~$26.89 (0.0806 @ 332.45), pending $46.89 cash. One-time max-1 exception (explicit dual LT). Coins still FLAT / NO TRADE into CPI 20:30 Manila.",
+  "stanceReason": "Coins ETH FILL 0.01105 @ $2451.93 (~$27 USDT) — explicit CPI override. Stop-Market RESTING $2378.37; Limit TP RESTING $2599.04 (no OCO — cancel sibling after either exit). Gotrade LT starter still QUEUED (MSFT+GOOGL). Override ≠ new default.",
   "primaries": [
     "BTC",
     "XRP"
@@ -12,11 +12,22 @@
       "venue": "coins",
       "label": "Coins.ph",
       "currency": "PHP",
-      "cash": 1723,
-      "equity": 1723,
+      "cash": 147.49,
+      "equity": 174.5838,
       "dayPnl": 0,
       "totalPnl": 0,
-      "positions": []
+      "positions": [
+        {
+          "symbol": "ETH",
+          "name": "Ethereum",
+          "qty": 0.01105,
+          "avgCost": 2451.93,
+          "mark": 2451.93,
+          "marketValue": 27.0938,
+          "pnl": 0,
+          "pnlPct": 0
+        }
+      ]
     },
     "gotrade": {
       "venue": "gotrade",

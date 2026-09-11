@@ -70,6 +70,19 @@
     "notes": "SKIP-20260910-GOTRADE. No JR- live ticket. No Gotrade send. Stop not resting. +6% not applicable. 23:00 Gotrade yes = mark only."
   },
   {
+    "id": "FILL-20260911-ETH",
+    "date": "2026-09-11",
+    "venue": "coins",
+    "symbol": "ETH",
+    "side": "buy",
+    "qty": 0.01105,
+    "price": 2451.93,
+    "fees": 0,
+    "notional": 27.09,
+    "skipped": false,
+    "notes": "FILL ETH-CPI-OVERRIDE. Stop-Market RESTING $2378.37 (−3%). Limit TP RESTING $2599.04 (+6%). No OCO — cancel other after either exit. Override ≠ new default."
+  },
+  {
     "id": "QUEUE-20260911-GOOGL",
     "date": "2026-09-11",
     "venue": "gotrade",

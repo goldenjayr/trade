@@ -138,6 +138,30 @@
       "role": "primary"
     },
     {
+      "id": "eth-cpi-override-2026-09-11",
+      "dateOpened": "2026-09-11",
+      "symbol": "ETH",
+      "venue": "coins",
+      "thesis": "Explicit CPI override fill — not the desk A+ call (conv ≤3 / NO BUY into print). Entry $2451.93 · SM $2378.37 · TP $2599.04. Score as open override.",
+      "direction": "breakout",
+      "entryZone": {
+        "low": 2451.93,
+        "high": 2451.93
+      },
+      "target": {
+        "t1": 2599.04
+      },
+      "invalidation": "Stop-Market $2378.37 (−3%) resting; override ≠ new default for future binaries",
+      "invalidationPrice": 2378.37,
+      "conviction": 3,
+      "horizon": "event",
+      "status": "hit_entry",
+      "resolvedAt": "2026-09-11",
+      "outcomeNote": "FILLED — live IN_TRADE. ETH-CPI-OVERRIDE. Stop + TP resting. Cancel sibling after either exit.",
+      "source": "desk",
+      "role": "primary"
+    },
+    {
       "id": "xrp-post-cpi-wait-2026-09-11",
       "dateOpened": "2026-09-11",
       "symbol": "XRP",
