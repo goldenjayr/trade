@@ -1,8 +1,8 @@
 {
-  "asOf": "2026-09-10",
+  "asOf": "2026-09-11",
   "timezone": "Asia/Manila",
   "stance": "NO_TRADE",
-  "stanceReason": "PPI printed 20:30 Manila (Aug headline +0.4% m/m in line, +5.4% y/y vs ~5.3% est; core +0.2% m/m slightly soft; energy +4.2%). CPI Fri 11 20:30 Manila → FOMC Sep 15–16 still the kill. 23:00 Yahoo BTC-USD $77,299.66 below wait $78–78.8k (session L $76,731.84 through inv ~$77,200). Sit/tag ≠ hold. No new wait. XRP Yahoo $1.3579 inside $1.33–1.36 — watch, not a clip. Stance NO_TRADE is the kill. No PLAN. No broker send.",
+  "stanceReason": "CPI TODAY 20:30 Manila → FOMC Sep 15–16. 07:00 Coinbase BTC-USD last $76,832.97 below wait $78–78.8k (stats L $76,630.13; still through inv ~$77,200). Sit/tag ≠ hold. No new wait. XRP Coinbase $1.3431 inside $1.33–1.36 — watch, not a clip. Stance NO_TRADE is the kill. No PLAN. No broker send.",
   "primaries": [
     "BTC",
     "XRP"
@@ -46,7 +46,7 @@
       "title": "US August CPI",
       "impact": "high",
       "status": "upcoming",
-      "notes": "Kill window. Tomorrow. Flatten any open Coins before print if no fresh edge."
+      "notes": "Kill window. TODAY 20:30 Manila. Flatten any open Coins before print if no fresh edge. Books already FLAT."
     },
     {
       "id": "fomc-2026-09-15",

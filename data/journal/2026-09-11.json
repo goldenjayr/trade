@@ -1,0 +1,90 @@
+{
+  "date": "2026-09-11",
+  "stance": "NO_TRADE",
+  "headline": "Fri 07:00 Manila am-scout. CPI today 20:30. BTC further below wait. XRP in-zone watch. No PLAN.",
+  "scout": {
+    "headline": "NO_TRADE. 07:00 Manila — Coinbase BTC $76.8k below wait / through inv; CPI today. US cash closed. Not a hunt.",
+    "bullets": [
+      "Coinbase 07:00 Manila: BTC-USD last $76,832.97 (spot $76,840.18; stats open $78,283.98 / H $78,554.18 / L $76,630.13). Binance BTCUSDT $76,867.58 (−1.411%, H $78,564.39 / L $76,676.07). Kraken reset — unused. Second source confirms below wait.",
+      "Coinbase XRP-USD last $1.3431 (spot $1.3431; stats open $1.3946 / H $1.3963 / L $1.3419). Binance XRPUSDT $1.3443 (−3.016%, H $1.3966 / L $1.3421).",
+      "Coinbase ETH-USD $2,445.83 (stats last $2,444.31 / H $2,483.81 / L $2,404.26) · SOL-USD $99.28 (stats last $99.24 / H $102.18 / L $98.38) · 07:00 Manila",
+      "Coinbase BNB-USD $711.83 · Binance BNBUSDT $712.18 (−1.034%, H $726.36 / L $703.62) — below soft scout $728–737",
+      "Coinbase LINK-USD $11.5265 (stats last $11.523 / H $11.891 / L $11.491) · Binance LINKUSDT $11.539 (−1.427%) — below soft scout $12.50–12.65",
+      "Coinbase SUI-USD $0.7323 · Binance SUIUSDT $0.7326 (−4.310%, H $0.7733 / L $0.7308) · 07:00 Manila — NONE into CPI.",
+      "BTC vs wait $78,000–78,800: BELOW. Coinbase last $76,832.97. 03:00 was ~$77.2k. Session L Coinbase $76,630.13 / Binance $76,676.07 still through inv ~$77,200. Slip is not a hold. Wick through inv ≠ new wait. Not a buy-the-dip.",
+      "XRP vs wait $1.33–1.36: IN ZONE at ~$1.343 (near floor). Binance 24h L $1.3421 still in/near the band. Sit ≠ clean hold. Do not chase into CPI.",
+      "Gotrade: skip — 07:00 Manila ≈ 19:00 ET; US regular hours closed. Prior-session US marks stay 03:00 Yahoo (SPY $757.64 −0.62%). Mark only, not a name.",
+      "PPI Thu 20:30 Manila DONE. CPI Fri 11 20:30 Manila is TODAY (~13.5h). FOMC Sep 15–16. Cash is the position."
+    ],
+    "sources": [
+      "Coinbase Exchange products stats+ticker BTC-USD ETH-USD SOL-USD XRP-USD LINK-USD + v2 spot BNB-USD SUI-USD 2026-09-11 07:00 Asia/Manila (~19:00 ET Thu 10)",
+      "Binance 24hr ticker BTCUSDT ETHUSDT SOLUSDT XRPUSDT BNBUSDT LINKUSDT SUIUSDT 07:00 Manila",
+      "Kraken public Ticker — connection reset, unused this tick",
+      "BLS CPI Home: Aug CPI scheduled Fri 2026-09-11 08:30 ET (20:30 Manila) — TODAY",
+      "data/desk.json asOf 2026-09-11 NO_TRADE; books carried ₱1723 / $46.89; waits from journal 2026-09-11 (not invented)"
+    ]
+  },
+  "analyst": {
+    "thesis": "No clip. CPI in ~17.5h. Yahoo BTC $77,176.19 is below the $78–78.8k wait. Session L through ~$77,200 is a tag, not a new map and not a buy-the-dip. From $77,176 −3% (~$74,861) is further through inv; +6% (~$81,807) is a chase into CPI. Not 2R after fees. XRP $1.3543 is inside $1.33–1.36 — sit, not a hold into the print. Keep seeded waits until Analyst grades post-CPI. Do not invent a new wait. LINK/BNB/SUI map-only. Gotrade: Thu tape is not a $20–25 ticket into CPI.",
+    "levels": [
+      {
+        "symbol": "BTC",
+        "support": 78000,
+        "resistance": 80000,
+        "invalidation": "Lose ~$77,200, or market-buy into CPI. Wick through inv ≠ fill and ≠ new wait.",
+        "note": "Primary wait $78.0–78.8k. 03:00 Manila Yahoo $77,176.19 BELOW wait. Session L Yahoo $76,731.84 / Binance $76,676.07 through inv ~$77,200. Last ~$77.2k. Zones not revised by cron."
+      },
+      {
+        "symbol": "XRP",
+        "support": 1.33,
+        "resistance": 1.45,
+        "invalidation": "Forcing a scalp at $1.35 into CPI",
+        "note": "Primary wait $1.33–1.36; 03:00 Yahoo $1.3543 IN ZONE. Binance L $1.3421. Sit ≠ hold."
+      },
+      {
+        "symbol": "BNB",
+        "support": 728,
+        "note": "Soft scout $728–737. 03:00 Yahoo $713.86 below scout — still not a Coins PLAN into CPI."
+      },
+      {
+        "symbol": "LINK",
+        "support": 12.5,
+        "note": "Soft scout $12.50–12.65. 03:00 Yahoo $11.66 still below scout — not a Coins PLAN into CPI."
+      },
+      {
+        "symbol": "SUI",
+        "note": "NONE into CPI. 03:00 Binance SUIUSDT $0.7406."
+      }
+    ],
+    "notes": "Conviction at spot 2/10. Zones not revised. Cash above floors but permission is stance/Risk — map only. First Coins clip remains BTC or XRP after the event cluster if structure is clean with Risk PASS. Breakdown ≠ buy. Chase invalidation: market-buy here into CPI."
+  },
+  "risk": {
+    "railsCheck": "Cash on books ₱1723 / $46.89 — above floors (₱800 / $15) but permission denied. BTC below wait / L through inv is not a clip. Event risk (CPI TODAY 20:30 Manila). Stance NO_TRADE is the kill. Pair-level 0/0 on Coins BTC/PHP is a rails warning, not a FLAT proof. No PLAN: stance is not ARMED; no clean hold.",
+    "sizeNote": "Do not downsize below ₱800 / $15. Size available is irrelevant under NO_TRADE. No clip sized. Cron does not send.",
+    "kills": [
+      "PPI Thu 20:30 Manila — PRINTED (done). Not permission.",
+      "CPI Fri 20:30 Manila — TODAY. Kill window.",
+      "FOMC Sep 15–16 until digested",
+      "No wick-as-fill — BTC L through inv is not a buy-the-dip",
+      "No invented wait after a breakdown",
+      "No PLAN into CPI/FOMC",
+      "No second writer racing Grok Bot on the same Coins ticket",
+      "Stance NO_TRADE"
+    ],
+    "feeSkip": "Coins: skip if fees >0.8% notional or clip <₱800. Gotrade: prefer $20–25; skip commission+spread >1% of $15."
+  },
+  "desk": {
+    "decision": "NO TRADE. 03:00 Fri. BUY? NO. Risk FAIL. Do not send Coins/Gotrade. Cash is the position through CPI→FOMC unless jayr types approve JR-… on a Risk PASS after events. Stance: NO_TRADE.",
+    "actions": [
+      "03:00 Manila: both books marked cash-only ₱1723 / $46.89. No broker. No fill.",
+      "Gotrade this tick: YES (weekday, US cash ~15:00 ET Thu 10) — mark only, no ticket.",
+      "Coins: limit not resting / not filled / not cancelled (no send). Protective sell: stop not resting. +6% limit not resting.",
+      "SKIP-20260911-COINS / SKIP-20260911-GOTRADE opened.",
+      "Watchlist marks refreshed from Yahoo v8 (crypto+US) + Binance SUI 03:00 Manila.",
+      "CPI today 20:30 Manila. No hunt into the print.",
+      "BUY? NO on BTC XRP ETH SOL BNB LINK SUI SPY QQQ VOO IWM AAPL MSFT NVDA GOOGL AMZN META TSLA.",
+      "Journal process vs outcome (03:03 Manila): Process PASS — NO_TRADE kill, BTC Yahoo $77,176 below wait / session L through inv ~$77,200 is not a dip buy, XRP $1.3543 in $1.33–1.36 is a watch not a hold, Risk FAIL skips SKIP-20260911-COINS / SKIP-20260911-GOTRADE, no JR- live ticket, Coins limit not resting / not filled / not cancelled, stop not resting, +6% not resting, Gotrade mark only no send. Outcome FLAT 0 — ₱1723 / $46.89, dayPnl 0, tradeCount 0. Sitting is not a P&L win or loss."
+    ],
+    "nextOpen": "Fri 2026-09-11 07:00 Manila am-scout. Still NO_TRADE — CPI 20:30 Manila today."
+  }
+}

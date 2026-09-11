@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-10",
+  "asOf": "2026-09-11",
   "crypto": [
     {
       "symbol": "BTC",
@@ -9,9 +9,9 @@
       "venues": [
         "coins"
       ],
-      "last": 77299.66,
+      "last": 76832.97,
       "currency": "USD",
-      "changePct": -0.01267,
+      "changePct": -0.018535,
       "thesis": "Core crypto primary. First Coins clip after FOMC if structure is clean — not into CPI."
     },
     {
@@ -22,9 +22,9 @@
       "venues": [
         "coins"
       ],
-      "last": 2440.17,
+      "last": 2445.83,
       "currency": "USD",
-      "changePct": -0.011204,
+      "changePct": -0.008786,
       "thesis": "Beta to BTC. No clip until BTC primary is working."
     },
     {
@@ -35,9 +35,9 @@
       "venues": [
         "coins"
       ],
-      "last": 100.01,
+      "last": 99.28,
       "currency": "USD",
-      "changePct": -0.015846,
+      "changePct": -0.014982,
       "thesis": "High-beta satellite. Size only after BTC/XRP permission, never as a CPI scalp."
     },
     {
@@ -48,9 +48,9 @@
       "venues": [
         "coins"
       ],
-      "last": 1.3579,
+      "last": 1.3431,
       "currency": "USD",
-      "changePct": -0.026329,
+      "changePct": -0.036928,
       "thesis": "Alt primary vs SOL/SUI. Preferred first Coins risk-on after the event cluster."
     },
     {
@@ -61,9 +61,9 @@
       "venues": [
         "coins"
       ],
-      "last": 708.84,
+      "last": 711.83,
       "currency": "USD",
-      "changePct": -0.019257,
+      "changePct": -0.01034,
       "thesis": "Venue-adjacent satellite. Not a CPI trade."
     },
     {
@@ -74,9 +74,9 @@
       "venues": [
         "coins"
       ],
-      "last": 11.64,
+      "last": 11.5265,
       "currency": "USD",
-      "changePct": -0.013907,
+      "changePct": -0.022847,
       "thesis": "Satellite. Needs a clean BTC tape before a clip."
     },
     {
@@ -87,9 +87,9 @@
       "venues": [
         "coins"
       ],
-      "last": 0.7444,
+      "last": 0.7323,
       "currency": "USD",
-      "changePct": -0.08303,
+      "changePct": -0.0431,
       "thesis": "High-beta satellite. Do not let relative strength talk you into a CPI ticket."
     }
   ],
@@ -102,9 +102,9 @@
       "venues": [
         "gotrade"
       ],
-      "last": 758.89,
+      "last": 757.64,
       "currency": "USD",
-      "changePct": -0.004604,
+      "changePct": -0.006243,
       "thesis": "US beta benchmark. Not a default clip at $20–$25 — map only into CPI."
     },
     {
@@ -115,9 +115,9 @@
       "venues": [
         "gotrade"
       ],
-      "last": 711.165,
+      "last": 709.46,
       "currency": "USD",
-      "changePct": -0.007183,
+      "changePct": -0.009563,
       "thesis": "Nasdaq benchmark. Same rule: no event-day ticket."
     },
     {
@@ -128,9 +128,9 @@
       "venues": [
         "gotrade"
       ],
-      "last": 697.655,
+      "last": 696.43,
       "currency": "USD",
-      "changePct": -0.004587,
+      "changePct": -0.006335,
       "thesis": "Lower-fee S&P twin. Benchmark, not a CPI clip."
     },
     {
@@ -141,9 +141,9 @@
       "venues": [
         "gotrade"
       ],
-      "last": 288.73,
+      "last": 287.46,
       "currency": "USD",
-      "changePct": -0.006572,
+      "changePct": -0.010941,
       "thesis": "Small-cap beta. Too noisy into CPI/FOMC for this book."
     },
     {
@@ -154,9 +154,9 @@
       "venues": [
         "gotrade"
       ],
-      "last": 322.96,
+      "last": 325.4,
       "currency": "USD",
-      "changePct": 0.024164,
+      "changePct": 0.031902,
       "thesis": "Megacap satellite. No earnings/CPI overlap clips."
     },
     {
@@ -167,9 +167,9 @@
       "venues": [
         "gotrade"
       ],
-      "last": 492.28,
+      "last": 490.65,
       "currency": "USD",
-      "changePct": 0.001281,
+      "changePct": -0.002034,
       "thesis": "Megacap satellite. Wait for post-FOMC structure."
     },
     {
@@ -180,9 +180,9 @@
       "venues": [
         "gotrade"
       ],
-      "last": 218.03,
+      "last": 218.15,
       "currency": "USD",
-      "changePct": -0.025216,
+      "changePct": -0.024679,
       "thesis": "High-beta megacap. Respect fee-skip — a $20 clip is not a hero trade."
     },
     {
@@ -193,9 +193,9 @@
       "venues": [
         "gotrade"
       ],
-      "last": 331.125,
+      "last": 331.98,
       "currency": "USD",
-      "changePct": 0.001437,
+      "changePct": 0.004022,
       "thesis": "Megacap satellite. Event week = watch."
     },
     {
@@ -206,9 +206,9 @@
       "venues": [
         "gotrade"
       ],
-      "last": 252.57,
+      "last": 251.73,
       "currency": "USD",
-      "changePct": 0.000674,
+      "changePct": -0.002655,
       "thesis": "Megacap satellite. Same rails as the rest of the US book."
     },
     {
@@ -219,9 +219,9 @@
       "venues": [
         "gotrade"
       ],
-      "last": 658.19,
+      "last": 644.59,
       "currency": "USD",
-      "changePct": 0.006884,
+      "changePct": -0.013921,
       "thesis": "High-beta megacap. Not a CPI print trade at $15–$25."
     },
     {
@@ -232,9 +232,9 @@
       "venues": [
         "gotrade"
       ],
-      "last": 366.777,
+      "last": 366.205,
       "currency": "USD",
-      "changePct": -0.002809,
+      "changePct": -0.004364,
       "thesis": "Volatility satellite. Easy to violate −3% mentally. Watch, don't chase."
     }
   ]
