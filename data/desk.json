@@ -1,8 +1,8 @@
 {
   "asOf": "2026-09-11",
   "timezone": "Asia/Manila",
-  "stance": "NO_TRADE",
-  "stanceReason": "CPI Aug print 20:30 Manila tonight; FOMC Sep 15–16 next. Both books NO_TRADE: Coins flat (old BTC wait broken); Gotrade ~$47 parked — no PLAN into print. Remap levels after.",
+  "stance": "IN_TRADE",
+  "stanceReason": "Gotrade LT starter QUEUED for US open: MSFT ~$20 (0.0405 @ 491.32) + GOOGL ~$26.89 (0.0806 @ 332.45), pending $46.89 cash. One-time max-1 exception (explicit dual LT). Coins still FLAT / NO TRADE into CPI 20:30 Manila.",
   "primaries": [
     "BTC",
     "XRP"

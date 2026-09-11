@@ -1,7 +1,7 @@
 {
   "date": "2026-09-11",
-  "stance": "NO_TRADE",
-  "headline": "Fri 07:00 Manila am-scout. CPI today 20:30. BTC further below wait. XRP in-zone watch. No PLAN.",
+  "stance": "IN_TRADE",
+  "headline": "Gotrade LT starter queued for open (MSFT+GOOGL). Coins still flat into CPI print.",
   "scout": {
     "headline": "NO_TRADE. 07:00 Manila — Coinbase BTC $76.8k below wait / through inv; CPI today. US cash closed. Not a hunt.",
     "bullets": [
@@ -62,10 +62,10 @@
         "note": "Benchmark only. No Gotrade clip into CPI at tiny ~$47 book / $15–$25 size."
       }
     ],
-    "notes": "Conviction at spot 2/10. Zones not revised. Cash above floors but permission is stance/Risk — map only. First Coins clip remains BTC or XRP after the event cluster if structure is clean with Risk PASS. Breakdown ≠ buy. Chase invalidation: market-buy here into CPI. Gotrade section amended: stocks/ETFs marked; still NO TRADE both books into CPI."
+    "notes": "Conviction at spot 2/10. Zones not revised. Cash above floors but permission is stance/Risk — map only. First Coins clip remains BTC or XRP after the event cluster if structure is clean with Risk PASS. Breakdown ≠ buy. Chase invalidation: market-buy here into CPI. Gotrade section amended: stocks/ETFs marked; still NO TRADE both books into CPI. Gotrade MSFT+GOOGL = multi-year starters from LT list, not scored CPI calls."
   },
   "risk": {
-    "railsCheck": "Cash on books ₱1723 / $46.89 — above floors (₱800 / $15) but permission denied. BTC below wait / L through inv is not a clip. Event risk (CPI TODAY 20:30 Manila). Stance NO_TRADE is the kill. Pair-level 0/0 on Coins BTC/PHP is a rails warning, not a FLAT proof. No PLAN: stance is not ARMED; no clean hold. Gotrade ~$47 parked — size available on paper, permission denied into CPI print.",
+    "railsCheck": "One-time max-1 exception for explicit MSFT+GOOGL LT starter (~$47 full). Not a greenlight for multi short-horizon PLANs. Coins rails unchanged — flat into CPI.",
     "sizeNote": "Do not downsize below ₱800 / $15. Size available is irrelevant under NO_TRADE. No clip sized. Cron does not send.",
     "kills": [
       "PPI Thu 20:30 Manila — PRINTED (done). Not permission.",
@@ -81,7 +81,7 @@
     "feeSkip": "Coins: skip if fees >0.8% notional or clip <₱800. Gotrade: prefer $20–25; skip commission+spread >1% of $15."
   },
   "desk": {
-    "decision": "NO TRADE both books. Coins flat; Gotrade ~$47 parked. CPI 20:30 Manila — no PLAN into the print. US marks logged (SPY/QQQ/IWM + megacaps). Remap after CPI/FOMC.",
+    "decision": "Gotrade: MSFT ~$20 + GOOGL ~$26.89 QUEUED for US open (pending $46.89). IN_TRADE/pending — not a CPI trade. Coins: still NO TRADE into 20:30 Manila print.",
     "actions": [
       "03:00 Manila: both books marked cash-only ₱1723 / $46.89. No broker. No fill.",
       "Gotrade this tick: YES (weekday, US cash ~15:00 ET Thu 10) — mark only, no ticket.",
@@ -93,8 +93,11 @@
       "Journal process vs outcome (03:03 Manila): Process PASS — NO_TRADE kill, BTC Yahoo $77,176 below wait / session L through inv ~$77,200 is not a dip buy, XRP $1.3543 in $1.33–1.36 is a watch not a hold, Risk FAIL skips SKIP-20260911-COINS / SKIP-20260911-GOTRADE, no JR- live ticket, Coins limit not resting / not filled / not cancelled, stop not resting, +6% not resting, Gotrade mark only no send. Outcome FLAT 0 — ₱1723 / $46.89, dayPnl 0, tradeCount 0. Sitting is not a P&L win or loss.",
       "Log Gotrade/stocks marks on Vision (Desk amend — jayr called out the miss)",
       "Grade Predictions: BTC-WAIT hit→expired; XRP-WAIT hit/in-zone unfilled; BNB/LINK scout miss",
-      "Seed LT educational Gotrade watchlist on Vision (not armed)"
+      "Seed LT educational Gotrade watchlist on Vision (not armed)",
+      "Mark Vision Gotrade IN_TRADE/pending for MSFT+GOOGL queue",
+      "Journal will flip queued→fill at open",
+      "Coins remain flat into CPI"
     ],
-    "nextOpen": "Fri 2026-09-11 07:00 Manila am-scout. Still NO_TRADE — CPI 20:30 Manila today."
+    "nextOpen": "Confirm Gotrade fills at US open; then manage as multi-year holds. Coins: reassess only post-CPI A+ (zone print ≠ fill into binary)."
   }
 }

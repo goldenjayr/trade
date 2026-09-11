@@ -81,8 +81,8 @@
   },
   {
     "date": "2026-09-11",
-    "stance": "NO_TRADE",
-    "summary": "07:00 Manila am-scout (4-hour grid). US cash closed (≈19:00 ET Thu 10). Crypto only. Books carried ₱1723 / $46.89 FLAT — cron did not read wallets. Desk FX usdphp 58.15 carried. Kraken ticker reset — unused. Hermes did not send. Grok Bot Trade Desk is a sibling — no race. SKIP-20260911-COINS / SKIP-20260911-GOTRADE still skip. CPI is today 20:30 Manila (~13.5h). 03:00 process PASS / outcome FLAT 0 carried. | Amend: Gotrade/stocks section filled — SPY 757.8 QQQ 708.7 IWM 287.7 AAPL 326.6 MSFT 492.4 NVDA 218.4 GOOGL 332.6 AMZN 251.9 META 644.4 TSLA 363.6; still NO_TRADE both books into CPI. | Predictions graded CPI-morning: BTC-WAIT expired after hit; XRP-WAIT hit_entry unfilled; BNB/LINK invalidated. | Seeded educational LT US watchlist (MSFT→META; TSLA satellite; VTI/SPY ballast). NOT PLANs; still flat into CPI/FOMC.",
+    "stance": "IN_TRADE",
+    "summary": "07:00 Manila am-scout (4-hour grid). US cash closed (≈19:00 ET Thu 10). Crypto only. Books carried ₱1723 / $46.89 FLAT — cron did not read wallets. Desk FX usdphp 58.15 carried. Kraken ticker reset — unused. Hermes did not send. Grok Bot Trade Desk is a sibling — no race. SKIP-20260911-COINS / SKIP-20260911-GOTRADE still skip. CPI is today 20:30 Manila (~13.5h). 03:00 process PASS / outcome FLAT 0 carried. | Amend: Gotrade/stocks section filled — SPY 757.8 QQQ 708.7 IWM 287.7 AAPL 326.6 MSFT 492.4 NVDA 218.4 GOOGL 332.6 AMZN 251.9 META 644.4 TSLA 363.6; still NO_TRADE both books into CPI. | Predictions graded CPI-morning: BTC-WAIT expired after hit; XRP-WAIT hit_entry unfilled; BNB/LINK invalidated. | Seeded educational LT US watchlist (MSFT→META; TSLA satellite; VTI/SPY ballast). NOT PLANs; still flat into CPI/FOMC. | Gotrade LT starter QUEUED: MSFT ~$20 + GOOGL ~$26.89 (pending $46.89). Stance IN_TRADE/pending. Coins flat into CPI.",
     "tradeCount": 0,
     "coinsEquity": 1723,
     "gotradeEquity": 46.89

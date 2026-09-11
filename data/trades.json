@@ -70,6 +70,34 @@
     "notes": "SKIP-20260910-GOTRADE. No JR- live ticket. No Gotrade send. Stop not resting. +6% not applicable. 23:00 Gotrade yes = mark only."
   },
   {
+    "id": "QUEUE-20260911-GOOGL",
+    "date": "2026-09-11",
+    "venue": "gotrade",
+    "symbol": "GOOGL",
+    "side": "buy",
+    "qty": 0.0806,
+    "price": 332.45,
+    "fees": 0,
+    "notional": 26.89,
+    "skipped": true,
+    "skipReason": "QUEUED for US open — pending fill. LT educational starter (~$26.89). Not filled yet.",
+    "notes": "QUEUE→FILL. LT #3 GOOGL. Dual starter with MSFT uses full ~$46.89. Coins still flat into CPI."
+  },
+  {
+    "id": "QUEUE-20260911-MSFT",
+    "date": "2026-09-11",
+    "venue": "gotrade",
+    "symbol": "MSFT",
+    "side": "buy",
+    "qty": 0.0405,
+    "price": 491.32,
+    "fees": 0,
+    "notional": 20,
+    "skipped": true,
+    "skipReason": "QUEUED for US open — pending fill. LT educational starter (~$20). Not filled yet.",
+    "notes": "QUEUE→FILL. LT #1 MSFT. One-time max-1 exception with GOOGL. Stop/TP N/A (multi-year hold). Coins still flat into CPI."
+  },
+  {
     "id": "SKIP-20260911-COINS",
     "date": "2026-09-11",
     "venue": "coins",

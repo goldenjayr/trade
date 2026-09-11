@@ -1,13 +1,13 @@
 {
   "date": "2026-09-11",
-  "stance": "NO_TRADE",
-  "stanceReason": "CPI Aug print 20:30 Manila tonight; FOMC Sep 15\u201316 next. Both books NO_TRADE: Coins flat (old BTC wait broken); Gotrade ~$47 parked \u2014 no PLAN into print. Remap levels after.",
+  "stance": "IN_TRADE",
+  "stanceReason": "Gotrade LT starter QUEUED for US open: MSFT ~$20 (0.0405 @ 491.32) + GOOGL ~$26.89 (0.0806 @ 332.45), pending $46.89 cash. One-time max-1 exception (explicit dual LT). Coins still FLAT / NO TRADE into CPI 20:30 Manila.",
   "primaries": [
     "BTC",
     "XRP"
   ],
   "usdphp": 58.15,
-  "notes": "07:00 Manila am-scout (4-hour grid). US cash closed (\u224819:00 ET Thu 10). Crypto only. Books carried \u20b11723 / $46.89 FLAT \u2014 cron did not read wallets. Desk FX usdphp 58.15 carried. Kraken ticker reset \u2014 unused. Hermes did not send. Grok Bot Trade Desk is a sibling \u2014 no race. SKIP-20260911-COINS / SKIP-20260911-GOTRADE still skip. CPI is today 20:30 Manila (~13.5h). 03:00 process PASS / outcome FLAT 0 carried. | Amend: Gotrade/stocks section filled \u2014 SPY 757.8 QQQ 708.7 IWM 287.7 AAPL 326.6 MSFT 492.4 NVDA 218.4 GOOGL 332.6 AMZN 251.9 META 644.4 TSLA 363.6; still NO_TRADE both books into CPI. | Predictions graded CPI-morning: BTC-WAIT expired after hit; XRP-WAIT hit_entry unfilled; BNB/LINK invalidated. | Seeded educational LT US watchlist (MSFT\u2192META; TSLA satellite; VTI/SPY ballast). NOT PLANs; still flat into CPI/FOMC.",
+  "notes": "07:00 Manila am-scout (4-hour grid). US cash closed (\u224819:00 ET Thu 10). Crypto only. Books carried \u20b11723 / $46.89 FLAT \u2014 cron did not read wallets. Desk FX usdphp 58.15 carried. Kraken ticker reset \u2014 unused. Hermes did not send. Grok Bot Trade Desk is a sibling \u2014 no race. SKIP-20260911-COINS / SKIP-20260911-GOTRADE still skip. CPI is today 20:30 Manila (~13.5h). 03:00 process PASS / outcome FLAT 0 carried. | Amend: Gotrade/stocks section filled \u2014 SPY 757.8 QQQ 708.7 IWM 287.7 AAPL 326.6 MSFT 492.4 NVDA 218.4 GOOGL 332.6 AMZN 251.9 META 644.4 TSLA 363.6; still NO_TRADE both books into CPI. | Predictions graded CPI-morning: BTC-WAIT expired after hit; XRP-WAIT hit_entry unfilled; BNB/LINK invalidated. | Seeded educational LT US watchlist (MSFT\u2192META; TSLA satellite; VTI/SPY ballast). NOT PLANs; still flat into CPI/FOMC. | Gotrade LT starter QUEUED: MSFT ~$20 + GOOGL ~$26.89 (pending $46.89). Stance IN_TRADE/pending. Coins flat into CPI.",
   "books": {
     "coins": {
       "venue": "coins",
@@ -28,8 +28,8 @@
   },
   "journal": {
     "date": "2026-09-11",
-    "stance": "NO_TRADE",
-    "headline": "Fri 07:00 Manila am-scout. CPI today 20:30. BTC further below wait. XRP in-zone watch. No PLAN.",
+    "stance": "IN_TRADE",
+    "headline": "Gotrade LT starter queued for open (MSFT+GOOGL). Coins still flat into CPI print.",
     "scout": {
       "headline": "NO_TRADE. 07:00 Manila \u2014 Coinbase BTC $76.8k below wait / through inv; CPI today. US cash closed. Not a hunt.",
       "bullets": [
@@ -90,10 +90,10 @@
           "note": "Benchmark only. No Gotrade clip into CPI at tiny ~$47 book / $15\u2013$25 size."
         }
       ],
-      "notes": "Conviction at spot 2/10. Zones not revised. Cash above floors but permission is stance/Risk \u2014 map only. First Coins clip remains BTC or XRP after the event cluster if structure is clean with Risk PASS. Breakdown \u2260 buy. Chase invalidation: market-buy here into CPI. Gotrade section amended: stocks/ETFs marked; still NO TRADE both books into CPI."
+      "notes": "Conviction at spot 2/10. Zones not revised. Cash above floors but permission is stance/Risk \u2014 map only. First Coins clip remains BTC or XRP after the event cluster if structure is clean with Risk PASS. Breakdown \u2260 buy. Chase invalidation: market-buy here into CPI. Gotrade section amended: stocks/ETFs marked; still NO TRADE both books into CPI. Gotrade MSFT+GOOGL = multi-year starters from LT list, not scored CPI calls."
     },
     "risk": {
-      "railsCheck": "Cash on books \u20b11723 / $46.89 \u2014 above floors (\u20b1800 / $15) but permission denied. BTC below wait / L through inv is not a clip. Event risk (CPI TODAY 20:30 Manila). Stance NO_TRADE is the kill. Pair-level 0/0 on Coins BTC/PHP is a rails warning, not a FLAT proof. No PLAN: stance is not ARMED; no clean hold. Gotrade ~$47 parked \u2014 size available on paper, permission denied into CPI print.",
+      "railsCheck": "One-time max-1 exception for explicit MSFT+GOOGL LT starter (~$47 full). Not a greenlight for multi short-horizon PLANs. Coins rails unchanged \u2014 flat into CPI.",
       "sizeNote": "Do not downsize below \u20b1800 / $15. Size available is irrelevant under NO_TRADE. No clip sized. Cron does not send.",
       "kills": [
         "PPI Thu 20:30 Manila \u2014 PRINTED (done). Not permission.",
@@ -109,7 +109,7 @@
       "feeSkip": "Coins: skip if fees >0.8% notional or clip <\u20b1800. Gotrade: prefer $20\u201325; skip commission+spread >1% of $15."
     },
     "desk": {
-      "decision": "NO TRADE both books. Coins flat; Gotrade ~$47 parked. CPI 20:30 Manila \u2014 no PLAN into the print. US marks logged (SPY/QQQ/IWM + megacaps). Remap after CPI/FOMC.",
+      "decision": "Gotrade: MSFT ~$20 + GOOGL ~$26.89 QUEUED for US open (pending $46.89). IN_TRADE/pending \u2014 not a CPI trade. Coins: still NO TRADE into 20:30 Manila print.",
       "actions": [
         "03:00 Manila: both books marked cash-only \u20b11723 / $46.89. No broker. No fill.",
         "Gotrade this tick: YES (weekday, US cash ~15:00 ET Thu 10) \u2014 mark only, no ticket.",
@@ -121,9 +121,12 @@
         "Journal process vs outcome (03:03 Manila): Process PASS \u2014 NO_TRADE kill, BTC Yahoo $77,176 below wait / session L through inv ~$77,200 is not a dip buy, XRP $1.3543 in $1.33\u20131.36 is a watch not a hold, Risk FAIL skips SKIP-20260911-COINS / SKIP-20260911-GOTRADE, no JR- live ticket, Coins limit not resting / not filled / not cancelled, stop not resting, +6% not resting, Gotrade mark only no send. Outcome FLAT 0 \u2014 \u20b11723 / $46.89, dayPnl 0, tradeCount 0. Sitting is not a P&L win or loss.",
         "Log Gotrade/stocks marks on Vision (Desk amend \u2014 jayr called out the miss)",
         "Grade Predictions: BTC-WAIT hit\u2192expired; XRP-WAIT hit/in-zone unfilled; BNB/LINK scout miss",
-        "Seed LT educational Gotrade watchlist on Vision (not armed)"
+        "Seed LT educational Gotrade watchlist on Vision (not armed)",
+        "Mark Vision Gotrade IN_TRADE/pending for MSFT+GOOGL queue",
+        "Journal will flip queued\u2192fill at open",
+        "Coins remain flat into CPI"
       ],
-      "nextOpen": "Fri 2026-09-11 07:00 Manila am-scout. Still NO_TRADE \u2014 CPI 20:30 Manila today."
+      "nextOpen": "Confirm Gotrade fills at US open; then manage as multi-year holds. Coins: reassess only post-CPI A+ (zone print \u2260 fill into binary)."
     }
   },
   "trades": [
@@ -142,18 +145,32 @@
       "notes": "SKIP-20260911-COINS. No JR- live ticket. Coins limit: not resting / not filled / not cancelled (no send). Protective sell: stop not resting. +6% limit not resting. Process: six daily crypto checks 03/07/11/15/19/23 Manila. 07:00: still skip."
     },
     {
-      "id": "SKIP-20260911-GOTRADE",
+      "id": "QUEUE-20260911-MSFT",
       "date": "2026-09-11",
       "venue": "gotrade",
-      "symbol": "CASH",
+      "symbol": "MSFT",
       "side": "buy",
-      "qty": 0,
-      "price": 0,
+      "qty": 0.0405,
+      "price": 491.32,
       "fees": 0,
-      "notional": 0,
+      "notional": 20.0,
       "skipped": true,
-      "skipReason": "NO_TRADE. 07:00 Manila US cash closed (\u224819:00 ET); Gotrade skip this tick. No fill.",
-      "notes": "SKIP-20260911-GOTRADE. No JR- live ticket. No Gotrade send. Stop not resting. +6% not applicable. 07:00 Gotrade skip = after hours."
+      "skipReason": "QUEUED for US open \u2014 pending fill. LT educational starter (~$20). Not filled yet.",
+      "notes": "QUEUE\u2192FILL. LT #1 MSFT. One-time max-1 exception with GOOGL. Stop/TP N/A (multi-year hold). Coins still flat into CPI."
+    },
+    {
+      "id": "QUEUE-20260911-GOOGL",
+      "date": "2026-09-11",
+      "venue": "gotrade",
+      "symbol": "GOOGL",
+      "side": "buy",
+      "qty": 0.0806,
+      "price": 332.45,
+      "fees": 0,
+      "notional": 26.89,
+      "skipped": true,
+      "skipReason": "QUEUED for US open \u2014 pending fill. LT educational starter (~$26.89). Not filled yet.",
+      "notes": "QUEUE\u2192FILL. LT #3 GOOGL. Dual starter with MSFT uses full ~$46.89. Coins still flat into CPI."
     }
   ],
   "catalysts": [
