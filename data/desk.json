@@ -2,7 +2,7 @@
   "asOf": "2026-09-11",
   "timezone": "Asia/Manila",
   "stance": "IN_TRADE",
-  "stanceReason": "Coins ETH FILL 0.01105 @ $2451.93 (~$27 USDT) — explicit CPI override. Stop-Market RESTING $2378.37; Limit TP RESTING $2599.04 (no OCO — cancel sibling after either exit). Gotrade LT starter still QUEUED (MSFT+GOOGL). Override ≠ new default.",
+  "stanceReason": "Coins ETH naked long 0.01105 @ $2451.93 — exits CANCELLED (SM/TP NOT resting). jayr explicit choice. Mental inv $2378 only. No new Coins entries while unhedged. Gotrade MSFT+GOOGL still queued. Restore SM @ $2378.37 the moment jayr asks.",
   "primaries": [
     "BTC",
     "XRP"

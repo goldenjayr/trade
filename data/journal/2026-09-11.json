@@ -1,7 +1,7 @@
 {
   "date": "2026-09-11",
   "stance": "IN_TRADE",
-  "headline": "Coins ETH filled (CPI override). Stop + TP resting. Gotrade LT still queued.",
+  "headline": "Coins ETH naked long into CPI — exits cancelled. No new Coins entries.",
   "scout": {
     "headline": "NO_TRADE. 07:00 Manila — Coinbase BTC $76.8k below wait / through inv; CPI today. US cash closed. Not a hunt.",
     "bullets": [
@@ -65,7 +65,7 @@
     "notes": "Conviction at spot 2/10. Zones not revised. Cash above floors but permission is stance/Risk — map only. First Coins clip remains BTC or XRP after the event cluster if structure is clean with Risk PASS. Breakdown ≠ buy. Chase invalidation: market-buy here into CPI. Gotrade section amended: stocks/ETFs marked; still NO TRADE both books into CPI. Gotrade MSFT+GOOGL = multi-year starters from LT list, not scored CPI calls. ETH-CPI-OVERRIDE open for Vision grading (entry/target/inv/conv 3/horizon into print)."
   },
   "risk": {
-    "railsCheck": "Fill rails OK: SM $2378.37 + TP $2599 resting. Explicit CPI override noted. Override ≠ new default — next binary still prefer flat unless A+.",
+    "railsCheck": "Rails FLAG: naked ETH into CPI — post-fill SM rule breached (exits cancelled). Mental $2378 ≠ resting stop. Prefer restore Sell→Stop-Market @ $2378.37 ASAP. No new Coins entries while naked.",
     "sizeNote": "Do not downsize below ₱800 / $15. Size available is irrelevant under NO_TRADE. No clip sized. Cron does not send.",
     "kills": [
       "PPI Thu 20:30 Manila — PRINTED (done). Not permission.",
@@ -76,12 +76,14 @@
       "No PLAN into CPI/FOMC",
       "No second writer racing Grok Bot on the same Coins ticket",
       "Stance NO_TRADE",
-      "No Gotrade PLAN into CPI (tiny book + event fog)"
+      "No Gotrade PLAN into CPI (tiny book + event fog)",
+      "Naked into CPI (no resting SM/TP)",
+      "No new Coins entries while unhedged"
     ],
     "feeSkip": "Coins: skip if fees >0.8% notional or clip <₱800. Gotrade: prefer $20–25; skip commission+spread >1% of $15."
   },
   "desk": {
-    "decision": "Coins IN_TRADE: ETH 0.01105 @ $2451.93 (~$27.09). SM $2378.37 + TP $2599.04 resting. Explicit CPI override — ≠ new default. Gotrade MSFT+GOOGL still queued for open.",
+    "decision": "ETH 0.01105 still open; SM/TP cancelled (jayr explicit naked). Mental $2378 only. No new Coins entries while unhedged. Restore SM @ $2378.37 on ask. Gotrade LT queue unchanged.",
     "actions": [
       "03:00 Manila: both books marked cash-only ₱1723 / $46.89. No broker. No fill.",
       "Gotrade this tick: YES (weekday, US cash ~15:00 ET Thu 10) — mark only, no ticket.",
@@ -100,8 +102,11 @@
       "Seed LT educational crypto top 10 on Vision (not armed)",
       "Vision: Coins IN_TRADE + ETH-CPI-OVERRIDE",
       "After SM or TP fills, cancel the other (no OCO)",
-      "Keep override ≠ new default in rails memory"
+      "Keep override ≠ new default in rails memory",
+      "Vision: exits cancelled — naked ETH on board",
+      "Restore SM @ $2378.37 only when jayr asks",
+      "Block new Coins entries while naked"
     ],
-    "nextOpen": "Manage ETH exits (SM/TP). Cancel sibling after either fill. Do not treat override as standing permission into future binaries."
+    "nextOpen": "Manual manage ETH only on jayr ask. Prefer restore SM before CPI print. Cancel/reassess after print; override still ≠ new default."
   }
 }

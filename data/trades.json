@@ -80,7 +80,7 @@
     "fees": 0,
     "notional": 27.09,
     "skipped": false,
-    "notes": "FILL ETH-CPI-OVERRIDE. Stop-Market RESTING $2378.37 (−3%). Limit TP RESTING $2599.04 (+6%). No OCO — cancel other after either exit. Override ≠ new default."
+    "notes": "FILL ETH-CPI-OVERRIDE then EXITS CANCELLED. Stop NOT resting / TP NOT resting. Naked long into CPI (jayr explicit). Mental inv $2378. Manual manage only on jayr ask. Process miss vs post-fill SM rule — override ≠ new default."
   },
   {
     "id": "QUEUE-20260911-GOOGL",

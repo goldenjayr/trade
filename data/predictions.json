@@ -142,7 +142,7 @@
       "dateOpened": "2026-09-11",
       "symbol": "ETH",
       "venue": "coins",
-      "thesis": "Explicit CPI override fill — not the desk A+ call (conv ≤3 / NO BUY into print). Entry $2451.93 · SM $2378.37 · TP $2599.04. Score as open override.",
+      "thesis": "ETH-CPI-OVERRIDE filled @ $2451.93 — now NAKED into CPI (SM/TP cancelled by jayr). Mental invalidation $2378 only until exits restored.",
       "direction": "breakout",
       "entryZone": {
         "low": 2451.93,
@@ -151,13 +151,13 @@
       "target": {
         "t1": 2599.04
       },
-      "invalidation": "Stop-Market $2378.37 (−3%) resting; override ≠ new default for future binaries",
+      "invalidation": "Mental $2378 only — Stop-Market NOT resting. Elevated binary risk into CPI print. Restore Sell→Stop-Market @ $2378.37 when jayr asks.",
       "invalidationPrice": 2378.37,
       "conviction": 3,
       "horizon": "event",
       "status": "hit_entry",
       "resolvedAt": "2026-09-11",
-      "outcomeNote": "FILLED — live IN_TRADE. ETH-CPI-OVERRIDE. Stop + TP resting. Cancel sibling after either exit.",
+      "outcomeNote": "LIVE naked long. Exits cancelled. Stop NOT resting / TP NOT resting. No new Coins entries while unhedged.",
       "source": "desk",
       "role": "primary"
     },

@@ -1,13 +1,13 @@
 {
   "date": "2026-09-11",
   "stance": "IN_TRADE",
-  "stanceReason": "Coins ETH FILL 0.01105 @ $2451.93 (~$27 USDT) \u2014 explicit CPI override. Stop-Market RESTING $2378.37; Limit TP RESTING $2599.04 (no OCO \u2014 cancel sibling after either exit). Gotrade LT starter still QUEUED (MSFT+GOOGL). Override \u2260 new default.",
+  "stanceReason": "Coins ETH naked long 0.01105 @ $2451.93 \u2014 exits CANCELLED (SM/TP NOT resting). jayr explicit choice. Mental inv $2378 only. No new Coins entries while unhedged. Gotrade MSFT+GOOGL still queued. Restore SM @ $2378.37 the moment jayr asks.",
   "primaries": [
     "BTC",
     "XRP"
   ],
   "usdphp": 58.15,
-  "notes": "07:00 Manila am-scout (4-hour grid). US cash closed (\u224819:00 ET Thu 10). Crypto only. Books carried \u20b11723 / $46.89 FLAT \u2014 cron did not read wallets. Desk FX usdphp 58.15 carried. Kraken ticker reset \u2014 unused. Hermes did not send. Grok Bot Trade Desk is a sibling \u2014 no race. SKIP-20260911-COINS / SKIP-20260911-GOTRADE still skip. CPI is today 20:30 Manila (~13.5h). 03:00 process PASS / outcome FLAT 0 carried. | Amend: Gotrade/stocks section filled \u2014 SPY 757.8 QQQ 708.7 IWM 287.7 AAPL 326.6 MSFT 492.4 NVDA 218.4 GOOGL 332.6 AMZN 251.9 META 644.4 TSLA 363.6; still NO_TRADE both books into CPI. | Predictions graded CPI-morning: BTC-WAIT expired after hit; XRP-WAIT hit_entry unfilled; BNB/LINK invalidated. | Seeded educational LT US watchlist (MSFT\u2192META; TSLA satellite; VTI/SPY ballast). NOT PLANs; still flat into CPI/FOMC. | Gotrade LT starter QUEUED: MSFT ~$20 + GOOGL ~$26.89 (pending $46.89). Stance IN_TRADE/pending. Coins flat into CPI. | Seeded educational LT crypto top 10 (BTC\u2192HBAR); Coins-7 cut noted; SUI out. NOT armed; still flat into CPI. | FILL Coins ETH 0.01105 @ $2451.93 (~$27.09); SM $2378.37 + TP $2599.04 resting; cash PHP ~147.49.",
+  "notes": "07:00 Manila am-scout (4-hour grid). US cash closed (\u224819:00 ET Thu 10). Crypto only. Books carried \u20b11723 / $46.89 FLAT \u2014 cron did not read wallets. Desk FX usdphp 58.15 carried. Kraken ticker reset \u2014 unused. Hermes did not send. Grok Bot Trade Desk is a sibling \u2014 no race. SKIP-20260911-COINS / SKIP-20260911-GOTRADE still skip. CPI is today 20:30 Manila (~13.5h). 03:00 process PASS / outcome FLAT 0 carried. | Amend: Gotrade/stocks section filled \u2014 SPY 757.8 QQQ 708.7 IWM 287.7 AAPL 326.6 MSFT 492.4 NVDA 218.4 GOOGL 332.6 AMZN 251.9 META 644.4 TSLA 363.6; still NO_TRADE both books into CPI. | Predictions graded CPI-morning: BTC-WAIT expired after hit; XRP-WAIT hit_entry unfilled; BNB/LINK invalidated. | Seeded educational LT US watchlist (MSFT\u2192META; TSLA satellite; VTI/SPY ballast). NOT PLANs; still flat into CPI/FOMC. | Gotrade LT starter QUEUED: MSFT ~$20 + GOOGL ~$26.89 (pending $46.89). Stance IN_TRADE/pending. Coins flat into CPI. | Seeded educational LT crypto top 10 (BTC\u2192HBAR); Coins-7 cut noted; SUI out. NOT armed; still flat into CPI. | FILL Coins ETH 0.01105 @ $2451.93 (~$27.09); SM $2378.37 + TP $2599.04 resting; cash PHP ~147.49. | ETH exits CANCELLED \u2014 naked long into CPI; SM/TP NOT resting; no new Coins entries while unhedged.",
   "books": {
     "coins": {
       "venue": "coins",
@@ -37,7 +37,7 @@
   "journal": {
     "date": "2026-09-11",
     "stance": "IN_TRADE",
-    "headline": "Coins ETH filled (CPI override). Stop + TP resting. Gotrade LT still queued.",
+    "headline": "Coins ETH naked long into CPI \u2014 exits cancelled. No new Coins entries.",
     "scout": {
       "headline": "NO_TRADE. 07:00 Manila \u2014 Coinbase BTC $76.8k below wait / through inv; CPI today. US cash closed. Not a hunt.",
       "bullets": [
@@ -101,7 +101,7 @@
       "notes": "Conviction at spot 2/10. Zones not revised. Cash above floors but permission is stance/Risk \u2014 map only. First Coins clip remains BTC or XRP after the event cluster if structure is clean with Risk PASS. Breakdown \u2260 buy. Chase invalidation: market-buy here into CPI. Gotrade section amended: stocks/ETFs marked; still NO TRADE both books into CPI. Gotrade MSFT+GOOGL = multi-year starters from LT list, not scored CPI calls. ETH-CPI-OVERRIDE open for Vision grading (entry/target/inv/conv 3/horizon into print)."
     },
     "risk": {
-      "railsCheck": "Fill rails OK: SM $2378.37 + TP $2599 resting. Explicit CPI override noted. Override \u2260 new default \u2014 next binary still prefer flat unless A+.",
+      "railsCheck": "Rails FLAG: naked ETH into CPI \u2014 post-fill SM rule breached (exits cancelled). Mental $2378 \u2260 resting stop. Prefer restore Sell\u2192Stop-Market @ $2378.37 ASAP. No new Coins entries while naked.",
       "sizeNote": "Do not downsize below \u20b1800 / $15. Size available is irrelevant under NO_TRADE. No clip sized. Cron does not send.",
       "kills": [
         "PPI Thu 20:30 Manila \u2014 PRINTED (done). Not permission.",
@@ -112,12 +112,14 @@
         "No PLAN into CPI/FOMC",
         "No second writer racing Grok Bot on the same Coins ticket",
         "Stance NO_TRADE",
-        "No Gotrade PLAN into CPI (tiny book + event fog)"
+        "No Gotrade PLAN into CPI (tiny book + event fog)",
+        "Naked into CPI (no resting SM/TP)",
+        "No new Coins entries while unhedged"
       ],
       "feeSkip": "Coins: skip if fees >0.8% notional or clip <\u20b1800. Gotrade: prefer $20\u201325; skip commission+spread >1% of $15."
     },
     "desk": {
-      "decision": "Coins IN_TRADE: ETH 0.01105 @ $2451.93 (~$27.09). SM $2378.37 + TP $2599.04 resting. Explicit CPI override \u2014 \u2260 new default. Gotrade MSFT+GOOGL still queued for open.",
+      "decision": "ETH 0.01105 still open; SM/TP cancelled (jayr explicit naked). Mental $2378 only. No new Coins entries while unhedged. Restore SM @ $2378.37 on ask. Gotrade LT queue unchanged.",
       "actions": [
         "03:00 Manila: both books marked cash-only \u20b11723 / $46.89. No broker. No fill.",
         "Gotrade this tick: YES (weekday, US cash ~15:00 ET Thu 10) \u2014 mark only, no ticket.",
@@ -136,9 +138,12 @@
         "Seed LT educational crypto top 10 on Vision (not armed)",
         "Vision: Coins IN_TRADE + ETH-CPI-OVERRIDE",
         "After SM or TP fills, cancel the other (no OCO)",
-        "Keep override \u2260 new default in rails memory"
+        "Keep override \u2260 new default in rails memory",
+        "Vision: exits cancelled \u2014 naked ETH on board",
+        "Restore SM @ $2378.37 only when jayr asks",
+        "Block new Coins entries while naked"
       ],
-      "nextOpen": "Manage ETH exits (SM/TP). Cancel sibling after either fill. Do not treat override as standing permission into future binaries."
+      "nextOpen": "Manual manage ETH only on jayr ask. Prefer restore SM before CPI print. Cancel/reassess after print; override still \u2260 new default."
     }
   },
   "trades": [
@@ -181,7 +186,7 @@
       "fees": 0,
       "notional": 27.09,
       "skipped": false,
-      "notes": "FILL ETH-CPI-OVERRIDE. Stop-Market RESTING $2378.37 (\u22123%). Limit TP RESTING $2599.04 (+6%). No OCO \u2014 cancel other after either exit. Override \u2260 new default."
+      "notes": "FILL ETH-CPI-OVERRIDE then EXITS CANCELLED. Stop NOT resting / TP NOT resting. Naked long into CPI (jayr explicit). Mental inv $2378. Manual manage only on jayr ask. Process miss vs post-fill SM rule \u2014 override \u2260 new default."
     }
   ],
   "catalysts": [
@@ -376,7 +381,7 @@
       "dateOpened": "2026-09-11",
       "symbol": "ETH",
       "venue": "coins",
-      "thesis": "Explicit CPI override fill \u2014 not the desk A+ call (conv \u22643 / NO BUY into print). Entry $2451.93 \u00b7 SM $2378.37 \u00b7 TP $2599.04. Score as open override.",
+      "thesis": "ETH-CPI-OVERRIDE filled @ $2451.93 \u2014 now NAKED into CPI (SM/TP cancelled by jayr). Mental invalidation $2378 only until exits restored.",
       "direction": "breakout",
       "entryZone": {
         "low": 2451.93,
@@ -385,13 +390,13 @@
       "target": {
         "t1": 2599.04
       },
-      "invalidation": "Stop-Market $2378.37 (\u22123%) resting; override \u2260 new default for future binaries",
+      "invalidation": "Mental $2378 only \u2014 Stop-Market NOT resting. Elevated binary risk into CPI print. Restore Sell\u2192Stop-Market @ $2378.37 when jayr asks.",
       "invalidationPrice": 2378.37,
       "conviction": 3,
       "horizon": "event",
       "status": "hit_entry",
       "resolvedAt": "2026-09-11",
-      "outcomeNote": "FILLED \u2014 live IN_TRADE. ETH-CPI-OVERRIDE. Stop + TP resting. Cancel sibling after either exit.",
+      "outcomeNote": "LIVE naked long. Exits cancelled. Stop NOT resting / TP NOT resting. No new Coins entries while unhedged.",
       "source": "desk",
       "role": "primary"
     }
