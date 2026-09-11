@@ -2,7 +2,7 @@
   "asOf": "2026-09-11",
   "timezone": "Asia/Manila",
   "stance": "NO_TRADE",
-  "stanceReason": "CPI TODAY 20:30 Manila → FOMC Sep 15–16. 07:00 Coinbase BTC-USD last $76,832.97 below wait $78–78.8k (stats L $76,630.13; still through inv ~$77,200). Sit/tag ≠ hold. No new wait. XRP Coinbase $1.3431 inside $1.33–1.36 — watch, not a clip. Stance NO_TRADE is the kill. No PLAN. No broker send.",
+  "stanceReason": "CPI Aug print 20:30 Manila tonight; FOMC Sep 15–16 next. Both books NO_TRADE: Coins flat (old BTC wait broken); Gotrade ~$47 parked — no PLAN into print. Remap levels after.",
   "primaries": [
     "BTC",
     "XRP"

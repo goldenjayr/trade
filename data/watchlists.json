@@ -102,7 +102,7 @@
       "venues": [
         "gotrade"
       ],
-      "last": 757.64,
+      "last": 757.8,
       "currency": "USD",
       "changePct": -0.006243,
       "thesis": "US beta benchmark. Not a default clip at $20–$25 — map only into CPI."
@@ -115,7 +115,7 @@
       "venues": [
         "gotrade"
       ],
-      "last": 709.46,
+      "last": 708.7,
       "currency": "USD",
       "changePct": -0.009563,
       "thesis": "Nasdaq benchmark. Same rule: no event-day ticket."
@@ -141,7 +141,7 @@
       "venues": [
         "gotrade"
       ],
-      "last": 287.46,
+      "last": 287.7,
       "currency": "USD",
       "changePct": -0.010941,
       "thesis": "Small-cap beta. Too noisy into CPI/FOMC for this book."
@@ -154,7 +154,7 @@
       "venues": [
         "gotrade"
       ],
-      "last": 325.4,
+      "last": 326.6,
       "currency": "USD",
       "changePct": 0.031902,
       "thesis": "Megacap satellite. No earnings/CPI overlap clips."
@@ -167,7 +167,7 @@
       "venues": [
         "gotrade"
       ],
-      "last": 490.65,
+      "last": 492.4,
       "currency": "USD",
       "changePct": -0.002034,
       "thesis": "Megacap satellite. Wait for post-FOMC structure."
@@ -180,7 +180,7 @@
       "venues": [
         "gotrade"
       ],
-      "last": 218.15,
+      "last": 218.4,
       "currency": "USD",
       "changePct": -0.024679,
       "thesis": "High-beta megacap. Respect fee-skip — a $20 clip is not a hero trade."
@@ -193,7 +193,7 @@
       "venues": [
         "gotrade"
       ],
-      "last": 331.98,
+      "last": 332.6,
       "currency": "USD",
       "changePct": 0.004022,
       "thesis": "Megacap satellite. Event week = watch."
@@ -206,7 +206,7 @@
       "venues": [
         "gotrade"
       ],
-      "last": 251.73,
+      "last": 251.9,
       "currency": "USD",
       "changePct": -0.002655,
       "thesis": "Megacap satellite. Same rails as the rest of the US book."
@@ -219,7 +219,7 @@
       "venues": [
         "gotrade"
       ],
-      "last": 644.59,
+      "last": 644.4,
       "currency": "USD",
       "changePct": -0.013921,
       "thesis": "High-beta megacap. Not a CPI print trade at $15–$25."
@@ -232,7 +232,7 @@
       "venues": [
         "gotrade"
       ],
-      "last": 366.205,
+      "last": 363.6,
       "currency": "USD",
       "changePct": -0.004364,
       "thesis": "Volatility satellite. Easy to violate −3% mentally. Watch, don't chase."
