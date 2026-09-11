@@ -96,7 +96,8 @@
       "Seed LT educational Gotrade watchlist on Vision (not armed)",
       "Mark Vision Gotrade IN_TRADE/pending for MSFT+GOOGL queue",
       "Journal will flip queued→fill at open",
-      "Coins remain flat into CPI"
+      "Coins remain flat into CPI",
+      "Seed LT educational crypto top 10 on Vision (not armed)"
     ],
     "nextOpen": "Confirm Gotrade fills at US open; then manage as multi-year holds. Coins: reassess only post-CPI A+ (zone print ≠ fill into binary)."
   }

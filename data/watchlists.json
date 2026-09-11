@@ -12,20 +12,20 @@
       "last": 76832.97,
       "currency": "USD",
       "changePct": -0.018535,
-      "thesis": "Core crypto primary. First Coins clip after FOMC if structure is clean — not into CPI."
+      "thesis": "LT educational #1 + Coins-7 core. Multi-year map. Still flat into CPI — NOT a PLAN."
     },
     {
       "symbol": "ETH",
       "name": "Ethereum",
       "assetClass": "crypto",
-      "role": "satellite",
+      "role": "primary",
       "venues": [
         "coins"
       ],
       "last": 2445.83,
       "currency": "USD",
       "changePct": -0.008786,
-      "thesis": "Beta to BTC. No clip until BTC primary is working."
+      "thesis": "LT educational #2 + Coins-7 core. Multi-year map. Still flat into CPI — NOT a PLAN."
     },
     {
       "symbol": "SOL",
@@ -38,33 +38,7 @@
       "last": 99.28,
       "currency": "USD",
       "changePct": -0.014982,
-      "thesis": "High-beta satellite. Size only after BTC/XRP permission, never as a CPI scalp."
-    },
-    {
-      "symbol": "XRP",
-      "name": "XRP",
-      "assetClass": "crypto",
-      "role": "primary",
-      "venues": [
-        "coins"
-      ],
-      "last": 1.3431,
-      "currency": "USD",
-      "changePct": -0.036928,
-      "thesis": "Alt primary vs SOL/SUI. Preferred first Coins risk-on after the event cluster."
-    },
-    {
-      "symbol": "BNB",
-      "name": "BNB",
-      "assetClass": "crypto",
-      "role": "satellite",
-      "venues": [
-        "coins"
-      ],
-      "last": 711.83,
-      "currency": "USD",
-      "changePct": -0.01034,
-      "thesis": "Venue-adjacent satellite. Not a CPI trade."
+      "thesis": "LT educational #3 + Coins-7 satellite. Multi-year map. Still flat into CPI — NOT a PLAN."
     },
     {
       "symbol": "LINK",
@@ -77,7 +51,85 @@
       "last": 11.5265,
       "currency": "USD",
       "changePct": -0.022847,
-      "thesis": "Satellite. Needs a clean BTC tape before a clip."
+      "thesis": "LT educational #4 + Coins-7 satellite. Multi-year map. Soft scout miss short-horizon; LT education only — NOT a PLAN into CPI."
+    },
+    {
+      "symbol": "BNB",
+      "name": "BNB",
+      "assetClass": "crypto",
+      "role": "satellite",
+      "venues": [
+        "coins"
+      ],
+      "last": 711.83,
+      "currency": "USD",
+      "changePct": -0.01034,
+      "thesis": "LT educational #5. Education on Coins-7 (not core). Soft scout miss short-horizon — NOT a PLAN into CPI."
+    },
+    {
+      "symbol": "XRP",
+      "name": "XRP",
+      "assetClass": "crypto",
+      "role": "satellite",
+      "venues": [
+        "coins"
+      ],
+      "last": 1.3431,
+      "currency": "USD",
+      "changePct": -0.036928,
+      "thesis": "LT educational #6. Education on Coins-7. Short-horizon wait hit/in-zone unfilled by rule — LT map only, NOT a PLAN into CPI."
+    },
+    {
+      "symbol": "TRX",
+      "name": "TRON",
+      "assetClass": "crypto",
+      "role": "satellite",
+      "venues": [
+        "coins"
+      ],
+      "last": 0,
+      "currency": "USD",
+      "changePct": 0,
+      "thesis": "LT educational #7. Outside Coins-7 active rails — education only. NOT a PLAN."
+    },
+    {
+      "symbol": "AVAX",
+      "name": "Avalanche",
+      "assetClass": "crypto",
+      "role": "satellite",
+      "venues": [
+        "coins"
+      ],
+      "last": 0,
+      "currency": "USD",
+      "changePct": 0,
+      "thesis": "LT educational #8. Outside Coins-7 active rails — education only. NOT a PLAN."
+    },
+    {
+      "symbol": "LTC",
+      "name": "Litecoin",
+      "assetClass": "crypto",
+      "role": "satellite",
+      "venues": [
+        "coins"
+      ],
+      "last": 0,
+      "currency": "USD",
+      "changePct": 0,
+      "thesis": "LT educational #9. Outside Coins-7 active rails — education only. NOT a PLAN."
+    },
+    {
+      "symbol": "HBAR",
+      "name": "Hedera",
+      "assetClass": "crypto",
+      "role": "satellite",
+      "venues": [
+        "coins"
+      ],
+      "last": 0,
+      "currency": "USD",
+      "changePct": 0,
+      "thesis": "LT educational #10. Outside Coins-7 active rails — education only. NOT a PLAN."
     },
     {
       "symbol": "SUI",
@@ -90,7 +142,7 @@
       "last": 0.7323,
       "currency": "USD",
       "changePct": -0.0431,
-      "thesis": "High-beta satellite. Do not let relative strength talk you into a CPI ticket."
+      "thesis": "OUT of Coins-7 / LT top 10 cut — NONE into CPI (Phantom headwind). Not educational core. NOT a PLAN."
     }
   ],
   "us": [
