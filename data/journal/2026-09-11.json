@@ -3,66 +3,73 @@
   "stance": "IN_TRADE",
   "headline": "Coins ETH naked long into CPI — exits cancelled. No new Coins entries.",
   "scout": {
-    "headline": "NO_TRADE. 07:00 Manila — Coinbase BTC $76.8k below wait / through inv; CPI today. US cash closed. Not a hunt.",
+    "headline": "IN_TRADE (naked ETH). 15:00 Manila — crypto only, not US cash open (03:00 ET Fri). BTC below expired wait / above post-only. XRP in zone sit. CPI 20:30 (~5.5h). No Gotrade.",
     "bullets": [
-      "Coinbase 07:00 Manila: BTC-USD last $76,832.97 (spot $76,840.18; stats open $78,283.98 / H $78,554.18 / L $76,630.13). Binance BTCUSDT $76,867.58 (−1.411%, H $78,564.39 / L $76,676.07). Kraken reset — unused. Second source confirms below wait.",
-      "Coinbase XRP-USD last $1.3431 (spot $1.3431; stats open $1.3946 / H $1.3963 / L $1.3419). Binance XRPUSDT $1.3443 (−3.016%, H $1.3966 / L $1.3421).",
-      "Coinbase ETH-USD $2,445.83 (stats last $2,444.31 / H $2,483.81 / L $2,404.26) · SOL-USD $99.28 (stats last $99.24 / H $102.18 / L $98.38) · 07:00 Manila",
-      "Coinbase BNB-USD $711.83 · Binance BNBUSDT $712.18 (−1.034%, H $726.36 / L $703.62) — below soft scout $728–737",
-      "Coinbase LINK-USD $11.5265 (stats last $11.523 / H $11.891 / L $11.491) · Binance LINKUSDT $11.539 (−1.427%) — below soft scout $12.50–12.65",
-      "Coinbase SUI-USD $0.7323 · Binance SUIUSDT $0.7326 (−4.310%, H $0.7733 / L $0.7308) · 07:00 Manila — NONE into CPI.",
-      "BTC vs wait $78,000–78,800: BELOW. Coinbase last $76,832.97. 03:00 was ~$77.2k. Session L Coinbase $76,630.13 / Binance $76,676.07 still through inv ~$77,200. Slip is not a hold. Wick through inv ≠ new wait. Not a buy-the-dip.",
-      "XRP vs wait $1.33–1.36: IN ZONE at ~$1.343 (near floor). Binance 24h L $1.3421 still in/near the band. Sit ≠ clean hold. Do not chase into CPI.",
-      "PPI Thu 20:30 Manila DONE. CPI Fri 11 20:30 Manila is TODAY (~13.5h). FOMC Sep 15–16. Cash is the position.",
-      "Gotrade (~$46.89 / ~$47 parked): NO TRADE into CPI 20:30 Manila — tiny book, no PLAN into the print.",
-      "US marks (Desk amend): SPY 757.8 · QQQ 708.7 · IWM 287.7 · AAPL 326.6 · MSFT 492.4 · NVDA 218.4 · GOOGL 332.6 · AMZN 251.9 · META 644.4 · TSLA 363.6.",
-      "Megacaps/ETFs are map-only tonight; no Gotrade clip at $15–$25 into CPI."
+      "Coinbase 15:01 Manila: BTC-USD last $77,262 (spot $77,260.445; stats open $78,079.51 / H $78,199.74 / L $76,440). Binance BTCUSDT $77,291.60 (−1.374%, H $78,368.01 / L $76,464). Kraken TLS reset — unused. Second source confirms below expired wait.",
+      "Coinbase XRP-USD last $1.3537 (spot $1.3537; stats open $1.3824 / H $1.3843 / L $1.329). Binance XRPUSDT $1.3541 (−2.435%, H $1.3879 / L $1.3294).",
+      "Coinbase ETH-USD last $2,465.72 (spot $2,465.695; stats open $2,472.20 / H $2,477.13 / L $2,404.26) · SOL-USD $99.78 (H $101.50 / L $98.38) · 15:01 Manila",
+      "Coinbase BNB-USD $714.79 · Binance BNBUSDT $715.16 (−0.785%, H $720.82 / L $703.62) — below soft scout $728–737",
+      "Coinbase LINK-USD $11.525 (H $11.879 / L $11.392) · Binance LINKUSDT $11.529 (−2.709%) — below soft scout $12.50–12.65",
+      "Coinbase SUI-USD $0.7375 · Binance SUIUSDT $0.7377 (−4.331%, H $0.7711 / L $0.7237) · 15:01 Manila — NONE into CPI.",
+      "BTC vs expired wait $78,000–78,800: BELOW. vs post-only $74.8–75.8k: ABOVE (not in band). Coinbase last $77,262. 11:00 was ~$76.82k. Session L Coinbase $76,440 / Binance $76,464 still through inv ~$77,200. Wick/reclaim/sit ≠ fill. Not a buy-the-dip.",
+      "XRP vs wait $1.33–1.36: IN ZONE at $1.3537. Session L Coinbase $1.329 / Binance $1.3294 tagged floor. Sit ≠ clean hold. Do not chase into CPI.",
+      "ETH live 0.01105 @ $2,451.93. Coinbase $2,465.72 still above mental inv $2,378. SM/TP NOT resting. Naked into CPI — observation only, no new Coins clip.",
+      "PPI Thu 20:30 Manila DONE. CPI Fri 11 20:30 Manila is TODAY (~5.5h). FOMC Sep 15–16. London/EU ≠ NYSE. 15:00 Manila is not US cash open.",
+      "Gotrade (~$46.89 parked, MSFT+GOOGL still queued): no mark/ticket this tick — crypto only. CPI kill still on.",
+      "Coins cash ₱147.49 < ₱800 — floor RED for new entries even if stance were WATCH."
     ],
     "sources": [
-      "Coinbase Exchange products stats+ticker BTC-USD ETH-USD SOL-USD XRP-USD LINK-USD + v2 spot BNB-USD SUI-USD 2026-09-11 07:00 Asia/Manila (~19:00 ET Thu 10)",
-      "Binance 24hr ticker BTCUSDT ETHUSDT SOLUSDT XRPUSDT BNBUSDT LINKUSDT SUIUSDT 07:00 Manila",
+      "Coinbase Exchange products stats+ticker BTC-USD ETH-USD SOL-USD XRP-USD LINK-USD BNB-USD SUI-USD + v2 spot BTC/ETH/XRP 2026-09-11 15:01 Asia/Manila (~03:01 ET Fri 11)",
+      "Binance 24hr ticker BTCUSDT ETHUSDT SOLUSDT XRPUSDT BNBUSDT LINKUSDT SUIUSDT 15:01 Manila",
       "Kraken public Ticker — connection reset, unused this tick",
-      "BLS CPI Home: Aug CPI scheduled Fri 2026-09-11 08:30 ET (20:30 Manila) — TODAY",
-      "data/desk.json asOf 2026-09-11 NO_TRADE; books carried ₱1723 / $46.89; waits from journal 2026-09-11 (not invented)"
+      "BLS CPI Home: Aug CPI scheduled Fri 2026-09-11 08:30 ET (20:30 Manila) — TODAY ~5.5h",
+      "data/desk.json asOf 2026-09-11 IN_TRADE naked ETH 0.01105 @ $2451.93; waits from journal 2026-09-11 (not invented); books ₱147.49 + ETH / $46.89"
     ]
   },
   "analyst": {
-    "thesis": "No clip. CPI in ~17.5h. Yahoo BTC $77,176.19 is below the $78–78.8k wait. Session L through ~$77,200 is a tag, not a new map and not a buy-the-dip. From $77,176 −3% (~$74,861) is further through inv; +6% (~$81,807) is a chase into CPI. Not 2R after fees. XRP $1.3543 is inside $1.33–1.36 — sit, not a hold into the print. Keep seeded waits until Analyst grades post-CPI. Do not invent a new wait. LINK/BNB/SUI map-only. Gotrade: Thu tape is not a $20–25 ticket into CPI.",
+    "thesis": "BTC $76.8k is still below the expired $78–78.8k wait and not in the post-only $74.8–75.8k band, so a spot clip into CPI is not 2R after fees — and Coins cash is below floor while ETH sits naked.",
     "levels": [
       {
         "symbol": "BTC",
-        "support": 78000,
-        "resistance": 80000,
-        "invalidation": "Lose ~$77,200, or market-buy into CPI. Wick through inv ≠ fill and ≠ new wait.",
-        "note": "Primary wait $78.0–78.8k. 03:00 Manila Yahoo $77,176.19 BELOW wait. Session L Yahoo $76,731.84 / Binance $76,676.07 through inv ~$77,200. Last ~$77.2k. Zones not revised by cron."
+        "support": 74800,
+        "resistance": 78800,
+        "invalidation": "Market-buy into CPI, or invent a new wait after the $77,200 break. Wick through inv ≠ fill.",
+        "note": "Old wait $78.0–78.8k EXPIRED. Post-only $74.8–75.8k. 11:00 Coinbase spot $76,819.17 / last $76,813.67 BELOW old wait, ABOVE post wait. Session L Coinbase $76,440 / Binance $76,464. Zones not revised by cron."
       },
       {
         "symbol": "XRP",
         "support": 1.33,
         "resistance": 1.45,
-        "invalidation": "Forcing a scalp at $1.35 into CPI",
-        "note": "Primary wait $1.33–1.36; 03:00 Yahoo $1.3543 IN ZONE. Binance L $1.3421. Sit ≠ hold."
+        "invalidation": "Forcing a scalp at $1.34 into CPI, or a resting bid into the print.",
+        "note": "Primary wait $1.33–1.36; 11:00 Coinbase $1.3423 IN ZONE. Session L Coinbase $1.329 / Binance $1.3294 tagged floor. Sit ≠ hold."
+      },
+      {
+        "symbol": "ETH",
+        "support": 2378.37,
+        "resistance": 2599.04,
+        "invalidation": "Mental $2378 only — SM/TP NOT resting. New Coins entry while naked.",
+        "note": "LIVE override 0.01105 @ $2451.93. 11:00 Coinbase spot $2,446.10 / last $2,445.86 (session L $2,404.26 still above mental inv). Map only."
       },
       {
         "symbol": "BNB",
         "support": 728,
-        "note": "Soft scout $728–737. 03:00 Yahoo $713.86 below scout — still not a Coins PLAN into CPI."
+        "note": "Soft scout $728–737. 11:00 Coinbase $710.94 / Binance $711.23 still below — not a Coins PLAN."
       },
       {
         "symbol": "LINK",
         "support": 12.5,
-        "note": "Soft scout $12.50–12.65. 03:00 Yahoo $11.66 still below scout — not a Coins PLAN into CPI."
+        "note": "Soft scout $12.50–12.65. 11:00 Coinbase $11.4835 / last $11.477 still below — not a Coins PLAN."
       },
       {
         "symbol": "SUI",
-        "note": "NONE into CPI. 03:00 Binance SUIUSDT $0.7406."
+        "note": "NONE into CPI. 11:00 Coinbase $0.73495 / Binance $0.7350."
       },
       {
         "symbol": "SPY",
-        "note": "Benchmark only. No Gotrade clip into CPI at tiny ~$47 book / $15–$25 size."
+        "note": "Benchmark only. Gotrade skip this tick (US cash closed). No $15–$25 clip into CPI."
       }
     ],
-    "notes": "Conviction at spot 2/10. Zones not revised. Cash above floors but permission is stance/Risk — map only. First Coins clip remains BTC or XRP after the event cluster if structure is clean with Risk PASS. Breakdown ≠ buy. Chase invalidation: market-buy here into CPI. Gotrade section amended: stocks/ETFs marked; still NO TRADE both books into CPI. Gotrade MSFT+GOOGL = multi-year starters from LT list, not scored CPI calls. ETH-CPI-OVERRIDE open for Vision grading (entry/target/inv/conv 3/horizon into print)."
+    "notes": "11:00 Manila. Conviction at spot 2/10. Zones not revised. Coins cash ₱147.49 < ₱800 (RED for new clips). Gotrade $46.89 ≥ $15 but skip — US cash closed + CPI kill. Permission is stance/Risk: IN_TRADE is the naked ETH override only — no new Coins entries while unhedged. From BTC $76,819 −3% (~$74,515) is into/through the post-only band; +6% (~$81,428) is a chase into CPI. Not 2R after fees. First new Coins clip remains BTC or XRP after the event cluster if structure is clean with Risk PASS. Breakdown ≠ buy. Chase invalidation: market-buy BTC/XRP here into CPI, or add while ETH is naked. ETH-CPI-OVERRIDE still live for Vision grading."
   },
   "risk": {
     "railsCheck": "Rails FLAG: naked ETH into CPI — post-fill SM rule breached (exits cancelled). Mental $2378 ≠ resting stop. Prefer restore Sell→Stop-Market @ $2378.37 ASAP. No new Coins entries while naked.",

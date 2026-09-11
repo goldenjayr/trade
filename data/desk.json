@@ -13,7 +13,7 @@
       "label": "Coins.ph",
       "currency": "PHP",
       "cash": 147.49,
-      "equity": 174.5838,
+      "equity": 174.7362,
       "dayPnl": 0,
       "totalPnl": 0,
       "positions": [
@@ -22,10 +22,10 @@
           "name": "Ethereum",
           "qty": 0.01105,
           "avgCost": 2451.93,
-          "mark": 2451.93,
-          "marketValue": 27.0938,
-          "pnl": 0,
-          "pnlPct": 0
+          "mark": 2465.72,
+          "marketValue": 27.2462,
+          "pnl": 0.1524,
+          "pnlPct": 0.005625
         }
       ]
     },
