@@ -7,7 +7,7 @@
     "XRP"
   ],
   "usdphp": 58.15,
-  "notes": "07:00 Manila am-scout (4-hour grid). US cash closed (\u224819:00 ET Thu 10). Crypto only. Books carried \u20b11723 / $46.89 FLAT \u2014 cron did not read wallets. Desk FX usdphp 58.15 carried. Kraken ticker reset \u2014 unused. Hermes did not send. Grok Bot Trade Desk is a sibling \u2014 no race. SKIP-20260911-COINS / SKIP-20260911-GOTRADE still skip. CPI is today 20:30 Manila (~13.5h). 03:00 process PASS / outcome FLAT 0 carried. | Amend: Gotrade/stocks section filled \u2014 SPY 757.8 QQQ 708.7 IWM 287.7 AAPL 326.6 MSFT 492.4 NVDA 218.4 GOOGL 332.6 AMZN 251.9 META 644.4 TSLA 363.6; still NO_TRADE both books into CPI.",
+  "notes": "07:00 Manila am-scout (4-hour grid). US cash closed (\u224819:00 ET Thu 10). Crypto only. Books carried \u20b11723 / $46.89 FLAT \u2014 cron did not read wallets. Desk FX usdphp 58.15 carried. Kraken ticker reset \u2014 unused. Hermes did not send. Grok Bot Trade Desk is a sibling \u2014 no race. SKIP-20260911-COINS / SKIP-20260911-GOTRADE still skip. CPI is today 20:30 Manila (~13.5h). 03:00 process PASS / outcome FLAT 0 carried. | Amend: Gotrade/stocks section filled \u2014 SPY 757.8 QQQ 708.7 IWM 287.7 AAPL 326.6 MSFT 492.4 NVDA 218.4 GOOGL 332.6 AMZN 251.9 META 644.4 TSLA 363.6; still NO_TRADE both books into CPI. | Predictions graded CPI-morning: BTC-WAIT expired after hit; XRP-WAIT hit_entry unfilled; BNB/LINK invalidated.",
   "books": {
     "coins": {
       "venue": "coins",
@@ -119,7 +119,8 @@
         "CPI today 20:30 Manila. No hunt into the print.",
         "BUY? NO on BTC XRP ETH SOL BNB LINK SUI SPY QQQ VOO IWM AAPL MSFT NVDA GOOGL AMZN META TSLA.",
         "Journal process vs outcome (03:03 Manila): Process PASS \u2014 NO_TRADE kill, BTC Yahoo $77,176 below wait / session L through inv ~$77,200 is not a dip buy, XRP $1.3543 in $1.33\u20131.36 is a watch not a hold, Risk FAIL skips SKIP-20260911-COINS / SKIP-20260911-GOTRADE, no JR- live ticket, Coins limit not resting / not filled / not cancelled, stop not resting, +6% not resting, Gotrade mark only no send. Outcome FLAT 0 \u2014 \u20b11723 / $46.89, dayPnl 0, tradeCount 0. Sitting is not a P&L win or loss.",
-        "Log Gotrade/stocks marks on Vision (Desk amend \u2014 jayr called out the miss)"
+        "Log Gotrade/stocks marks on Vision (Desk amend \u2014 jayr called out the miss)",
+        "Grade Predictions: BTC-WAIT hit\u2192expired; XRP-WAIT hit/in-zone unfilled; BNB/LINK scout miss"
       ],
       "nextOpen": "Fri 2026-09-11 07:00 Manila am-scout. Still NO_TRADE \u2014 CPI 20:30 Manila today."
     }
@@ -189,7 +190,7 @@
       "symbol": "BTC",
       "venue": "coins",
       "role": "primary",
-      "thesis": "Primary wait. 03:00 Manila Yahoo $77,176 below $78\u201378.8k. Session L ~$76.7k tagged through inv $77,200 \u2014 not a hold, not a new wait. Only a clean hold after the event cluster. Analyst grades post-CPI.",
+      "thesis": "Primary wait $78\u201378.8k. Tape pierced the wait then traded ~$76.8k \u2014 hit the map, then expired as a live entry (not a hold into CPI).",
       "direction": "long_wait",
       "entryZone": {
         "low": 78000,
@@ -199,8 +200,10 @@
       "invalidationPrice": 77200,
       "conviction": 3,
       "horizon": "event",
-      "status": "open",
-      "source": "analyst"
+      "status": "expired",
+      "source": "analyst",
+      "resolvedAt": "2026-09-11",
+      "outcomeNote": "HIT entry zone then EXPIRED/below (~$76.8k). Zone print \u2260 fill into CPI binary. Remap post-print."
     },
     {
       "id": "xrp-wait-2026-09-08",
@@ -208,7 +211,7 @@
       "symbol": "XRP",
       "venue": "coins",
       "role": "primary",
-      "thesis": "Alt primary wait. 03:00 Yahoo $1.3543 inside $1.33\u20131.36 \u2014 sit, not a hold into CPI.",
+      "thesis": "Alt primary wait $1.33\u20131.36. Spot ~$1.34 is IN ZONE \u2014 sit, not a resting bid into CPI.",
       "direction": "long_wait",
       "entryZone": {
         "low": 1.33,
@@ -216,10 +219,16 @@
       },
       "invalidation": "Chase at $1.42 into CPI, or lose the 1.33 wait structure",
       "invalidationPrice": 1.28,
-      "conviction": 3,
+      "conviction": 4,
       "horizon": "event",
-      "status": "open",
-      "source": "analyst"
+      "status": "hit_entry",
+      "source": "analyst",
+      "target": {
+        "t1": 1.41,
+        "t2": 1.44
+      },
+      "resolvedAt": "2026-09-11",
+      "outcomeNote": "HIT / IN ZONE (~$1.34) but UNFILLED by desk rule \u2014 no resting limit into CPI print."
     },
     {
       "id": "bnb-scout-2026-09-08",
@@ -227,7 +236,7 @@
       "symbol": "BNB",
       "venue": "coins",
       "role": "scout",
-      "thesis": "Soft scout $728\u2013737. 03:00 Yahoo $713.86 below scout. Map only \u2014 not a permissioned clip into CPI.",
+      "thesis": "Soft scout $728\u2013737. Spot ~$712 below scout \u2014 miss/map only into CPI.",
       "direction": "long_wait",
       "entryZone": {
         "low": 728,
@@ -236,8 +245,10 @@
       "invalidation": "Scout-only. Any chase into CPI invalidates the idea.",
       "conviction": 2,
       "horizon": "swing",
-      "status": "open",
-      "source": "analyst"
+      "status": "invalidated",
+      "source": "analyst",
+      "resolvedAt": "2026-09-11",
+      "outcomeNote": "MISS/below scout (~$712). Not PLAN-eligible."
     },
     {
       "id": "link-scout-2026-09-08",
@@ -245,7 +256,7 @@
       "symbol": "LINK",
       "venue": "coins",
       "role": "scout",
-      "thesis": "Soft scout $12.50\u201312.65. 03:00 Yahoo $11.66 is not a Coins PLAN into CPI.",
+      "thesis": "Soft scout $12.50\u201312.65. Spot ~$11.5 below \u2014 miss into CPI.",
       "direction": "long_wait",
       "entryZone": {
         "low": 12.5,
@@ -254,8 +265,10 @@
       "invalidation": "Scout-only. No clip into CPI.",
       "conviction": 2,
       "horizon": "swing",
-      "status": "open",
-      "source": "analyst"
+      "status": "invalidated",
+      "source": "analyst",
+      "resolvedAt": "2026-09-11",
+      "outcomeNote": "MISS/below scout (~$11.5). Not PLAN-eligible."
     },
     {
       "id": "sui-none-2026-09-08",
@@ -279,13 +292,55 @@
       "symbol": "MACRO",
       "venue": "macro",
       "role": "stance",
-      "thesis": "Stay flat through PPI Thu Sep 10 (printed), CPI Fri Sep 11 (TODAY), into FOMC Sep 15\u201316. Permission is not granted. Fri remains NO_TRADE.",
+      "thesis": "Stay flat through CPI Fri Sep 11 (TODAY 20:30 Manila) into FOMC Sep 15\u201316. Permission not granted.",
       "direction": "none",
       "invalidation": "Desk grants permission, or a primary prints a clean post-event wait with Risk greenlight",
       "conviction": 7,
       "horizon": "event",
       "status": "open",
       "source": "desk"
+    },
+    {
+      "id": "btc-post-cpi-wait-2026-09-11",
+      "dateOpened": "2026-09-11",
+      "symbol": "BTC",
+      "venue": "coins",
+      "thesis": "NONE into CPI print. Post-only wait $74.8\u201375.8k after events \u2014 not a pre-print bid.",
+      "direction": "long_wait",
+      "entryZone": {
+        "low": 74800,
+        "high": 75800
+      },
+      "invalidation": "Any resting bid or chase into the CPI candle; or lose structure under the post-print map",
+      "invalidationPrice": 74000,
+      "conviction": 3,
+      "horizon": "event",
+      "status": "open",
+      "source": "analyst",
+      "role": "primary"
+    },
+    {
+      "id": "xrp-post-cpi-wait-2026-09-11",
+      "dateOpened": "2026-09-11",
+      "symbol": "XRP",
+      "venue": "coins",
+      "thesis": "Zone $1.33\u20131.36 live but post-CPI only if cool + reclaim. No resting bid into print.",
+      "direction": "long_wait",
+      "entryZone": {
+        "low": 1.33,
+        "high": 1.36
+      },
+      "target": {
+        "t1": 1.41,
+        "t2": 1.44
+      },
+      "invalidation": "Resting bid into CPI, or lose ~$1.29\u20131.32 structure",
+      "invalidationPrice": 1.29,
+      "conviction": 4,
+      "horizon": "event",
+      "status": "open",
+      "source": "analyst",
+      "role": "primary"
     }
   ],
   "watchlistMarks": [
