@@ -86,5 +86,13 @@
     "tradeCount": 1,
     "coinsEquity": 174.7362,
     "gotradeEquity": 46.89
+  },
+  {
+    "date": "2026-09-14",
+    "stance": "IN_TRADE",
+    "summary": "Mon 2026-09-14 morning. Desk HOLD into FOMC. ETH-CPI-OVERRIDE still open/naked. Gotrade LT starter unverified. Journal Monday Upgrades logged separately.",
+    "tradeCount": 1,
+    "coinsEquity": 175.1703,
+    "gotradeEquity": 46.89
   }
 ]

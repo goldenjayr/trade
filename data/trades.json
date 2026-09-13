@@ -137,5 +137,33 @@
     "skipped": true,
     "skipReason": "NO_TRADE. 07:00 Manila US cash closed (≈19:00 ET); Gotrade skip this tick. No fill.",
     "notes": "SKIP-20260911-GOTRADE. No JR- live ticket. No Gotrade send. Stop not resting. +6% not applicable. 07:00 Gotrade skip = after hours."
+  },
+  {
+    "id": "SKIP-20260914-COINS-NEW",
+    "date": "2026-09-14",
+    "venue": "coins",
+    "symbol": "ETH",
+    "side": "buy",
+    "qty": 0,
+    "price": 0,
+    "fees": 0,
+    "notional": 0,
+    "skipped": true,
+    "skipReason": "HOLD / no new PLAN into FOMC. Naked ETH blocks new Coins entries until SM restored.",
+    "notes": "No new Coins ticket. Existing ETH override still open/naked."
+  },
+  {
+    "id": "SKIP-20260914-GOTRADE-NEW",
+    "date": "2026-09-14",
+    "venue": "gotrade",
+    "symbol": "CASH",
+    "side": "buy",
+    "qty": 0,
+    "price": 0,
+    "fees": 0,
+    "notional": 0,
+    "skipped": true,
+    "skipReason": "HOLD into FOMC. Gotrade MSFT+GOOGL fills still unverified — no new short-horizon PLAN.",
+    "notes": "LT queue unchanged until Desk verifies fills."
   }
 ]

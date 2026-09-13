@@ -1,8 +1,8 @@
 {
-  "asOf": "2026-09-11",
+  "asOf": "2026-09-14",
   "timezone": "Asia/Manila",
   "stance": "IN_TRADE",
-  "stanceReason": "Coins ETH naked long 0.01105 @ $2451.93 — exits CANCELLED (SM/TP NOT resting). jayr explicit choice. Mental inv $2378 only. No new Coins entries while unhedged. Gotrade MSFT+GOOGL still queued. Restore SM @ $2378.37 the moment jayr asks.",
+  "stanceReason": "HOLD open books / NO NEW PLAN into FOMC Tue–Wed (decision Wed 16). Core CPI hot Fri → hike odds ~87%. Coins ETH still naked long 0.01105 @ $2451.93 (mark ~$2505); SM/TP NOT resting — no new Coins until SM restored. Gotrade MSFT+GOOGL fills unverified (still queued/pending).",
   "primaries": [
     "BTC",
     "XRP"
@@ -13,7 +13,7 @@
       "label": "Coins.ph",
       "currency": "PHP",
       "cash": 147.49,
-      "equity": 174.7362,
+      "equity": 175.1703,
       "dayPnl": 0,
       "totalPnl": 0,
       "positions": [
@@ -22,10 +22,10 @@
           "name": "Ethereum",
           "qty": 0.01105,
           "avgCost": 2451.93,
-          "mark": 2465.72,
-          "marketValue": 27.2462,
-          "pnl": 0.1524,
-          "pnlPct": 0.005625
+          "mark": 2505,
+          "marketValue": 27.6803,
+          "pnl": 0.5865,
+          "pnlPct": 0.021647
         }
       ]
     },
@@ -42,22 +42,13 @@
   },
   "catalysts": [
     {
-      "id": "ppi-2026-09-10",
-      "date": "2026-09-10",
-      "timeManila": "20:30",
-      "title": "US August PPI",
-      "impact": "high",
-      "status": "done",
-      "notes": "Printed. Headline +0.4% m/m in line, +5.4% y/y vs ~5.3%. Core +0.2% m/m. Energy +4.2%. Not permission to clip."
-    },
-    {
       "id": "cpi-2026-09-11",
       "date": "2026-09-11",
       "timeManila": "20:30",
       "title": "US August CPI",
       "impact": "high",
-      "status": "upcoming",
-      "notes": "Kill window. TODAY 20:30 Manila. Flatten any open Coins before print if no fresh edge. Books already FLAT."
+      "status": "done",
+      "notes": "Hot core +0.3%; hike odds ~87% into FOMC"
     },
     {
       "id": "fomc-2026-09-15",
@@ -65,7 +56,7 @@
       "title": "FOMC meeting (Sep 15–16)",
       "impact": "high",
       "status": "upcoming",
-      "notes": "Quiet period already active"
+      "notes": "Decision Wed 16; HOLD / no new PLAN into meeting"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-11",
+  "asOf": "2026-09-14",
   "disclaimer": "Scenario calls with invalidation — not guaranteed predictions. Graded HIT / MISS / EXPIRED after the horizon. Cancelled and expired do not enter the hit rate.",
   "calls": [
     {
@@ -68,7 +68,7 @@
       "dateOpened": "2026-09-08",
       "symbol": "MACRO",
       "venue": "macro",
-      "thesis": "Stay flat through CPI Fri Sep 11 (TODAY 20:30 Manila) into FOMC Sep 15–16. Permission not granted.",
+      "thesis": "CPI done (hot core). HOLD open risk into FOMC Tue–Wed decision; no new PLAN.",
       "direction": "none",
       "invalidation": "Desk grants permission, or a primary prints a clean post-event wait with Risk greenlight",
       "conviction": 7,
@@ -142,7 +142,7 @@
       "dateOpened": "2026-09-11",
       "symbol": "ETH",
       "venue": "coins",
-      "thesis": "ETH-CPI-OVERRIDE filled @ $2451.93 — now NAKED into CPI (SM/TP cancelled by jayr). Mental invalidation $2378 only until exits restored.",
+      "thesis": "ETH-CPI-OVERRIDE still LIVE/naked into FOMC. Entry $2451.93 · mark ~$2505 (~+2%). SM/TP NOT resting. Mental inv $2378. HOLD — no new PLAN.",
       "direction": "breakout",
       "entryZone": {
         "low": 2451.93,
@@ -157,7 +157,7 @@
       "horizon": "event",
       "status": "hit_entry",
       "resolvedAt": "2026-09-11",
-      "outcomeNote": "LIVE naked long. Exits cancelled. Stop NOT resting / TP NOT resting. No new Coins entries while unhedged.",
+      "outcomeNote": "Mon HOLD: still naked into FOMC (~87% hike odds). No new Coins until SM restored.",
       "source": "desk",
       "role": "primary"
     },

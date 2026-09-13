@@ -1,0 +1,59 @@
+{
+  "date": "2026-09-14",
+  "stance": "IN_TRADE",
+  "headline": "Mon HOLD into FOMC. Naked ETH still on; no new Coins until SM restored. Gotrade fills unverified.",
+  "scout": {
+    "headline": "Hot core CPI → hike odds ~87% into FOMC Tue–Wed. Prefer no new risk.",
+    "bullets": [
+      "Fri CPI: headline in-line; core +0.3% hot vs ~0.2% — hike odds ~70%→~87% into FOMC decision Wed 16.",
+      "BTC whipped ~$76k→~$80k→mid/high $77s; ETH spiked post-print then faded — open ~$2452 now under the spike.",
+      "Desk: HOLD open books / NO NEW PLAN into FOMC. Naked ETH = elevated event risk until SM restored."
+    ],
+    "sources": [
+      "Desk morning brief 2026-09-14",
+      "Trading Ops Scout delta"
+    ]
+  },
+  "analyst": {
+    "thesis": "ETH-CPI-OVERRIDE still open/naked into FOMC. No new scored Coins calls until SM restored. Gotrade MSFT+GOOGL = LT holds if filled (unverified).",
+    "levels": [
+      {
+        "symbol": "ETH",
+        "invalidation": "Mental $2378 only until SM restored",
+        "note": "Entry $2451.93 · mark ~$2505 (~+2%). Mental inv $2378 / old TP $2599 — still naked."
+      },
+      {
+        "symbol": "BTC",
+        "note": "Watch-only into FOMC — no new wait armed."
+      },
+      {
+        "symbol": "MSFT",
+        "note": "LT starter queued/unverified fill — not a short-horizon PLAN."
+      },
+      {
+        "symbol": "GOOGL",
+        "note": "LT starter queued/unverified fill — not a short-horizon PLAN."
+      }
+    ],
+    "notes": "HOLD / no new PLAN Tue–Wed. Override ≠ new default."
+  },
+  "risk": {
+    "railsCheck": "HOLD. Naked ETH unhedged into ~87% hike odds; mental $2378 ≠ SM. No new Coins until SM restored. Gotrade unverified = no spare size for short-horizon stock PLANs.",
+    "sizeNote": "Do not add. Restore Sell→Stop-Market @ $2378.37 only on jayr ask.",
+    "kills": [
+      "No new PLAN into FOMC Tue–Wed",
+      "No new Coins entries while naked (SM not restored)",
+      "Zone print ≠ fill into a binary"
+    ],
+    "feeSkip": "Coins/Gotrade fee-skip unchanged when a post-FOMC A+ appears."
+  },
+  "desk": {
+    "decision": "HOLD open books / NO NEW PLAN into FOMC. Naked ETH on; Gotrade fills unverified.",
+    "actions": [
+      "Publish Mon DailyPacket on Vision",
+      "Keep ETH-CPI-OVERRIDE open/naked on Predictions",
+      "Flip Gotrade queued→fill only when Desk verifies open fills"
+    ],
+    "nextOpen": "After FOMC decision Wed 16 — reassess ETH exits / SM restore; still prefer A+ only for new risk."
+  }
+}

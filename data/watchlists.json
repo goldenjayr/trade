@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-11",
+  "asOf": "2026-09-14",
   "crypto": [
     {
       "symbol": "BTC",
@@ -22,7 +22,7 @@
       "venues": [
         "coins"
       ],
-      "last": 2465.72,
+      "last": 2505,
       "currency": "USD",
       "changePct": -0.002621,
       "thesis": "LT educational #2 + Coins-7 core. Multi-year map. Still flat into CPI — NOT a PLAN."
