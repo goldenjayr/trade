@@ -1,7 +1,7 @@
 {
   "date": "2026-09-14",
   "stance": "IN_TRADE",
-  "headline": "Mon HOLD into FOMC. Naked ETH still on; no new Coins until SM restored. Gotrade fills unverified.",
+  "headline": "Gotrade LT fills confirmed (MSFT+GOOGL). Book full. Coins ETH still naked into FOMC.",
   "scout": {
     "headline": "Hot core CPI → hike odds ~87% into FOMC Tue–Wed. Prefer no new risk.",
     "bullets": [
@@ -35,10 +35,10 @@
         "note": "LT starter queued/unverified fill — not a short-horizon PLAN."
       }
     ],
-    "notes": "HOLD / no new PLAN Tue–Wed. Override ≠ new default."
+    "notes": "MSFT @ $495.57 + GOOGL @ $335.20 filled as LT holds from educational list — not short-horizon scored trades."
   },
   "risk": {
-    "railsCheck": "HOLD. Naked ETH unhedged into ~87% hike odds; mental $2378 ≠ SM. No new Coins until SM restored. Gotrade unverified = no spare size for short-horizon stock PLANs.",
+    "railsCheck": "Gotrade book full (cash $0) → no new Gotrade PLANs. Coins still naked into FOMC — no new Coins until SM restored. HOLD.",
     "sizeNote": "Do not add. Restore Sell→Stop-Market @ $2378.37 only on jayr ask.",
     "kills": [
       "No new PLAN into FOMC Tue–Wed",
@@ -48,12 +48,15 @@
     "feeSkip": "Coins/Gotrade fee-skip unchanged when a post-FOMC A+ appears."
   },
   "desk": {
-    "decision": "HOLD open books / NO NEW PLAN into FOMC. Naked ETH on; Gotrade fills unverified.",
+    "decision": "Gotrade IN_TRADE: MSFT + GOOGL filled (cash $0, equity ~$46.50). Coins ETH still naked — no new Coins until SM restored. HOLD / no new PLAN into FOMC.",
     "actions": [
       "Publish Mon DailyPacket on Vision",
       "Keep ETH-CPI-OVERRIDE open/naked on Predictions",
-      "Flip Gotrade queued→fill only when Desk verifies open fills"
+      "Flip Gotrade queued→fill only when Desk verifies open fills",
+      "Vision: flip Gotrade queued→fill with both positions",
+      "No new Gotrade PLANs — book full",
+      "No new Coins until SM restored"
     ],
-    "nextOpen": "After FOMC decision Wed 16 — reassess ETH exits / SM restore; still prefer A+ only for new risk."
+    "nextOpen": "After FOMC: manage ETH (prefer restore SM); Gotrade = LT holds only."
   }
 }

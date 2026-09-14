@@ -1,13 +1,13 @@
 {
   "date": "2026-09-14",
   "stance": "IN_TRADE",
-  "stanceReason": "HOLD open books / NO NEW PLAN into FOMC Tue\u2013Wed (decision Wed 16). Core CPI hot Fri \u2192 hike odds ~87%. Coins ETH still naked long 0.01105 @ $2451.93 (mark ~$2505); SM/TP NOT resting \u2014 no new Coins until SM restored. Gotrade MSFT+GOOGL fills unverified (still queued/pending).",
+  "stanceReason": "HOLD open books / NO NEW PLAN into FOMC Tue\u2013Wed. Coins ETH still naked 0.01105 @ $2451.93 (mark ~$2505) \u2014 no new Coins until SM restored. Gotrade FILLED: MSFT 0.040135601 @ $495.57 + GOOGL 0.079892601 @ $335.20 (fees $0.10 ea); cash $0 \u00b7 equity ~$46.50 \u00b7 ~\u22121.58% at check. Book full.",
   "primaries": [
     "BTC",
     "XRP"
   ],
   "usdphp": 58.15,
-  "notes": "Mon 2026-09-14 morning. Desk HOLD into FOMC. ETH-CPI-OVERRIDE still open/naked. Gotrade LT starter unverified. Journal Monday Upgrades logged separately.",
+  "notes": "Mon 2026-09-14 morning. Desk HOLD into FOMC. ETH-CPI-OVERRIDE still open/naked. Gotrade LT starter unverified. Journal Monday Upgrades logged separately. | Gotrade FILLED MSFT 0.040135601 @ $495.57 + GOOGL 0.079892601 @ $335.20 (fees $0.10 ea); cash $0; queued\u2192fill.",
   "books": {
     "coins": {
       "venue": "coins",
@@ -28,16 +28,31 @@
     "gotrade": {
       "venue": "gotrade",
       "currency": "USD",
-      "cash": 46.89,
+      "cash": 0,
       "dayPnl": 0,
       "totalPnl": 0,
-      "positions": []
+      "positions": [
+        {
+          "symbol": "MSFT",
+          "name": "Microsoft",
+          "qty": 0.040135601,
+          "avgCost": 495.57,
+          "mark": 487.74
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Alphabet",
+          "qty": 0.079892601,
+          "avgCost": 335.2,
+          "mark": 329.9038
+        }
+      ]
     }
   },
   "journal": {
     "date": "2026-09-14",
     "stance": "IN_TRADE",
-    "headline": "Mon HOLD into FOMC. Naked ETH still on; no new Coins until SM restored. Gotrade fills unverified.",
+    "headline": "Gotrade LT fills confirmed (MSFT+GOOGL). Book full. Coins ETH still naked into FOMC.",
     "scout": {
       "headline": "Hot core CPI \u2192 hike odds ~87% into FOMC Tue\u2013Wed. Prefer no new risk.",
       "bullets": [
@@ -71,10 +86,10 @@
           "note": "LT starter queued/unverified fill \u2014 not a short-horizon PLAN."
         }
       ],
-      "notes": "HOLD / no new PLAN Tue\u2013Wed. Override \u2260 new default."
+      "notes": "MSFT @ $495.57 + GOOGL @ $335.20 filled as LT holds from educational list \u2014 not short-horizon scored trades."
     },
     "risk": {
-      "railsCheck": "HOLD. Naked ETH unhedged into ~87% hike odds; mental $2378 \u2260 SM. No new Coins until SM restored. Gotrade unverified = no spare size for short-horizon stock PLANs.",
+      "railsCheck": "Gotrade book full (cash $0) \u2192 no new Gotrade PLANs. Coins still naked into FOMC \u2014 no new Coins until SM restored. HOLD.",
       "sizeNote": "Do not add. Restore Sell\u2192Stop-Market @ $2378.37 only on jayr ask.",
       "kills": [
         "No new PLAN into FOMC Tue\u2013Wed",
@@ -84,44 +99,19 @@
       "feeSkip": "Coins/Gotrade fee-skip unchanged when a post-FOMC A+ appears."
     },
     "desk": {
-      "decision": "HOLD open books / NO NEW PLAN into FOMC. Naked ETH on; Gotrade fills unverified.",
+      "decision": "Gotrade IN_TRADE: MSFT + GOOGL filled (cash $0, equity ~$46.50). Coins ETH still naked \u2014 no new Coins until SM restored. HOLD / no new PLAN into FOMC.",
       "actions": [
         "Publish Mon DailyPacket on Vision",
         "Keep ETH-CPI-OVERRIDE open/naked on Predictions",
-        "Flip Gotrade queued\u2192fill only when Desk verifies open fills"
+        "Flip Gotrade queued\u2192fill only when Desk verifies open fills",
+        "Vision: flip Gotrade queued\u2192fill with both positions",
+        "No new Gotrade PLANs \u2014 book full",
+        "No new Coins until SM restored"
       ],
-      "nextOpen": "After FOMC decision Wed 16 \u2014 reassess ETH exits / SM restore; still prefer A+ only for new risk."
+      "nextOpen": "After FOMC: manage ETH (prefer restore SM); Gotrade = LT holds only."
     }
   },
   "trades": [
-    {
-      "id": "QUEUE-20260911-MSFT",
-      "date": "2026-09-11",
-      "venue": "gotrade",
-      "symbol": "MSFT",
-      "side": "buy",
-      "qty": 0.0405,
-      "price": 491.32,
-      "fees": 0,
-      "notional": 20.0,
-      "skipped": true,
-      "skipReason": "QUEUED for US open \u2014 pending fill. LT educational starter (~$20). Not filled yet.",
-      "notes": "QUEUE\u2192FILL. LT #1 MSFT. One-time max-1 exception with GOOGL. Stop/TP N/A (multi-year hold). Coins still flat into CPI."
-    },
-    {
-      "id": "QUEUE-20260911-GOOGL",
-      "date": "2026-09-11",
-      "venue": "gotrade",
-      "symbol": "GOOGL",
-      "side": "buy",
-      "qty": 0.0806,
-      "price": 332.45,
-      "fees": 0,
-      "notional": 26.89,
-      "skipped": true,
-      "skipReason": "QUEUED for US open \u2014 pending fill. LT educational starter (~$26.89). Not filled yet.",
-      "notes": "QUEUE\u2192FILL. LT #3 GOOGL. Dual starter with MSFT uses full ~$46.89. Coins still flat into CPI."
-    },
     {
       "id": "FILL-20260911-ETH",
       "date": "2026-09-11",
@@ -150,6 +140,32 @@
       "notes": "No new Coins ticket. Existing ETH override still open/naked."
     },
     {
+      "id": "FILL-20260914-MSFT",
+      "date": "2026-09-14",
+      "venue": "gotrade",
+      "symbol": "MSFT",
+      "side": "buy",
+      "qty": 0.040135601,
+      "price": 495.57,
+      "fees": 0.1,
+      "notional": 19.89,
+      "skipped": false,
+      "notes": "FILL from queue. LT educational starter #1. Book full \u2014 no new Gotrade PLANs into FOMC."
+    },
+    {
+      "id": "FILL-20260914-GOOGL",
+      "date": "2026-09-14",
+      "venue": "gotrade",
+      "symbol": "GOOGL",
+      "side": "buy",
+      "qty": 0.079892601,
+      "price": 335.2,
+      "fees": 0.1,
+      "notional": 26.78,
+      "skipped": false,
+      "notes": "FILL from queue. LT educational starter #3. Cash $0 after dual fill."
+    },
+    {
       "id": "SKIP-20260914-GOTRADE-NEW",
       "date": "2026-09-14",
       "venue": "gotrade",
@@ -160,8 +176,8 @@
       "fees": 0,
       "notional": 0,
       "skipped": true,
-      "skipReason": "HOLD into FOMC. Gotrade MSFT+GOOGL fills still unverified \u2014 no new short-horizon PLAN.",
-      "notes": "LT queue unchanged until Desk verifies fills."
+      "skipReason": "Book full (cash $0). LT holds only \u2014 no new Gotrade PLANs into FOMC.",
+      "notes": "MSFT+GOOGL filled. No spare size."
     }
   ],
   "catalysts": [
@@ -446,7 +462,7 @@
     },
     {
       "symbol": "MSFT",
-      "last": 492.4,
+      "last": 487.74,
       "changePct": -0.002034
     },
     {
@@ -456,7 +472,7 @@
     },
     {
       "symbol": "GOOGL",
-      "last": 332.6,
+      "last": 329.9038,
       "changePct": 0.004022
     },
     {

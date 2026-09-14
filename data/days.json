@@ -90,9 +90,9 @@
   {
     "date": "2026-09-14",
     "stance": "IN_TRADE",
-    "summary": "Mon 2026-09-14 morning. Desk HOLD into FOMC. ETH-CPI-OVERRIDE still open/naked. Gotrade LT starter unverified. Journal Monday Upgrades logged separately.",
-    "tradeCount": 1,
+    "summary": "Mon 2026-09-14 morning. Desk HOLD into FOMC. ETH-CPI-OVERRIDE still open/naked. Gotrade LT starter unverified. Journal Monday Upgrades logged separately. | Gotrade FILLED MSFT 0.040135601 @ $495.57 + GOOGL 0.079892601 @ $335.20 (fees $0.10 ea); cash $0; queued→fill.",
+    "tradeCount": 3,
     "coinsEquity": 175.1703,
-    "gotradeEquity": 46.89
+    "gotradeEquity": 45.9326
   }
 ]

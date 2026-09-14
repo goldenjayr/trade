@@ -2,7 +2,7 @@
   "asOf": "2026-09-14",
   "timezone": "Asia/Manila",
   "stance": "IN_TRADE",
-  "stanceReason": "HOLD open books / NO NEW PLAN into FOMC Tue–Wed (decision Wed 16). Core CPI hot Fri → hike odds ~87%. Coins ETH still naked long 0.01105 @ $2451.93 (mark ~$2505); SM/TP NOT resting — no new Coins until SM restored. Gotrade MSFT+GOOGL fills unverified (still queued/pending).",
+  "stanceReason": "HOLD open books / NO NEW PLAN into FOMC Tue–Wed. Coins ETH still naked 0.01105 @ $2451.93 (mark ~$2505) — no new Coins until SM restored. Gotrade FILLED: MSFT 0.040135601 @ $495.57 + GOOGL 0.079892601 @ $335.20 (fees $0.10 ea); cash $0 · equity ~$46.50 · ~−1.58% at check. Book full.",
   "primaries": [
     "BTC",
     "XRP"
@@ -33,11 +33,32 @@
       "venue": "gotrade",
       "label": "Gotrade",
       "currency": "USD",
-      "cash": 46.89,
-      "equity": 46.89,
+      "cash": 0,
+      "equity": 45.9326,
       "dayPnl": 0,
       "totalPnl": 0,
-      "positions": []
+      "positions": [
+        {
+          "symbol": "MSFT",
+          "name": "Microsoft",
+          "qty": 0.040135601,
+          "avgCost": 495.57,
+          "mark": 487.74,
+          "marketValue": 19.5757,
+          "pnl": -0.3143,
+          "pnlPct": -0.015802
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Alphabet",
+          "qty": 0.079892601,
+          "avgCost": 335.2,
+          "mark": 329.9038,
+          "marketValue": 26.3569,
+          "pnl": -0.4231,
+          "pnlPct": -0.015799
+        }
+      ]
     }
   },
   "catalysts": [

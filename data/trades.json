@@ -139,6 +139,32 @@
     "notes": "SKIP-20260911-GOTRADE. No JR- live ticket. No Gotrade send. Stop not resting. +6% not applicable. 07:00 Gotrade skip = after hours."
   },
   {
+    "id": "FILL-20260914-GOOGL",
+    "date": "2026-09-14",
+    "venue": "gotrade",
+    "symbol": "GOOGL",
+    "side": "buy",
+    "qty": 0.079892601,
+    "price": 335.2,
+    "fees": 0.1,
+    "notional": 26.78,
+    "skipped": false,
+    "notes": "FILL from queue. LT educational starter #3. Cash $0 after dual fill."
+  },
+  {
+    "id": "FILL-20260914-MSFT",
+    "date": "2026-09-14",
+    "venue": "gotrade",
+    "symbol": "MSFT",
+    "side": "buy",
+    "qty": 0.040135601,
+    "price": 495.57,
+    "fees": 0.1,
+    "notional": 19.89,
+    "skipped": false,
+    "notes": "FILL from queue. LT educational starter #1. Book full — no new Gotrade PLANs into FOMC."
+  },
+  {
     "id": "SKIP-20260914-COINS-NEW",
     "date": "2026-09-14",
     "venue": "coins",
@@ -163,7 +189,7 @@
     "fees": 0,
     "notional": 0,
     "skipped": true,
-    "skipReason": "HOLD into FOMC. Gotrade MSFT+GOOGL fills still unverified — no new short-horizon PLAN.",
-    "notes": "LT queue unchanged until Desk verifies fills."
+    "skipReason": "Book full (cash $0). LT holds only — no new Gotrade PLANs into FOMC.",
+    "notes": "MSFT+GOOGL filled. No spare size."
   }
 ]
