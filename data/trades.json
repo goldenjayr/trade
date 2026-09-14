@@ -191,5 +191,33 @@
     "skipped": true,
     "skipReason": "Book full (cash $0). LT holds only — no new Gotrade PLANs into FOMC.",
     "notes": "MSFT+GOOGL filled. No spare size."
+  },
+  {
+    "id": "SKIP-20260915-COINS-NEW",
+    "date": "2026-09-15",
+    "venue": "coins",
+    "symbol": "ETH",
+    "side": "buy",
+    "qty": 0,
+    "price": 0,
+    "fees": 0,
+    "notional": 0,
+    "skipped": true,
+    "skipReason": "HOLD through FOMC Wed. New Coins blocked while naked (jayr leave-naked).",
+    "notes": "No new Coins ticket. Existing ETH override still open/naked."
+  },
+  {
+    "id": "SKIP-20260915-GOTRADE-NEW",
+    "date": "2026-09-15",
+    "venue": "gotrade",
+    "symbol": "CASH",
+    "side": "buy",
+    "qty": 0,
+    "price": 0,
+    "fees": 0,
+    "notional": 0,
+    "skipped": true,
+    "skipReason": "Book full (cash $0). LT holds only — no new Gotrade PLANs through FOMC.",
+    "notes": "MSFT+GOOGL filled LT holds."
   }
 ]

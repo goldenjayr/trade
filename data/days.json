@@ -94,5 +94,13 @@
     "tradeCount": 3,
     "coinsEquity": 175.1703,
     "gotradeEquity": 45.9326
+  },
+  {
+    "date": "2026-09-15",
+    "stance": "IN_TRADE",
+    "summary": "Tue 2026-09-15 FOMC day 1 morning. HOLD through Wed decision. ETH naked by jayr choice — don’t push SM restore unless asked. Gotrade LT green vs fill.",
+    "tradeCount": 3,
+    "coinsEquity": 175.336,
+    "gotradeEquity": 48.151
   }
 ]

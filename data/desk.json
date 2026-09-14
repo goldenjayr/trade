@@ -1,8 +1,8 @@
 {
-  "asOf": "2026-09-14",
+  "asOf": "2026-09-15",
   "timezone": "Asia/Manila",
   "stance": "IN_TRADE",
-  "stanceReason": "HOLD open books / NO NEW PLAN into FOMC Tue–Wed. Coins ETH still naked 0.01105 @ $2451.93 (mark ~$2505) — no new Coins until SM restored. Gotrade FILLED: MSFT 0.040135601 @ $495.57 + GOOGL 0.079892601 @ $335.20 (fees $0.10 ea); cash $0 · equity ~$46.50 · ~−1.58% at check. Book full.",
+  "stanceReason": "HOLD / NO NEW PLAN through FOMC Wed decision. Hike odds ~80–90% for +25bps (priced); watch dots + presser. Coins ETH still naked 0.01105 @ $2451.93 (mark ~$2520) — jayr chose leave naked; no SM nag unless he asks. New Coins entries still blocked while naked. Gotrade LT holds filled (MSFT ~$505 / GOOGL ~$349); cash $0; book full.",
   "primaries": [
     "BTC",
     "XRP"
@@ -13,7 +13,7 @@
       "label": "Coins.ph",
       "currency": "PHP",
       "cash": 147.49,
-      "equity": 175.1703,
+      "equity": 175.336,
       "dayPnl": 0,
       "totalPnl": 0,
       "positions": [
@@ -22,10 +22,10 @@
           "name": "Ethereum",
           "qty": 0.01105,
           "avgCost": 2451.93,
-          "mark": 2505,
-          "marketValue": 27.6803,
-          "pnl": 0.5865,
-          "pnlPct": 0.021647
+          "mark": 2520,
+          "marketValue": 27.846,
+          "pnl": 0.7522,
+          "pnlPct": 0.027763
         }
       ]
     },
@@ -34,7 +34,7 @@
       "label": "Gotrade",
       "currency": "USD",
       "cash": 0,
-      "equity": 45.9326,
+      "equity": 48.151,
       "dayPnl": 0,
       "totalPnl": 0,
       "positions": [
@@ -43,20 +43,20 @@
           "name": "Microsoft",
           "qty": 0.040135601,
           "avgCost": 495.57,
-          "mark": 487.74,
-          "marketValue": 19.5757,
-          "pnl": -0.3143,
-          "pnlPct": -0.015802
+          "mark": 505,
+          "marketValue": 20.2685,
+          "pnl": 0.3785,
+          "pnlPct": 0.01903
         },
         {
           "symbol": "GOOGL",
           "name": "Alphabet",
           "qty": 0.079892601,
           "avgCost": 335.2,
-          "mark": 329.9038,
-          "marketValue": 26.3569,
-          "pnl": -0.4231,
-          "pnlPct": -0.015799
+          "mark": 349,
+          "marketValue": 27.8825,
+          "pnl": 1.1025,
+          "pnlPct": 0.041169
         }
       ]
     }
@@ -69,15 +69,23 @@
       "title": "US August CPI",
       "impact": "high",
       "status": "done",
-      "notes": "Hot core +0.3%; hike odds ~87% into FOMC"
+      "notes": "Hot core; hike odds elevated into FOMC"
     },
     {
       "id": "fomc-2026-09-15",
       "date": "2026-09-15",
-      "title": "FOMC meeting (Sep 15–16)",
+      "title": "FOMC meeting day 1",
+      "impact": "high",
+      "status": "live",
+      "notes": "Decision Wed 16; HOLD / no new PLAN"
+    },
+    {
+      "id": "fomc-decision-2026-09-16",
+      "date": "2026-09-16",
+      "title": "FOMC decision + presser",
       "impact": "high",
       "status": "upcoming",
-      "notes": "Decision Wed 16; HOLD / no new PLAN into meeting"
+      "notes": "Watch dots + presser more than hike itself"
     }
   ]
 }
