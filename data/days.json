@@ -102,5 +102,13 @@
     "tradeCount": 3,
     "coinsEquity": 174.4794,
     "gotradeEquity": 47.5363
+  },
+  {
+    "date": "2026-09-16",
+    "stance": "IN_TRADE",
+    "summary": "Wed 2026-09-16 FOMC decision day morning. HOLD through decision. ETH naked −1.8% vs entry; Gotrade LT book slightly green.",
+    "tradeCount": 3,
+    "coinsEquity": 174.1095,
+    "gotradeEquity": 46.9912
   }
 ]

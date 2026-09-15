@@ -219,5 +219,33 @@
     "skipped": true,
     "skipReason": "Book full (cash $0). LT holds only — no new Gotrade PLANs through FOMC.",
     "notes": "EOD confirm: MSFT+GOOGL filled LT holds; US session open but no adds."
+  },
+  {
+    "id": "SKIP-20260916-COINS-NEW",
+    "date": "2026-09-16",
+    "venue": "coins",
+    "symbol": "ETH",
+    "side": "buy",
+    "qty": 0,
+    "price": 0,
+    "fees": 0,
+    "notional": 0,
+    "skipped": true,
+    "skipReason": "HOLD through FOMC decision. New Coins blocked while naked.",
+    "notes": "No new Coins ticket."
+  },
+  {
+    "id": "SKIP-20260916-GOTRADE-NEW",
+    "date": "2026-09-16",
+    "venue": "gotrade",
+    "symbol": "CASH",
+    "side": "buy",
+    "qty": 0,
+    "price": 0,
+    "fees": 0,
+    "notional": 0,
+    "skipped": true,
+    "skipReason": "Book full / prefer NO TRADE on new entries through FOMC decision.",
+    "notes": "MSFT+GOOGL LT holds only."
   }
 ]

@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-15",
+  "asOf": "2026-09-16",
   "disclaimer": "Scenario calls with invalidation — not guaranteed predictions. Graded HIT / MISS / EXPIRED after the horizon. Cancelled and expired do not enter the hit rate.",
   "calls": [
     {
@@ -68,7 +68,7 @@
       "dateOpened": "2026-09-08",
       "symbol": "MACRO",
       "venue": "macro",
-      "thesis": "FOMC live Tue–Wed. HOLD open risk through Wed decision; no new PLAN.",
+      "thesis": "FOMC decision day. HOLD open risk through announcement; no new PLAN.",
       "direction": "none",
       "invalidation": "Desk grants permission, or a primary prints a clean post-event wait with Risk greenlight",
       "conviction": 7,
@@ -142,7 +142,7 @@
       "dateOpened": "2026-09-11",
       "symbol": "ETH",
       "venue": "coins",
-      "thesis": "ETH-CPI-OVERRIDE still LIVE/naked into FOMC (jayr leave-naked). Entry $2451.93 · mark ~$2442.48 (-0.39%). Do not nag SM restore unless he asks. New Coins entries still blocked.",
+      "thesis": "ETH-CPI-OVERRIDE still LIVE/naked into FOMC decision. Entry $2451.93 · mark ~$2409 (~−1.8%). SM/TP waived by jayr — no nag. New Coins entries still blocked.",
       "direction": "breakout",
       "entryZone": {
         "low": 2451.93,
@@ -157,7 +157,7 @@
       "horizon": "event",
       "status": "hit_entry",
       "resolvedAt": "2026-09-11",
-      "outcomeNote": "Tue EOD HOLD through Wed decision. Naked by explicit choice. Soft vs morning mark.",
+      "outcomeNote": "Wed HOLD through FOMC decision. Naked ~−1.8% vs entry.",
       "source": "desk",
       "role": "primary"
     },

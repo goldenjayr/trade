@@ -1,0 +1,54 @@
+{
+  "date": "2026-09-16",
+  "stance": "IN_TRADE",
+  "headline": "FOMC decision day — HOLD / no new PLAN. Naked ETH ~−1.8%. Gotrade LT book ~+$0.84.",
+  "scout": {
+    "headline": "FOMC decision ~2pm ET / ~2am Thu Manila. Prefer no new risk into the print.",
+    "bullets": [
+      "Decision window ~2pm ET Wed (~2am Thu Manila) — HOLD through the announcement.",
+      "Naked ETH mark ~$2409 vs $2451.93 entry (~−1.8%); SM/TP still waived.",
+      "Gotrade LT holds filled; book ~+$0.84; prefer NO TRADE on new entries."
+    ],
+    "sources": [
+      "Desk morning brief 2026-09-16"
+    ]
+  },
+  "analyst": {
+    "thesis": "HOLD through FOMC decision. ETH-CPI-OVERRIDE still open/naked. Gotrade MSFT+GOOGL = LT holds only.",
+    "levels": [
+      {
+        "symbol": "ETH",
+        "invalidation": "Mental $2378 only",
+        "note": "Entry $2451.93 · mark ~$2409 (~−1.8%). Still naked (jayr waiver)."
+      },
+      {
+        "symbol": "MSFT",
+        "note": "LT hold filled; book slightly green overall. Not a short-horizon PLAN."
+      },
+      {
+        "symbol": "GOOGL",
+        "note": "LT hold filled; book slightly green overall. Not a short-horizon PLAN."
+      }
+    ],
+    "notes": "No new Coins while naked. Prefer NO TRADE on new entries either book."
+  },
+  "risk": {
+    "railsCheck": "HOLD. New Coins blocked while naked. Gotrade cash $0 / book full — no new Gotrade PLANs. Through FOMC decision.",
+    "sizeNote": "Do not add. No SM nag unless jayr asks.",
+    "kills": [
+      "No new PLAN through FOMC decision",
+      "No new Coins entries while naked",
+      "Gotrade book full — prefer NO TRADE on new entries"
+    ],
+    "feeSkip": "Unchanged post-decision if an A+ appears."
+  },
+  "desk": {
+    "decision": "HOLD / NO NEW PLAN through FOMC decision. ETH naked ~−1.8%. Gotrade LT book ~+$0.84.",
+    "actions": [
+      "Publish Wed DailyPacket on Vision",
+      "Keep leave-naked / no SM nag unless jayr asks",
+      "Prefer NO TRADE on new entries"
+    ],
+    "nextOpen": "After FOMC decision + presser — reassess only on jayr ask / A+."
+  }
+}
