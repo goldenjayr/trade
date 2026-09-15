@@ -142,7 +142,7 @@
       "dateOpened": "2026-09-11",
       "symbol": "ETH",
       "venue": "coins",
-      "thesis": "ETH-CPI-OVERRIDE still LIVE/naked into FOMC (jayr leave-naked). Entry $2451.93 · mark ~$2520. Do not nag SM restore unless he asks. New Coins entries still blocked.",
+      "thesis": "ETH-CPI-OVERRIDE still LIVE/naked into FOMC (jayr leave-naked). Entry $2451.93 · mark ~$2442.48 (-0.39%). Do not nag SM restore unless he asks. New Coins entries still blocked.",
       "direction": "breakout",
       "entryZone": {
         "low": 2451.93,
@@ -157,7 +157,7 @@
       "horizon": "event",
       "status": "hit_entry",
       "resolvedAt": "2026-09-11",
-      "outcomeNote": "Tue HOLD through Wed decision. Naked by explicit choice.",
+      "outcomeNote": "Tue EOD HOLD through Wed decision. Naked by explicit choice. Soft vs morning mark.",
       "source": "desk",
       "role": "primary"
     },

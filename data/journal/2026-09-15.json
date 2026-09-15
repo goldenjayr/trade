@@ -1,37 +1,53 @@
 {
   "date": "2026-09-15",
   "stance": "IN_TRADE",
-  "headline": "FOMC day 1 — HOLD / no new PLAN through Wed. ETH naked (jayr choice). Gotrade LT green vs fill.",
+  "headline": "FOMC day 1 EOD — HOLD / no new PLAN through Wed. ETH naked ~-0.39% vs entry. Gotrade LT still green vs fill.",
   "scout": {
-    "headline": "FOMC day 1: hike largely priced (~80–90% +25bps). Dots + presser matter more than the cut/hike print.",
+    "headline": "FOMC day 1: hike ~90% priced for +25bps Wed. Dots + Warsh presser matter more than the print.",
     "bullets": [
-      "Hike odds still ~80–90% for +25bps Wed (to 3.75–4.00%) — largely priced.",
-      "Watch dots + Warsh presser more than the hike itself.",
+      "Hike odds ~90% for +25bps Wed (to 3.75–4.00%) — largely priced; ~85% economist consensus.",
+      "Watch dots + Warsh presser for whether one hike becomes a cycle.",
+      "Crypto soft into evening: BTC ~$76,406 (below $78–78.8k wait; above post-only $74.8–75.8k), ETH ~$2442.48, XRP ~$1.4058 (above $1.33–1.36 wait).",
       "Agree HOLD / no new PLAN; naked ETH = event risk by jayr choice until he asks otherwise."
     ],
     "sources": [
-      "Desk morning brief 2026-09-15",
-      "Trading Ops Scout delta"
+      "Desk EOD publish 2026-09-15",
+      "Coinbase spot + CNBC US tape",
+      "Newsquawk / Reuters FOMC preview"
     ]
   },
   "analyst": {
-    "thesis": "HOLD through Wed. Gotrade LT green vs fill. ETH-CPI-OVERRIDE still open/naked — no new Coins scored calls while naked.",
+    "thesis": "HOLD through Wed decision. Gotrade LT still green vs fill but softer on the day. ETH-CPI-OVERRIDE still open/naked — no new Coins scored calls while naked.",
     "levels": [
       {
         "symbol": "ETH",
         "invalidation": "Mental $2378 only — SM not resting by choice",
-        "note": "Entry $2451.93 · mark ~$2520. Still naked into FOMC (jayr leave-naked)."
+        "note": "Entry $2451.93 · mark ~$2442.48 (-0.39%, ~$-0.10). Still naked into FOMC (jayr leave-naked)."
+      },
+      {
+        "symbol": "BTC",
+        "support": 74800,
+        "resistance": 78800,
+        "invalidation": "Any resting bid / chase into Wed decision",
+        "note": "Last ~$76,406. Post-CPI wait $74.8–75.8k still map-only; old $78–78.8k expired. Not armed into FOMC."
+      },
+      {
+        "symbol": "XRP",
+        "support": 1.33,
+        "resistance": 1.41,
+        "invalidation": "Resting bid into decision or lose ~$1.29–1.32 structure",
+        "note": "Last ~$1.4058 above wait band — sit, not a ticket into FOMC."
       },
       {
         "symbol": "MSFT",
-        "note": "LT hold fill $495.57 → mark ~$505. Not a short-horizon PLAN."
+        "note": "LT hold fill $495.57 → mark ~$499.10 (+0.71%, ~$+0.14). Not a short-horizon PLAN."
       },
       {
         "symbol": "GOOGL",
-        "note": "LT hold fill $335.20 → mark ~$349. Not a short-horizon PLAN."
+        "note": "LT hold fill $335.20 → mark ~$344.27 (+2.71%, ~$+0.72). Not a short-horizon PLAN."
       }
     ],
-    "notes": "No Coins adds while naked. Book full on Gotrade."
+    "notes": "No Coins adds while naked. Book full on Gotrade. Soft crypto evening ≠ permission."
   },
   "risk": {
     "railsCheck": "HOLD. New Coins entries blocked while naked (jayr leave-naked — no SM nag). Gotrade cash $0 / book full — no new Gotrade PLANs. Through Wed decision.",
@@ -46,7 +62,7 @@
   "desk": {
     "decision": "HOLD / NO NEW PLAN through Wed FOMC decision. ETH naked by jayr choice. Gotrade LT holds filled, book full.",
     "actions": [
-      "Publish Tue DailyPacket on Vision",
+      "Publish Tue EOD DailyPacket on Vision",
       "Do not push SM restore unless jayr asks",
       "Keep new Coins entries blocked while naked"
     ],

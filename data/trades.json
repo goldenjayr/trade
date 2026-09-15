@@ -204,7 +204,7 @@
     "notional": 0,
     "skipped": true,
     "skipReason": "HOLD through FOMC Wed. New Coins blocked while naked (jayr leave-naked).",
-    "notes": "No new Coins ticket. Existing ETH override still open/naked."
+    "notes": "EOD confirm: no new Coins ticket. Existing ETH override still open/naked."
   },
   {
     "id": "SKIP-20260915-GOTRADE-NEW",
@@ -218,6 +218,6 @@
     "notional": 0,
     "skipped": true,
     "skipReason": "Book full (cash $0). LT holds only — no new Gotrade PLANs through FOMC.",
-    "notes": "MSFT+GOOGL filled LT holds."
+    "notes": "EOD confirm: MSFT+GOOGL filled LT holds; US session open but no adds."
   }
 ]

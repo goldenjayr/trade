@@ -98,9 +98,9 @@
   {
     "date": "2026-09-15",
     "stance": "IN_TRADE",
-    "summary": "Tue 2026-09-15 FOMC day 1 morning. HOLD through Wed decision. ETH naked by jayr choice — don’t push SM restore unless asked. Gotrade LT green vs fill.",
+    "summary": "Tue 2026-09-15 EOD (~10:30p Manila). FOMC day 1 live; decision Wed. HOLD through Wed. ETH naked by jayr choice — don’t push SM restore unless asked. ETH soft vs morning (~$2520→$2442.48). Gotrade still green vs fill but off day highs. Marks: Coinbase crypto + CNBC US.",
     "tradeCount": 3,
-    "coinsEquity": 175.336,
-    "gotradeEquity": 48.151
+    "coinsEquity": 174.4794,
+    "gotradeEquity": 47.5363
   }
 ]

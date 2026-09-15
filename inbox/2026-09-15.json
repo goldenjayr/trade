@@ -1,13 +1,13 @@
 {
   "date": "2026-09-15",
   "stance": "IN_TRADE",
-  "stanceReason": "HOLD / NO NEW PLAN through FOMC Wed decision. Hike odds ~80\u201390% for +25bps (priced); watch dots + presser. Coins ETH still naked 0.01105 @ $2451.93 (mark ~$2520) \u2014 jayr chose leave naked; no SM nag unless he asks. New Coins entries still blocked while naked. Gotrade LT holds filled (MSFT ~$505 / GOOGL ~$349); cash $0; book full.",
+  "stanceReason": "HOLD / NO NEW PLAN through FOMC Wed decision (~2pm ET / 2am Thu Manila). Hike odds ~90% for +25bps (largely priced); watch dots + Warsh presser. Coins ETH still naked 0.01105 @ $2451.93 (mark ~$2442.48, ~-0.39% / ~$-0.10) \u2014 jayr leave-naked; no SM nag unless asked. New Coins entries blocked while naked. Gotrade LT holds filled (MSFT ~$499.10 / GOOGL ~$344.27); cash $0; book full; combined ~$+0.87 vs fill.",
   "primaries": [
     "BTC",
     "XRP"
   ],
-  "usdphp": 58.15,
-  "notes": "Tue 2026-09-15 FOMC day 1 morning. HOLD through Wed decision. ETH naked by jayr choice \u2014 don\u2019t push SM restore unless asked. Gotrade LT green vs fill.",
+  "usdphp": 62.8,
+  "notes": "Tue 2026-09-15 EOD (~10:30p Manila). FOMC day 1 live; decision Wed. HOLD through Wed. ETH naked by jayr choice \u2014 don\u2019t push SM restore unless asked. ETH soft vs morning (~$2520\u2192$2442.48). Gotrade still green vs fill but off day highs. Marks: Coinbase crypto + CNBC US.",
   "books": {
     "coins": {
       "venue": "coins",
@@ -21,7 +21,7 @@
           "name": "Ethereum",
           "qty": 0.01105,
           "avgCost": 2451.93,
-          "mark": 2520.0
+          "mark": 2442.48
         }
       ]
     },
@@ -37,14 +37,14 @@
           "name": "Microsoft",
           "qty": 0.040135601,
           "avgCost": 495.57,
-          "mark": 505.0
+          "mark": 499.1
         },
         {
           "symbol": "GOOGL",
           "name": "Alphabet",
           "qty": 0.079892601,
           "avgCost": 335.2,
-          "mark": 349.0
+          "mark": 344.27
         }
       ]
     }
@@ -52,37 +52,53 @@
   "journal": {
     "date": "2026-09-15",
     "stance": "IN_TRADE",
-    "headline": "FOMC day 1 \u2014 HOLD / no new PLAN through Wed. ETH naked (jayr choice). Gotrade LT green vs fill.",
+    "headline": "FOMC day 1 EOD \u2014 HOLD / no new PLAN through Wed. ETH naked ~-0.39% vs entry. Gotrade LT still green vs fill.",
     "scout": {
-      "headline": "FOMC day 1: hike largely priced (~80\u201390% +25bps). Dots + presser matter more than the cut/hike print.",
+      "headline": "FOMC day 1: hike ~90% priced for +25bps Wed. Dots + Warsh presser matter more than the print.",
       "bullets": [
-        "Hike odds still ~80\u201390% for +25bps Wed (to 3.75\u20134.00%) \u2014 largely priced.",
-        "Watch dots + Warsh presser more than the hike itself.",
+        "Hike odds ~90% for +25bps Wed (to 3.75\u20134.00%) \u2014 largely priced; ~85% economist consensus.",
+        "Watch dots + Warsh presser for whether one hike becomes a cycle.",
+        "Crypto soft into evening: BTC ~$76,406 (below $78\u201378.8k wait; above post-only $74.8\u201375.8k), ETH ~$2442.48, XRP ~$1.4058 (above $1.33\u20131.36 wait).",
         "Agree HOLD / no new PLAN; naked ETH = event risk by jayr choice until he asks otherwise."
       ],
       "sources": [
-        "Desk morning brief 2026-09-15",
-        "Trading Ops Scout delta"
+        "Desk EOD publish 2026-09-15",
+        "Coinbase spot + CNBC US tape",
+        "Newsquawk / Reuters FOMC preview"
       ]
     },
     "analyst": {
-      "thesis": "HOLD through Wed. Gotrade LT green vs fill. ETH-CPI-OVERRIDE still open/naked \u2014 no new Coins scored calls while naked.",
+      "thesis": "HOLD through Wed decision. Gotrade LT still green vs fill but softer on the day. ETH-CPI-OVERRIDE still open/naked \u2014 no new Coins scored calls while naked.",
       "levels": [
         {
           "symbol": "ETH",
-          "note": "Entry $2451.93 \u00b7 mark ~$2520. Still naked into FOMC (jayr leave-naked).",
+          "note": "Entry $2451.93 \u00b7 mark ~$2442.48 (-0.39%, ~$-0.10). Still naked into FOMC (jayr leave-naked).",
           "invalidation": "Mental $2378 only \u2014 SM not resting by choice"
         },
         {
+          "symbol": "BTC",
+          "support": 74800,
+          "resistance": 78800,
+          "note": "Last ~$76,406. Post-CPI wait $74.8\u201375.8k still map-only; old $78\u201378.8k expired. Not armed into FOMC.",
+          "invalidation": "Any resting bid / chase into Wed decision"
+        },
+        {
+          "symbol": "XRP",
+          "support": 1.33,
+          "resistance": 1.41,
+          "note": "Last ~$1.4058 above wait band \u2014 sit, not a ticket into FOMC.",
+          "invalidation": "Resting bid into decision or lose ~$1.29\u20131.32 structure"
+        },
+        {
           "symbol": "MSFT",
-          "note": "LT hold fill $495.57 \u2192 mark ~$505. Not a short-horizon PLAN."
+          "note": "LT hold fill $495.57 \u2192 mark ~$499.10 (+0.71%, ~$+0.14). Not a short-horizon PLAN."
         },
         {
           "symbol": "GOOGL",
-          "note": "LT hold fill $335.20 \u2192 mark ~$349. Not a short-horizon PLAN."
+          "note": "LT hold fill $335.20 \u2192 mark ~$344.27 (+2.71%, ~$+0.72). Not a short-horizon PLAN."
         }
       ],
-      "notes": "No Coins adds while naked. Book full on Gotrade."
+      "notes": "No Coins adds while naked. Book full on Gotrade. Soft crypto evening \u2260 permission."
     },
     "risk": {
       "railsCheck": "HOLD. New Coins entries blocked while naked (jayr leave-naked \u2014 no SM nag). Gotrade cash $0 / book full \u2014 no new Gotrade PLANs. Through Wed decision.",
@@ -97,7 +113,7 @@
     "desk": {
       "decision": "HOLD / NO NEW PLAN through Wed FOMC decision. ETH naked by jayr choice. Gotrade LT holds filled, book full.",
       "actions": [
-        "Publish Tue DailyPacket on Vision",
+        "Publish Tue EOD DailyPacket on Vision",
         "Do not push SM restore unless jayr asks",
         "Keep new Coins entries blocked while naked"
       ],
@@ -184,7 +200,7 @@
       "notional": 0,
       "skipped": true,
       "skipReason": "HOLD through FOMC Wed. New Coins blocked while naked (jayr leave-naked).",
-      "notes": "No new Coins ticket. Existing ETH override still open/naked."
+      "notes": "EOD confirm: no new Coins ticket. Existing ETH override still open/naked."
     },
     {
       "id": "SKIP-20260915-GOTRADE-NEW",
@@ -198,7 +214,7 @@
       "notional": 0,
       "skipped": true,
       "skipReason": "Book full (cash $0). LT holds only \u2014 no new Gotrade PLANs through FOMC.",
-      "notes": "MSFT+GOOGL filled LT holds."
+      "notes": "EOD confirm: MSFT+GOOGL filled LT holds; US session open but no adds."
     }
   ],
   "catalysts": [
@@ -217,15 +233,16 @@
       "title": "FOMC meeting day 1",
       "impact": "high",
       "status": "live",
-      "notes": "Decision Wed 16; HOLD / no new PLAN"
+      "notes": "Two-day meeting; decision Wed 16 ~2pm ET / 2am Thu Manila; HOLD / no new PLAN"
     },
     {
       "id": "fomc-decision-2026-09-16",
       "date": "2026-09-16",
+      "timeManila": "02:00",
       "title": "FOMC decision + presser",
       "impact": "high",
       "status": "upcoming",
-      "notes": "Watch dots + presser more than hike itself"
+      "notes": "Watch dots + Warsh presser more than hike itself (~90% priced)"
     }
   ],
   "predictions": [
@@ -392,7 +409,7 @@
       "dateOpened": "2026-09-11",
       "symbol": "ETH",
       "venue": "coins",
-      "thesis": "ETH-CPI-OVERRIDE still LIVE/naked into FOMC (jayr leave-naked). Entry $2451.93 \u00b7 mark ~$2520. Do not nag SM restore unless he asks. New Coins entries still blocked.",
+      "thesis": "ETH-CPI-OVERRIDE still LIVE/naked into FOMC (jayr leave-naked). Entry $2451.93 \u00b7 mark ~$2442.48 (-0.39%). Do not nag SM restore unless he asks. New Coins entries still blocked.",
       "direction": "breakout",
       "entryZone": {
         "low": 2451.93,
@@ -407,7 +424,7 @@
       "horizon": "event",
       "status": "hit_entry",
       "resolvedAt": "2026-09-11",
-      "outcomeNote": "Tue HOLD through Wed decision. Naked by explicit choice.",
+      "outcomeNote": "Tue EOD HOLD through Wed decision. Naked by explicit choice. Soft vs morning mark.",
       "source": "desk",
       "role": "primary"
     }
@@ -415,33 +432,93 @@
   "watchlistMarks": [
     {
       "symbol": "BTC",
-      "last": 77262,
-      "changePct": -0.01047
+      "last": 76406,
+      "changePct": -0.02687
     },
     {
       "symbol": "ETH",
-      "last": 2520.0,
-      "changePct": -0.002621
+      "last": 2442.48,
+      "changePct": -0.02322
     },
     {
       "symbol": "SOL",
-      "last": 99.78,
-      "changePct": -0.014908
-    },
-    {
-      "symbol": "LINK",
-      "last": 11.525,
-      "changePct": -0.021315
-    },
-    {
-      "symbol": "BNB",
-      "last": 714.79,
-      "changePct": -0.005274
+      "last": 100.04,
+      "changePct": -0.01536
     },
     {
       "symbol": "XRP",
-      "last": 1.3537,
-      "changePct": -0.020761
+      "last": 1.4058,
+      "changePct": 0.00579
+    },
+    {
+      "symbol": "LINK",
+      "last": 11.309,
+      "changePct": -0.00772
+    },
+    {
+      "symbol": "BNB",
+      "last": 718.82,
+      "changePct": -0.00312
+    },
+    {
+      "symbol": "SUI",
+      "last": 0.7082,
+      "changePct": -0.01585
+    },
+    {
+      "symbol": "SPY",
+      "last": 757.37,
+      "changePct": -0.0046
+    },
+    {
+      "symbol": "QQQ",
+      "last": 706.34,
+      "changePct": -0.004
+    },
+    {
+      "symbol": "VOO",
+      "last": 696.25,
+      "changePct": -0.0044
+    },
+    {
+      "symbol": "IWM",
+      "last": 285.11,
+      "changePct": -0.0072
+    },
+    {
+      "symbol": "AAPL",
+      "last": 329.2,
+      "changePct": -0.0117
+    },
+    {
+      "symbol": "MSFT",
+      "last": 499.1,
+      "changePct": -0.0125
+    },
+    {
+      "symbol": "NVDA",
+      "last": 212.68,
+      "changePct": 0.0082
+    },
+    {
+      "symbol": "GOOGL",
+      "last": 344.27,
+      "changePct": -0.0147
+    },
+    {
+      "symbol": "AMZN",
+      "last": 249.45,
+      "changePct": -0.0162
+    },
+    {
+      "symbol": "META",
+      "last": 666.12,
+      "changePct": 0.0008
+    },
+    {
+      "symbol": "TSLA",
+      "last": 358.76,
+      "changePct": -0.0006
     },
     {
       "symbol": "TRX",
@@ -458,66 +535,6 @@
     {
       "symbol": "HBAR",
       "last": 0
-    },
-    {
-      "symbol": "SUI",
-      "last": 0.7375,
-      "changePct": -0.03418
-    },
-    {
-      "symbol": "SPY",
-      "last": 757.8,
-      "changePct": -0.006243
-    },
-    {
-      "symbol": "QQQ",
-      "last": 708.7,
-      "changePct": -0.009563
-    },
-    {
-      "symbol": "VOO",
-      "last": 696.43,
-      "changePct": -0.006335
-    },
-    {
-      "symbol": "IWM",
-      "last": 287.7,
-      "changePct": -0.010941
-    },
-    {
-      "symbol": "AAPL",
-      "last": 326.6,
-      "changePct": 0.031902
-    },
-    {
-      "symbol": "MSFT",
-      "last": 505.0,
-      "changePct": -0.002034
-    },
-    {
-      "symbol": "NVDA",
-      "last": 218.4,
-      "changePct": -0.024679
-    },
-    {
-      "symbol": "GOOGL",
-      "last": 349.0,
-      "changePct": 0.004022
-    },
-    {
-      "symbol": "AMZN",
-      "last": 251.9,
-      "changePct": -0.002655
-    },
-    {
-      "symbol": "META",
-      "last": 644.4,
-      "changePct": -0.013921
-    },
-    {
-      "symbol": "TSLA",
-      "last": 363.6,
-      "changePct": -0.004364
     }
   ]
 }
