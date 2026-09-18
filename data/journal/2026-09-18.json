@@ -1,0 +1,66 @@
+{
+  "date": "2026-09-18",
+  "stance": "IN_TRADE",
+  "headline": "Post-FOMC Fri HOLD / no new PLAN. Naked ETH ~+4.1%. Gotrade LT book ~+$1.56.",
+  "scout": {
+    "headline": "FOMC behind us (Sep 16). Tape quiet for new risk — BTC ~$80.1k, ETH recovered. Prefer no new clips while ETH stays naked.",
+    "bullets": [
+      "FOMC decision+presser done Sep 16 — macro event kill lifted; still no A+ primary for new size.",
+      "Naked ETH mark ~$2552.91 vs $2451.93 entry (~+4.1% / ~+$1.12 / ~₱70); SM/TP still waived.",
+      "Gotrade LT: MSFT $494.21 (~$-0.05) · GOOGL $355.35 (~$+1.61); book ~$+1.56 vs fill; cash $0.",
+      "BTC ~$80.08k · SOL ~$108.5 · XRP ~$1.36 · BNB ~$758 · LINK ~$12.00 · SUI ~$0.81 (Coinbase).",
+      "Sep 17 Vision publish failed — this packet catches Fri EOD."
+    ],
+    "sources": [
+      "Level watch 2026-09-18 15:09 + 21:23 Manila",
+      "Coinbase spot API ~21:56 Manila",
+      "Yahoo chart MSFT/GOOGL ~21:56 Manila"
+    ]
+  },
+  "analyst": {
+    "thesis": "HOLD open books post-FOMC. ETH-CPI-OVERRIDE still open/naked by jayr choice. Gotrade MSFT+GOOGL = LT holds only — not short-horizon PLANs.",
+    "levels": [
+      {
+        "symbol": "ETH",
+        "support": 2378.37,
+        "invalidation": "Mental $2378.37 only",
+        "note": "Entry $2451.93 · mark ~$2552.91 (~+4.1%). Still naked (jayr waiver)."
+      },
+      {
+        "symbol": "BTC",
+        "invalidation": "No new PLAN without desk greenlight",
+        "note": "Primary map soft — ~$80.1k. Old $78–78.8k wait expired Sep 11. No new armed wait this packet."
+      },
+      {
+        "symbol": "MSFT",
+        "note": "LT hold · mark $494.21 vs fill $495.57 (~$-0.05). Soft vs fill; not a tactical exit PLAN."
+      },
+      {
+        "symbol": "GOOGL",
+        "note": "LT hold · mark $355.35 vs fill $335.20 (~$+1.61). Carrying the Gotrade book."
+      }
+    ],
+    "notes": "No new Coins while naked. Prefer NO TRADE on new entries either book. Book-full Gotrade (cash $0)."
+  },
+  "risk": {
+    "railsCheck": "HOLD. New Coins blocked while naked. Gotrade cash $0 / book full — no new Gotrade PLANs. Post-FOMC: event kill cleared but no A+ size permission.",
+    "sizeNote": "Do not add. No SM nag unless jayr asks. Coins cash ₱147.49 below ₱800 sit-out for new clips anyway.",
+    "kills": [
+      "No new PLAN without A+ / jayr ask",
+      "No new Coins entries while naked",
+      "Gotrade book full — prefer NO TRADE on new entries",
+      "Kill switch: 1 loser or −₱400 day (Coins) still on"
+    ],
+    "feeSkip": "Skip if fees ≥ ~⅓ edge — unchanged."
+  },
+  "desk": {
+    "decision": "HOLD / NO NEW PLAN post-FOMC. ETH naked ~+4.1% (~+$1.12). Gotrade LT book ~$+1.56. Catch-up publish after Sep 17 miss.",
+    "actions": [
+      "Publish Fri 2026-09-18 DailyPacket on Vision",
+      "Keep leave-naked / no SM nag unless jayr asks",
+      "Prefer NO TRADE on new entries",
+      "No broker browser this run — marks from API/web only"
+    ],
+    "nextOpen": "Next weekday morning brief — reassess only on jayr ask / clean A+ primary."
+  }
+}

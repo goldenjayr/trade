@@ -80,7 +80,7 @@
     "fees": 0,
     "notional": 27.09,
     "skipped": false,
-    "notes": "FILL ETH-CPI-OVERRIDE then EXITS CANCELLED. Stop NOT resting / TP NOT resting. Naked long into CPI (jayr explicit). Mental inv $2378. Manual manage only on jayr ask. Process miss vs post-fill SM rule — override ≠ new default."
+    "notes": "FILL ETH-CPI-OVERRIDE then EXITS CANCELLED. Stop NOT resting / TP NOT resting. Naked long (jayr explicit). Mental inv $2378.37."
   },
   {
     "id": "QUEUE-20260911-GOOGL",
@@ -162,7 +162,7 @@
     "fees": 0.1,
     "notional": 19.89,
     "skipped": false,
-    "notes": "FILL from queue. LT educational starter #1. Book full — no new Gotrade PLANs into FOMC."
+    "notes": "FILL from queue. LT educational starter #1. Book full."
   },
   {
     "id": "SKIP-20260914-COINS-NEW",
@@ -247,5 +247,33 @@
     "skipped": true,
     "skipReason": "Book full / prefer NO TRADE on new entries through FOMC decision.",
     "notes": "MSFT+GOOGL LT holds only."
+  },
+  {
+    "id": "SKIP-20260918-COINS-NEW",
+    "date": "2026-09-18",
+    "venue": "coins",
+    "symbol": "ETH",
+    "side": "buy",
+    "qty": 0,
+    "price": 0,
+    "fees": 0,
+    "notional": 0,
+    "skipped": true,
+    "skipReason": "HOLD / no new PLAN post-FOMC. Naked ETH blocks new Coins entries until SM restored (jayr leave-naked).",
+    "notes": "No new Coins ticket. Existing ETH override still open/naked."
+  },
+  {
+    "id": "SKIP-20260918-GOTRADE-NEW",
+    "date": "2026-09-18",
+    "venue": "gotrade",
+    "symbol": "CASH",
+    "side": "buy",
+    "qty": 0,
+    "price": 0,
+    "fees": 0,
+    "notional": 0,
+    "skipped": true,
+    "skipReason": "Book full (cash $0). LT holds only — no new Gotrade PLANs.",
+    "notes": "MSFT+GOOGL LT holds; no spare size."
   }
 ]

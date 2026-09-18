@@ -1,8 +1,8 @@
 {
-  "asOf": "2026-09-16",
+  "asOf": "2026-09-18",
   "timezone": "Asia/Manila",
   "stance": "IN_TRADE",
-  "stanceReason": "HOLD (IN_TRADE on open books) / NO NEW PLAN through FOMC decision (~2pm ET Wed / ~2am Thu Manila). Coins naked ETH 0.01105 @ $2451.93 (mark ~$2409, ~−1.8%); SM/TP still waived by jayr — no SM nag. New Coins entries blocked while naked. Gotrade MSFT+GOOGL filled; book ~+$0.84; cash $0; prefer NO TRADE on new entries.",
+  "stanceReason": "HOLD (IN_TRADE on open books) / NO NEW PLAN post-FOMC. Coins naked ETH 0.01105 @ $2451.93 (mark ~$2552.91, ~+4.1% / ~+$1.07); SM/TP still waived by jayr — no SM nag. New Coins entries blocked while naked. Gotrade MSFT+GOOGL filled LT holds; book ~+$1.56 vs fill (MSFT soft, GOOGL strong); cash $0; prefer NO TRADE on new entries.",
   "primaries": [
     "BTC",
     "XRP"
@@ -13,19 +13,19 @@
       "label": "Coins.ph",
       "currency": "PHP",
       "cash": 147.49,
-      "equity": 174.1095,
+      "equity": 175.6996,
       "dayPnl": 0,
-      "totalPnl": 0,
+      "totalPnl": 70.17,
       "positions": [
         {
           "symbol": "ETH",
           "name": "Ethereum",
           "qty": 0.01105,
           "avgCost": 2451.93,
-          "mark": 2409,
-          "marketValue": 26.6195,
-          "pnl": -0.4743,
-          "pnlPct": -0.017506
+          "mark": 2552.905,
+          "marketValue": 28.2096,
+          "pnl": 1.1158,
+          "pnlPct": 0.041183
         }
       ]
     },
@@ -34,29 +34,29 @@
       "label": "Gotrade",
       "currency": "USD",
       "cash": 0,
-      "equity": 46.9912,
+      "equity": 48.2252,
       "dayPnl": 0,
-      "totalPnl": 0,
+      "totalPnl": 1.56,
       "positions": [
         {
           "symbol": "MSFT",
           "name": "Microsoft",
           "qty": 0.040135601,
           "avgCost": 495.57,
-          "mark": 498,
-          "marketValue": 19.9875,
-          "pnl": 0.0975,
-          "pnlPct": 0.004902
+          "mark": 494.21,
+          "marketValue": 19.8354,
+          "pnl": -0.0546,
+          "pnlPct": -0.002745
         },
         {
           "symbol": "GOOGL",
           "name": "Alphabet",
           "qty": 0.079892601,
           "avgCost": 335.2,
-          "mark": 338,
-          "marketValue": 27.0037,
-          "pnl": 0.2237,
-          "pnlPct": 0.008353
+          "mark": 355.35,
+          "marketValue": 28.3898,
+          "pnl": 1.6098,
+          "pnlPct": 0.060112
         }
       ]
     }
@@ -85,8 +85,8 @@
       "timeManila": "02:00",
       "title": "FOMC decision + presser",
       "impact": "high",
-      "status": "upcoming",
-      "notes": "~2pm ET Wed / ~2am Thu Manila — HOLD through"
+      "status": "done",
+      "notes": "Complete — event kill cleared; still no new PLAN without A+"
     }
   ]
 }
