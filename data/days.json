@@ -118,5 +118,13 @@
     "tradeCount": 3,
     "coinsEquity": 175.6996,
     "gotradeEquity": 48.2252
+  },
+  {
+    "date": "2026-09-21",
+    "stance": "IN_TRADE",
+    "summary": "Mon 2026-09-21 ~10:15p Manila Trade Vision EOD. Catch-up after Fri Sep 19 Vision miss (last publish Sep 18). US cash session live — Gotrade marks Yahoo live. Weekly review AM: HOLD both books. No PLAN. No broker browser.",
+    "tradeCount": 3,
+    "coinsEquity": 177.562,
+    "gotradeEquity": 48.2598
   }
 ]

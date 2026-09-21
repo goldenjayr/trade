@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-18",
+  "asOf": "2026-09-21",
   "disclaimer": "Scenario calls with invalidation — not guaranteed predictions. Graded HIT / MISS / EXPIRED after the horizon. Cancelled and expired do not enter the hit rate.",
   "calls": [
     {
@@ -75,7 +75,7 @@
       "horizon": "event",
       "status": "expired",
       "resolvedAt": "2026-09-16",
-      "outcomeNote": "FOMC decision+presser done. Stance expires as event map — open books remain IN_TRADE HOLD; no auto-arm for new size.",
+      "outcomeNote": "FOMC +25bps done. Stance expires as event map — open books remain IN_TRADE HOLD; no auto-arm for new size.",
       "source": "desk",
       "role": "stance"
     },
