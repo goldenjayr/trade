@@ -1,8 +1,8 @@
 {
-  "asOf": "2026-09-18",
+  "asOf": "2026-09-21",
   "timezone": "Asia/Manila",
   "stance": "IN_TRADE",
-  "stanceReason": "HOLD (IN_TRADE on open books) / NO NEW PLAN post-FOMC. Coins naked ETH 0.01105 @ $2451.93 (mark ~$2552.91, ~+4.1% / ~+$1.07); SM/TP still waived by jayr — no SM nag. New Coins entries blocked while naked. Gotrade MSFT+GOOGL filled LT holds; book ~+$1.56 vs fill (MSFT soft, GOOGL strong); cash $0; prefer NO TRADE on new entries.",
+  "stanceReason": "HOLD open books / NO NEW PLAN. Post-FOMC standing rail: HOLD 1–2 full US sessions (Mon open). Naked ETH blocks new Coins until SM restored (jayr leave-naked). Gotrade LT filled (broker-confirmed Sep 14); cash $0.",
   "primaries": [
     "BTC",
     "XRP"
@@ -13,19 +13,19 @@
       "label": "Coins.ph",
       "currency": "PHP",
       "cash": 147.49,
-      "equity": 175.6996,
+      "equity": 177.562,
       "dayPnl": 0,
-      "totalPnl": 70.17,
+      "totalPnl": 187.3,
       "positions": [
         {
           "symbol": "ETH",
           "name": "Ethereum",
           "qty": 0.01105,
           "avgCost": 2451.93,
-          "mark": 2552.905,
-          "marketValue": 28.2096,
-          "pnl": 1.1158,
-          "pnlPct": 0.041183
+          "mark": 2721.445,
+          "marketValue": 30.072,
+          "pnl": 2.9782,
+          "pnlPct": 0.109922
         }
       ]
     },
@@ -34,29 +34,29 @@
       "label": "Gotrade",
       "currency": "USD",
       "cash": 0,
-      "equity": 48.2252,
+      "equity": 48.2598,
       "dayPnl": 0,
-      "totalPnl": 1.56,
+      "totalPnl": 1.59,
       "positions": [
         {
           "symbol": "MSFT",
           "name": "Microsoft",
           "qty": 0.040135601,
           "avgCost": 495.57,
-          "mark": 494.21,
-          "marketValue": 19.8354,
-          "pnl": -0.0546,
-          "pnlPct": -0.002745
+          "mark": 494.425,
+          "marketValue": 19.844,
+          "pnl": -0.046,
+          "pnlPct": -0.002313
         },
         {
           "symbol": "GOOGL",
           "name": "Alphabet",
           "qty": 0.079892601,
           "avgCost": 335.2,
-          "mark": 355.35,
-          "marketValue": 28.3898,
-          "pnl": 1.6098,
-          "pnlPct": 0.060112
+          "mark": 355.675,
+          "marketValue": 28.4158,
+          "pnl": 1.6358,
+          "pnlPct": 0.061083
         }
       ]
     }
@@ -86,7 +86,7 @@
       "title": "FOMC decision + presser",
       "impact": "high",
       "status": "done",
-      "notes": "Complete — event kill cleared; still no new PLAN without A+"
+      "notes": "+25bps to 3.75–4.00%. Event kill cleared; still no new PLAN without A+; HOLD 1–2 US sessions."
     }
   ]
 }
