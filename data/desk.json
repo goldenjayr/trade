@@ -1,8 +1,8 @@
 {
-  "asOf": "2026-09-21",
+  "asOf": "2026-09-22",
   "timezone": "Asia/Manila",
   "stance": "IN_TRADE",
-  "stanceReason": "HOLD open books / NO NEW PLAN. Post-FOMC standing rail: HOLD 1–2 full US sessions (Mon open). Naked ETH blocks new Coins until SM restored (jayr leave-naked). Gotrade LT filled (broker-confirmed Sep 14); cash $0.",
+  "stanceReason": "HOLD open books / NO NEW PLAN. Post-FOMC 1–2 US session HOLD still in force (Tue = session 2). Naked ETH blocks new Coins until SM restored (jayr leave-naked). Gotrade LT filled (broker-confirmed Sep 14); cash $0.",
   "primaries": [
     "BTC",
     "XRP"
@@ -13,19 +13,19 @@
       "label": "Coins.ph",
       "currency": "PHP",
       "cash": 147.49,
-      "equity": 177.562,
+      "equity": 177.94,
       "dayPnl": 0,
-      "totalPnl": 187.3,
+      "totalPnl": 210.84,
       "positions": [
         {
           "symbol": "ETH",
           "name": "Ethereum",
           "qty": 0.01105,
           "avgCost": 2451.93,
-          "mark": 2721.445,
-          "marketValue": 30.072,
-          "pnl": 2.9782,
-          "pnlPct": 0.109922
+          "mark": 2755.66,
+          "marketValue": 30.45,
+          "pnl": 3.3562,
+          "pnlPct": 0.123873
         }
       ]
     },
@@ -34,29 +34,29 @@
       "label": "Gotrade",
       "currency": "USD",
       "cash": 0,
-      "equity": 48.2598,
+      "equity": 48.9476,
       "dayPnl": 0,
-      "totalPnl": 1.59,
+      "totalPnl": 2.28,
       "positions": [
         {
           "symbol": "MSFT",
           "name": "Microsoft",
           "qty": 0.040135601,
           "avgCost": 495.57,
-          "mark": 494.425,
-          "marketValue": 19.844,
-          "pnl": -0.046,
-          "pnlPct": -0.002313
+          "mark": 499.665,
+          "marketValue": 20.0544,
+          "pnl": 0.1644,
+          "pnlPct": 0.008265
         },
         {
           "symbol": "GOOGL",
           "name": "Alphabet",
           "qty": 0.079892601,
           "avgCost": 335.2,
-          "mark": 355.675,
-          "marketValue": 28.4158,
-          "pnl": 1.6358,
-          "pnlPct": 0.061083
+          "mark": 361.65,
+          "marketValue": 28.8932,
+          "pnl": 2.1132,
+          "pnlPct": 0.07891
         }
       ]
     }
