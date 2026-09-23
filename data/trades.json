@@ -149,7 +149,7 @@
     "fees": 0.1,
     "notional": 26.78,
     "skipped": false,
-    "notes": "FILL from queue. LT educational starter #3. Cash $0 after dual fill."
+    "notes": "FILL from void. LT educational starter #3. Cash $0 after dual fill."
   },
   {
     "id": "FILL-20260914-MSFT",
@@ -162,7 +162,7 @@
     "fees": 0.1,
     "notional": 19.89,
     "skipped": false,
-    "notes": "FILL from queue. LT educational starter #1. Book full."
+    "notes": "FILL from void. LT educational starter #1. Book full."
   },
   {
     "id": "SKIP-20260914-COINS-NEW",
@@ -331,5 +331,33 @@
     "skipped": true,
     "skipReason": "Book full (cash $0). LT holds only — no new Gotrade PLANs.",
     "notes": "MSFT+GOOGL LT holds; no spare size."
+  },
+  {
+    "id": "SKIP-20260923-COINS-NEW",
+    "date": "2026-09-23",
+    "venue": "coins",
+    "symbol": "ETH",
+    "side": "buy",
+    "qty": 0,
+    "price": 0,
+    "fees": 0,
+    "notional": 0,
+    "skipped": true,
+    "skipReason": "HOLD / no new PLAN. Naked ETH blocks new Coins entries (jayr leave-naked). Prefer NO TRADE.",
+    "notes": "No new Coins ticket. Existing ETH override still open/naked."
+  },
+  {
+    "id": "SKIP-20260923-GOTRADE-NEW",
+    "date": "2026-09-23",
+    "venue": "gotrade",
+    "symbol": "CASH",
+    "side": "buy",
+    "qty": 0,
+    "price": 0,
+    "fees": 0,
+    "notional": 0,
+    "skipped": true,
+    "skipReason": "Book full (cash $0). LT holds only — no new Gotrade PLANs. Prefer NO TRADE.",
+    "notes": "MSFT+GOOGL LT holds; no spare size. GOOGL soft vs Tue close is not a REDUCE PLAN."
   }
 ]
