@@ -142,5 +142,13 @@
     "tradeCount": 3,
     "coinsEquity": 177.1904,
     "gotradeEquity": 47.3207
+  },
+  {
+    "date": "2026-09-24",
+    "stance": "IN_TRADE",
+    "summary": "Thu 2026-09-24 ~9:55p Manila Trade Vision EOD. Ops morning/midday/level: HOLD both books / no PLAN. Marks: Coinbase spot + Yahoo chart ~21:52 Manila (US cash open). No new trades. Prefer NO TRADE / no PLAN.",
+    "tradeCount": 3,
+    "coinsEquity": 176.9044,
+    "gotradeEquity": 46.7091
   }
 ]
