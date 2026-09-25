@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-24",
+  "asOf": "2026-09-25",
   "disclaimer": "Scenario calls with invalidation — not guaranteed predictions. Graded HIT / MISS / EXPIRED after the horizon. Cancelled and expired do not enter the hit rate.",
   "calls": [
     {

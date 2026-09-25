@@ -1,8 +1,8 @@
 {
-  "asOf": "2026-09-24",
+  "asOf": "2026-09-25",
   "timezone": "Asia/Manila",
   "stance": "IN_TRADE",
-  "stanceReason": "HOLD open books / NO NEW PLAN. Post-FOMC HOLD preference still favors NO TRADE on new entries. Naked ETH blocks new Coins (jayr leave-naked). Gotrade LT filled (broker-confirmed Sep 14); cash $0. MSFT soft on Thu cash open (~−1.9% vs Wed close).",
+  "stanceReason": "HOLD open books / NO NEW PLAN. Post-FOMC HOLD preference still favors NO TRADE on new entries. Naked ETH blocks new Coins (jayr leave-naked). Gotrade LT filled (broker-confirmed Sep 14); cash $0. Fri US cash session open ~9:30p Manila.",
   "primaries": [
     "BTC",
     "XRP"
@@ -13,19 +13,19 @@
       "label": "Coins.ph",
       "currency": "PHP",
       "cash": 147.49,
-      "equity": 176.9044,
-      "dayPnl": -17.9,
-      "totalPnl": 145.5,
+      "equity": 177.2591,
+      "dayPnl": 22.3,
+      "totalPnl": 168,
       "positions": [
         {
           "symbol": "ETH",
           "name": "Ethereum",
           "qty": 0.01105,
           "avgCost": 2451.93,
-          "mark": 2661.935,
-          "marketValue": 29.4144,
-          "pnl": 2.3206,
-          "pnlPct": 0.085651
+          "mark": 2694.04,
+          "marketValue": 29.7691,
+          "pnl": 2.6753,
+          "pnlPct": 0.098742
         }
       ]
     },
@@ -34,29 +34,29 @@
       "label": "Gotrade",
       "currency": "USD",
       "cash": 0,
-      "equity": 46.7091,
-      "dayPnl": -0.61,
-      "totalPnl": 0.04,
+      "equity": 47.6518,
+      "dayPnl": 0.32,
+      "totalPnl": 0.98,
       "positions": [
         {
           "symbol": "MSFT",
           "name": "Microsoft",
           "qty": 0.040135601,
           "avgCost": 495.57,
-          "mark": 491.33,
-          "marketValue": 19.7198,
-          "pnl": -0.1702,
-          "pnlPct": -0.008557
+          "mark": 504.03,
+          "marketValue": 20.2295,
+          "pnl": 0.3395,
+          "pnlPct": 0.017069
         },
         {
           "symbol": "GOOGL",
           "name": "Alphabet",
           "qty": 0.079892601,
           "avgCost": 335.2,
-          "mark": 337.82,
-          "marketValue": 26.9893,
-          "pnl": 0.2093,
-          "pnlPct": 0.007816
+          "mark": 343.24,
+          "marketValue": 27.4223,
+          "pnl": 0.6423,
+          "pnlPct": 0.023984
         }
       ]
     }
