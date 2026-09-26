@@ -1,8 +1,8 @@
 {
-  "asOf": "2026-09-23",
+  "asOf": "2026-09-26",
   "timezone": "Asia/Manila",
   "stance": "IN_TRADE",
-  "stanceReason": "HOLD open books / NO NEW PLAN. Post-FOMC HOLD preference still favors NO TRADE on new entries. Naked ETH blocks new Coins (jayr leave-naked). Gotrade LT filled (broker-confirmed Sep 14); cash $0. GOOGL soft on Wed cash open (~−2.7% vs Tue close).",
+  "stanceReason": "HOLD open books / NO NEW PLAN. Weekend: crypto map only, US dark. Naked ETH blocks new Coins (jayr leave-naked). Gotrade LT holds (broker-confirmed Sep 14); cash $0; Fri closes unsourced so marks carried. LINK/SUI pop is map-only.",
   "primaries": [
     "BTC",
     "XRP"
@@ -13,8 +13,8 @@
       "label": "Coins.ph",
       "currency": "PHP",
       "cash": 147.49,
-      "equity": 177.1904,
-      "dayPnl": -47.2,
+      "equity": 177.1981,
+      "dayPnl": 0.5,
       "totalPnl": 163.1,
       "positions": [
         {
@@ -22,10 +22,10 @@
           "name": "Ethereum",
           "qty": 0.01105,
           "avgCost": 2451.93,
-          "mark": 2687.815,
-          "marketValue": 29.7004,
-          "pnl": 2.6066,
-          "pnlPct": 0.096206
+          "mark": 2688.515,
+          "marketValue": 29.7081,
+          "pnl": 2.6143,
+          "pnlPct": 0.096491
         }
       ]
     },
@@ -35,7 +35,7 @@
       "currency": "USD",
       "cash": 0,
       "equity": 47.3207,
-      "dayPnl": -1.59,
+      "dayPnl": 0,
       "totalPnl": 0.65,
       "positions": [
         {

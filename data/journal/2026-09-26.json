@@ -1,0 +1,65 @@
+{
+  "date": "2026-09-26",
+  "stance": "IN_TRADE",
+  "headline": "Sat HOLD / no new PLAN. Naked ETH ~+9.6% (~$2.61/~₱163). Gotrade LT book ~$+0.65 carried (US dark). LINK/SUI scout pop, map-only. No fills.",
+  "scout": {
+    "headline": "Sat night: BTC eased to ~$84k, alts mixed — LINK/SUI popped, both map-only. US dark. No A+ primary for new size while ETH stays naked. Prefer NO TRADE.",
+    "bullets": [
+      "ETH naked mark ~$2688.515 vs $2451.93 entry (~+9.6% / ~$+2.61 / ~₱163); SM/TP still waived.",
+      "Gotrade LT: MSFT $498.885 / GOOGL $341.68 marks CARRIED from Wed (Sat dark, Fri closes unsourced); book ~$+0.65; cash $0.",
+      "BTC ~$84.0k (−1.4% vs Wed) · SOL ~$120.9 (+4.7%) · XRP ~$1.545 (−1.0%) · BNB ~$774 (flat) · LINK ~$14.33 (+~14%) · SUI ~$1.177 (+~19%) (Coinbase spot + Binance ~23:05 Manila).",
+      "LINK/SUI weekend pop is scout noise — satellites map-only until a primary is working. No fills today.",
+      "Gap note: Thu 09-24 / Fri 09-25 packets missing (desk jobs skipped); no backfill — marks tonight vs Wed baseline."
+    ],
+    "sources": [
+      "Coinbase spot API ~23:05 Manila 2026-09-26",
+      "Binance SUIUSDT ~23:05 Manila (Coinbase SUI-USD cross-check 1.17725)",
+      "Gotrade marks carried from 2026-09-23 packet (Sat dark)"
+    ]
+  },
+  "analyst": {
+    "thesis": "HOLD open books. Weekend rail: crypto only, US dark. Prefer NO TRADE on new entries. ETH-CPI-OVERRIDE still open/naked by jayr choice. Gotrade MSFT+GOOGL = LT holds only. No Fri US closes sourced — book marks carried, not invented.",
+    "levels": [
+      {
+        "symbol": "ETH",
+        "support": 2378.37,
+        "invalidation": "Mental $2378.37 only",
+        "note": "Entry $2451.93 · mark ~$2688.515 (~+9.6%). Still naked (jayr waiver)."
+      },
+      {
+        "symbol": "BTC",
+        "invalidation": "No new PLAN without desk greenlight",
+        "note": "Primary map — ~$84.0k, ~−1.4% vs Wed. Well above old $78–78.8k wait (expired Sep 11). No new armed wait this packet."
+      },
+      {
+        "symbol": "MSFT",
+        "note": "LT hold · mark carried $498.885 vs fill $495.57 (~$+0.13). Sat dark — no fresh print. Not a tactical exit PLAN."
+      },
+      {
+        "symbol": "GOOGL",
+        "note": "LT hold · mark carried $341.68 vs fill $335.2 (~$+0.52). Sat dark — no fresh print. Not a REDUCE PLAN."
+      }
+    ],
+    "notes": "No new Coins while naked. Prefer NO TRADE on new entries either book. Book-full Gotrade (cash $0). LINK +~14% / SUI +~19% vs Wed are scout moves, not PLANs — satellites stay map-only."
+  },
+  "risk": {
+    "railsCheck": "HOLD. New Coins blocked while naked. Gotrade cash $0 / book full — no new Gotrade PLANs. Weekend: crypto map only, US dark. No A+ permission.",
+    "sizeNote": "Do not add. Coins cash ₱147.49 below ₱800 sit-out for new clips anyway.",
+    "kills": [
+      "No new PLAN without A+ / jayr ask",
+      "No new Coins entries while naked",
+      "Gotrade book full — prefer NO TRADE on new entries",
+      "Kill switch: 1 loser or −₱400 day (Coins) still on"
+    ],
+    "feeSkip": "Skip if fees ≥ ~⅓ edge — unchanged."
+  },
+  "desk": {
+    "decision": "HOLD / NO NEW PLAN. ETH naked ~+9.6% (~$+2.61). Gotrade LT book ~$+0.65 carried (Sat dark). Sat EOD Vision publish.",
+    "actions": [
+      "Publish Sat 2026-09-26 DailyPacket on Vision",
+      "Prefer NO TRADE on new entries",
+      "No broker browser this run — marks from API only"
+    ],
+    "nextOpen": "Sun morning brief — reassess only on jayr ask / clean A+ primary; HOLD preference still in force."
+  }
+}

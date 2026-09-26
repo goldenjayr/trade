@@ -359,5 +359,33 @@
     "skipped": true,
     "skipReason": "Book full (cash $0). LT holds only — no new Gotrade PLANs. Prefer NO TRADE.",
     "notes": "MSFT+GOOGL LT holds; no spare size. GOOGL soft vs Tue close is not a REDUCE PLAN."
+  },
+  {
+    "id": "SKIP-20260926-COINS-NEW",
+    "date": "2026-09-26",
+    "venue": "coins",
+    "symbol": "ETH",
+    "side": "buy",
+    "qty": 0,
+    "price": 0,
+    "fees": 0,
+    "notional": 0,
+    "skipped": true,
+    "skipReason": "HOLD / no new PLAN. Naked ETH blocks new Coins entries (jayr leave-naked). Weekend map only. Prefer NO TRADE.",
+    "notes": "No new Coins ticket. Existing ETH override still open/naked. LINK/SUI weekend pop is map-only."
+  },
+  {
+    "id": "SKIP-20260926-GOTRADE-NEW",
+    "date": "2026-09-26",
+    "venue": "gotrade",
+    "symbol": "CASH",
+    "side": "buy",
+    "qty": 0,
+    "price": 0,
+    "fees": 0,
+    "notional": 0,
+    "skipped": true,
+    "skipReason": "Book full (cash $0). US dark Sat. LT holds only — no new Gotrade PLANs. Prefer NO TRADE.",
+    "notes": "MSFT+GOOGL LT holds; no spare size. Sat dark — no fresh print."
   }
 ]

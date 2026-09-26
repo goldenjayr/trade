@@ -142,5 +142,13 @@
     "tradeCount": 3,
     "coinsEquity": 177.1904,
     "gotradeEquity": 47.3207
+  },
+  {
+    "date": "2026-09-26",
+    "stance": "IN_TRADE",
+    "summary": "Sat 2026-09-26 ~11:05p Manila Trade Vision EOD. Weekend: crypto map only, US dark. Marks: Coinbase spot + Binance ~23:05 Manila. Gotrade marks carried from Wed (Fri closes unsourced — not invented). No new trades. Prefer NO TRADE / no PLAN.",
+    "tradeCount": 3,
+    "coinsEquity": 177.1981,
+    "gotradeEquity": 47.3207
   }
 ]
