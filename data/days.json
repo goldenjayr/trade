@@ -144,11 +144,27 @@
     "gotradeEquity": 47.3207
   },
   {
+    "date": "2026-09-24",
+    "stance": "IN_TRADE",
+    "summary": "Thu 2026-09-24 ~9:55p Manila Trade Vision EOD. Ops morning/midday/level: HOLD both books / no PLAN. Marks: Coinbase spot + Yahoo chart ~21:52 Manila (US cash open). No new trades. Prefer NO TRADE / no PLAN.",
+    "tradeCount": 3,
+    "coinsEquity": 176.9044,
+    "gotradeEquity": 46.7091
+  },
+  {
+    "date": "2026-09-25",
+    "stance": "IN_TRADE",
+    "summary": "Fri 2026-09-25 ~9:31p Manila Trade Vision EOD. Ops morning/midday/level: HOLD both books / no PLAN. Marks: Coinbase spot + Yahoo (Fri cash open) ~21:31 Manila. No new trades. Prefer NO TRADE / no PLAN.",
+    "tradeCount": 3,
+    "coinsEquity": 177.2591,
+    "gotradeEquity": 47.6518
+  },
+  {
     "date": "2026-09-26",
     "stance": "IN_TRADE",
-    "summary": "Sat 2026-09-26 ~11:05p Manila Trade Vision EOD. Weekend: crypto map only, US dark. Marks: Coinbase spot + Binance ~23:05 Manila. Gotrade marks carried from Wed (Fri closes unsourced — not invented). No new trades. Prefer NO TRADE / no PLAN.",
+    "summary": "Sat 2026-09-26 ~11:05p Manila Trade Vision EOD. Weekend: crypto map only, US dark. Marks: Coinbase spot + Binance ~23:05 Manila. Gotrade marks carried from Fri 09-25 packet. No new trades. Prefer NO TRADE / no PLAN.",
     "tradeCount": 3,
     "coinsEquity": 177.1981,
-    "gotradeEquity": 47.3207
+    "gotradeEquity": 47.6518
   }
 ]

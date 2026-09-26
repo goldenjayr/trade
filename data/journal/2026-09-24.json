@@ -1,0 +1,66 @@
+{
+  "date": "2026-09-24",
+  "stance": "IN_TRADE",
+  "headline": "Thu HOLD / no new PLAN. Naked ETH ~+8.6% (~$2.32/~₱146). Gotrade LT book ~$+0.04 (MSFT soft vs Wed close). No fills.",
+  "scout": {
+    "headline": "Post-FOMC Thu: crypto eased further off Wed marks into US cash open; MSFT soft vs Wed close. No A+ primary for new size while ETH stays naked. Prefer NO TRADE.",
+    "bullets": [
+      "ETH naked mark ~$2661.935 vs $2451.93 entry (~+8.6% / ~$+2.32 / ~₱146); SM/TP still waived.",
+      "Gotrade LT live: MSFT $491.33 (~$-0.17) · GOOGL $337.82 (~$+0.21 vs fill); book ~$+0.04; cash $0.",
+      "BTC ~$83.93k · SOL ~$114.6 · XRP ~$1.497 · BNB ~$775 · LINK ~$12.46 · SUI ~$0.984 (Coinbase ~21:52 Manila).",
+      "Combined open P&L ~$+2.36/~₱148. No fills today.",
+      "Level watches 14:56 / 21:09 Manila stayed HOLD / NO TRADE / no PLAN — no UNVERIFIED. US cash open ~21:30 Manila."
+    ],
+    "sources": [
+      "Trading Ops morning/midday/level watches 2026-09-24",
+      "Coinbase spot API ~21:52 Manila",
+      "Yahoo chart MSFT/GOOGL ~21:52 Manila",
+      "open.er-api.com USDPHP ~21:52 Manila"
+    ]
+  },
+  "analyst": {
+    "thesis": "HOLD open books. Post-FOMC rail still binds — prefer NO TRADE on new entries. ETH-CPI-OVERRIDE still open/naked by jayr choice. Gotrade MSFT+GOOGL = LT holds only — not short-horizon PLANs. MSFT pullback vs Wed close is noise for LT starter, not an exit PLAN.",
+    "levels": [
+      {
+        "symbol": "ETH",
+        "support": 2378.37,
+        "invalidation": "Mental $2378.37 only",
+        "note": "Entry $2451.93 · mark ~$2661.935 (~+8.6%). Still naked (jayr waiver)."
+      },
+      {
+        "symbol": "BTC",
+        "invalidation": "No new PLAN without desk greenlight",
+        "note": "Primary map soft — ~$83.93k well above old $78–78.8k wait (expired Sep 11). No new armed wait this packet."
+      },
+      {
+        "symbol": "MSFT",
+        "note": "LT hold · mark $491.33 vs fill $495.57 (~$-0.17). Soft vs Wed close $500.59. Not a tactical exit PLAN."
+      },
+      {
+        "symbol": "GOOGL",
+        "note": "LT hold · mark $337.82 vs fill $335.2 (~$+0.21); near Wed close $337.83. Still green vs fill — not a REDUCE PLAN."
+      }
+    ],
+    "notes": "No new Coins while naked. Prefer NO TRADE on new entries either book. Book-full Gotrade (cash $0)."
+  },
+  "risk": {
+    "railsCheck": "HOLD. New Coins blocked while naked. Gotrade cash $0 / book full — no new Gotrade PLANs. Post-FOMC: still prefer HOLD / NO TRADE on new size; no A+ permission.",
+    "sizeNote": "Do not add. Coins cash ₱147.49 below ₱800 sit-out for new clips anyway.",
+    "kills": [
+      "No new PLAN without A+ / jayr ask",
+      "No new Coins entries while naked",
+      "Gotrade book full — prefer NO TRADE on new entries",
+      "Kill switch: 1 loser or −₱400 day (Coins) still on"
+    ],
+    "feeSkip": "Skip if fees ≥ ~⅓ edge — unchanged."
+  },
+  "desk": {
+    "decision": "HOLD / NO NEW PLAN. ETH naked ~+8.6% (~$+2.32). Gotrade LT book ~$+0.04. Thu EOD Vision publish.",
+    "actions": [
+      "Publish Thu 2026-09-24 DailyPacket on Vision",
+      "Prefer NO TRADE on new entries",
+      "No broker browser this run — marks from API/web only"
+    ],
+    "nextOpen": "Fri morning brief — reassess only on jayr ask / clean A+ primary; HOLD preference still in force."
+  }
+}

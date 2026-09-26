@@ -2,7 +2,7 @@
   "asOf": "2026-09-26",
   "timezone": "Asia/Manila",
   "stance": "IN_TRADE",
-  "stanceReason": "HOLD open books / NO NEW PLAN. Weekend: crypto map only, US dark. Naked ETH blocks new Coins (jayr leave-naked). Gotrade LT holds (broker-confirmed Sep 14); cash $0; Fri closes unsourced so marks carried. LINK/SUI pop is map-only.",
+  "stanceReason": "HOLD open books / NO NEW PLAN. Weekend: crypto map only, US dark. Naked ETH blocks new Coins (jayr leave-naked). Gotrade LT holds (broker-confirmed Sep 14); cash $0; Fri cash-open marks carried. SUI/LINK drift is map-only.",
   "primaries": [
     "BTC",
     "XRP"
@@ -14,7 +14,7 @@
       "currency": "PHP",
       "cash": 147.49,
       "equity": 177.1981,
-      "dayPnl": 0.5,
+      "dayPnl": -3.8,
       "totalPnl": 163.1,
       "positions": [
         {
@@ -34,29 +34,29 @@
       "label": "Gotrade",
       "currency": "USD",
       "cash": 0,
-      "equity": 47.3207,
+      "equity": 47.6518,
       "dayPnl": 0,
-      "totalPnl": 0.65,
+      "totalPnl": 0.98,
       "positions": [
         {
           "symbol": "MSFT",
           "name": "Microsoft",
           "qty": 0.040135601,
           "avgCost": 495.57,
-          "mark": 498.885,
-          "marketValue": 20.023,
-          "pnl": 0.133,
-          "pnlPct": 0.006687
+          "mark": 504.03,
+          "marketValue": 20.2295,
+          "pnl": 0.3395,
+          "pnlPct": 0.017069
         },
         {
           "symbol": "GOOGL",
           "name": "Alphabet",
           "qty": 0.079892601,
           "avgCost": 335.2,
-          "mark": 341.68,
-          "marketValue": 27.2977,
-          "pnl": 0.5177,
-          "pnlPct": 0.019332
+          "mark": 343.24,
+          "marketValue": 27.4223,
+          "pnl": 0.6423,
+          "pnlPct": 0.023984
         }
       ]
     }
