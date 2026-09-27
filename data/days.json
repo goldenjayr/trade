@@ -166,5 +166,13 @@
     "tradeCount": 3,
     "coinsEquity": 177.1981,
     "gotradeEquity": 47.6518
+  },
+  {
+    "date": "2026-09-27",
+    "stance": "IN_TRADE",
+    "summary": "Sun 2026-09-27 23:00 Manila close tick. Weekend: crypto map only, US dark. Marks: Coinbase spot + Binance ~23:00 Manila. Gotrade marks carried from Fri 09-25 packet. No new trades. Prefer NO TRADE / no PLAN.",
+    "tradeCount": 3,
+    "coinsEquity": 177.1817,
+    "gotradeEquity": 47.6518
   }
 ]
