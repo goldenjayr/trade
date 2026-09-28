@@ -13,7 +13,7 @@
       "label": "Coins.ph",
       "currency": "PHP",
       "cash": 147.49,
-      "equity": 177.2831,
+      "equity": 176.9876,
       "dayPnl": 1.5,
       "totalPnl": 168.6,
       "positions": [
@@ -22,10 +22,10 @@
           "name": "Ethereum",
           "qty": 0.01105,
           "avgCost": 2451.93,
-          "mark": 2696.205,
-          "marketValue": 29.7931,
-          "pnl": 2.6993,
-          "pnlPct": 0.099628
+          "mark": 2669.47,
+          "marketValue": 29.4976,
+          "pnl": 2.4038,
+          "pnlPct": 0.088721
         }
       ]
     },
@@ -34,29 +34,29 @@
       "label": "Gotrade",
       "currency": "USD",
       "cash": 0,
-      "equity": 47.6497,
-      "dayPnl": -0.54,
-      "totalPnl": 0.98,
+      "equity": 47.5786,
+      "dayPnl": -0.61,
+      "totalPnl": 0.91,
       "positions": [
         {
           "symbol": "MSFT",
           "name": "Microsoft",
           "qty": 0.040135601,
           "avgCost": 495.57,
-          "mark": 505.09,
-          "marketValue": 20.2721,
-          "pnl": 0.3821,
-          "pnlPct": 0.019211
+          "mark": 507.42,
+          "marketValue": 20.3656,
+          "pnl": 0.4756,
+          "pnlPct": 0.023912
         },
         {
           "symbol": "GOOGL",
           "name": "Alphabet",
           "qty": 0.079892601,
           "avgCost": 335.2,
-          "mark": 342.68,
-          "marketValue": 27.3776,
-          "pnl": 0.5976,
-          "pnlPct": 0.022315
+          "mark": 340.62,
+          "marketValue": 27.213,
+          "pnl": 0.433,
+          "pnlPct": 0.016169
         }
       ]
     }

@@ -7,7 +7,7 @@
     "XRP"
   ],
   "usdphp": 62.45,
-  "notes": "Mon 2026-09-28 ~9:47p Manila Trade Vision EOD. Ops overnight/morning/midday/level + weekly review: HOLD both books / no PLAN. Marks: Coinbase spot + Yahoo (Mon cash open) ~21:47 Manila. Morning Vision tick (08:00) used Fri Gotrade carries — this EOD refreshes live Mon session. No new trades. Prefer NO TRADE / no PLAN into NFP Fri Oct 2.",
+  "notes": "Mon 2026-09-28 ~11:00p Manila Trade Vision CLOSE tick. EOD refresh of the 9:47p packet: Yahoo v8 crypto + US mid-session (~11:00 ET) · SUI Binance · FX er-api. HOLD both books / no PLAN. Prefer NO TRADE on new entries into NFP Fri Oct 2.",
   "books": {
     "coins": {
       "venue": "coins",
@@ -21,7 +21,7 @@
           "name": "Ethereum",
           "qty": 0.01105,
           "avgCost": 2451.93,
-          "mark": 2696.205
+          "mark": 2669.47
         }
       ]
     },
@@ -29,22 +29,22 @@
       "venue": "gotrade",
       "currency": "USD",
       "cash": 0,
-      "dayPnl": -0.54,
-      "totalPnl": 0.98,
+      "dayPnl": -0.61,
+      "totalPnl": 0.91,
       "positions": [
         {
           "symbol": "MSFT",
           "name": "Microsoft",
           "qty": 0.040135601,
           "avgCost": 495.57,
-          "mark": 505.09
+          "mark": 507.42
         },
         {
           "symbol": "GOOGL",
           "name": "Alphabet",
           "qty": 0.079892601,
           "avgCost": 335.2,
-          "mark": 342.68
+          "mark": 340.62
         }
       ]
     }
@@ -52,49 +52,50 @@
   "journal": {
     "date": "2026-09-28",
     "stance": "IN_TRADE",
-    "headline": "Mon EOD HOLD / no new PLAN. Naked ETH ~+10.0% (~$2.70/~₱169). Gotrade LT book ~$+0.98 (MSFT soft vs Fri close). No fills.",
+    "headline": "Mon CLOSE HOLD / no new PLAN. Naked ETH ~+8.9% (~$2.40/~₱150). Gotrade LT book ~$+0.91 (mid-session red Monday). No fills.",
     "scout": {
-      "headline": "Mon EOD into NFP week: US cash open, MSFT off Fri close; crypto firm vs morning. No A+ primary for new size while ETH stays naked. Prefer NO TRADE.",
+      "headline": "Mon CLOSE into NFP week: red Monday on both tapes — crypto softer, US mid-session down led by META/TSLA. No A+ primary for new size while ETH stays naked. Prefer NO TRADE.",
       "bullets": [
-        "ETH naked mark ~$2,696.205 vs $2451.93 entry (~+10.0% / ~$+2.70 / ~₱169); SM/TP still waived.",
-        "Gotrade LT live (Mon cash open): MSFT $505.09 (~$+0.38 vs fill) · GOOGL $342.68 (~$+0.60 vs fill); book ~$+0.98; cash $0. Day vs Fri close ~$-0.54.",
-        "BTC ~$83.76k · SOL ~$120.12 · XRP ~$1.5247 · BNB ~$768 · LINK ~$14.82 · SUI ~$1.190 (Coinbase ~21:47 Manila).",
-        "Combined open P&L ~$+3.68/~₱230. No fills today.",
+        "ETH naked mark ~$2,669.47 vs $2451.93 entry (~+8.9% / ~$+2.40 / ~₱150); SM/TP still waived.",
+        "Gotrade LT mid-session (~11:00 ET): MSFT $507.42 (~$+0.48 vs fill, -1.7% vs Fri $516.17) · GOOGL $340.62 (~$+0.43 vs fill, -1.0% vs Fri $343.92); book ~$+0.91; cash $0. Day vs Fri close ~$-0.61.",
+        "Crypto (Yahoo v8 ~23:00 Manila, day vs prior): BTC ~$82,992.92 −1.7% · ETH −0.7% · SOL ~$118.28 −3.1% · XRP ~$1.4888 −2.0% · BNB ~$759.29 −2.5% · LINK ~$14.213 +1.3% · SUI ~$1.1571 −5.9% 24h (Binance).",
+        "US mid-session (Yahoo v8 ~23:00 Manila, vs Fri): SPY −0.9% · QQQ −1.4% · VOO −1.1% · IWM −1.0% · AAPL −0.4% · NVDA +1.9% lone green mega · AMZN −1.1% · META −4.0% · TSLA −3.1%.",
+        "Combined open P&L ~$+3.31/~₱207. No fills today.",
         "Weekly review rails locked: NFP Fri Oct 2 20:30 Manila = no new Gotrade single-name; Coins new only if SM restored + A+. Level watches stayed HOLD / NO TRADE / no PLAN — no UNVERIFIED."
       ],
       "sources": [
         "Trading Ops overnight/morning/midday/level + weekly review 2026-09-28",
-        "Coinbase spot API ~21:47 Manila",
-        "Yahoo chart MSFT/GOOGL ~21:47 Manila (Mon cash open)",
-        "open.er-api.com USDPHP ~21:47 Manila"
+        "Yahoo chart v8 crypto + US ~23:00 Manila (~11:00 ET mid-session)",
+        "Binance SUIUSDT 24hr ticker ~23:00 Manila",
+        "open.er-api.com USDPHP 62.45 ~23:00 Manila"
       ]
     },
     "analyst": {
-      "thesis": "HOLD open books. NFP-week rail binds — prefer NO TRADE on new entries either book. ETH-CPI-OVERRIDE still open/naked by jayr choice. Gotrade MSFT+GOOGL = LT holds only — not short-horizon PLANs. MSFT pullback vs Fri close is noise for LT starter, not an exit PLAN.",
+      "thesis": "HOLD open books. NFP-week rail binds — prefer NO TRADE on new entries either book. ETH-CPI-OVERRIDE still open/naked by jayr choice. Gotrade MSFT+GOOGL = LT holds only — not short-horizon PLANs. Mid-session red Monday is noise for LT starters, not an exit PLAN.",
       "levels": [
         {
           "symbol": "ETH",
           "support": 2378.37,
-          "note": "Entry $2451.93 · mark ~$2,696.205 (~+10.0%). Still naked (jayr waiver).",
+          "note": "Entry $2451.93 · mark ~$2,669.47 (~+8.9%). Still naked (jayr waiver).",
           "invalidation": "Mental $2378.37 only"
         },
         {
           "symbol": "BTC",
-          "note": "Primary map — ~$83,759 well above old $78–78.8k wait (expired Sep 11). No new armed wait this packet.",
+          "note": "Primary map — ~$82,993 well above old $78–78.8k wait (expired Sep 11). Monday fade −1.7% is drift, not structure. No new armed wait this packet.",
           "invalidation": "No new PLAN without desk greenlight"
         },
         {
           "symbol": "XRP",
-          "note": "Primary map — ~$1.5247. Old $1.33–1.36 wait expired Sep 11. No new armed wait this packet.",
+          "note": "Primary map — ~$1.4888 (−2.0%). Old $1.33–1.36 wait expired Sep 11. No new armed wait this packet.",
           "invalidation": "No new PLAN without desk greenlight"
         },
         {
           "symbol": "MSFT",
-          "note": "LT hold · mark $505.09 vs fill $495.57 (~$+0.38). Soft vs Fri close $516.17. Not a tactical exit PLAN."
+          "note": "LT hold · mark $507.42 vs fill $495.57 (~$+0.48). −1.7% vs Fri close $516.17. Not a tactical exit PLAN."
         },
         {
           "symbol": "GOOGL",
-          "note": "LT hold · mark $342.68 vs fill $335.2 (~$+0.60). Near Fri close $343.92. Still green vs fill — not a REDUCE PLAN."
+          "note": "LT hold · mark $340.62 vs fill $335.2 (~$+0.43). −1.0% vs Fri close $343.92. Still green vs fill — not a REDUCE PLAN."
         }
       ],
       "notes": "No new Coins while naked. Prefer NO TRADE on new entries either book into NFP window. Book-full Gotrade (cash $0)."
@@ -112,7 +113,7 @@
       "feeSkip": "Skip if fees ≥ ~⅓ edge — unchanged."
     },
     "desk": {
-      "decision": "HOLD / NO NEW PLAN. ETH naked ~+10.0% (~$+2.70). Gotrade LT book ~$+0.98. Mon EOD Vision publish (refresh vs morning Fri-carry packet).",
+      "decision": "HOLD / NO NEW PLAN. ETH naked ~+8.9% (~$+2.40). Gotrade LT book ~$+0.91. Mon 2026-09-28 DailyPacket CLOSE tick (refresh vs 9:47p EOD packet).",
       "actions": [
         "Publish Mon 2026-09-28 DailyPacket on Vision (EOD refresh)",
         "Prefer NO TRADE on new entries into NFP Fri Oct 2",
@@ -230,39 +231,75 @@
   "watchlistMarks": [
     {
       "symbol": "BTC",
-      "last": 83758.685
+      "last": 82992.92
     },
     {
       "symbol": "ETH",
-      "last": 2696.205
+      "last": 2669.47
     },
     {
       "symbol": "SOL",
-      "last": 120.12
+      "last": 118.28
     },
     {
       "symbol": "XRP",
-      "last": 1.5247
+      "last": 1.4888
     },
     {
       "symbol": "BNB",
-      "last": 767.835
+      "last": 759.29
     },
     {
       "symbol": "LINK",
-      "last": 14.819
+      "last": 14.213
     },
     {
       "symbol": "SUI",
-      "last": 1.19035
+      "last": 1.1571
+    },
+    {
+      "symbol": "SPY",
+      "last": 764.615
+    },
+    {
+      "symbol": "QQQ",
+      "last": 733.7
+    },
+    {
+      "symbol": "VOO",
+      "last": 702.84
+    },
+    {
+      "symbol": "IWM",
+      "last": 279.145
+    },
+    {
+      "symbol": "AAPL",
+      "last": 339.74
     },
     {
       "symbol": "MSFT",
-      "last": 505.09
+      "last": 507.42
+    },
+    {
+      "symbol": "NVDA",
+      "last": 229.355
     },
     {
       "symbol": "GOOGL",
-      "last": 342.68
+      "last": 340.62
+    },
+    {
+      "symbol": "AMZN",
+      "last": 246.828
+    },
+    {
+      "symbol": "META",
+      "last": 721.755
+    },
+    {
+      "symbol": "TSLA",
+      "last": 360.56
     }
   ],
   "predictions": [
