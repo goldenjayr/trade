@@ -2,7 +2,7 @@
   "asOf": "2026-09-28",
   "timezone": "Asia/Manila",
   "stance": "IN_TRADE",
-  "stanceReason": "HOLD open books / NO NEW PLAN. Overnight: crypto map only, US dark (Sun ET). Naked ETH blocks new Coins (jayr leave-naked). Gotrade LT holds (broker-confirmed Sep 14); cash $0; Fri cash-open marks carried. SUI bounce is map-only.",
+  "stanceReason": "HOLD open books / NO NEW PLAN. NFP-week rail (weekly review): no new Gotrade single-name size into first-Friday employment window + clustered PCE/ISM; new Coins only with Stop-Market restored and A+ edge — else map-only. Naked ETH blocks new Coins (jayr leave-naked). Gotrade LT filled (broker-confirmed Sep 14); cash $0. Mon US cash open marks refreshed (morning packet had Fri carries).",
   "primaries": [
     "BTC",
     "XRP"
@@ -13,19 +13,19 @@
       "label": "Coins.ph",
       "currency": "PHP",
       "cash": 147.49,
-      "equity": 177.2147,
-      "dayPnl": -3.8,
-      "totalPnl": 163.1,
+      "equity": 177.2831,
+      "dayPnl": 1.5,
+      "totalPnl": 168.6,
       "positions": [
         {
           "symbol": "ETH",
           "name": "Ethereum",
           "qty": 0.01105,
           "avgCost": 2451.93,
-          "mark": 2690.02,
-          "marketValue": 29.7247,
-          "pnl": 2.6309,
-          "pnlPct": 0.097103
+          "mark": 2696.205,
+          "marketValue": 29.7931,
+          "pnl": 2.6993,
+          "pnlPct": 0.099628
         }
       ]
     },
@@ -34,8 +34,8 @@
       "label": "Gotrade",
       "currency": "USD",
       "cash": 0,
-      "equity": 47.6518,
-      "dayPnl": 0,
+      "equity": 47.6497,
+      "dayPnl": -0.54,
       "totalPnl": 0.98,
       "positions": [
         {
@@ -43,20 +43,20 @@
           "name": "Microsoft",
           "qty": 0.040135601,
           "avgCost": 495.57,
-          "mark": 504.03,
-          "marketValue": 20.2295,
-          "pnl": 0.3395,
-          "pnlPct": 0.017069
+          "mark": 505.09,
+          "marketValue": 20.2721,
+          "pnl": 0.3821,
+          "pnlPct": 0.019211
         },
         {
           "symbol": "GOOGL",
           "name": "Alphabet",
           "qty": 0.079892601,
           "avgCost": 335.2,
-          "mark": 343.24,
-          "marketValue": 27.4223,
-          "pnl": 0.6423,
-          "pnlPct": 0.023984
+          "mark": 342.68,
+          "marketValue": 27.3776,
+          "pnl": 0.5976,
+          "pnlPct": 0.022315
         }
       ]
     }
@@ -95,7 +95,7 @@
       "title": "US September NFP",
       "impact": "high",
       "status": "upcoming",
-      "notes": "US Sep nonfarm payrolls (first-Friday print). No new Gotrade single-name size into the window; crypto map-only. Econ-calendar live check pending (search backend down Mon 08:00) — re-verify before Friday."
+      "notes": "First-Friday employment window. No new Gotrade single-name size; Coins new only with SM restored + A+ — else map-only / NO TRADE. Same-week PCE/ISM cluster also under the rail."
     }
   ]
 }

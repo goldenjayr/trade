@@ -185,6 +185,20 @@
       "status": "open",
       "source": "analyst",
       "role": "primary"
+    },
+    {
+      "id": "macro-nfp-week-2026-09-28",
+      "dateOpened": "2026-09-28",
+      "symbol": "MACRO",
+      "venue": "macro",
+      "thesis": "NFP / first-Friday employment window (Fri Oct 2) + same-week PCE/ISM cluster. Map-only: no new Gotrade single-name; Coins new only if Stop-Market restored and A+ edge.",
+      "direction": "none",
+      "invalidation": "NFP week clears and desk grants A+ with rails green; or jayr asks for a specific PLAN",
+      "conviction": 7,
+      "horizon": "event",
+      "status": "open",
+      "source": "desk",
+      "role": "stance"
     }
   ]
 }
