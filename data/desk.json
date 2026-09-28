@@ -1,8 +1,8 @@
 {
-  "asOf": "2026-09-27",
+  "asOf": "2026-09-28",
   "timezone": "Asia/Manila",
   "stance": "IN_TRADE",
-  "stanceReason": "HOLD open books / NO NEW PLAN. Weekend: crypto map only, US dark. Naked ETH blocks new Coins (jayr leave-naked). Gotrade LT holds (broker-confirmed Sep 14); cash $0; Fri cash-open marks carried. SUI/LINK drift is map-only.",
+  "stanceReason": "HOLD open books / NO NEW PLAN. Overnight: crypto map only, US dark (Sun ET). Naked ETH blocks new Coins (jayr leave-naked). Gotrade LT holds (broker-confirmed Sep 14); cash $0; Fri cash-open marks carried. SUI bounce is map-only.",
   "primaries": [
     "BTC",
     "XRP"
@@ -13,7 +13,7 @@
       "label": "Coins.ph",
       "currency": "PHP",
       "cash": 147.49,
-      "equity": 177.1817,
+      "equity": 177.2147,
       "dayPnl": -3.8,
       "totalPnl": 163.1,
       "positions": [
@@ -22,10 +22,10 @@
           "name": "Ethereum",
           "qty": 0.01105,
           "avgCost": 2451.93,
-          "mark": 2687.03,
-          "marketValue": 29.6917,
-          "pnl": 2.5979,
-          "pnlPct": 0.095885
+          "mark": 2690.02,
+          "marketValue": 29.7247,
+          "pnl": 2.6309,
+          "pnlPct": 0.097103
         }
       ]
     },
@@ -87,6 +87,15 @@
       "impact": "high",
       "status": "done",
       "notes": "+25bps to 3.75–4.00%. Event kill cleared; still no new PLAN without A+; HOLD preferred on new size."
+    },
+    {
+      "id": "nfp-2026-10-02",
+      "date": "2026-10-02",
+      "timeManila": "20:30",
+      "title": "US September NFP",
+      "impact": "high",
+      "status": "upcoming",
+      "notes": "US Sep nonfarm payrolls (first-Friday print). No new Gotrade single-name size into the window; crypto map-only. Econ-calendar live check pending (search backend down Mon 08:00) — re-verify before Friday."
     }
   ]
 }
