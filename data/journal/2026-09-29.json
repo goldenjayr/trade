@@ -1,75 +1,72 @@
 {
   "date": "2026-09-29",
   "stance": "IN_TRADE",
-  "headline": "Tue EOD HOLD / no new PLAN. Naked ETH ~+11.33% (~$3.07/~₱192). Gotrade UNVERIFIED — Yahoo Tue live book ~$0.82, day vs Fri ~$-0.70. No fills.",
+  "headline": "Tue 23:00 CLOSE / no new PLAN. Naked ETH ~+10.4% (~$2.82/~₱176). Gotrade LT book ~$+0.85. XRP +3.0% day but map-only into NFP. No fills.",
   "scout": {
-    "headline": "EOD refresh into NFP week: US Tue cash open soft vs Mon close; crypto still bid vs Mon desk print. Gotrade book remains UNVERIFIED after the 9pm broker login failed. Prefer NO TRADE on new entries.",
+    "headline": "Tue 23:00 CLOSE into NFP week: XRP +3.0% day standout but map-only; crypto otherwise flat-to-up; US mid-session mixed. No A+ primary for new size while ETH stays naked. Prefer NO TRADE.",
     "bullets": [
-      "ETH naked mark $2,729.755 vs $2451.93 entry (~+11.33% / ~$3.07 / ~₱192 at USDPHP 62.56); SM/TP still off; mental inv/stop $2378.37. Naked waiver blocks new Coins entries.",
-      "Coins cash ₱147.49 is last desk carry — stale, not live-refreshed. Day vs Mon desk ETH mark $2,669.47 ≈ +₱41.67. No new Coins fill.",
-      "Gotrade UNVERIFIED: 9pm broker UI confirm FAILED (Ultra session expired → Google SSO). Carry remains prior broker FILL-20260914 MSFT 0.040135601 @ $495.57 and GOOGL 0.079892601 @ $335.20, cash $0 — not re-confirmed tonight.",
-      "Research marks (Yahoo Tue live ~9:40a ET / ~9:40p Manila): MSFT $505.148 (~$0.38 vs fill, -0.8% vs Mon $509.22) · GOOGL $340.695 (~$0.44 vs fill, -0.6% vs Mon $342.75). Book ~$0.82 / ~₱51. Day vs Fri close ~$-0.70 (MSFT Fri $516.17, GOOGL Fri $343.92).",
-      "Coinbase spot ~21:40 Manila: BTC $84,202.265 · ETH $2,729.755 · SOL $121.12 · XRP $1.5502 · BNB $765.42 · LINK $15.2095 · SUI $1.16315. Vs Mon desk print: BTC +1.5% · ETH +2.3% · SOL +2.4% · XRP +4.1% · BNB +0.8% · LINK +7.0% · SUI +0.5%.",
-      "Old wait zones still BTC $78–78.8k and XRP $1.33–1.36 — both above. No new armed wait. Combined open P&L ~$3.89/~₱243. No fills."
+      "ETH naked mark $2,707.24 vs $2451.93 entry (~+10.4% / ~$+2.82 / ~₱176); SM/TP still waived.",
+      "Gotrade mid-session (~11:00 ET Tue): MSFT $509.66 (+0.1% vs Mon) / GOOGL $338.73 (−1.2% vs Mon); LT book ~$+0.85 (~+$0.57 / ~+$0.28) — UNVERIFIED research marks (sibling 9pm broker UI confirm failed at login); cash $0.",
+      "Crypto (Yahoo v8 ~23:00 Manila, day vs Mon close): BTC $83,647.29 +0.2% · ETH $2,707.24 +0.7% · SOL $119.94 +0.9% · XRP $1.5416 +3.0% · BNB $762.58 −0.2% · LINK $15.056 −2.5% · SUI $1.1601 +0.3% 24h (Binance).",
+      "XRP day standout (+2.4% vs 19:00) but chasing it into NFP week breaks rails — map-only, not PLAN-eligible. LINK −2.5% is scout-only noise.",
+      "US mid-session mixed vs Mon: QQQ +0.3%, NVDA +1.0%, META +0.8%; SPY −0.2%, VOO −0.1%, IWM −0.5%, AAPL −1.7%, TSLA −1.0%, AMZN flat. Noise for LT starters.",
+      "Next 24h: PCE + GDP-final Wed 20:30 Manila · ISM-mfg Thu · NFP Fri Oct 2 20:30 Manila. NFP rail locked: no new Gotrade single-name; Coins new only if SM restored + A+.",
+      "Coins cash ₱147.49 < ₱800 floor anyway; naked ETH blocks new Coins."
     ],
     "sources": [
-      "Trading Ops morning/midday/level watches 2026-09-29",
-      "Coinbase spot tape ~21:40 Manila",
-      "Coinbase exchange-rates USDPHP 62.56",
-      "Yahoo v8 MSFT/GOOGL live Tue session ~9:40a ET — research only; broker UI confirm failed at 9pm",
-      "Prior desk carry 2026-09-28 (Coins cash, FILL-20260914); 21:02 catch-up packet refreshed at EOD"
+      "Yahoo chart v8 crypto+US ~23:00 Manila Sep 29 (~11:00 ET)",
+      "Binance SUIUSDT 24hr ~23:00 Manila Sep 29",
+      "open.er-api.com USDPHP 62.50 (Sep 29 00:02 UTC)"
     ]
   },
   "analyst": {
-    "thesis": "HOLD open books. No new PLAN. NFP/first-Friday rail blocks new Gotrade single-name size. Coins new entries stay blocked until Stop-Market is restored. ETH-CPI-OVERRIDE remains open and naked. Tue live Gotrade marks are research only — treat the equity book as UNVERIFIED until a broker confirm.",
+    "thesis": "HOLD open books into NFP Fri Oct 2. ETH-CPI-OVERRIDE still open/naked by jayr choice (~+10.4% / ~$+2.82). Gotrade MSFT+GOOGL = LT holds only (~$+0.85 combined) — mid-session US mixed tape is noise for LT starters, not an exit PLAN. Prefer NO TRADE on new entries either book.",
     "levels": [
       {
         "symbol": "ETH",
         "support": 2378.37,
         "invalidation": "Mental $2378.37 only",
-        "note": "Entry $2451.93 · Coinbase mark $2,729.755 (~+11.33% / ~$3.07 / ~₱192). SM/TP off. Naked waiver."
+        "note": "Entry $2451.93 · mark $2,707.24 (~+10.4% / ~$+2.82 / ~₱176). Still naked (jayr waiver). +0.7% day."
       },
       {
         "symbol": "BTC",
         "invalidation": "No new PLAN without desk greenlight",
-        "note": "Primary map — $84,202.265, still above the old $78–78.8k wait. No new armed wait this packet."
+        "note": "Primary map — $83,647.29 (+0.2% day; −0.4% vs 19:00). Old $78–78.8k wait expired Sep 11. Flat Tuesday, not structure. No new armed wait this packet."
       },
       {
         "symbol": "XRP",
         "invalidation": "No new PLAN without desk greenlight",
-        "note": "Primary map — $1.5502, still above the old $1.33–1.36 wait. No new armed wait this packet."
+        "note": "Primary map — $1.5416 (+3.0% day; +2.4% vs 19:00). Old $1.33–1.36 wait expired Sep 11. Day standout but chasing into NFP week breaks rails. No new armed wait this packet."
       },
       {
         "symbol": "MSFT",
-        "note": "UNVERIFIED research mark. Yahoo Tue live $505.148 vs fill $495.57 (~$0.38). -2.1% vs Fri $516.17. Not a tactical exit PLAN. Broker UI not confirmed tonight."
+        "note": "LT hold · mark $509.66 vs fill $495.57 (~$+0.57). −1.3% vs Fri close $516.17. Mid-session ~11:00 ET. Not a tactical exit PLAN."
       },
       {
         "symbol": "GOOGL",
-        "note": "UNVERIFIED research mark. Yahoo Tue live $340.695 vs fill $335.20 (~$0.44). -0.9% vs Fri $343.92. Not a REDUCE PLAN. Broker UI not confirmed tonight."
+        "note": "LT hold · mark $338.73 vs fill $335.2 (~$+0.28). −1.5% vs Fri close $343.92. Still green vs fill — not a REDUCE PLAN."
       }
     ],
-    "notes": "No new Coins while naked and Stop-Market is off. No new Gotrade single-name into NFP week. Book-full Gotrade (cash $0) and UNVERIFIED until a live broker confirm."
+    "notes": "Tue 23:00 CLOSE: XRP +3.0% day standout (+2.4% vs 19:00) but chase-into-NFP breaks rails — map-only. Crypto otherwise flat-to-up (BTC +0.2%, ETH +0.7%, SOL +0.9%; LINK −2.5% scout noise). US mid-session mixed (QQQ +0.3%, NVDA +1.0%, META +0.8%; AAPL −1.7%, GOOGL −1.2%). No new Coins while naked. Book-full Gotrade (cash $0). NFP Fri Oct 2 rail binds."
   },
   "risk": {
-    "railsCheck": "HOLD. New Coins blocked until Stop-Market restored (naked waiver). Gotrade cash $0 / book full — NFP/first-Friday rail blocks new single-name size. Broker confirmation UNVERIFIED — do not treat research marks as a fresh fill or an exit signal.",
-    "sizeNote": "Do not add. Coins cash ₱147.49 is a stale carry and below the ₱800 sit-out for new clips. Gotrade has no spare cash.",
+    "railsCheck": "HOLD. New Coins blocked while naked (and NFP-week: SM+A+ required for any new Coins). Gotrade cash $0 / book full — NFP rail also blocks new single-name size. No A+ permission.",
+    "sizeNote": "Do not add. Coins cash ₱147.49 below ₱800 sit-out for new clips anyway.",
     "kills": [
-      "No new PLAN",
-      "No new Coins entries while Stop-Market is off",
+      "No new PLAN without A+ / jayr ask",
+      "No new Coins entries while naked",
       "NFP / first-Friday window: no new Gotrade single-name size",
-      "Gotrade book UNVERIFIED — no size change off a failed broker login",
+      "Gotrade book full — prefer NO TRADE on new entries",
       "Kill switch: 1 loser or −₱400 day (Coins) still on"
     ],
     "feeSkip": "Skip if fees ≥ ~⅓ edge — unchanged."
   },
   "desk": {
-    "decision": "HOLD / NO NEW PLAN. ETH naked ~+11.33% (~$3.07). Gotrade book UNVERIFIED, Yahoo Tue live ~$0.82, day vs Fri ~$-0.70. Tue 2026-09-29 EOD refresh.",
+    "decision": "HOLD / NO NEW PLAN. ETH naked ~+10.4% (~$+2.82 / ~₱176). Gotrade LT book ~$+0.85 (MSFT ~+$0.57, GOOGL ~+$0.28). Tue 2026-09-29 23:00 Manila CLOSE tick.",
     "actions": [
-      "Publish Tue 2026-09-29 DailyPacket EOD refresh (US cash open marks)",
-      "Keep both books HOLD — no PLAN",
-      "Re-confirm Gotrade in the broker UI next session; until then the book stays UNVERIFIED",
-      "Do not refresh Coins cash from a guess — ₱147.49 remains the last desk carry"
+      "Prefer NO TRADE on new entries into NFP Fri Oct 2",
+      "No broker browser this run — marks from API only (Yahoo v8, Binance SUI, open.er-api FX)"
     ],
-    "nextOpen": "Wed morning brief — reassess only on jayr ask / clean A+ with Stop-Market restored on Coins; NFP rail still in force through Fri Oct 2. Gotrade needs a live broker confirm before any mark is treated as verified."
+    "nextOpen": "Wed 07:00 scout — reassess only on jayr ask / clean A+ with SM restored on Coins; NFP rail still in force through Fri Oct 2."
   }
 }
