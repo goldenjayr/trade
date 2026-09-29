@@ -1,8 +1,8 @@
 {
-  "asOf": "2026-09-28",
+  "asOf": "2026-09-29",
   "timezone": "Asia/Manila",
   "stance": "IN_TRADE",
-  "stanceReason": "HOLD open books / NO NEW PLAN. NFP-week rail (weekly review): no new Gotrade single-name size into first-Friday employment window + clustered PCE/ISM; new Coins only with Stop-Market restored and A+ edge — else map-only. Naked ETH blocks new Coins (jayr leave-naked). Gotrade LT filled (broker-confirmed Sep 14); cash $0. Mon US cash open marks refreshed (morning packet had Fri carries).",
+  "stanceReason": "HOLD open books; NFP/first-Friday week rail = no new Gotrade single-name size; Coins new entries blocked until Stop-Market restored; no PLAN. Gotrade broker confirmation UNVERIFIED — 9pm UI confirm failed (Ultra session expired → Google SSO); research marks only.",
   "primaries": [
     "BTC",
     "XRP"
@@ -13,50 +13,50 @@
       "label": "Coins.ph",
       "currency": "PHP",
       "cash": 147.49,
-      "equity": 176.9876,
-      "dayPnl": 1.5,
-      "totalPnl": 168.6,
+      "equity": 177.7211,
+      "dayPnl": 45.86,
+      "totalPnl": 196.14,
       "positions": [
         {
           "symbol": "ETH",
           "name": "Ethereum",
           "qty": 0.01105,
           "avgCost": 2451.93,
-          "mark": 2669.47,
-          "marketValue": 29.4976,
-          "pnl": 2.4038,
-          "pnlPct": 0.088721
+          "mark": 2735.85,
+          "marketValue": 30.2311,
+          "pnl": 3.1373,
+          "pnlPct": 0.115794
         }
       ]
     },
     "gotrade": {
       "venue": "gotrade",
-      "label": "Gotrade",
+      "label": "Gotrade · UNVERIFIED",
       "currency": "USD",
       "cash": 0,
-      "equity": 47.5786,
-      "dayPnl": -0.61,
-      "totalPnl": 0.91,
+      "equity": 47.8211,
+      "dayPnl": -0.37,
+      "totalPnl": 1.15,
       "positions": [
         {
           "symbol": "MSFT",
           "name": "Microsoft",
           "qty": 0.040135601,
           "avgCost": 495.57,
-          "mark": 507.42,
-          "marketValue": 20.3656,
-          "pnl": 0.4756,
-          "pnlPct": 0.023912
+          "mark": 509.22,
+          "marketValue": 20.4379,
+          "pnl": 0.5479,
+          "pnlPct": 0.027547
         },
         {
           "symbol": "GOOGL",
           "name": "Alphabet",
           "qty": 0.079892601,
           "avgCost": 335.2,
-          "mark": 340.62,
-          "marketValue": 27.213,
-          "pnl": 0.433,
-          "pnlPct": 0.016169
+          "mark": 342.75,
+          "marketValue": 27.3832,
+          "pnl": 0.6032,
+          "pnlPct": 0.022524
         }
       ]
     }
