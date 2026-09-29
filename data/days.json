@@ -182,5 +182,13 @@
     "tradeCount": 3,
     "coinsEquity": 176.9876,
     "gotradeEquity": 47.5786
+  },
+  {
+    "date": "2026-09-29",
+    "stance": "IN_TRADE",
+    "summary": "Tue 2026-09-29 ~21:02 Manila Trade Vision catch-up (weekday miss — no 2026-09-29 row; last published day was 2026-09-28 IN_TRADE EOD). Ops level watch. HOLD both books / no PLAN. Coinbase spot tape + Coinbase USDPHP. Gotrade broker UI confirm FAILED; Yahoo Mon 2026-09-28 closes are research marks only. US Tue regular session not yet open. No new fills.",
+    "tradeCount": 3,
+    "coinsEquity": 177.7211,
+    "gotradeEquity": 47.8211
   }
 ]
