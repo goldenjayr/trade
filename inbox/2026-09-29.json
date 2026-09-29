@@ -1,27 +1,27 @@
 {
   "date": "2026-09-29",
   "stance": "IN_TRADE",
-  "stanceReason": "HOLD open books; NFP/first-Friday week rail = no new Gotrade single-name size; Coins new entries blocked until Stop-Market restored; no PLAN. Gotrade broker confirmation UNVERIFIED — 9pm UI confirm failed (Ultra session expired → Google SSO); research marks only.",
+  "stanceReason": "HOLD open books; NFP/first-Friday week rail = no new Gotrade single-name size; Coins new entries blocked until Stop-Market restored; no PLAN. Gotrade broker confirmation still UNVERIFIED after 9pm UI confirm failed (Ultra session expired → Google SSO); Yahoo Tue live marks are research only.",
   "primaries": [
     "BTC",
     "XRP"
   ],
-  "usdphp": 62.52,
-  "notes": "Tue 2026-09-29 ~21:02 Manila Trade Vision catch-up (weekday miss — no 2026-09-29 row; last published day was 2026-09-28 IN_TRADE EOD). Ops level watch. HOLD both books / no PLAN. Coinbase spot tape + Coinbase USDPHP. Gotrade broker UI confirm FAILED; Yahoo Mon 2026-09-28 closes are research marks only. US Tue regular session not yet open. No new fills.",
+  "usdphp": 62.56,
+  "notes": "Tue 2026-09-29 ~9:40p Manila Trade Vision EOD refresh of the 21:02 catch-up packet. US Tue regular session open (~9:40a ET). Coinbase spot + Yahoo v8 MSFT/GOOGL live · SUI Coinbase · FX Coinbase USDPHP. HOLD both books / no PLAN. No new fills. Prefer NO TRADE on new entries into NFP Fri Oct 2.",
   "books": {
     "coins": {
       "venue": "coins",
       "currency": "PHP",
       "cash": 147.49,
-      "dayPnl": 45.86,
-      "totalPnl": 196.14,
+      "dayPnl": 41.67,
+      "totalPnl": 192.06,
       "positions": [
         {
           "symbol": "ETH",
           "name": "Ethereum",
           "qty": 0.01105,
           "avgCost": 2451.93,
-          "mark": 2735.85
+          "mark": 2729.755
         }
       ]
     },
@@ -30,22 +30,22 @@
       "label": "Gotrade · UNVERIFIED",
       "currency": "USD",
       "cash": 0,
-      "dayPnl": -0.37,
-      "totalPnl": 1.15,
+      "dayPnl": -0.7,
+      "totalPnl": 0.82,
       "positions": [
         {
           "symbol": "MSFT",
           "name": "Microsoft",
           "qty": 0.040135601,
           "avgCost": 495.57,
-          "mark": 509.22
+          "mark": 505.148
         },
         {
           "symbol": "GOOGL",
           "name": "Alphabet",
           "qty": 0.079892601,
           "avgCost": 335.2,
-          "mark": 342.75
+          "mark": 340.695
         }
       ]
     }
@@ -53,51 +53,51 @@
   "journal": {
     "date": "2026-09-29",
     "stance": "IN_TRADE",
-    "headline": "Tue 21:02 HOLD / no new PLAN. Naked ETH ~+11.58% (~$+3.14/~₱196). Gotrade UNVERIFIED — broker UI confirm failed; research Mon close book ~$+1.15. No fills.",
+    "headline": "Tue EOD HOLD / no new PLAN. Naked ETH ~+11.33% (~$3.07/~₱192). Gotrade UNVERIFIED — Yahoo Tue live book ~$0.82, day vs Fri ~$-0.70. No fills.",
     "scout": {
-      "headline": "Weekday catch-up into NFP week. Crypto bid vs Monday's desk print; US regular session still shut. Gotrade book is UNVERIFIED after the 9pm broker login failed. Prefer NO TRADE on new entries.",
+      "headline": "EOD refresh into NFP week: US Tue cash open soft vs Mon close; crypto still bid vs Mon desk print. Gotrade book remains UNVERIFIED after the 9pm broker login failed. Prefer NO TRADE on new entries.",
       "bullets": [
-        "ETH naked mark $2,735.85 vs $2451.93 entry (~+11.58% / ~$+3.14 / ~₱196 at USDPHP 62.52); SM/TP still off; mental inv/stop $2378.37. Naked waiver blocks new Coins entries.",
-        "Coins cash ₱147.49 is last desk carry — stale, not live-refreshed. Day vs prior desk ETH mark $2,669.47 ≈ +₱45.86. No new Coins fill.",
+        "ETH naked mark $2,729.755 vs $2451.93 entry (~+11.33% / ~$3.07 / ~₱192 at USDPHP 62.56); SM/TP still off; mental inv/stop $2378.37. Naked waiver blocks new Coins entries.",
+        "Coins cash ₱147.49 is last desk carry — stale, not live-refreshed. Day vs Mon desk ETH mark $2,669.47 ≈ +₱41.67. No new Coins fill.",
         "Gotrade UNVERIFIED: 9pm broker UI confirm FAILED (Ultra session expired → Google SSO). Carry remains prior broker FILL-20260914 MSFT 0.040135601 @ $495.57 and GOOGL 0.079892601 @ $335.20, cash $0 — not re-confirmed tonight.",
-        "Research marks only (Yahoo Mon 2026-09-28 close): MSFT $509.22 · GOOGL $342.75. Book ~$+1.15 / ~₱72 vs fill. Day vs Fri close ~−$0.37 (MSFT Fri $516.17, GOOGL Fri $343.92). US Tue regular session not yet open at ~21:00 Manila.",
-        "Coinbase spot ~21:02 Manila: BTC $84,282.455 · ETH $2,735.85 · SOL $120.815 · XRP $1.5462 · BNB $764.99 · LINK $15.295 · SUI $1.1754. Vs prior desk print: BTC +1.6% · ETH +2.5% · SOL +2.1% · XRP +3.9% · BNB +0.8% · LINK +7.6% · SUI +1.6%.",
-        "Old wait zones still BTC $78–78.8k and XRP $1.33–1.36 — both above. No new armed wait. Combined open P&L ~$+4.29/~₱268. No fills."
+        "Research marks (Yahoo Tue live ~9:40a ET / ~9:40p Manila): MSFT $505.148 (~$0.38 vs fill, -0.8% vs Mon $509.22) · GOOGL $340.695 (~$0.44 vs fill, -0.6% vs Mon $342.75). Book ~$0.82 / ~₱51. Day vs Fri close ~$-0.70 (MSFT Fri $516.17, GOOGL Fri $343.92).",
+        "Coinbase spot ~21:40 Manila: BTC $84,202.265 · ETH $2,729.755 · SOL $121.12 · XRP $1.5502 · BNB $765.42 · LINK $15.2095 · SUI $1.16315. Vs Mon desk print: BTC +1.5% · ETH +2.3% · SOL +2.4% · XRP +4.1% · BNB +0.8% · LINK +7.0% · SUI +0.5%.",
+        "Old wait zones still BTC $78–78.8k and XRP $1.33–1.36 — both above. No new armed wait. Combined open P&L ~$3.89/~₱243. No fills."
       ],
       "sources": [
-        "Trading Ops level watch ~21:02 Asia/Manila 2026-09-29",
-        "Coinbase spot tape ~21:02 Manila",
-        "Coinbase exchange-rates USDPHP 62.52",
-        "Yahoo Mon 2026-09-28 close MSFT/GOOGL — research only; broker UI confirm failed",
-        "Prior desk carry 2026-09-28 (Coins cash, Fri US closes, FILL-20260914)"
+        "Trading Ops morning/midday/level watches 2026-09-29",
+        "Coinbase spot tape ~21:40 Manila",
+        "Coinbase exchange-rates USDPHP 62.56",
+        "Yahoo v8 MSFT/GOOGL live Tue session ~9:40a ET — research only; broker UI confirm failed at 9pm",
+        "Prior desk carry 2026-09-28 (Coins cash, FILL-20260914); 21:02 catch-up packet refreshed at EOD"
       ]
     },
     "analyst": {
-      "thesis": "HOLD open books. No new PLAN. NFP/first-Friday rail blocks new Gotrade single-name size. Coins new entries stay blocked until Stop-Market is restored. ETH-CPI-OVERRIDE remains open and naked. Tonight's Gotrade marks are research closes, not a broker-confirmed print — treat the equity book as UNVERIFIED.",
+      "thesis": "HOLD open books. No new PLAN. NFP/first-Friday rail blocks new Gotrade single-name size. Coins new entries stay blocked until Stop-Market is restored. ETH-CPI-OVERRIDE remains open and naked. Tue live Gotrade marks are research only — treat the equity book as UNVERIFIED until a broker confirm.",
       "levels": [
         {
           "symbol": "ETH",
           "support": 2378.37,
-          "note": "Entry $2451.93 · Coinbase mark $2,735.85 (~+11.58% / ~$+3.14 / ~₱196). SM/TP off. Naked waiver.",
+          "note": "Entry $2451.93 · Coinbase mark $2,729.755 (~+11.33% / ~$3.07 / ~₱192). SM/TP off. Naked waiver.",
           "invalidation": "Mental $2378.37 only"
         },
         {
           "symbol": "BTC",
-          "note": "Primary map — $84,282.455, still above the old $78–78.8k wait. No new armed wait this packet.",
+          "note": "Primary map — $84,202.265, still above the old $78–78.8k wait. No new armed wait this packet.",
           "invalidation": "No new PLAN without desk greenlight"
         },
         {
           "symbol": "XRP",
-          "note": "Primary map — $1.5462, still above the old $1.33–1.36 wait. No new armed wait this packet.",
+          "note": "Primary map — $1.5502, still above the old $1.33–1.36 wait. No new armed wait this packet.",
           "invalidation": "No new PLAN without desk greenlight"
         },
         {
           "symbol": "MSFT",
-          "note": "UNVERIFIED research mark. Yahoo Mon close $509.22 vs fill $495.57 (~$+0.55). −1.3% vs Fri $516.17. Not a tactical exit PLAN. Broker UI not confirmed tonight."
+          "note": "UNVERIFIED research mark. Yahoo Tue live $505.148 vs fill $495.57 (~$0.38). -2.1% vs Fri $516.17. Not a tactical exit PLAN. Broker UI not confirmed tonight."
         },
         {
           "symbol": "GOOGL",
-          "note": "UNVERIFIED research mark. Yahoo Mon close $342.75 vs fill $335.20 (~$+0.60). −0.3% vs Fri $343.92. Not a REDUCE PLAN. Broker UI not confirmed tonight."
+          "note": "UNVERIFIED research mark. Yahoo Tue live $340.695 vs fill $335.20 (~$0.44). -0.9% vs Fri $343.92. Not a REDUCE PLAN. Broker UI not confirmed tonight."
         }
       ],
       "notes": "No new Coins while naked and Stop-Market is off. No new Gotrade single-name into NFP week. Book-full Gotrade (cash $0) and UNVERIFIED until a live broker confirm."
@@ -115,9 +115,9 @@
       "feeSkip": "Skip if fees ≥ ~⅓ edge — unchanged."
     },
     "desk": {
-      "decision": "HOLD / NO NEW PLAN. ETH naked ~+11.58% (~$+3.14). Gotrade book UNVERIFIED, research Mon close ~$+1.15, day vs Fri ~−$0.37. Tue 2026-09-29 catch-up packet.",
+      "decision": "HOLD / NO NEW PLAN. ETH naked ~+11.33% (~$3.07). Gotrade book UNVERIFIED, Yahoo Tue live ~$0.82, day vs Fri ~$-0.70. Tue 2026-09-29 EOD refresh.",
       "actions": [
-        "Publish Tue 2026-09-29 DailyPacket (weekday miss catch-up)",
+        "Publish Tue 2026-09-29 DailyPacket EOD refresh (US cash open marks)",
         "Keep both books HOLD — no PLAN",
         "Re-confirm Gotrade in the broker UI next session; until then the book stays UNVERIFIED",
         "Do not refresh Coins cash from a guess — ₱147.49 remains the last desk carry"
@@ -191,7 +191,7 @@
       "notional": 0,
       "skipped": true,
       "skipReason": "NFP/first-Friday rail: no new Gotrade single-name size. Broker UI confirm FAILED — book UNVERIFIED.",
-      "notes": "9pm broker UI confirm failed (Ultra session expired → Google SSO). No new fill. Yahoo Mon close is a research mark only. US Tue regular session was not open."
+      "notes": "9pm broker UI confirm failed (Ultra session expired → Google SSO). No new fill. Yahoo Tue live is a research mark only."
     }
   ],
   "catalysts": [
@@ -234,48 +234,48 @@
   "watchlistMarks": [
     {
       "symbol": "BTC",
-      "last": 84282.455,
-      "changePct": 0.01554
+      "last": 84202.265,
+      "changePct": 0.01457
     },
     {
       "symbol": "ETH",
-      "last": 2735.85,
-      "changePct": 0.02487
+      "last": 2729.755,
+      "changePct": 0.02258
     },
     {
       "symbol": "SOL",
-      "last": 120.815,
-      "changePct": 0.02143
+      "last": 121.12,
+      "changePct": 0.02401
     },
     {
       "symbol": "XRP",
-      "last": 1.5462,
-      "changePct": 0.03855
+      "last": 1.5502,
+      "changePct": 0.04124
     },
     {
       "symbol": "BNB",
-      "last": 764.99,
-      "changePct": 0.00751
+      "last": 765.42,
+      "changePct": 0.00807
     },
     {
       "symbol": "LINK",
-      "last": 15.295,
-      "changePct": 0.07613
+      "last": 15.2095,
+      "changePct": 0.07011
     },
     {
       "symbol": "SUI",
-      "last": 1.1754,
-      "changePct": 0.01582
+      "last": 1.16315,
+      "changePct": 0.00523
     },
     {
       "symbol": "MSFT",
-      "last": 509.22,
-      "changePct": -0.01346
+      "last": 505.148,
+      "changePct": -0.008
     },
     {
       "symbol": "GOOGL",
-      "last": 342.75,
-      "changePct": -0.0034
+      "last": 340.695,
+      "changePct": -0.006
     }
   ],
   "predictions": [

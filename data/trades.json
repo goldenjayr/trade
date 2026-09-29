@@ -498,6 +498,6 @@
     "notional": 0,
     "skipped": true,
     "skipReason": "NFP/first-Friday rail: no new Gotrade single-name size. Broker UI confirm FAILED — book UNVERIFIED.",
-    "notes": "9pm broker UI confirm failed (Ultra session expired → Google SSO). No new fill. Yahoo Mon close is a research mark only. US Tue regular session was not open."
+    "notes": "9pm broker UI confirm failed (Ultra session expired → Google SSO). No new fill. Yahoo Tue live is a research mark only."
   }
 ]
