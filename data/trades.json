@@ -497,5 +497,31 @@
     "notional": 0,
     "skipped": true,
     "skipReason": "Book full (cash $0). NFP-week rail: no new Gotrade single-name size. Prefer NO TRADE."
+  },
+  {
+    "id": "SKIP-20260930-COINS-NEW",
+    "date": "2026-09-30",
+    "venue": "coins",
+    "symbol": "ETH",
+    "side": "buy",
+    "qty": 0,
+    "price": 0,
+    "fees": 0,
+    "notional": 0,
+    "skipped": true,
+    "skipReason": "HOLD / no new PLAN. Naked ETH blocks new Coins; NFP-week requires SM restored + A+. Prefer NO TRADE."
+  },
+  {
+    "id": "SKIP-20260930-GOTRADE-NEW",
+    "date": "2026-09-30",
+    "venue": "gotrade",
+    "symbol": "CASH",
+    "side": "buy",
+    "qty": 0,
+    "price": 0,
+    "fees": 0,
+    "notional": 0,
+    "skipped": true,
+    "skipReason": "Book full (cash $0). NFP-week rail: no new Gotrade single-name size. Prefer NO TRADE."
   }
 ]

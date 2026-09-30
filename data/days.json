@@ -190,5 +190,13 @@
     "tradeCount": 3,
     "coinsEquity": 177.405,
     "gotradeEquity": 47.5176
+  },
+  {
+    "date": "2026-09-30",
+    "stance": "IN_TRADE",
+    "summary": "Wed 2026-09-30 23:00 Manila CLOSE tick. Yahoo v8 live mid-session (~11:00 ET) + Binance SUI; cool Aug PCE (headline 3.4%, core 3.0%) bids US. HOLD both books / no PLAN. Prefer NO TRADE on new entries into NFP Fri Oct 2.",
+    "tradeCount": 3,
+    "coinsEquity": 177.1034,
+    "gotradeEquity": 48.5409
   }
 ]

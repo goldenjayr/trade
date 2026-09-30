@@ -2,8 +2,8 @@
   "deskName": "Trade Vision",
   "operator": "jayr",
   "timezone": "Asia/Manila",
-  "usdphp": 62.5,
-  "fxAsOf": "2026-09-29",
+  "usdphp": 62.6,
+  "fxAsOf": "2026-09-30",
   "venues": {
     "coins": {
       "label": "Coins.ph",

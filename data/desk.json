@@ -1,8 +1,8 @@
 {
-  "asOf": "2026-09-29",
+  "asOf": "2026-09-30",
   "timezone": "Asia/Manila",
   "stance": "IN_TRADE",
-  "stanceReason": "HOLD open books / NO NEW PLAN. NFP-week rail (weekly review): no new Gotrade single-name size into first-Friday employment window + clustered PCE/ISM; new Coins only with Stop-Market restored and A+ edge — else map-only. Naked ETH blocks new Coins (jayr leave-naked). Gotrade carry = prior broker FILL-20260914 MSFT+GOOGL, cash $0 — book UNVERIFIED after sibling 9pm UI confirm failed at login (SSO expired); Yahoo marks research-only.",
+  "stanceReason": "HOLD open books / NO NEW PLAN. NFP-week rail: no new Gotrade single-name size into first-Friday employment window; new Coins only with Stop-Market restored and A+ edge — else map-only. Cool Aug PCE (3.4%/core 3.0%) bid US mid-session but NFP Fri Oct 2 still ahead — rail holds. Naked ETH blocks new Coins (jayr leave-naked). Gotrade carry = prior broker FILL-20260914 MSFT+GOOGL, cash $0 — book UNVERIFIED (SSO expired at last UI confirm); Yahoo live marks research-only.",
   "primaries": [
     "BTC",
     "XRP"
@@ -13,7 +13,7 @@
       "label": "Coins.ph",
       "currency": "PHP",
       "cash": 147.49,
-      "equity": 177.405,
+      "equity": 177.1034,
       "dayPnl": 0.28,
       "totalPnl": 2.69,
       "positions": [
@@ -22,10 +22,10 @@
           "name": "Ethereum",
           "qty": 0.01105,
           "avgCost": 2451.93,
-          "mark": 2707.24,
-          "marketValue": 29.915,
-          "pnl": 2.8212,
-          "pnlPct": 0.104127
+          "mark": 2679.95,
+          "marketValue": 29.6134,
+          "pnl": 2.5196,
+          "pnlPct": 0.092995
         }
       ]
     },
@@ -34,7 +34,7 @@
       "label": "Gotrade · UNVERIFIED",
       "currency": "USD",
       "cash": 0,
-      "equity": 47.5176,
+      "equity": 48.5409,
       "dayPnl": -0.32,
       "totalPnl": 1.2,
       "positions": [
@@ -43,20 +43,20 @@
           "name": "Microsoft",
           "qty": 0.040135601,
           "avgCost": 495.57,
-          "mark": 509.662,
-          "marketValue": 20.4556,
-          "pnl": 0.5656,
-          "pnlPct": 0.028436
+          "mark": 517.78,
+          "marketValue": 20.7814,
+          "pnl": 0.8914,
+          "pnlPct": 0.044816
         },
         {
           "symbol": "GOOGL",
           "name": "Alphabet",
           "qty": 0.079892601,
           "avgCost": 335.2,
-          "mark": 338.73,
-          "marketValue": 27.062,
-          "pnl": 0.282,
-          "pnlPct": 0.01053
+          "mark": 347.46,
+          "marketValue": 27.7595,
+          "pnl": 0.9795,
+          "pnlPct": 0.036576
         }
       ]
     }
@@ -87,6 +87,15 @@
       "impact": "high",
       "status": "done",
       "notes": "+25bps to 3.75–4.00%. Event kill cleared; still no new PLAN without A+; HOLD preferred on new size."
+    },
+    {
+      "id": "pce-2026-08",
+      "date": "2026-09-30",
+      "timeManila": "20:30",
+      "title": "US August PCE",
+      "impact": "high",
+      "status": "done",
+      "notes": "Aug PCE cool: headline 3.4% (exp ~3.7%), core 3.0% (exp ~3.3%). Bid US mid-session; NFP Fri still ahead — rail holds."
     },
     {
       "id": "nfp-2026-10-02",
