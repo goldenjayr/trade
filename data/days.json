@@ -198,5 +198,13 @@
     "tradeCount": 3,
     "coinsEquity": 177.1034,
     "gotradeEquity": 48.5409
+  },
+  {
+    "date": "2026-10-01",
+    "stance": "IN_TRADE",
+    "summary": "Thu 2026-10-01 ~15:47 Manila. Gotrade Ultra broker confirm cleared UNVERIFIED. HOLD both books / no PLAN / no new orders. Prefer NO TRADE into NFP Fri Oct 2.",
+    "tradeCount": 3,
+    "coinsEquity": 177.0811,
+    "gotradeEquity": 48.5672
   }
 ]

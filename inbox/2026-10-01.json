@@ -1,0 +1,445 @@
+{
+  "books": {
+    "coins": {
+      "cash": 147.49,
+      "currency": "PHP",
+      "dayPnl": 0.28,
+      "positions": [
+        {
+          "avgCost": 2451.93,
+          "mark": 2677.93,
+          "name": "Ethereum",
+          "qty": 0.01105,
+          "symbol": "ETH"
+        }
+      ],
+      "totalPnl": 2.69,
+      "venue": "coins"
+    },
+    "gotrade": {
+      "cash": 0,
+      "currency": "USD",
+      "dayPnl": -0.32,
+      "positions": [
+        {
+          "symbol": "MSFT",
+          "name": "Microsoft",
+          "qty": 0.040135601,
+          "avgCost": 495.57,
+          "mark": 510.91
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Alphabet",
+          "qty": 0.079892601,
+          "avgCost": 335.2,
+          "mark": 351.24
+        }
+      ],
+      "totalPnl": 1.9,
+      "venue": "gotrade"
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-09-11",
+      "id": "cpi-2026-09-11",
+      "impact": "high",
+      "notes": "Hot core into FOMC week",
+      "status": "done",
+      "timeManila": "20:30",
+      "title": "US August CPI"
+    },
+    {
+      "date": "2026-09-15",
+      "id": "fomc-2026-09-15",
+      "impact": "high",
+      "notes": "Day 1 complete",
+      "status": "done",
+      "title": "FOMC meeting day 1"
+    },
+    {
+      "date": "2026-09-16",
+      "id": "fomc-decision-2026-09-16",
+      "impact": "high",
+      "notes": "+25bps to 3.75\u20134.00%. Event kill cleared; still no new PLAN without A+; HOLD preferred on new size.",
+      "status": "done",
+      "timeManila": "02:00",
+      "title": "FOMC decision + presser"
+    },
+    {
+      "date": "2026-09-30",
+      "id": "pce-2026-08",
+      "impact": "high",
+      "notes": "Aug PCE cool: headline 3.4% (exp ~3.7%), core 3.0% (exp ~3.3%). Bid US mid-session; NFP Fri still ahead \u2014 rail holds.",
+      "status": "done",
+      "timeManila": "20:30",
+      "title": "US August PCE"
+    },
+    {
+      "date": "2026-10-02",
+      "id": "nfp-2026-10-02",
+      "impact": "high",
+      "notes": "First-Friday employment window. No new Gotrade single-name size; Coins new only with SM restored + A+ \u2014 else map-only / NO TRADE. Same-week PCE/ISM cluster also under the rail.",
+      "status": "upcoming",
+      "timeManila": "20:30",
+      "title": "US September NFP"
+    }
+  ],
+  "date": "2026-10-01",
+  "journal": {
+    "analyst": {
+      "levels": [
+        {
+          "invalidation": "Mental $2378.37 only",
+          "note": "Entry $2451.93 / mark $2,685.60 (~+9.5% / ~$+2.58 / ~P162). Still naked (jayr waiver). Flat vs 07:00.",
+          "support": 2378.37,
+          "symbol": "ETH"
+        },
+        {
+          "invalidation": "No new PLAN without desk greenlight",
+          "note": "Primary map - $83,441.44 (-0.2% vs 07:00). Old $78-78.8k wait expired Sep 11. Drift, not structure. No new armed wait this packet.",
+          "symbol": "BTC"
+        },
+        {
+          "invalidation": "No new PLAN without desk greenlight",
+          "note": "Primary map - $1.49195 (+0.3% vs 07:00). Old $1.33-1.36 wait expired Sep 11. Noise into NFP week. No new armed wait this packet.",
+          "symbol": "XRP"
+        },
+        {
+          "note": "LT hold / Ultra mark $510.91 vs fill $495.57 (~$+0.62). Broker-confirmed 2026-10-01. Not a tactical exit PLAN.",
+          "symbol": "MSFT"
+        },
+        {
+          "note": "LT hold / Ultra mark $351.24 vs fill $335.2 (~$+1.28). Broker-confirmed 2026-10-01. Not a REDUCE PLAN.",
+          "symbol": "GOOGL"
+        }
+      ],
+      "notes": "Thu ~15:47 Manila: Gotrade UNVERIFIED cleared \u2014 Ultra broker confirm matches FILL-20260914. No new orders. NFP Fri Oct 2 rail still binds. Naked ETH blocks new Coins.",
+      "thesis": "HOLD open books into NFP Fri Oct 2. ETH-CPI-OVERRIDE still open/naked by jayr choice. Gotrade MSFT+GOOGL = LT holds, broker-confirmed on Ultra (MSFT $510.91 / GOOGL $351.24; equity ~$48.62). Prefer NO TRADE on new entries either book."
+    },
+    "date": "2026-10-01",
+    "desk": {
+      "decision": "HOLD / NO NEW PLAN. Gotrade UNVERIFIED cleared \u2014 Ultra confirm 2026-10-01 ~15:47 Manila (MSFT 0.040135601 @ $495.57 \u2192 $510.91 MV ~$20.54; GOOGL 0.079892601 @ $335.2 \u2192 $351.24 MV ~$28.08; cash $0; equity ~$48.62). Matches FILL-20260914. ETH still naked. No new orders.",
+      "actions": [
+        "Flip Gotrade off UNVERIFIED \u2192 verified IN_TRADE on Vision publish",
+        "Prefer NO TRADE on new entries into NFP Fri Oct 2",
+        "No new orders \u2014 HOLD open books only"
+      ],
+      "nextOpen": "NFP Fri Oct 2 20:30 Manila \u2014 reassess only on jayr ask / clean A+ with SM restored on Coins; NFP rail in force through Fri. Gotrade marks now broker-verified."
+    },
+    "headline": "Thu ~15:47 Manila / Gotrade VERIFIED on Ultra. HOLD / no new PLAN. MSFT $510.91 / GOOGL $351.24; cash $0; equity ~$48.62. NFP rail binds. No fills.",
+    "risk": {
+      "feeSkip": "Skip if fees \u2265 ~\u2153 edge \u2014 unchanged.",
+      "kills": [
+        "No new PLAN without A+ / jayr ask",
+        "No new Coins entries while naked",
+        "NFP / first-Friday window: no new Gotrade single-name size",
+        "Gotrade book full \u2014 prefer NO TRADE on new entries",
+        "Kill switch: 1 loser or \u2212\u20b1400 day (Coins) still on"
+      ],
+      "railsCheck": "HOLD. Gotrade broker-verified IN_TRADE (cash $0 / book full). NFP rail still blocks new Gotrade single-name size. New Coins blocked while naked (and NFP-week: SM+A+ required). No A+ permission.",
+      "sizeNote": "Do not add. Coins cash \u20b1147.49 below \u20b1800 sit-out for new clips anyway."
+    },
+    "scout": {
+      "headline": "Thu 15:00 / HOLD into NFP week: crypto firmer vs 11:00 (BTC +0.8%, ETH +1.1%, XRP +0.9%, rest +0.2-0.9%, SUI -0.7% noise). US dark (03:00 ET). No A+ primary for new size while ETH stays naked. Prefer NO TRADE.",
+      "bullets": [
+        "ETH naked mark $2,713.89 vs $2451.93 entry (~+10.7% / ~$+2.89 / ~P181); SM/TP still waived.",
+        "Gotrade VERIFIED on Ultra ~15:47 Manila \u2014 MSFT $510.91 / GOOGL $351.24; cash $0; equity ~$48.62; matches FILL-20260914. No new orders.",
+        "Crypto (Coinbase spot ~15:00 Manila Oct 1, vs 11:00): BTC $84,091.62 +0.8% / ETH $2,713.89 +1.1% / SOL $119.24 +0.9% / XRP $1.50565 +0.9% / BNB $770.375 +0.3% / LINK $14.453 +0.2% / SUI $1.1767 -0.7%.",
+        "Afternoon firmness repairs the morning fade but is drift, not structure. Old waits (BTC $78-78.8k, XRP $1.33-1.36) expired Sep 11; no new armed wait. Satellites map-only.",
+        "Next: ISM-mfg Thu 22:00 Manila - NFP Fri Oct 2 20:30 Manila. NFP rail locked: no new Gotrade single-name; Coins new only if SM restored + A+.",
+        "Coins cash P147.49 < P800 floor anyway; naked ETH blocks new Coins."
+      ],
+      "sources": [
+        "Coinbase spot ~15:00 Manila Oct 1",
+        "Coinbase spot ~11:00 Manila Oct 1 (journal carry)",
+        "Gotrade Ultra broker UI ~15:47 Manila Oct 1"
+      ]
+    },
+    "stance": "IN_TRADE"
+  },
+  "notes": "Thu 2026-10-01 ~15:47 Manila. Gotrade Ultra broker confirm cleared UNVERIFIED. HOLD both books / no PLAN / no new orders. Prefer NO TRADE into NFP Fri Oct 2.",
+  "predictions": [
+    {
+      "conviction": 3,
+      "dateOpened": "2026-09-08",
+      "direction": "long_wait",
+      "entryZone": {
+        "high": 78800,
+        "low": 78000
+      },
+      "horizon": "event",
+      "id": "btc-wait-2026-09-08",
+      "invalidation": "Break below structure, or chase a market buy into CPI without a zone hold",
+      "invalidationPrice": 77200,
+      "outcomeNote": "HIT entry zone then EXPIRED/below. Zone print \u2260 fill into CPI binary.",
+      "resolvedAt": "2026-09-11",
+      "role": "primary",
+      "source": "analyst",
+      "status": "expired",
+      "symbol": "BTC",
+      "thesis": "Primary wait $78\u201378.8k. Hit then expired into CPI.",
+      "venue": "coins"
+    },
+    {
+      "conviction": 4,
+      "dateOpened": "2026-09-08",
+      "direction": "long_wait",
+      "entryZone": {
+        "high": 1.36,
+        "low": 1.33
+      },
+      "horizon": "event",
+      "id": "xrp-wait-2026-09-08",
+      "invalidation": "Chase at $1.42 into CPI, or lose the 1.33 wait structure",
+      "invalidationPrice": 1.28,
+      "outcomeNote": "HIT / IN ZONE but UNFILLED by desk rule \u2014 no resting limit into CPI.",
+      "resolvedAt": "2026-09-11",
+      "role": "primary",
+      "source": "analyst",
+      "status": "hit_entry",
+      "symbol": "XRP",
+      "target": {
+        "t1": 1.41,
+        "t2": 1.44
+      },
+      "thesis": "Alt primary wait $1.33\u20131.36. Hit/in-zone unfilled into CPI.",
+      "venue": "coins"
+    },
+    {
+      "conviction": 2,
+      "dateOpened": "2026-09-08",
+      "direction": "long_wait",
+      "entryZone": {
+        "high": 737,
+        "low": 728
+      },
+      "horizon": "swing",
+      "id": "bnb-scout-2026-09-08",
+      "invalidation": "Scout-only. Any chase into CPI invalidates the idea.",
+      "outcomeNote": "MISS/below scout. Not PLAN-eligible.",
+      "resolvedAt": "2026-09-11",
+      "role": "scout",
+      "source": "analyst",
+      "status": "invalidated",
+      "symbol": "BNB",
+      "thesis": "Soft scout $728\u2013737. Miss into CPI.",
+      "venue": "coins"
+    },
+    {
+      "conviction": 2,
+      "dateOpened": "2026-09-08",
+      "direction": "long_wait",
+      "entryZone": {
+        "high": 12.65,
+        "low": 12.5
+      },
+      "horizon": "swing",
+      "id": "link-scout-2026-09-08",
+      "invalidation": "Scout-only. No clip into CPI.",
+      "outcomeNote": "MISS/below scout. Not PLAN-eligible.",
+      "resolvedAt": "2026-09-11",
+      "role": "scout",
+      "source": "analyst",
+      "status": "invalidated",
+      "symbol": "LINK",
+      "thesis": "Soft scout $12.50\u201312.65. Miss into CPI.",
+      "venue": "coins"
+    },
+    {
+      "conviction": 6,
+      "dateOpened": "2026-09-08",
+      "direction": "none",
+      "horizon": "event",
+      "id": "sui-none-2026-09-08",
+      "invalidation": "Any long into the print",
+      "outcomeNote": "Cancelled at the open \u2014 no scenario, no clip.",
+      "resolvedAt": "2026-09-08",
+      "role": "scout",
+      "source": "desk",
+      "status": "cancelled",
+      "symbol": "SUI",
+      "thesis": "NONE into CPI. Relative strength is not a ticket.",
+      "venue": "coins"
+    },
+    {
+      "conviction": 6,
+      "dateOpened": "2026-09-08",
+      "direction": "none",
+      "horizon": "event",
+      "id": "macro-flat-cpi-fomc-2026-09-08",
+      "invalidation": "Desk grants permission, or a primary prints a clean post-event wait with Risk greenlight",
+      "outcomeNote": "FOMC +25bps done. Stance expires as event map \u2014 open books remain IN_TRADE HOLD; no auto-arm for new size.",
+      "resolvedAt": "2026-09-16",
+      "role": "stance",
+      "source": "desk",
+      "status": "expired",
+      "symbol": "MACRO",
+      "thesis": "FOMC complete. Event kill cleared. Still HOLD open books / no new PLAN without A+.",
+      "venue": "macro"
+    },
+    {
+      "conviction": 7,
+      "dateOpened": "2026-09-28",
+      "direction": "none",
+      "horizon": "event",
+      "id": "macro-nfp-week-2026-09-28",
+      "invalidation": "NFP week clears and desk grants A+ with rails green; or jayr asks for a specific PLAN",
+      "role": "stance",
+      "source": "desk",
+      "status": "open",
+      "symbol": "MACRO",
+      "thesis": "NFP / first-Friday employment window (Fri Oct 2) + same-week PCE/ISM cluster. Map-only: no new Gotrade single-name; Coins new only if Stop-Market restored and A+ edge.",
+      "venue": "macro"
+    }
+  ],
+  "primaries": [
+    "BTC",
+    "XRP"
+  ],
+  "stance": "IN_TRADE",
+  "stanceReason": "HOLD open books / NO NEW PLAN. NFP-week rail: no new Gotrade single-name size into first-Friday employment window; new Coins only with Stop-Market restored and A+ edge \u2014 else map-only. Cool Aug PCE (3.4%/core 3.0%) bid US mid-session but NFP Fri Oct 2 still ahead \u2014 rail holds. Naked ETH blocks new Coins (jayr leave-naked). Gotrade VERIFIED on Ultra 2026-10-01 ~15:47 Manila \u2014 FILL-20260914 MSFT+GOOGL live (MSFT $510.91 / GOOGL $351.24; cash $0; equity ~$48.62). No new orders.",
+  "trades": [
+    {
+      "date": "2026-09-11",
+      "fees": 0,
+      "id": "FILL-20260911-ETH",
+      "notional": 27.09,
+      "notes": "FILL ETH-CPI-OVERRIDE then EXITS CANCELLED. Stop NOT resting / TP NOT resting. Naked long (jayr explicit). Mental inv $2378.37.",
+      "price": 2451.93,
+      "qty": 0.01105,
+      "side": "buy",
+      "skipped": false,
+      "symbol": "ETH",
+      "venue": "coins"
+    },
+    {
+      "date": "2026-09-14",
+      "fees": 0.1,
+      "id": "FILL-20260914-MSFT",
+      "notional": 19.89,
+      "notes": "FILL from void. LT educational starter #1. Book full.",
+      "price": 495.57,
+      "qty": 0.040135601,
+      "side": "buy",
+      "skipped": false,
+      "symbol": "MSFT",
+      "venue": "gotrade"
+    },
+    {
+      "date": "2026-09-14",
+      "fees": 0.1,
+      "id": "FILL-20260914-GOOGL",
+      "notional": 26.78,
+      "notes": "FILL from void. LT educational starter #3. Cash $0 after dual fill.",
+      "price": 335.2,
+      "qty": 0.079892601,
+      "side": "buy",
+      "skipped": false,
+      "symbol": "GOOGL",
+      "venue": "gotrade"
+    },
+    {
+      "date": "2026-10-01",
+      "fees": 0,
+      "id": "SKIP-20261001-COINS-NEW",
+      "notional": 0,
+      "price": 0,
+      "qty": 0,
+      "side": "buy",
+      "skipReason": "HOLD / no new PLAN. Naked ETH blocks new Coins; NFP-week requires SM restored + A+. Prefer NO TRADE.",
+      "skipped": true,
+      "symbol": "ETH",
+      "venue": "coins"
+    },
+    {
+      "date": "2026-10-01",
+      "fees": 0,
+      "id": "SKIP-20261001-GOTRADE-NEW",
+      "notional": 0,
+      "price": 0,
+      "qty": 0,
+      "side": "buy",
+      "skipReason": "Book full (cash $0). NFP-week rail: no new Gotrade single-name size. Prefer NO TRADE.",
+      "skipped": true,
+      "symbol": "CASH",
+      "venue": "gotrade"
+    }
+  ],
+  "usdphp": 62.6,
+  "watchlistMarks": [
+    {
+      "last": 84091.615,
+      "symbol": "BTC"
+    },
+    {
+      "last": 2713.89,
+      "symbol": "ETH"
+    },
+    {
+      "last": 119.24,
+      "symbol": "SOL"
+    },
+    {
+      "last": 1.50565,
+      "symbol": "XRP"
+    },
+    {
+      "last": 770.375,
+      "symbol": "BNB"
+    },
+    {
+      "last": 14.453,
+      "symbol": "LINK"
+    },
+    {
+      "last": 1.1767,
+      "symbol": "SUI"
+    },
+    {
+      "last": 766.52,
+      "symbol": "SPY"
+    },
+    {
+      "last": 742.89,
+      "symbol": "QQQ"
+    },
+    {
+      "last": 704.57,
+      "symbol": "VOO"
+    },
+    {
+      "last": 278.94,
+      "symbol": "IWM"
+    },
+    {
+      "last": 336.5,
+      "symbol": "AAPL"
+    },
+    {
+      "last": 517.95,
+      "symbol": "MSFT"
+    },
+    {
+      "last": 230.46,
+      "symbol": "NVDA"
+    },
+    {
+      "last": 349.03,
+      "symbol": "GOOGL"
+    },
+    {
+      "last": 250.21,
+      "symbol": "AMZN"
+    },
+    {
+      "last": 733.66,
+      "symbol": "META"
+    },
+    {
+      "last": 352.76,
+      "symbol": "TSLA"
+    }
+  ]
+}

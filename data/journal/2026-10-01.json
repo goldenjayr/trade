@@ -1,0 +1,72 @@
+{
+  "date": "2026-10-01",
+  "stance": "IN_TRADE",
+  "headline": "Thu ~15:47 Manila / Gotrade VERIFIED on Ultra. HOLD / no new PLAN. MSFT $510.91 / GOOGL $351.24; cash $0; equity ~$48.62. NFP rail binds. No fills.",
+  "scout": {
+    "headline": "Thu 15:00 / HOLD into NFP week: crypto firmer vs 11:00 (BTC +0.8%, ETH +1.1%, XRP +0.9%, rest +0.2-0.9%, SUI -0.7% noise). US dark (03:00 ET). No A+ primary for new size while ETH stays naked. Prefer NO TRADE.",
+    "bullets": [
+      "ETH naked mark $2,713.89 vs $2451.93 entry (~+10.7% / ~$+2.89 / ~P181); SM/TP still waived.",
+      "Gotrade VERIFIED on Ultra ~15:47 Manila — MSFT $510.91 / GOOGL $351.24; cash $0; equity ~$48.62; matches FILL-20260914. No new orders.",
+      "Crypto (Coinbase spot ~15:00 Manila Oct 1, vs 11:00): BTC $84,091.62 +0.8% / ETH $2,713.89 +1.1% / SOL $119.24 +0.9% / XRP $1.50565 +0.9% / BNB $770.375 +0.3% / LINK $14.453 +0.2% / SUI $1.1767 -0.7%.",
+      "Afternoon firmness repairs the morning fade but is drift, not structure. Old waits (BTC $78-78.8k, XRP $1.33-1.36) expired Sep 11; no new armed wait. Satellites map-only.",
+      "Next: ISM-mfg Thu 22:00 Manila - NFP Fri Oct 2 20:30 Manila. NFP rail locked: no new Gotrade single-name; Coins new only if SM restored + A+.",
+      "Coins cash P147.49 < P800 floor anyway; naked ETH blocks new Coins."
+    ],
+    "sources": [
+      "Coinbase spot ~15:00 Manila Oct 1",
+      "Coinbase spot ~11:00 Manila Oct 1 (journal carry)",
+      "Gotrade Ultra broker UI ~15:47 Manila Oct 1"
+    ]
+  },
+  "analyst": {
+    "thesis": "HOLD open books into NFP Fri Oct 2. ETH-CPI-OVERRIDE still open/naked by jayr choice. Gotrade MSFT+GOOGL = LT holds, broker-confirmed on Ultra (MSFT $510.91 / GOOGL $351.24; equity ~$48.62). Prefer NO TRADE on new entries either book.",
+    "levels": [
+      {
+        "symbol": "ETH",
+        "support": 2378.37,
+        "invalidation": "Mental $2378.37 only",
+        "note": "Entry $2451.93 / mark $2,685.60 (~+9.5% / ~$+2.58 / ~P162). Still naked (jayr waiver). Flat vs 07:00."
+      },
+      {
+        "symbol": "BTC",
+        "invalidation": "No new PLAN without desk greenlight",
+        "note": "Primary map - $83,441.44 (-0.2% vs 07:00). Old $78-78.8k wait expired Sep 11. Drift, not structure. No new armed wait this packet."
+      },
+      {
+        "symbol": "XRP",
+        "invalidation": "No new PLAN without desk greenlight",
+        "note": "Primary map - $1.49195 (+0.3% vs 07:00). Old $1.33-1.36 wait expired Sep 11. Noise into NFP week. No new armed wait this packet."
+      },
+      {
+        "symbol": "MSFT",
+        "note": "LT hold / Ultra mark $510.91 vs fill $495.57 (~$+0.62). Broker-confirmed 2026-10-01. Not a tactical exit PLAN."
+      },
+      {
+        "symbol": "GOOGL",
+        "note": "LT hold / Ultra mark $351.24 vs fill $335.2 (~$+1.28). Broker-confirmed 2026-10-01. Not a REDUCE PLAN."
+      }
+    ],
+    "notes": "Thu ~15:47 Manila: Gotrade UNVERIFIED cleared — Ultra broker confirm matches FILL-20260914. No new orders. NFP Fri Oct 2 rail still binds. Naked ETH blocks new Coins."
+  },
+  "risk": {
+    "railsCheck": "HOLD. Gotrade broker-verified IN_TRADE (cash $0 / book full). NFP rail still blocks new Gotrade single-name size. New Coins blocked while naked (and NFP-week: SM+A+ required). No A+ permission.",
+    "sizeNote": "Do not add. Coins cash ₱147.49 below ₱800 sit-out for new clips anyway.",
+    "kills": [
+      "No new PLAN without A+ / jayr ask",
+      "No new Coins entries while naked",
+      "NFP / first-Friday window: no new Gotrade single-name size",
+      "Gotrade book full — prefer NO TRADE on new entries",
+      "Kill switch: 1 loser or −₱400 day (Coins) still on"
+    ],
+    "feeSkip": "Skip if fees ≥ ~⅓ edge — unchanged."
+  },
+  "desk": {
+    "decision": "HOLD / NO NEW PLAN. Gotrade UNVERIFIED cleared — Ultra confirm 2026-10-01 ~15:47 Manila (MSFT 0.040135601 @ $495.57 → $510.91 MV ~$20.54; GOOGL 0.079892601 @ $335.2 → $351.24 MV ~$28.08; cash $0; equity ~$48.62). Matches FILL-20260914. ETH still naked. No new orders.",
+    "actions": [
+      "Flip Gotrade off UNVERIFIED → verified IN_TRADE on Vision publish",
+      "Prefer NO TRADE on new entries into NFP Fri Oct 2",
+      "No new orders — HOLD open books only"
+    ],
+    "nextOpen": "NFP Fri Oct 2 20:30 Manila — reassess only on jayr ask / clean A+ with SM restored on Coins; NFP rail in force through Fri. Gotrade marks now broker-verified."
+  }
+}
