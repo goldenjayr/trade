@@ -2,7 +2,7 @@
   "asOf": "2026-10-01",
   "timezone": "Asia/Manila",
   "stance": "IN_TRADE",
-  "stanceReason": "HOLD open books / NO TRADE NFP-week. No new orders. Gotrade Ultra live ~17:47 Manila: equity $48.71, cash $0 (MSFT MV $20.57 / GOOGL MV $28.14; matches FILL-20260914). Earlier ~16:02 Ultra GOOGL $0 glitch recovered. Coins.ph Spot ~16:05: total ₱1,885.03 — ETH 0.01103342 (~₱1,858–1,869), DOGE 3.057855 + BTC/USDT/XRP dust, PHP ₱0.33. Naked ETH still blocks new Coins; NFP Fri Oct 2 rail holds.",
+  "stanceReason": "HOLD open books / NO TRADE NFP-week. No new orders. 23:00 CLOSE: Yahoo mid-session — BTC $84,038 flat, ETH $2,688 (-0.9%), XRP $1.482 (-1.6%), SUI $1.135 (-3.5%); US soft mid-session (SPY -0.1%, GOOGL -1.1%, TSLA +1.1%). ISM Sep mfg 54.5 done (prices 77.9 hot). Gotrade book last Ultra-verified 17:47 ($48.71); Coins Spot 16:05 total ~P1,885. Naked ETH still blocks new Coins; NFP Fri Oct 2 rail holds.",
   "primaries": [
     "BTC",
     "XRP"
@@ -96,6 +96,15 @@
       "impact": "high",
       "status": "done",
       "notes": "Aug PCE cool: headline 3.4% (exp ~3.7%), core 3.0% (exp ~3.3%). Bid US mid-session; NFP Fri still ahead — rail holds."
+    },
+    {
+      "id": "ism-mfg-2026-09",
+      "date": "2026-10-01",
+      "timeManila": "22:00",
+      "title": "US September ISM manufacturing",
+      "impact": "medium",
+      "status": "done",
+      "notes": "Sep mfg PMI 54.5 (Aug 54.6, consensus ~55) — 9th month of expansion; Prices Index jumped to 77.9. Not dovish into NFP."
     },
     {
       "id": "nfp-2026-10-02",

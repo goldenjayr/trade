@@ -1,59 +1,59 @@
 {
   "date": "2026-10-01",
   "stance": "IN_TRADE",
-  "headline": "Thu ~17:47 Manila mark refresh / HOLD. Gotrade Ultra $48.71 (MSFT $512.51 / GOOGL $352.22). Coins broker total ₱1,885. NFP rail. No fills.",
+  "headline": "Thu 23:00 Manila CLOSE / HOLD. Crypto faded, US soft mid-session, ISM 54.5 (prices hot). NFP rail. No fills.",
   "scout": {
-    "headline": "Thu ~17:47 / HOLD mark refresh. Gotrade Ultra $48.71; Coins Spot ₱1,885. NFP rail binds. No A+ / no new size.",
+    "headline": "Thu 23:00 CLOSE / HOLD. Crypto faded into US mid-session; ISM 54.5 done, prices hot. NFP rail binds. No A+ / no new size.",
     "bullets": [
-      "Gotrade Ultra ~17:47: equity $48.71, cash $0 — MSFT MV $20.57 (day −0.07%) / GOOGL MV $28.14 (day +2.35%).",
-      "Ultra ~16:02 briefly showed GOOGL equity $0 / total ~$20.55 — temporary mark glitch; recovered by 17:47.",
-      "Coins.ph Spot ~16:05: total ₱1,885.03 — ETH 0.01103342 (~₱1,858–1,869), DOGE 3.057855, BTC/USDT/XRP dust, PHP ₱0.33.",
-      "Stance HOLD / NO TRADE NFP-week. No new orders.",
-      "Crypto (Coinbase spot ~15:00 Manila Oct 1, vs 11:00): BTC $84,091.62 +0.8% / ETH $2,713.89 +1.1% / SOL $119.24 +0.9% / XRP $1.50565 +0.9% / BNB $770.375 +0.3% / LINK $14.453 +0.2% / SUI $1.1767 -0.7%.",
-      "Afternoon firmness repairs the morning fade but is drift, not structure. Old waits (BTC $78-78.8k, XRP $1.33-1.36) expired Sep 11; no new armed wait. Satellites map-only.",
-      "Next: ISM-mfg Thu 22:00 Manila - NFP Fri Oct 2 20:30 Manila. NFP rail locked: no new Gotrade single-name; Coins new only if SM restored + A+.",
-      "Coins cash P147.49 < P800 floor anyway; naked ETH blocks new Coins."
+      "Crypto (Yahoo v8 ~23:00 Manila Oct 1, vs 17:47): BTC $84,038.05 flat / ETH $2,688.22 -0.9% / SOL $117.33 -1.6% / XRP $1.4822 -1.6% / BNB $766.51 -0.5% / LINK $14.307 -1.0% / SUI (Binance) $1.1354 -3.5%.",
+      "Afternoon fade retraces the midday firmness — drift, not structure. Old waits (BTC $78-78.8k, XRP $1.33-1.36) expired Sep 11; no new armed wait. Satellites map-only.",
+      "US mid-session (~11:01 ET): SPY $760.17 -0.1% / QQQ $738.23 -0.2% / VOO $698.69 -0.1% / IWM $276.36 -0.3% / AAPL $330.06 -0.9% / MSFT $514.24 +0.3% / NVDA $228.93 +0.2% / GOOGL $340.42 -1.1% / AMZN $246.63 -1.0% / META $725.18 flat / TSLA $358.71 +1.1%. Soft tape on hot ISM prices.",
+      "ISM Sep mfg PMI 54.5 (Aug 54.6, consensus ~55) printed 22:00 Manila — 9th month of expansion, but Prices Index jumped to 77.9. Not dovish into NFP.",
+      "Gotrade book last Ultra-verified ~17:47: equity $48.71, cash $0 — MSFT MV $20.57 / GOOGL MV $28.14. Research mid-session implies MSFT ~+$0.75 / GOOGL ~+$0.42 vs fills — book UNVERIFIED at these prints, carry broker marks.",
+      "Coins.ph Spot ~16:05: total ₱1,885.03 — ETH 0.01103342, DOGE 3.057855 + dust, PHP ₱0.33. Research ETH $2,688 implies ~+$2.61 (~₱164). Stance HOLD / NO TRADE NFP-week. No new orders.",
+      "Next: NFP Fri Oct 2 20:30 Manila. NFP rail locked: no new Gotrade single-name; Coins new only if SM restored + A+.",
+      "Coins cash ₱0.33 < ₱800 floor anyway; naked ETH blocks new Coins."
     ],
     "sources": [
-      "Coinbase spot ~15:00 Manila Oct 1",
-      "Coinbase spot ~11:00 Manila Oct 1 (journal carry)",
-      "Gotrade Ultra broker UI ~15:47 Manila Oct 1",
-      "Gotrade Ultra ~17:47 Manila Oct 1",
-      "Coins.ph Spot ~16:05 Manila Oct 1"
+      "Yahoo chart v8 ~23:00 Manila Oct 1 (US mid-session ~11:01 ET)",
+      "Binance SUIUSDT 24hr ~23:00 Manila Oct 1",
+      "Gotrade Ultra broker UI ~17:47 Manila Oct 1 (book carry)",
+      "Coins.ph Spot ~16:05 Manila Oct 1 (book carry)",
+      "ISM Sep mfg PMI via ForexFactory/Kitco Oct 1"
     ]
   },
   "analyst": {
-    "thesis": "HOLD open books into NFP Fri Oct 2. ETH still naked (jayr waiver). Gotrade Ultra-verified LT holds — MSFT $512.51 (MV $20.57, day −0.07%) / GOOGL $352.22 (MV $28.14, day +2.35%); cash $0; equity $48.71. Prefer NO TRADE on new entries.",
+    "thesis": "HOLD open books into NFP Fri Oct 2. ETH still naked (jayr waiver). Gotrade LT holds carried — broker 17:47 MSFT $512.51 / GOOGL $352.22, cash $0, equity $48.71. Research mid-session soft except MSFT/TSLA. Prefer NO TRADE on new entries.",
     "levels": [
       {
         "symbol": "ETH",
         "support": 2378.37,
         "invalidation": "Mental $2378.37 only",
-        "note": "Entry $2451.93 / mark $2698.02 / qty 0.01103342 (broker Spot ~16:05). Still naked (jayr waiver). Mental inv $2378.37 only."
+        "note": "Entry $2451.93 / broker mark $2698.02 (carry 16:05) / Yahoo $2688.22 23:00 / qty 0.01103342. Still naked (jayr waiver). Mental inv $2378.37 only."
       },
       {
         "symbol": "BTC",
         "invalidation": "No new PLAN without desk greenlight",
-        "note": "Primary map - $83,441.44 (-0.2% vs 07:00). Old $78-78.8k wait expired Sep 11. Drift, not structure. No new armed wait this packet."
+        "note": "Primary map - $84,038.05 (flat vs 17:47). Old $78-78.8k wait expired Sep 11. Drift, not structure. No new armed wait this packet."
       },
       {
         "symbol": "XRP",
         "invalidation": "No new PLAN without desk greenlight",
-        "note": "Primary map - $1.49195 (+0.3% vs 07:00). Old $1.33-1.36 wait expired Sep 11. Noise into NFP week. No new armed wait this packet."
+        "note": "Primary map - $1.4822 (-1.6% vs 17:47). Old $1.33-1.36 wait expired Sep 11. Noise into NFP week. No new armed wait this packet."
       },
       {
         "symbol": "MSFT",
-        "note": "LT hold / Ultra $512.51 (MV $20.57, day −0.07%) vs fill $495.57. Broker-live 17:47. Not a tactical exit PLAN."
+        "note": "LT hold / broker $512.51 carry (MV $20.57) vs fill $495.57. Yahoo mid-session $514.24 (+0.3%) research-only. Not a tactical exit PLAN."
       },
       {
         "symbol": "GOOGL",
-        "note": "LT hold / Ultra $352.22 (MV $28.14, day +2.35%) vs fill $335.2. Broker-live 17:47 after brief $0 mark glitch ~16:02. Not a REDUCE PLAN."
+        "note": "LT hold / broker $352.22 carry (MV $28.14) vs fill $335.2. Yahoo mid-session $340.42 (-1.1%) research-only. Not a REDUCE PLAN."
       }
     ],
-    "notes": "Desk mark refresh 2026-10-01 ~17:47 Manila. Ultra live after ~16:02 GOOGL $0 glitch recovered. Coins.ph Spot ~16:05 total ₱1,885.03 (ETH qty now 0.01103342; DOGE 3.057855 + dust). No new orders."
+    "notes": "Desk CLOSE tick 2026-10-01 23:00 Manila. Yahoo v8 mid-session + Binance SUI. ISM Sep mfg 54.5 done (prices 77.9 hot). Books carried at last broker-verified marks (Ultra 17:47 / Spot 16:05). No new orders."
   },
   "risk": {
-    "railsCheck": "HOLD. Gotrade Ultra-verified IN_TRADE (cash $0 / equity $48.71 / book full). NFP rail blocks new Gotrade single-name. New Coins blocked while naked (NFP-week also needs SM+A+). No A+ permission.",
+    "railsCheck": "HOLD. Gotrade IN_TRADE carried (cash $0 / equity $48.71 broker 17:47 / book full). NFP rail blocks new Gotrade single-name. New Coins blocked while naked (NFP-week also needs SM+A+). No A+ permission.",
     "sizeNote": "Do not add. Coins PHP cash ₱0.33; broker total ~₱1,885 is open ETH (+ dust), not dry powder for new clips.",
     "kills": [
       "No new PLAN without A+ / jayr ask",
@@ -65,12 +65,12 @@
     "feeSkip": "Skip if fees ≥ ~⅓ edge — unchanged."
   },
   "desk": {
-    "decision": "HOLD / NO TRADE NFP-week. Mark refresh only — Gotrade Ultra $48.71 (MSFT MV $20.57 / GOOGL MV $28.14); Coins Spot total ₱1,885.03. No new orders.",
+    "decision": "HOLD / NO TRADE NFP-week. CLOSE tick only — Yahoo mid-session soft, ISM 54.5 with hot prices done. Books carried (Gotrade Ultra $48.71 at 17:47; Coins Spot ~P1,885 at 16:05). No new orders.",
     "actions": [
-      "Publish ~17:47 Manila mark refresh on Vision",
+      "Publish 23:00 Manila CLOSE tick on Vision",
       "Prefer NO TRADE into NFP Fri Oct 2",
       "No new orders — HOLD open books only"
     ],
-    "nextOpen": "NFP Fri Oct 2 20:30 Manila — reassess only on jayr ask / clean A+ with SM restored on Coins; NFP rail through Fri. Treat ~16:02 Ultra GOOGL $0 as glitch, not a flatten."
+    "nextOpen": "NFP Fri Oct 2 20:30 Manila — reassess only on jayr ask / clean A+ with SM restored on Coins; NFP rail through Fri."
   }
 }
