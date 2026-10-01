@@ -1,42 +1,42 @@
 {
   "books": {
     "coins": {
-      "cash": 147.49,
+      "cash": 0.33,
       "currency": "PHP",
-      "dayPnl": 0.28,
+      "dayPnl": 0,
       "positions": [
         {
-          "avgCost": 2451.93,
-          "mark": 2677.93,
+          "symbol": "ETH",
           "name": "Ethereum",
-          "qty": 0.01105,
-          "symbol": "ETH"
+          "qty": 0.01103342,
+          "avgCost": 2451.93,
+          "mark": 2698.02
         }
       ],
-      "totalPnl": 2.69,
+      "totalPnl": 2.72,
       "venue": "coins"
     },
     "gotrade": {
       "cash": 0,
       "currency": "USD",
-      "dayPnl": -0.32,
+      "dayPnl": 0.65,
       "positions": [
         {
           "symbol": "MSFT",
           "name": "Microsoft",
           "qty": 0.040135601,
           "avgCost": 495.57,
-          "mark": 510.91
+          "mark": 512.51
         },
         {
           "symbol": "GOOGL",
           "name": "Alphabet",
           "qty": 0.079892601,
           "avgCost": 335.2,
-          "mark": 351.24
+          "mark": 352.22
         }
       ],
-      "totalPnl": 1.9,
+      "totalPnl": 2.04,
       "venue": "gotrade"
     }
   },
@@ -92,7 +92,7 @@
       "levels": [
         {
           "invalidation": "Mental $2378.37 only",
-          "note": "Entry $2451.93 / mark $2,685.60 (~+9.5% / ~$+2.58 / ~P162). Still naked (jayr waiver). Flat vs 07:00.",
+          "note": "Entry $2451.93 / mark $2698.02 / qty 0.01103342 (broker Spot ~16:05). Still naked (jayr waiver). Mental inv $2378.37 only.",
           "support": 2378.37,
           "symbol": "ETH"
         },
@@ -107,28 +107,28 @@
           "symbol": "XRP"
         },
         {
-          "note": "LT hold / Ultra mark $510.91 vs fill $495.57 (~$+0.62). Broker-confirmed 2026-10-01. Not a tactical exit PLAN.",
+          "note": "LT hold / Ultra $512.51 (MV $20.57, day \u22120.07%) vs fill $495.57. Broker-live 17:47. Not a tactical exit PLAN.",
           "symbol": "MSFT"
         },
         {
-          "note": "LT hold / Ultra mark $351.24 vs fill $335.2 (~$+1.28). Broker-confirmed 2026-10-01. Not a REDUCE PLAN.",
+          "note": "LT hold / Ultra $352.22 (MV $28.14, day +2.35%) vs fill $335.2. Broker-live 17:47 after brief $0 mark glitch ~16:02. Not a REDUCE PLAN.",
           "symbol": "GOOGL"
         }
       ],
-      "notes": "Thu ~15:47 Manila: Gotrade UNVERIFIED cleared \u2014 Ultra broker confirm matches FILL-20260914. No new orders. NFP Fri Oct 2 rail still binds. Naked ETH blocks new Coins.",
-      "thesis": "HOLD open books into NFP Fri Oct 2. ETH-CPI-OVERRIDE still open/naked by jayr choice. Gotrade MSFT+GOOGL = LT holds, broker-confirmed on Ultra (MSFT $510.91 / GOOGL $351.24; equity ~$48.62). Prefer NO TRADE on new entries either book."
+      "notes": "Desk mark refresh 2026-10-01 ~17:47 Manila. Ultra live after ~16:02 GOOGL $0 glitch recovered. Coins.ph Spot ~16:05 total \u20b11,885.03 (ETH qty now 0.01103342; DOGE 3.057855 + dust). No new orders.",
+      "thesis": "HOLD open books into NFP Fri Oct 2. ETH still naked (jayr waiver). Gotrade Ultra-verified LT holds \u2014 MSFT $512.51 (MV $20.57, day \u22120.07%) / GOOGL $352.22 (MV $28.14, day +2.35%); cash $0; equity $48.71. Prefer NO TRADE on new entries."
     },
     "date": "2026-10-01",
     "desk": {
-      "decision": "HOLD / NO NEW PLAN. Gotrade UNVERIFIED cleared \u2014 Ultra confirm 2026-10-01 ~15:47 Manila (MSFT 0.040135601 @ $495.57 \u2192 $510.91 MV ~$20.54; GOOGL 0.079892601 @ $335.2 \u2192 $351.24 MV ~$28.08; cash $0; equity ~$48.62). Matches FILL-20260914. ETH still naked. No new orders.",
+      "decision": "HOLD / NO TRADE NFP-week. Mark refresh only \u2014 Gotrade Ultra $48.71 (MSFT MV $20.57 / GOOGL MV $28.14); Coins Spot total \u20b11,885.03. No new orders.",
       "actions": [
-        "Flip Gotrade off UNVERIFIED \u2192 verified IN_TRADE on Vision publish",
-        "Prefer NO TRADE on new entries into NFP Fri Oct 2",
+        "Publish ~17:47 Manila mark refresh on Vision",
+        "Prefer NO TRADE into NFP Fri Oct 2",
         "No new orders \u2014 HOLD open books only"
       ],
-      "nextOpen": "NFP Fri Oct 2 20:30 Manila \u2014 reassess only on jayr ask / clean A+ with SM restored on Coins; NFP rail in force through Fri. Gotrade marks now broker-verified."
+      "nextOpen": "NFP Fri Oct 2 20:30 Manila \u2014 reassess only on jayr ask / clean A+ with SM restored on Coins; NFP rail through Fri. Treat ~16:02 Ultra GOOGL $0 as glitch, not a flatten."
     },
-    "headline": "Thu ~15:47 Manila / Gotrade VERIFIED on Ultra. HOLD / no new PLAN. MSFT $510.91 / GOOGL $351.24; cash $0; equity ~$48.62. NFP rail binds. No fills.",
+    "headline": "Thu ~17:47 Manila mark refresh / HOLD. Gotrade Ultra $48.71 (MSFT $512.51 / GOOGL $352.22). Coins broker total \u20b11,885. NFP rail. No fills.",
     "risk": {
       "feeSkip": "Skip if fees \u2265 ~\u2153 edge \u2014 unchanged.",
       "kills": [
@@ -138,14 +138,16 @@
         "Gotrade book full \u2014 prefer NO TRADE on new entries",
         "Kill switch: 1 loser or \u2212\u20b1400 day (Coins) still on"
       ],
-      "railsCheck": "HOLD. Gotrade broker-verified IN_TRADE (cash $0 / book full). NFP rail still blocks new Gotrade single-name size. New Coins blocked while naked (and NFP-week: SM+A+ required). No A+ permission.",
-      "sizeNote": "Do not add. Coins cash \u20b1147.49 below \u20b1800 sit-out for new clips anyway."
+      "railsCheck": "HOLD. Gotrade Ultra-verified IN_TRADE (cash $0 / equity $48.71 / book full). NFP rail blocks new Gotrade single-name. New Coins blocked while naked (NFP-week also needs SM+A+). No A+ permission.",
+      "sizeNote": "Do not add. Coins PHP cash \u20b10.33; broker total ~\u20b11,885 is open ETH (+ dust), not dry powder for new clips."
     },
     "scout": {
-      "headline": "Thu 15:00 / HOLD into NFP week: crypto firmer vs 11:00 (BTC +0.8%, ETH +1.1%, XRP +0.9%, rest +0.2-0.9%, SUI -0.7% noise). US dark (03:00 ET). No A+ primary for new size while ETH stays naked. Prefer NO TRADE.",
+      "headline": "Thu ~17:47 / HOLD mark refresh. Gotrade Ultra $48.71; Coins Spot \u20b11,885. NFP rail binds. No A+ / no new size.",
       "bullets": [
-        "ETH naked mark $2,713.89 vs $2451.93 entry (~+10.7% / ~$+2.89 / ~P181); SM/TP still waived.",
-        "Gotrade VERIFIED on Ultra ~15:47 Manila \u2014 MSFT $510.91 / GOOGL $351.24; cash $0; equity ~$48.62; matches FILL-20260914. No new orders.",
+        "Gotrade Ultra ~17:47: equity $48.71, cash $0 \u2014 MSFT MV $20.57 (day \u22120.07%) / GOOGL MV $28.14 (day +2.35%).",
+        "Ultra ~16:02 briefly showed GOOGL equity $0 / total ~$20.55 \u2014 temporary mark glitch; recovered by 17:47.",
+        "Coins.ph Spot ~16:05: total \u20b11,885.03 \u2014 ETH 0.01103342 (~\u20b11,858\u20131,869), DOGE 3.057855, BTC/USDT/XRP dust, PHP \u20b10.33.",
+        "Stance HOLD / NO TRADE NFP-week. No new orders.",
         "Crypto (Coinbase spot ~15:00 Manila Oct 1, vs 11:00): BTC $84,091.62 +0.8% / ETH $2,713.89 +1.1% / SOL $119.24 +0.9% / XRP $1.50565 +0.9% / BNB $770.375 +0.3% / LINK $14.453 +0.2% / SUI $1.1767 -0.7%.",
         "Afternoon firmness repairs the morning fade but is drift, not structure. Old waits (BTC $78-78.8k, XRP $1.33-1.36) expired Sep 11; no new armed wait. Satellites map-only.",
         "Next: ISM-mfg Thu 22:00 Manila - NFP Fri Oct 2 20:30 Manila. NFP rail locked: no new Gotrade single-name; Coins new only if SM restored + A+.",
@@ -154,12 +156,14 @@
       "sources": [
         "Coinbase spot ~15:00 Manila Oct 1",
         "Coinbase spot ~11:00 Manila Oct 1 (journal carry)",
-        "Gotrade Ultra broker UI ~15:47 Manila Oct 1"
+        "Gotrade Ultra broker UI ~15:47 Manila Oct 1",
+        "Gotrade Ultra ~17:47 Manila Oct 1",
+        "Coins.ph Spot ~16:05 Manila Oct 1"
       ]
     },
     "stance": "IN_TRADE"
   },
-  "notes": "Thu 2026-10-01 ~15:47 Manila. Gotrade Ultra broker confirm cleared UNVERIFIED. HOLD both books / no PLAN / no new orders. Prefer NO TRADE into NFP Fri Oct 2.",
+  "notes": "Thu 2026-10-01 ~17:47 Manila Desk mark refresh. Gotrade Ultra live; Coins.ph Spot live. HOLD / NO TRADE NFP-week. No new orders. Prior ~16:02 Ultra GOOGL $0 was a glitch.",
   "predictions": [
     {
       "conviction": 3,
@@ -299,7 +303,7 @@
     "XRP"
   ],
   "stance": "IN_TRADE",
-  "stanceReason": "HOLD open books / NO NEW PLAN. NFP-week rail: no new Gotrade single-name size into first-Friday employment window; new Coins only with Stop-Market restored and A+ edge \u2014 else map-only. Cool Aug PCE (3.4%/core 3.0%) bid US mid-session but NFP Fri Oct 2 still ahead \u2014 rail holds. Naked ETH blocks new Coins (jayr leave-naked). Gotrade VERIFIED on Ultra 2026-10-01 ~15:47 Manila \u2014 FILL-20260914 MSFT+GOOGL live (MSFT $510.91 / GOOGL $351.24; cash $0; equity ~$48.62). No new orders.",
+  "stanceReason": "HOLD open books / NO TRADE NFP-week. No new orders. Gotrade Ultra live ~17:47 Manila: equity $48.71, cash $0 (MSFT MV $20.57 / GOOGL MV $28.14; matches FILL-20260914). Earlier ~16:02 Ultra GOOGL $0 glitch recovered. Coins.ph Spot ~16:05: total \u20b11,885.03 \u2014 ETH 0.01103342 (~\u20b11,858\u20131,869), DOGE 3.057855 + BTC/USDT/XRP dust, PHP \u20b10.33. Naked ETH still blocks new Coins; NFP Fri Oct 2 rail holds.",
   "trades": [
     {
       "date": "2026-09-11",

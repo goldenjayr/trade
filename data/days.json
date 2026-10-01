@@ -202,9 +202,9 @@
   {
     "date": "2026-10-01",
     "stance": "IN_TRADE",
-    "summary": "Thu 2026-10-01 ~15:47 Manila. Gotrade Ultra broker confirm cleared UNVERIFIED. HOLD both books / no PLAN / no new orders. Prefer NO TRADE into NFP Fri Oct 2.",
+    "summary": "Thu 2026-10-01 ~17:47 Manila Desk mark refresh. Gotrade Ultra live; Coins.ph Spot live. HOLD / NO TRADE NFP-week. No new orders. Prior ~16:02 Ultra GOOGL $0 was a glitch.",
     "tradeCount": 3,
-    "coinsEquity": 177.0811,
-    "gotradeEquity": 48.5672
+    "coinsEquity": 30.0984,
+    "gotradeEquity": 48.7097
   }
 ]

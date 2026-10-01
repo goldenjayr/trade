@@ -2,7 +2,7 @@
   "asOf": "2026-10-01",
   "timezone": "Asia/Manila",
   "stance": "IN_TRADE",
-  "stanceReason": "HOLD open books / NO NEW PLAN. NFP-week rail: no new Gotrade single-name size into first-Friday employment window; new Coins only with Stop-Market restored and A+ edge — else map-only. Cool Aug PCE (3.4%/core 3.0%) bid US mid-session but NFP Fri Oct 2 still ahead — rail holds. Naked ETH blocks new Coins (jayr leave-naked). Gotrade VERIFIED on Ultra 2026-10-01 ~15:47 Manila — FILL-20260914 MSFT+GOOGL live (MSFT $510.91 / GOOGL $351.24; cash $0; equity ~$48.62). No new orders.",
+  "stanceReason": "HOLD open books / NO TRADE NFP-week. No new orders. Gotrade Ultra live ~17:47 Manila: equity $48.71, cash $0 (MSFT MV $20.57 / GOOGL MV $28.14; matches FILL-20260914). Earlier ~16:02 Ultra GOOGL $0 glitch recovered. Coins.ph Spot ~16:05: total ₱1,885.03 — ETH 0.01103342 (~₱1,858–1,869), DOGE 3.057855 + BTC/USDT/XRP dust, PHP ₱0.33. Naked ETH still blocks new Coins; NFP Fri Oct 2 rail holds.",
   "primaries": [
     "BTC",
     "XRP"
@@ -12,20 +12,20 @@
       "venue": "coins",
       "label": "Coins.ph",
       "currency": "PHP",
-      "cash": 147.49,
-      "equity": 177.0811,
-      "dayPnl": 0.28,
-      "totalPnl": 2.69,
+      "cash": 0.33,
+      "equity": 30.0984,
+      "dayPnl": 0,
+      "totalPnl": 2.72,
       "positions": [
         {
           "symbol": "ETH",
           "name": "Ethereum",
-          "qty": 0.01105,
+          "qty": 0.01103342,
           "avgCost": 2451.93,
-          "mark": 2677.93,
-          "marketValue": 29.5911,
-          "pnl": 2.4973,
-          "pnlPct": 0.092172
+          "mark": 2698.02,
+          "marketValue": 29.7684,
+          "pnl": 2.7152,
+          "pnlPct": 0.100365
         }
       ]
     },
@@ -34,29 +34,29 @@
       "label": "Gotrade",
       "currency": "USD",
       "cash": 0,
-      "equity": 48.5672,
-      "dayPnl": -0.32,
-      "totalPnl": 1.9,
+      "equity": 48.7097,
+      "dayPnl": 0.65,
+      "totalPnl": 2.04,
       "positions": [
         {
           "symbol": "MSFT",
           "name": "Microsoft",
           "qty": 0.040135601,
           "avgCost": 495.57,
-          "mark": 510.91,
-          "marketValue": 20.5057,
-          "pnl": 0.6157,
-          "pnlPct": 0.030955
+          "mark": 512.51,
+          "marketValue": 20.5699,
+          "pnl": 0.6799,
+          "pnlPct": 0.034183
         },
         {
           "symbol": "GOOGL",
           "name": "Alphabet",
           "qty": 0.079892601,
           "avgCost": 335.2,
-          "mark": 351.24,
-          "marketValue": 28.0615,
-          "pnl": 1.2815,
-          "pnlPct": 0.047853
+          "mark": 352.22,
+          "marketValue": 28.1398,
+          "pnl": 1.3598,
+          "pnlPct": 0.050777
         }
       ]
     }
