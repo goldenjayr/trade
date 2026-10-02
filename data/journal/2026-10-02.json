@@ -1,0 +1,78 @@
+{
+  "date": "2026-10-02",
+  "stance": "IN_TRADE",
+  "headline": "Fri 21:30 Manila CLOSE / HOLD. Soft NFP printed; crypto bid, US cash open firm. No fills. Gotrade UNVERIFIED.",
+  "scout": {
+    "headline": "Fri 21:30 CLOSE / HOLD. Soft NFP (+29k / U 4.2%) done. Crypto bid into US open; map-only still. No A+ / no new size.",
+    "bullets": [
+      "Crypto (Coinbase spot + Binance.US 24h ~21:30 Manila Oct 2): BTC $86,689.08 (+4.0%) / ETH $2,753.78 (+2.3%) / SOL $122.505 (+4.6%) / XRP $1.5400 (+4.2%) / BNB $780.805 (+1.6%) / LINK $14.358 (flat) / SUI $1.2027 (+3.9%).",
+      "Bid into the soft NFP — momentum, not a new wait structure. Old waits (BTC $78–78.8k, XRP $1.33–1.36) still expired Sep 11; no new armed wait this packet. Satellites map-only.",
+      "US cash open (~09:30 ET / 21:30 Manila): SPY $769.58 +0.7% / QQQ $749.35 +1.0% / VOO $707.40 +0.7% / IWM $282.08 +1.1% / AAPL $331.76 +0.4% / MSFT $519.28 +1.3% / NVDA $234.69 +1.7% / GOOGL $342.00 +1.1% / AMZN $252.19 +1.6% / META $740.84 +2.1% / TSLA $365.02 +3.1%. Firm open on soft jobs.",
+      "NFP Sep printed ~20:30 Manila: nonfarm +29k (vs ~84–90k cons), unemployment 4.2%. Soft — still NFP-day map-only; no auto-arm.",
+      "Gotrade: midday Ultra ~14:53 broker-confirmed FILLED (MSFT 0.04014 / GOOGL 0.07989, equity $47.84, cash $0) — ended prior UNVERIFIED streak. Tonight Ultra ERR_TIMED_OUT then HTTP 429; book UNVERIFIED at Yahoo research marks. Research book ~+$1.49 vs fills (~₱94); day vs Thu Yahoo close ~+$0.56.",
+      "Coins ETH naked 0.01103342 @ $2451.93 → Coinbase $2,753.78 (~+12.3% / ~+$3.33 / ~₱209 at USDPHP 62.83). SM/TP off; mental inv $2378.37. PHP cash ₱0.33. Stance HOLD / NO TRADE. No new orders.",
+      "NFP-day rail still: no new Gotrade single-name; Coins new only if SM restored + A+. Naked waiver blocks new Coins anyway.",
+      "Coins cash ₱0.33 < ₱800 floor; Gotrade cash $0 / book full."
+    ],
+    "sources": [
+      "Coinbase spot ~21:30 Manila Oct 2",
+      "Binance.US 24hr ticker ~21:30 Manila Oct 2",
+      "Yahoo chart v8 ~21:30 Manila Oct 2 (US cash open ~09:30 ET)",
+      "Gotrade Ultra ~14:53 Manila Oct 2 (FILLED confirm); Ultra fail ~20:59 (timeout/429)",
+      "BLS Sep NFP via Ops level watch ~20:59 Manila Oct 2",
+      "open.er-api.com USD→PHP ~21:30 Manila Oct 2"
+    ]
+  },
+  "analyst": {
+    "thesis": "HOLD open books after soft NFP. ETH still naked (jayr waiver). Gotrade LT holds — research Yahoo MSFT $519.275 / GOOGL $342.00; last Ultra FILLED ~14:53, UNVERIFIED tonight. Prefer NO TRADE on new entries.",
+    "levels": [
+      {
+        "symbol": "ETH",
+        "support": 2378.37,
+        "invalidation": "Mental $2378.37 only",
+        "note": "Entry $2451.93 / Coinbase $2,753.78 / qty 0.01103342. Still naked (jayr waiver). Mental inv $2378.37 only. ~+$3.33 (~₱209)."
+      },
+      {
+        "symbol": "BTC",
+        "invalidation": "No new PLAN without desk greenlight",
+        "note": "Primary map — $86,689.08 (+4.0% 24h). Old $78–78.8k wait expired Sep 11. Bid post-NFP, not structure. No new armed wait."
+      },
+      {
+        "symbol": "XRP",
+        "invalidation": "No new PLAN without desk greenlight",
+        "note": "Primary map — $1.5400 (+4.2% 24h). Old $1.33–1.36 wait expired Sep 11. No new armed wait."
+      },
+      {
+        "symbol": "MSFT",
+        "note": "LT hold / Yahoo cash-open $519.275 (MV ~$20.84) vs fill $495.57 (~+$0.95). Ultra FILLED midday; UNVERIFIED tonight. Not a tactical exit PLAN."
+      },
+      {
+        "symbol": "GOOGL",
+        "note": "LT hold / Yahoo cash-open $342.00 (MV ~$27.32) vs fill $335.2 (~+$0.54). Ultra FILLED midday; UNVERIFIED tonight. Not a REDUCE PLAN."
+      }
+    ],
+    "notes": "Desk CLOSE tick 2026-10-02 21:30 Manila. Soft NFP done. Coinbase + Binance.US + Yahoo cash-open. Gotrade research marks (Ultra fail tonight). No new orders."
+  },
+  "risk": {
+    "railsCheck": "HOLD. Soft NFP printed — still NFP-day map-only. Gotrade IN_TRADE (cash $0 / book full; UNVERIFIED marks tonight, FILLED confirm ~14:53). New Coins blocked while naked. No A+ permission.",
+    "sizeNote": "Do not add. Coins PHP cash ₱0.33; open ETH is risk, not dry powder. Gotrade cash $0.",
+    "kills": [
+      "No new PLAN without A+ / jayr ask",
+      "No new Coins entries while naked",
+      "NFP / first-Friday window: no new Gotrade single-name size",
+      "Gotrade book full — prefer NO TRADE on new entries",
+      "Kill switch: 1 loser or −₱400 day (Coins) still on"
+    ],
+    "feeSkip": "Skip if fees ≥ ~⅓ edge — unchanged."
+  },
+  "desk": {
+    "decision": "HOLD / NO TRADE post-NFP map-only. CLOSE tick — soft NFP (+29k / U 4.2%), crypto bid, US cash open firm. Books held (Gotrade UNVERIFIED Yahoo marks; Coins Coinbase ETH). No new orders.",
+    "actions": [
+      "Publish 21:30 Manila CLOSE tick on Vision",
+      "Prefer NO TRADE — NFP-day rail still binds",
+      "No new orders — HOLD open books only",
+      "Next Ops run: broker-confirm Gotrade if Ultra recovers (end UNVERIFIED)"
+    ],
+    "nextOpen": "Post-NFP weekend — reassess Mon only on jayr ask / clean A+ with SM restored on Coins; no new Gotrade single-name until desk clears NFP-week rail."
+  }
+}

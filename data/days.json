@@ -206,5 +206,13 @@
     "tradeCount": 3,
     "coinsEquity": 30.0984,
     "gotradeEquity": 48.7097
+  },
+  {
+    "date": "2026-10-02",
+    "stance": "IN_TRADE",
+    "summary": "Fri 2026-10-02 21:30 Manila CLOSE tick. Soft NFP done. Coinbase + Binance.US + Yahoo cash-open. HOLD / NO TRADE post-NFP map-only. Gotrade UNVERIFIED (Ultra fail). No new orders.",
+    "tradeCount": 3,
+    "coinsEquity": 30.7136,
+    "gotradeEquity": 48.1647
   }
 ]
