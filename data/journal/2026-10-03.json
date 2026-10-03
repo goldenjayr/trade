@@ -1,0 +1,74 @@
+{
+  "date": "2026-10-03",
+  "stance": "IN_TRADE",
+  "headline": "Sat 23:00 Manila CLOSE. Weekend map-only, quiet mixed evening drift. No fills. Gotrade dark.",
+  "scout": {
+    "headline": "Sat 23:00 CLOSE. Quiet mixed evening drift; primaries still far above expired waits. Gotrade dark. No A+ / no new size.",
+    "bullets": [
+      "Crypto (Yahoo v8 ~23:00 Manila Oct 3, vs 19:00 packet marks; SUI via Binance): BTC $84,803.10 (+0.2%) / ETH $2,680.05 (−0.1%) / SOL $119.63 (+0.1%) / XRP $1.4877 (+0.3%) / BNB $777.84 (+1.2%) / LINK $13.873 (−0.4%) / SUI $1.1813 (+0.2%). Quiet mixed evening drift, BNB firmest; still noise, not a wait structure.",
+      "Drift off the NFP-day close, not a new wait structure. Old waits (BTC $78–78.8k, XRP $1.33–1.36) still expired Sep 11; no new armed wait this packet. Satellites map-only.",
+      "Gotrade dark — Saturday, US cash closed. Friday closes carried: MSFT $516.03 / GOOGL $344.03 (Yahoo research; last Ultra FILLED ~14:53 Fri equity $47.84).",
+      "Coins ETH naked 0.01103342 @ $2451.93 → Yahoo $2,680.05 (~+9.3% / ~+$2.52 / ~₱158 at USDPHP 62.83 carried). Evening −$3.02 since 19:00 $2,683.07. SM/TP off; mental inv $2378.37. PHP cash ₱0.33. Stance HOLD / NO TRADE. No new orders.",
+      "Weekend rail: no new Gotrade single-name; Coins new only if SM restored + A+. Naked waiver blocks new Coins anyway.",
+      "Coins cash ₱0.33 < ₱800 floor; Gotrade cash $0 / book full."
+    ],
+    "sources": [
+      "Yahoo chart v8 ~23:00 Manila Oct 3 (BTC/ETH/SOL/XRP/BNB/LINK)",
+      "Binance SUIUSDT 24hr ~23:00 Manila Oct 3",
+      "Packet baseline ~19:00 Manila Oct 3",
+      "Gotrade Ultra ~14:53 Manila Oct 2 (last FILLED confirm, carried)"
+    ]
+  },
+  "analyst": {
+    "thesis": "HOLD open books into weekend after soft NFP. Evening crypto drift is noise, not structure. ETH still naked (jayr waiver). Gotrade LT holds carried at Friday research marks. Prefer NO TRADE on new entries.",
+    "levels": [
+      {
+        "symbol": "ETH",
+        "support": 2378.37,
+        "invalidation": "Mental $2378.37 only",
+        "note": "Entry $2451.93 / Yahoo $2,680.05 / qty 0.01103342. Still naked (jayr waiver). Mental inv $2378.37 only. ~+$2.52 (~₱158)."
+      },
+      {
+        "symbol": "BTC",
+        "invalidation": "No new PLAN without desk greenlight",
+        "note": "Primary map — $84,803.10 (+0.2% evening). Old $78–78.8k wait expired Sep 11. Quiet drift, not structure. No new armed wait."
+      },
+      {
+        "symbol": "XRP",
+        "invalidation": "No new PLAN without desk greenlight",
+        "note": "Primary map — $1.4877 (+0.3% evening). Old $1.33–1.36 wait expired Sep 11. No new armed wait."
+      },
+      {
+        "symbol": "MSFT",
+        "note": "LT hold / Friday Yahoo $516.03 (MV ~$20.71) vs fill $495.57 (~+$0.82). Dark weekend; carried. Not a tactical exit PLAN."
+      },
+      {
+        "symbol": "GOOGL",
+        "note": "LT hold / Friday Yahoo $344.03 (MV ~$27.49) vs fill $335.2 (~+$0.71). Dark weekend; carried. Not a REDUCE PLAN."
+      }
+    ],
+    "notes": "Desk tick 2026-10-03 23:00 Manila. Yahoo v8 evening marks (+Binance SUI). Gotrade dark. No new orders."
+  },
+  "risk": {
+    "railsCheck": "HOLD. Weekend map-only. Gotrade IN_TRADE (cash $0 / book full; Friday research marks carried, dark Sat). New Coins blocked while naked. No A+ permission.",
+    "sizeNote": "Do not add. Coins PHP cash ₱0.33; open ETH is risk, not dry powder. Gotrade cash $0.",
+    "kills": [
+      "No new PLAN without A+ / jayr ask",
+      "No new Coins entries while naked",
+      "Weekend window: no new Gotrade single-name size",
+      "Gotrade book full — prefer NO TRADE on new entries",
+      "Kill switch: 1 loser or −₱400 day (Coins) still on"
+    ],
+    "feeSkip": "Skip if fees ≥ ~⅓ edge — unchanged."
+  },
+  "desk": {
+    "decision": "HOLD / NO TRADE — Sat 23:00 CLOSE. Quiet mixed evening drift (BTC +0.2%, BNB +1.2%, XRP +0.3%, ETH −0.1%); Gotrade dark. Books held (Gotrade Friday research marks carried; Coins Yahoo ETH). No new orders.",
+    "actions": [
+      "Weekend map-only tick on Vision",
+      "Prefer NO TRADE — weekend rail binds",
+      "No new orders — HOLD open books only",
+      "Next Ops run: Sun 03:00 scout (crypto-only)"
+    ],
+    "nextOpen": "Weekend — US cash dark Sat/Sun (crypto-only ticks). Reassess Mon only on jayr ask / clean A+ with SM restored on Coins; no new Gotrade single-name until desk clears NFP-week rail."
+  }
+}

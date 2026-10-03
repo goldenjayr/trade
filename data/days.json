@@ -214,5 +214,13 @@
     "tradeCount": 3,
     "coinsEquity": 30.2172,
     "gotradeEquity": 48.1967
+  },
+  {
+    "date": "2026-10-03",
+    "stance": "IN_TRADE",
+    "summary": "Sat 2026-10-03 23:00 Manila CLOSE. Yahoo v8 evening marks (+Binance SUI); Gotrade dark (Sat). HOLD / NO TRADE weekend map-only. No new orders.",
+    "tradeCount": 3,
+    "coinsEquity": 29.9001,
+    "gotradeEquity": 48.1967
   }
 ]

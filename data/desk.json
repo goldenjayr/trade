@@ -1,8 +1,8 @@
 {
-  "asOf": "2026-10-02",
+  "asOf": "2026-10-03",
   "timezone": "Asia/Manila",
   "stance": "IN_TRADE",
-  "stanceReason": "HOLD open books / NO TRADE into weekend map-only. No new orders. 23:00 CLOSE: NFP soft (+29k vs ~84–90k, U-rate 4.2%) digested; crypto faded off the firm open (Yahoo BTC $85,663 +1.9%, ETH $2,708.79 +0.7%, XRP $1.5136 +1.8%, SUI $1.1742 +3.5% Binance). US mid-session firm (SPY +0.9%, TSLA +5.1%, GOOGL +1.7%). Gotrade UNVERIFIED tonight — research Yahoo MSFT $516.03 / GOOGL $344.03; last Ultra FILLED confirm ~14:53 equity $47.84. Coins ETH naked still blocks new Coins.",
+  "stanceReason": "HOLD open books / NO TRADE — Sat 23:00 Manila CLOSE. Quiet mixed evening drift (Yahoo v8 ~23:00 vs 19:00: BTC $84,803 +0.2%, BNB $777.84 +1.2%, XRP $1.4877 +0.3%, ETH $2,680.05 −0.1%). Gotrade dark (Sat). Coins ETH naked still blocks new Coins. No new orders.",
   "primaries": [
     "BTC",
     "XRP"
@@ -13,19 +13,19 @@
       "label": "Coins.ph",
       "currency": "PHP",
       "cash": 0.33,
-      "equity": 30.2172,
-      "dayPnl": 0.22,
-      "totalPnl": 2.83,
+      "equity": 29.9001,
+      "dayPnl": -0.47,
+      "totalPnl": 2.36,
       "positions": [
         {
           "symbol": "ETH",
           "name": "Ethereum",
           "qty": 0.01103342,
           "avgCost": 2451.93,
-          "mark": 2708.79,
-          "marketValue": 29.8872,
-          "pnl": 2.834,
-          "pnlPct": 0.104757
+          "mark": 2680.05,
+          "marketValue": 29.5701,
+          "pnl": 2.5169,
+          "pnlPct": 0.093035
         }
       ]
     },
@@ -113,7 +113,7 @@
       "title": "US September NFP",
       "impact": "high",
       "status": "done",
-      "notes": "Soft print: +29k vs ~84–90k cons, U-rate 4.2%. Still NFP-day map-only — no new Gotrade single-name; Coins new only with SM restored + A+."
+      "notes": "Soft print: +29k vs ~84–90k cons, U-rate 4.2%. Still NFP-weekend map-only — no new Gotrade single-name; Coins new only with SM restored + A+."
     }
   ]
 }
