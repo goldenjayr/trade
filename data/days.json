@@ -222,5 +222,13 @@
     "tradeCount": 3,
     "coinsEquity": 29.9001,
     "gotradeEquity": 48.1967
+  },
+  {
+    "date": "2026-10-04",
+    "stance": "IN_TRADE",
+    "summary": "Sun 2026-10-04 23:00 Manila CLOSE tick. Binance spot (Yahoo v8 rate-limited, no fresh headline scan). Gotrade dark (Sun). HOLD / NO TRADE weekend map-only. No new orders.",
+    "tradeCount": 3,
+    "coinsEquity": 30.096,
+    "gotradeEquity": 48.1967
   }
 ]

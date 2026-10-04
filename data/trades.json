@@ -79,8 +79,7 @@
     "price": 2451.93,
     "fees": 0,
     "notional": 27.09,
-    "skipped": false,
-    "notes": "FILL ETH-CPI-OVERRIDE then EXITS CANCELLED. Stop NOT resting / TP NOT resting. Naked long (jayr explicit). Mental inv $2378.37."
+    "skipped": false
   },
   {
     "id": "QUEUE-20260911-GOOGL",
@@ -148,8 +147,7 @@
     "price": 335.2,
     "fees": 0.1,
     "notional": 26.78,
-    "skipped": false,
-    "notes": "FILL from void. LT educational starter #3. Cash $0 after dual fill."
+    "skipped": false
   },
   {
     "id": "FILL-20260914-MSFT",
@@ -161,8 +159,7 @@
     "price": 495.57,
     "fees": 0.1,
     "notional": 19.89,
-    "skipped": false,
-    "notes": "FILL from void. LT educational starter #1. Book full."
+    "skipped": false
   },
   {
     "id": "SKIP-20260914-COINS-NEW",
@@ -592,6 +589,32 @@
   {
     "id": "SKIP-20261003-GOTRADE-NEW",
     "date": "2026-10-03",
+    "venue": "gotrade",
+    "symbol": "CASH",
+    "side": "buy",
+    "qty": 0,
+    "price": 0,
+    "fees": 0,
+    "notional": 0,
+    "skipped": true,
+    "skipReason": "Book full (cash $0). Weekend rail: US cash dark, no new single-name size. Prefer NO TRADE."
+  },
+  {
+    "id": "SKIP-20261004-COINS-NEW",
+    "date": "2026-10-04",
+    "venue": "coins",
+    "symbol": "ETH",
+    "side": "buy",
+    "qty": 0,
+    "price": 0,
+    "fees": 0,
+    "notional": 0,
+    "skipped": true,
+    "skipReason": "HOLD / weekend map-only. Naked ETH blocks new Coins; overnight drift is noise, not a wait. Prefer NO TRADE."
+  },
+  {
+    "id": "SKIP-20261004-GOTRADE-NEW",
+    "date": "2026-10-04",
     "venue": "gotrade",
     "symbol": "CASH",
     "side": "buy",

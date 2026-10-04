@@ -1,8 +1,8 @@
 {
-  "asOf": "2026-10-03",
+  "asOf": "2026-10-04",
   "timezone": "Asia/Manila",
   "stance": "IN_TRADE",
-  "stanceReason": "HOLD open books / NO TRADE — Sat 23:00 Manila CLOSE. Quiet mixed evening drift (Yahoo v8 ~23:00 vs 19:00: BTC $84,803 +0.2%, BNB $777.84 +1.2%, XRP $1.4877 +0.3%, ETH $2,680.05 −0.1%). Gotrade dark (Sat). Coins ETH naked still blocks new Coins. No new orders.",
+  "stanceReason": "HOLD open books / NO TRADE — Sun 23:00 Manila CLOSE. Near-flat evening drift vs 19:00 (Binance ~23:00: BTC $85,278.45 +0.0%, SUI $1.1987 +1.8%, ETH $2,697.80 −0.1%; Yahoo v8 rate-limited). Gotrade dark (Sun). Coins ETH naked still blocks new Coins. No new orders.",
   "primaries": [
     "BTC",
     "XRP"
@@ -13,19 +13,19 @@
       "label": "Coins.ph",
       "currency": "PHP",
       "cash": 0.33,
-      "equity": 29.9001,
-      "dayPnl": -0.47,
-      "totalPnl": 2.36,
+      "equity": 30.096,
+      "dayPnl": -0.42,
+      "totalPnl": 2.56,
       "positions": [
         {
           "symbol": "ETH",
           "name": "Ethereum",
           "qty": 0.01103342,
           "avgCost": 2451.93,
-          "mark": 2680.05,
-          "marketValue": 29.5701,
-          "pnl": 2.5169,
-          "pnlPct": 0.093035
+          "mark": 2697.8,
+          "marketValue": 29.766,
+          "pnl": 2.7128,
+          "pnlPct": 0.100277
         }
       ]
     },
