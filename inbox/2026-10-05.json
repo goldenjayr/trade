@@ -7,13 +7,13 @@
       "positions": [
         {
           "avgCost": 2451.93,
-          "mark": 2714.235,
+          "mark": 2702.49,
           "name": "Ethereum",
           "qty": 0.01103342,
           "symbol": "ETH"
         }
       ],
-      "totalPnl": 2.89,
+      "totalPnl": 2.76,
       "venue": "coins"
     },
     "gotrade": {
@@ -23,20 +23,20 @@
       "positions": [
         {
           "avgCost": 495.57,
-          "mark": 527.81,
+          "mark": 526.26,
           "name": "Microsoft",
           "qty": 0.040135601,
           "symbol": "MSFT"
         },
         {
           "avgCost": 335.2,
-          "mark": 343.805,
+          "mark": 344.42,
           "name": "Alphabet",
           "qty": 0.079892601,
           "symbol": "GOOGL"
         }
       ],
-      "totalPnl": 1.98,
+      "totalPnl": 1.97,
       "venue": "gotrade"
     }
   },
@@ -145,44 +145,44 @@
       "levels": [
         {
           "invalidation": "Mental $2378.37 only",
-          "note": "Entry $2451.93 / Coinbase $2,714.235 / qty 0.01103342. Still naked (jayr waiver). Mental inv $2378.37 only. ~+$2.89 (~₱181).",
+          "note": "Entry $2451.93 / Binance $2,702.49 / qty 0.01103342. Still naked (jayr waiver). Mental inv $2378.37 only. ~+$2.76 (~₱173).",
           "support": 2378.37,
           "symbol": "ETH"
         },
         {
           "invalidation": "No new PLAN without desk greenlight",
-          "note": "Primary map — $85,987.06 (+0.9% vs 24h open). Old $78-78.8k wait expired Sep 11. No new armed wait.",
+          "note": "Primary map — $85,560 (+0.3% 24h). Old $78-78.8k wait expired Sep 11. No new armed wait.",
           "symbol": "BTC"
         },
         {
           "invalidation": "No new PLAN without desk greenlight",
-          "note": "Primary map — $1.5105 (+0.6% vs 24h open). Old $1.33-1.36 wait expired Sep 11. No new armed wait.",
+          "note": "Primary map — $1.4981 (−0.2% 24h). Old $1.33-1.36 wait expired Sep 11. No new armed wait.",
           "symbol": "XRP"
         },
         {
-          "note": "LT hold / Yahoo cash-open $527.81 (MV ~$21.18) vs fill $495.57 (~+$1.29). Research mark. Not a tactical exit PLAN.",
+          "note": "LT hold / CNBC mid-session $526.26 (MV ~$21.12) vs fill $495.57 (~+$1.23). Research mark. Not a tactical exit PLAN.",
           "symbol": "MSFT"
         },
         {
-          "note": "LT hold / Yahoo cash-open $343.805 (MV ~$27.47) vs fill $335.20 (~+$0.69). Research mark. Not a REDUCE PLAN.",
+          "note": "LT hold / CNBC mid-session $344.42 (MV ~$27.52) vs fill $335.20 (~+$0.74). Research mark. Not a REDUCE PLAN.",
           "symbol": "GOOGL"
         }
       ],
-      "notes": "EOD desk tick 2026-10-05 21:37 Manila. Coinbase spot; Yahoo cash-open marks. No broker browser (nothing queued). No new orders.",
-      "thesis": "HOLD open books into CPI Wed Oct 14. Crypto range-bound around Monday open; MSFT lifts at the cash open. ETH naked still working (~+10.7%, research marks). No zone hold, no new PLAN. NO TRADE on new entries."
+      "notes": "23:00 desk tick 2026-10-05 Manila. Binance spot; CNBC mid-session marks. No broker browser (nothing queued). No new orders.",
+      "thesis": "HOLD open books into CPI Wed Oct 14. Crypto softer into the night (LINK −2.5%, SOL −2.0%, SUI −1.3%); US bid mid-session (META +2.4%, TSLA +1.8%, MSFT +1.7%). ETH naked still working (~+10.2%, research marks). No zone hold, no new PLAN. NO TRADE on new entries."
     },
     "date": "2026-10-05",
     "desk": {
       "actions": [
-        "EOD Vision publish",
+        "23:00 Vision publish",
         "HOLD open books only — no new orders",
         "No broker browser (nothing queued; research marks)",
-        "Next Ops run: Tue 01:58 overnight watch"
+        "Next Ops run: Tue 03:00 scout"
       ],
-      "decision": "EOD HOLD / NO TRADE — Mon 21:37 Manila. Both books held; nothing queued at either broker. Combined open ~+$4.87 (~₱305). Sizes unchanged (Coins ₱800–1,200 / ₱1,500 A+; Gotrade $15–25). No new orders.",
-      "nextOpen": "ISM Services ~22:00 Manila tonight; FOMC minutes Thu Oct 8 ~02:00; CPI Wed Oct 14 ~20:30; PPI Thu Oct 15. HOLD both books / NO TRADE into CPI."
+      "decision": "23:00 CLOSE HOLD / NO TRADE — Mon Manila. Both books held; nothing queued at either broker. Combined open ~+$4.73 (~₱296). Sizes unchanged (Coins ₱800–1,200 / ₱1,500 A+; Gotrade $15–25). No new orders.",
+      "nextOpen": "FOMC minutes Thu Oct 8 ~02:00; CPI Wed Oct 14 ~20:30; PPI Thu Oct 15. HOLD both books / NO TRADE into CPI."
     },
-    "headline": "Mon 21:37 Manila EOD. US cash open; HOLD both books into CPI Wed Oct 14. No fills, nothing queued.",
+    "headline": "Mon 23:00 Manila CLOSE. US bid mid-session; HOLD both books into CPI Wed Oct 14. No fills, nothing queued.",
     "risk": {
       "feeSkip": "Skip if fees ≥ ~⅓ edge — unchanged.",
       "kills": [
@@ -197,24 +197,25 @@
     },
     "scout": {
       "bullets": [
-        "Crypto (Coinbase spot ~21:37 Manila Oct 5, vs 24h open): BTC $85,987.06 (+0.88%) / ETH $2,714.235 (+0.57%) / SOL $120.38 (−1.08%) / XRP $1.5105 (+0.62%) / BNB $789.48 (−0.02%) / LINK $14.0745 (−0.10%) / SUI $1.2169 (+1.98%). Range-bound chop; no zone tag.",
+        "Crypto (Binance spot ~23:00 Manila Oct 5, 24h): BTC $85,560 (+0.33%) / ETH $2,702.49 (+0.17%) / SOL $119.41 (−1.99%) / XRP $1.4981 (−0.21%) / BNB $788.23 (+0.15%) / LINK $13.794 (−2.54%) / SUI $1.1832 (−1.32%). Softer into the night; no zone tag.",
         "Old waits (BTC $78–78.8k, XRP $1.33–1.36) expired Sep 11; no new armed wait this packet. Satellites map-only.",
-        "US cash opened 21:30 Manila. Yahoo minutes in: MSFT $527.81 (+1.99% vs Fri $517.53) / GOOGL $343.805 (+0.09% vs Fri $343.50). Research marks, no order pending.",
-        "Coins ETH naked 0.01103342 @ $2451.93 → $2,714.235 (~+10.7% / ~+$2.89 / ~₱181 at USDPHP 62.62). SM/TP off by jayr's choice; mental inv $2378.37.",
-        "ISM Services ~22:00 Manila tonight; FOMC minutes Thu Oct 8 ~02:00; CPI Wed Oct 14 ~20:30; PPI Thu Oct 15.",
+        "US mid-session ~11:02 ET (CNBC): SPY $772.74 (+0.40%) / QQQ $754.00 (+0.59%) / META $745.39 (+2.38%) / TSLA $377.23 (+1.79%) / MSFT $526.26 (+1.69%) / NVDA $237.35 (+1.45%) / GOOGL $344.42 (+0.27%). Research marks, no order pending.",
+        "Coins ETH naked 0.01103342 @ $2451.93 → $2,702.49 (~+10.2% / ~+$2.76 / ~₱173 at USDPHP 62.63). SM/TP off by jayr's choice; mental inv $2378.37.",
+        "FOMC minutes Thu Oct 8 ~02:00; CPI Wed Oct 14 ~20:30; PPI Thu Oct 15.",
         "Coins cash ₱0.33 < ₱800 floor; Gotrade cash $0 / book full."
       ],
-      "headline": "Mon 21:37 EOD. Crypto firm vs 24h open (BTC +0.9%, SUI +2.0%, SOL −1.1%). MSFT +2.0% at the cash open. No A+ / no new size.",
+      "headline": "Mon 23:00 CLOSE. Crypto softer (LINK −2.5%, SOL −2.0%); US bid mid-session (META +2.4%, MSFT +1.7%). No A+ / no new size.",
       "sources": [
-        "Coinbase spot + 24h stats ~21:37 Manila Oct 5",
-        "Yahoo Finance chart MSFT/GOOGL/PHP=X ~21:37 Manila Oct 5 (cash open)",
+        "Binance spot 24hr ticker ~23:00 Manila Oct 5",
+        "CNBC quotes MSFT/GOOGL/SPY/QQQ + megacaps ~23:02 Manila Oct 5 (mid-session)",
+        "Coinbase ETH spot cross-check ~23:02 Manila Oct 5",
         "Gotrade Ultra ~14:53 Manila Oct 2 (last FILLED confirm; nothing queued since)",
         "Weekly review 2026-10-05 (rails + catalyst dates)"
       ]
     },
     "stance": "IN_TRADE"
   },
-  "notes": "Mon 2026-10-05 EOD (~21:37 Manila). HOLD / NO NEW PLAN into CPI Oct 14. No broker clicks; research marks, no order pending.",
+  "notes": "Mon 2026-10-05 23:00 Manila CLOSE. HOLD / NO NEW PLAN into CPI Oct 14. No broker clicks; research marks, no order pending.",
   "predictions": [
     {
       "conviction": 3,
@@ -356,7 +357,7 @@
     "XRP"
   ],
   "stance": "IN_TRADE",
-  "stanceReason": "EOD HOLD open books — Mon 21:37 Manila. ETH naked ~+10.7%; MSFT/GOOGL at cash open (research marks). Combined ~+$4.87. Pre-CPI kill on (CPI Wed Oct 14). No new orders.",
+  "stanceReason": "23:00 Manila CLOSE — IN_TRADE HOLD. ETH naked ~+10.2% (~+$2.76); MSFT/GOOGL mid-session (research marks). Combined ~+$4.73. Pre-CPI kill on (CPI Wed Oct 14). No new orders.",
   "trades": [
     {
       "date": "2026-09-11",
@@ -499,42 +500,97 @@
       "venue": "gotrade"
     }
   ],
-  "usdphp": 62.62,
+  "usdphp": 62.63,
   "watchlistMarks": [
     {
       "symbol": "BTC",
-      "last": 85987.06,
-      "changePct": 0.88
+      "last": 85560.0,
+      "changePct": 0.33
     },
     {
       "symbol": "ETH",
-      "last": 2714.235,
-      "changePct": 0.57
+      "last": 2702.49,
+      "changePct": 0.17
     },
     {
       "symbol": "SOL",
-      "last": 120.38,
-      "changePct": -1.08
+      "last": 119.41,
+      "changePct": -1.99
     },
     {
       "symbol": "XRP",
-      "last": 1.5105,
-      "changePct": 0.62
+      "last": 1.4981,
+      "changePct": -0.21
     },
     {
       "symbol": "BNB",
-      "last": 789.48,
-      "changePct": -0.02
+      "last": 788.23,
+      "changePct": 0.15
     },
     {
       "symbol": "LINK",
-      "last": 14.0745,
-      "changePct": -0.1
+      "last": 13.794,
+      "changePct": -2.54
     },
     {
       "symbol": "SUI",
-      "last": 1.2169,
-      "changePct": 1.98
+      "last": 1.1832,
+      "changePct": -1.32
+    },
+    {
+      "symbol": "SPY",
+      "last": 772.74,
+      "changePct": 0.4
+    },
+    {
+      "symbol": "QQQ",
+      "last": 754.0,
+      "changePct": 0.59
+    },
+    {
+      "symbol": "VOO",
+      "last": 710.28,
+      "changePct": 0.39
+    },
+    {
+      "symbol": "IWM",
+      "last": 281.82,
+      "changePct": 0.11
+    },
+    {
+      "symbol": "AAPL",
+      "last": 333.5,
+      "changePct": -0.06
+    },
+    {
+      "symbol": "MSFT",
+      "last": 526.26,
+      "changePct": 1.69
+    },
+    {
+      "symbol": "NVDA",
+      "last": 237.35,
+      "changePct": 1.45
+    },
+    {
+      "symbol": "GOOGL",
+      "last": 344.42,
+      "changePct": 0.27
+    },
+    {
+      "symbol": "AMZN",
+      "last": 251.8,
+      "changePct": 0.11
+    },
+    {
+      "symbol": "META",
+      "last": 745.39,
+      "changePct": 2.38
+    },
+    {
+      "symbol": "TSLA",
+      "last": 377.23,
+      "changePct": 1.79
     }
   ]
 }

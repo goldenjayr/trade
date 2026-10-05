@@ -1,53 +1,54 @@
 {
   "date": "2026-10-05",
   "stance": "IN_TRADE",
-  "headline": "Mon 21:37 Manila EOD. US cash open; HOLD both books into CPI Wed Oct 14. No fills, nothing queued.",
+  "headline": "Mon 23:00 Manila CLOSE. US bid mid-session; HOLD both books into CPI Wed Oct 14. No fills, nothing queued.",
   "scout": {
-    "headline": "Mon 21:37 EOD. Crypto firm vs 24h open (BTC +0.9%, SUI +2.0%, SOL −1.1%). MSFT +2.0% at the cash open. No A+ / no new size.",
+    "headline": "Mon 23:00 CLOSE. Crypto softer (LINK −2.5%, SOL −2.0%); US bid mid-session (META +2.4%, MSFT +1.7%). No A+ / no new size.",
     "bullets": [
-      "Crypto (Coinbase spot ~21:37 Manila Oct 5, vs 24h open): BTC $85,987.06 (+0.88%) / ETH $2,714.235 (+0.57%) / SOL $120.38 (−1.08%) / XRP $1.5105 (+0.62%) / BNB $789.48 (−0.02%) / LINK $14.0745 (−0.10%) / SUI $1.2169 (+1.98%). Range-bound chop; no zone tag.",
+      "Crypto (Binance spot ~23:00 Manila Oct 5, 24h): BTC $85,560 (+0.33%) / ETH $2,702.49 (+0.17%) / SOL $119.41 (−1.99%) / XRP $1.4981 (−0.21%) / BNB $788.23 (+0.15%) / LINK $13.794 (−2.54%) / SUI $1.1832 (−1.32%). Softer into the night; no zone tag.",
       "Old waits (BTC $78–78.8k, XRP $1.33–1.36) expired Sep 11; no new armed wait this packet. Satellites map-only.",
-      "US cash opened 21:30 Manila. Yahoo minutes in: MSFT $527.81 (+1.99% vs Fri $517.53) / GOOGL $343.805 (+0.09% vs Fri $343.50). Research marks, no order pending.",
-      "Coins ETH naked 0.01103342 @ $2451.93 → $2,714.235 (~+10.7% / ~+$2.89 / ~₱181 at USDPHP 62.62). SM/TP off by jayr's choice; mental inv $2378.37.",
-      "ISM Services ~22:00 Manila tonight; FOMC minutes Thu Oct 8 ~02:00; CPI Wed Oct 14 ~20:30; PPI Thu Oct 15.",
+      "US mid-session ~11:02 ET (CNBC): SPY $772.74 (+0.40%) / QQQ $754.00 (+0.59%) / META $745.39 (+2.38%) / TSLA $377.23 (+1.79%) / MSFT $526.26 (+1.69%) / NVDA $237.35 (+1.45%) / GOOGL $344.42 (+0.27%). Research marks, no order pending.",
+      "Coins ETH naked 0.01103342 @ $2451.93 → $2,702.49 (~+10.2% / ~+$2.76 / ~₱173 at USDPHP 62.63). SM/TP off by jayr's choice; mental inv $2378.37.",
+      "FOMC minutes Thu Oct 8 ~02:00; CPI Wed Oct 14 ~20:30; PPI Thu Oct 15.",
       "Coins cash ₱0.33 < ₱800 floor; Gotrade cash $0 / book full."
     ],
     "sources": [
-      "Coinbase spot + 24h stats ~21:37 Manila Oct 5",
-      "Yahoo Finance chart MSFT/GOOGL/PHP=X ~21:37 Manila Oct 5 (cash open)",
+      "Binance spot 24hr ticker ~23:00 Manila Oct 5",
+      "CNBC quotes MSFT/GOOGL/SPY/QQQ + megacaps ~23:02 Manila Oct 5 (mid-session)",
+      "Coinbase ETH spot cross-check ~23:02 Manila Oct 5",
       "Gotrade Ultra ~14:53 Manila Oct 2 (last FILLED confirm; nothing queued since)",
       "Weekly review 2026-10-05 (rails + catalyst dates)"
     ]
   },
   "analyst": {
-    "thesis": "HOLD open books into CPI Wed Oct 14. Crypto range-bound around Monday open; MSFT lifts at the cash open. ETH naked still working (~+10.7%, research marks). No zone hold, no new PLAN. NO TRADE on new entries.",
+    "thesis": "HOLD open books into CPI Wed Oct 14. Crypto softer into the night (LINK −2.5%, SOL −2.0%, SUI −1.3%); US bid mid-session (META +2.4%, TSLA +1.8%, MSFT +1.7%). ETH naked still working (~+10.2%, research marks). No zone hold, no new PLAN. NO TRADE on new entries.",
     "levels": [
       {
         "symbol": "ETH",
         "support": 2378.37,
         "invalidation": "Mental $2378.37 only",
-        "note": "Entry $2451.93 / Coinbase $2,714.235 / qty 0.01103342. Still naked (jayr waiver). Mental inv $2378.37 only. ~+$2.89 (~₱181)."
+        "note": "Entry $2451.93 / Binance $2,702.49 / qty 0.01103342. Still naked (jayr waiver). Mental inv $2378.37 only. ~+$2.76 (~₱173)."
       },
       {
         "symbol": "BTC",
         "invalidation": "No new PLAN without desk greenlight",
-        "note": "Primary map — $85,987.06 (+0.9% vs 24h open). Old $78-78.8k wait expired Sep 11. No new armed wait."
+        "note": "Primary map — $85,560 (+0.3% 24h). Old $78-78.8k wait expired Sep 11. No new armed wait."
       },
       {
         "symbol": "XRP",
         "invalidation": "No new PLAN without desk greenlight",
-        "note": "Primary map — $1.5105 (+0.6% vs 24h open). Old $1.33-1.36 wait expired Sep 11. No new armed wait."
+        "note": "Primary map — $1.4981 (−0.2% 24h). Old $1.33-1.36 wait expired Sep 11. No new armed wait."
       },
       {
         "symbol": "MSFT",
-        "note": "LT hold / Yahoo cash-open $527.81 (MV ~$21.18) vs fill $495.57 (~+$1.29). Research mark. Not a tactical exit PLAN."
+        "note": "LT hold / CNBC mid-session $526.26 (MV ~$21.12) vs fill $495.57 (~+$1.23). Research mark. Not a tactical exit PLAN."
       },
       {
         "symbol": "GOOGL",
-        "note": "LT hold / Yahoo cash-open $343.805 (MV ~$27.47) vs fill $335.20 (~+$0.69). Research mark. Not a REDUCE PLAN."
+        "note": "LT hold / CNBC mid-session $344.42 (MV ~$27.52) vs fill $335.20 (~+$0.74). Research mark. Not a REDUCE PLAN."
       }
     ],
-    "notes": "EOD desk tick 2026-10-05 21:37 Manila. Coinbase spot; Yahoo cash-open marks. No broker browser (nothing queued). No new orders."
+    "notes": "23:00 desk tick 2026-10-05 Manila. Binance spot; CNBC mid-session marks. No broker browser (nothing queued). No new orders."
   },
   "risk": {
     "railsCheck": "HOLD. Pre-CPI window per weekly review. Gotrade IN_TRADE (cash $0 / book full; research marks, no order pending). New Coins blocked while naked. Stance IN_TRADE, not ARMED — no PLAN.",
@@ -62,13 +63,13 @@
     "feeSkip": "Skip if fees ≥ ~⅓ edge — unchanged."
   },
   "desk": {
-    "decision": "EOD HOLD / NO TRADE — Mon 21:37 Manila. Both books held; nothing queued at either broker. Combined open ~+$4.87 (~₱305). Sizes unchanged (Coins ₱800–1,200 / ₱1,500 A+; Gotrade $15–25). No new orders.",
+    "decision": "23:00 CLOSE HOLD / NO TRADE — Mon Manila. Both books held; nothing queued at either broker. Combined open ~+$4.73 (~₱296). Sizes unchanged (Coins ₱800–1,200 / ₱1,500 A+; Gotrade $15–25). No new orders.",
     "actions": [
-      "EOD Vision publish",
+      "23:00 Vision publish",
       "HOLD open books only — no new orders",
       "No broker browser (nothing queued; research marks)",
-      "Next Ops run: Tue 01:58 overnight watch"
+      "Next Ops run: Tue 03:00 scout"
     ],
-    "nextOpen": "ISM Services ~22:00 Manila tonight; FOMC minutes Thu Oct 8 ~02:00; CPI Wed Oct 14 ~20:30; PPI Thu Oct 15. HOLD both books / NO TRADE into CPI."
+    "nextOpen": "FOMC minutes Thu Oct 8 ~02:00; CPI Wed Oct 14 ~20:30; PPI Thu Oct 15. HOLD both books / NO TRADE into CPI."
   }
 }
