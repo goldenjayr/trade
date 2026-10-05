@@ -1,8 +1,8 @@
 {
-  "asOf": "2026-10-04",
+  "asOf": "2026-10-05",
   "timezone": "Asia/Manila",
   "stance": "IN_TRADE",
-  "stanceReason": "HOLD open books / NO TRADE — Sun 23:00 Manila CLOSE. Near-flat evening drift vs 19:00 (Binance ~23:00: BTC $85,278.45 +0.0%, SUI $1.1987 +1.8%, ETH $2,697.80 −0.1%; Yahoo v8 rate-limited). Gotrade dark (Sun). Coins ETH naked still blocks new Coins. No new orders.",
+  "stanceReason": "WEEKLY REVIEW / HOLD open books — Mon 08:00 Manila. Rails reaffirmed. Coinbase ~08:05: BTC $86,345.26, ETH $2,723.10, XRP $1.5165 (flat vs 07:00). Gotrade dark (US Sun evening, Fri closes carried). Pre-CPI week kill on. No new orders.",
   "primaries": [
     "BTC",
     "XRP"
@@ -13,7 +13,7 @@
       "label": "Coins.ph",
       "currency": "PHP",
       "cash": 0.33,
-      "equity": 30.096,
+      "equity": 30.3751,
       "dayPnl": -0.42,
       "totalPnl": 2.56,
       "positions": [
@@ -22,10 +22,10 @@
           "name": "Ethereum",
           "qty": 0.01103342,
           "avgCost": 2451.93,
-          "mark": 2697.8,
-          "marketValue": 29.766,
-          "pnl": 2.7128,
-          "pnlPct": 0.100277
+          "mark": 2723.1,
+          "marketValue": 30.0451,
+          "pnl": 2.9919,
+          "pnlPct": 0.110593
         }
       ]
     },
@@ -114,6 +114,32 @@
       "impact": "high",
       "status": "done",
       "notes": "Soft print: +29k vs ~84–90k cons, U-rate 4.2%. Still NFP-weekend map-only — no new Gotrade single-name; Coins new only with SM restored + A+."
+    },
+    {
+      "id": "ppi-2026-09",
+      "date": "2026-10-09",
+      "timeManila": "20:30",
+      "title": "US September PPI",
+      "impact": "medium",
+      "status": "upcoming",
+      "notes": "Pre-CPI kill per rails. Date standing-calendar (one source lists Oct 9) — re-verify."
+    },
+    {
+      "id": "cpi-2026-09",
+      "date": "2026-10-14",
+      "timeManila": "20:30",
+      "title": "US September CPI",
+      "impact": "high",
+      "status": "upcoming",
+      "notes": "Last major inflation read before Oct FOMC. Date standing-calendar (sources split Oct 10 vs Oct 14) — re-verify before sizing anything."
+    },
+    {
+      "id": "fomc-2026-10",
+      "date": "2026-10-27",
+      "title": "FOMC meeting Oct 27-28",
+      "impact": "high",
+      "status": "upcoming",
+      "notes": "Rate decision Oct 28 + presser. No new Gotrade single-name into the window."
     }
   ]
 }

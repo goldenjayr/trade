@@ -230,5 +230,13 @@
     "tradeCount": 3,
     "coinsEquity": 30.096,
     "gotradeEquity": 48.1967
+  },
+  {
+    "date": "2026-10-05",
+    "stance": "IN_TRADE",
+    "summary": "Mon 2026-10-05 08:00 Manila WEEKLY rails review. Rails reaffirmed; primaries BTC+XRP; kills: PPI ~Oct 9 / CPI ~Oct 10-14 (verify) / FOMC Oct 27-28. HOLD / NO NEW PLAN. No broker clicks.",
+    "tradeCount": 3,
+    "coinsEquity": 30.3751,
+    "gotradeEquity": 48.1967
   }
 ]

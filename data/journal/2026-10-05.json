@@ -1,0 +1,74 @@
+{
+  "date": "2026-10-05",
+  "stance": "IN_TRADE",
+  "headline": "Mon 07:00 Manila. Pre-dawn firming, map-only. No fills. Gotrade dark.",
+  "scout": {
+    "headline": "Mon 07:00. BTC/ETH/XRP firmed ~+1% pre-dawn; SOL flat, SUI eased. Gotrade dark. No A+ / no new size.",
+    "bullets": [
+      "Crypto (Binance spot ~07:02 Manila Oct 5, vs Mon 03:00 baseline; Coinbase cross-check BTC $86,450.37 / ETH $2,731.535): BTC $86,428.01 (+1.3%) / ETH $2,731.75 (+1.1%) / SOL $121.64 (+0.1%) / XRP $1.5183 (+1.1%) / BNB $795.71 (+0.8%) / LINK $14.25 (+0.5%) / SUI $1.2149 (−0.6%). Pre-dawn firming in primaries; drift, not a wait structure.",
+      "Firming drift off the Mon 03:00 baseline, not a new wait structure. Old waits (BTC $78–78.8k, XRP $1.33–1.36) still expired Sep 11; no new armed wait this packet. Satellites map-only.",
+      "Gotrade dark — US Sunday evening (~19:00 ET Sun), cash closed. Friday closes carried: MSFT $516.03 / GOOGL $344.03 (Yahoo research; last Ultra FILLED ~14:53 Fri Oct 2, equity $47.84).",
+      "Coins ETH naked 0.01103342 @ $2451.93 → Binance $2,731.75 (~+11.4% / ~+$3.09 / ~₱194 at USDPHP 62.83 carried). Firmed since Mon 03:00 $2,700.72 (+$31.03). SM/TP off; mental inv $2378.37. PHP cash ₱0.33. Stance HOLD / NO TRADE. No new orders.",
+      "Pre-dawn rail: no new Gotrade single-name; Coins new only if SM restored + A+. Naked waiver blocks new Coins anyway.",
+      "Coins cash ₱0.33 < ₱800 floor; Gotrade cash $0 / book full."
+    ],
+    "sources": [
+      "Binance spot ~07:02 Manila Oct 5 (BTC/ETH/SOL/XRP/BNB/LINK/SUI; Coinbase BTC/ETH cross-check)",
+      "Packet baseline Mon 03:00 Manila Oct 5",
+      "Gotrade Ultra ~14:53 Manila Oct 2 (last FILLED confirm, carried)"
+    ]
+  },
+  "analyst": {
+    "thesis": "HOLD open books into Monday session. Crypto firmed pre-dawn vs Mon 03:00 (BTC +1.3%, XRP +1.1%, ETH +1.1%; SUI −0.6%, still noise). ETH naked still working (~+11.4% research-only). No zone hold, no new PLAN. Prefer NO TRADE on new entries.",
+    "levels": [
+      {
+        "symbol": "ETH",
+        "support": 2378.37,
+        "invalidation": "Mental $2378.37 only",
+        "note": "Entry $2451.93 / Binance $2,731.75 / qty 0.01103342. Still naked (jayr waiver). Mental inv $2378.37 only. ~+$3.09 (~₱194)."
+      },
+      {
+        "symbol": "BTC",
+        "invalidation": "No new PLAN without desk greenlight",
+        "note": "Primary map — $86,428.01 (+1.3% vs Mon 03:00). Old $78–78.8k wait expired Sep 11. Firming drift, not structure. No new armed wait."
+      },
+      {
+        "symbol": "XRP",
+        "invalidation": "No new PLAN without desk greenlight",
+        "note": "Primary map — $1.5183 (+1.1% vs Mon 03:00). Old $1.33–1.36 wait expired Sep 11. No new armed wait."
+      },
+      {
+        "symbol": "MSFT",
+        "note": "LT hold / Friday Yahoo $516.03 (MV ~$20.71) vs fill $495.57 (~+$0.82). Dark (Sun 19:00 ET); carried. Not a tactical exit PLAN."
+      },
+      {
+        "symbol": "GOOGL",
+        "note": "LT hold / Friday Yahoo $344.03 (MV ~$27.49) vs fill $335.2 (~+$0.71). Dark (Sun 19:00 ET); carried. Not a REDUCE PLAN."
+      }
+    ],
+    "notes": "Desk tick 2026-10-05 07:00 Manila. Binance spot + Coinbase cross-check. Gotrade dark (US Sunday). No new orders."
+  },
+  "risk": {
+    "railsCheck": "HOLD. Pre-dawn map-only. Gotrade IN_TRADE (cash $0 / book full; Friday research marks carried, dark Sun). New Coins blocked while naked. Stance is IN_TRADE, not ARMED — no PLAN. No A+ permission.",
+    "sizeNote": "Do not add. Coins PHP cash ₱0.33; open ETH is risk, not dry powder. Gotrade cash $0.",
+    "kills": [
+      "No new PLAN without A+ / jayr ask",
+      "No new Coins entries while naked",
+      "Weekend window: no new Gotrade single-name size",
+      "Gotrade book full — prefer NO TRADE on new entries",
+      "Kill switch: 1 loser or −₱400 day (Coins) still on"
+    ],
+    "feeSkip": "Skip if fees ≥ ~⅓ edge — unchanged."
+  },
+  "desk": {
+    "decision": "WEEKLY RAILS REVIEW / HOLD — Mon 08:00 Manila. Rails reaffirmed unchanged (Coins 800-1200/A+1500 -3%/+6%; Gotrade 15-25 bias 20-25). Primaries still BTC+XRP (old waits expired Sep 11, no new armed wait). Coinbase ~08:05: BTC $86,345.26 / ETH $2,723.10 / XRP $1.5165 — flat vs 07:00, coherent, no staleness. Week kill list: Sep PPI (~Oct 9) then Sep CPI (~Oct 10-14, verify date) + FOMC Oct 27-28 ahead — pre-CPI kill on. Coins cash P0.33 < floor; Gotrade cash $0/book full; naked ETH blocks new Coins. No new orders.",
+    "actions": [
+      "Pre-dawn map-only tick on Vision",
+      "Prefer NO TRADE — stance is IN_TRADE, not ARMED",
+      "No new orders — HOLD open books only",
+      "Next Ops run: Mon 11:00 scout",
+      "Weekly rails review 08:00 — reaffirmed, no changes"
+    ],
+    "nextOpen": "US cash opens Mon 21:30 Manila. PPI ~Oct 9 / CPI ~Oct 10-14 are pre-CPI kill — no new Gotrade single-name into the window; Coins new only on jayr ask / clean A+ with SM restored. Next Ops run: Mon 11:00 scout."
+  }
+}

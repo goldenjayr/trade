@@ -624,5 +624,31 @@
     "notional": 0,
     "skipped": true,
     "skipReason": "Book full (cash $0). Weekend rail: US cash dark, no new single-name size. Prefer NO TRADE."
+  },
+  {
+    "id": "SKIP-20261005-COINS-NEW",
+    "date": "2026-10-05",
+    "venue": "coins",
+    "symbol": "ETH",
+    "side": "buy",
+    "qty": 0,
+    "price": 0,
+    "fees": 0,
+    "notional": 0,
+    "skipped": true,
+    "skipReason": "HOLD / overnight map-only. Naked ETH blocks new Coins; stance IN_TRADE not ARMED. Prefer NO TRADE."
+  },
+  {
+    "id": "SKIP-20261005-GOTRADE-NEW",
+    "date": "2026-10-05",
+    "venue": "gotrade",
+    "symbol": "CASH",
+    "side": "buy",
+    "qty": 0,
+    "price": 0,
+    "fees": 0,
+    "notional": 0,
+    "skipped": true,
+    "skipReason": "Book full (cash $0). US Sunday dark, no new single-name size. Prefer NO TRADE."
   }
 ]
