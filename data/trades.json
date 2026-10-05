@@ -636,7 +636,7 @@
     "fees": 0,
     "notional": 0,
     "skipped": true,
-    "skipReason": "HOLD / overnight map-only. Naked ETH blocks new Coins; stance IN_TRADE not ARMED. Prefer NO TRADE."
+    "skipReason": "HOLD / pre-CPI window. Naked ETH blocks new Coins; stance IN_TRADE not ARMED. Prefer NO TRADE."
   },
   {
     "id": "SKIP-20261005-GOTRADE-NEW",
@@ -649,6 +649,6 @@
     "fees": 0,
     "notional": 0,
     "skipped": true,
-    "skipReason": "Book full (cash $0). US Sunday dark, no new single-name size. Prefer NO TRADE."
+    "skipReason": "Book full (cash $0). Pre-CPI window: no new single-name size. Prefer NO TRADE."
   }
 ]

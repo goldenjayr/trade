@@ -2,7 +2,7 @@
   "asOf": "2026-10-05",
   "timezone": "Asia/Manila",
   "stance": "IN_TRADE",
-  "stanceReason": "WEEKLY REVIEW / HOLD open books — Mon 08:00 Manila. Rails reaffirmed. Coinbase ~08:05: BTC $86,345.26, ETH $2,723.10, XRP $1.5165 (flat vs 07:00). Gotrade dark (US Sun evening, Fri closes carried). Pre-CPI week kill on. No new orders.",
+  "stanceReason": "EOD HOLD open books — Mon 21:37 Manila. ETH naked ~+10.7%; MSFT/GOOGL at cash open (research marks). Combined ~+$4.87. Pre-CPI kill on (CPI Wed Oct 14). No new orders.",
   "primaries": [
     "BTC",
     "XRP"
@@ -13,19 +13,19 @@
       "label": "Coins.ph",
       "currency": "PHP",
       "cash": 0.33,
-      "equity": 30.3751,
-      "dayPnl": -0.42,
-      "totalPnl": 2.56,
+      "equity": 30.2773,
+      "dayPnl": 0.17,
+      "totalPnl": 2.89,
       "positions": [
         {
           "symbol": "ETH",
           "name": "Ethereum",
           "qty": 0.01103342,
           "avgCost": 2451.93,
-          "mark": 2723.1,
-          "marketValue": 30.0451,
-          "pnl": 2.9919,
-          "pnlPct": 0.110593
+          "mark": 2714.235,
+          "marketValue": 29.9473,
+          "pnl": 2.8941,
+          "pnlPct": 0.106978
         }
       ]
     },
@@ -34,29 +34,29 @@
       "label": "Gotrade",
       "currency": "USD",
       "cash": 0,
-      "equity": 48.1967,
-      "dayPnl": 0.59,
-      "totalPnl": 1.53,
+      "equity": 48.6515,
+      "dayPnl": 0.44,
+      "totalPnl": 1.98,
       "positions": [
         {
           "symbol": "MSFT",
           "name": "Microsoft",
           "qty": 0.040135601,
           "avgCost": 495.57,
-          "mark": 516.03,
-          "marketValue": 20.7112,
-          "pnl": 0.8212,
-          "pnlPct": 0.041287
+          "mark": 527.81,
+          "marketValue": 21.184,
+          "pnl": 1.294,
+          "pnlPct": 0.065058
         },
         {
           "symbol": "GOOGL",
           "name": "Alphabet",
           "qty": 0.079892601,
           "avgCost": 335.2,
-          "mark": 344.03,
-          "marketValue": 27.4855,
-          "pnl": 0.7055,
-          "pnlPct": 0.026344
+          "mark": 343.805,
+          "marketValue": 27.4675,
+          "pnl": 0.6875,
+          "pnlPct": 0.025672
         }
       ]
     }
@@ -116,13 +116,22 @@
       "notes": "Soft print: +29k vs ~84–90k cons, U-rate 4.2%. Still NFP-weekend map-only — no new Gotrade single-name; Coins new only with SM restored + A+."
     },
     {
-      "id": "ppi-2026-09",
-      "date": "2026-10-09",
-      "timeManila": "20:30",
-      "title": "US September PPI",
+      "id": "ism-svcs-2026-09",
+      "date": "2026-10-05",
+      "timeManila": "22:00",
+      "title": "US September ISM services",
       "impact": "medium",
       "status": "upcoming",
-      "notes": "Pre-CPI kill per rails. Date standing-calendar (one source lists Oct 9) — re-verify."
+      "notes": "Tonight after cash open. Map-only; no new size into pre-CPI window."
+    },
+    {
+      "id": "fomc-minutes-2026-09",
+      "date": "2026-10-08",
+      "timeManila": "02:00",
+      "title": "FOMC September minutes",
+      "impact": "medium",
+      "status": "upcoming",
+      "notes": "Thu early Manila. HOLD both books through it."
     },
     {
       "id": "cpi-2026-09",
@@ -131,7 +140,16 @@
       "title": "US September CPI",
       "impact": "high",
       "status": "upcoming",
-      "notes": "Last major inflation read before Oct FOMC. Date standing-calendar (sources split Oct 10 vs Oct 14) — re-verify before sizing anything."
+      "notes": "Weekly review 2026-10-05 set Wed Oct 14 ~20:30 Manila. HOLD both books / NO TRADE into the print."
+    },
+    {
+      "id": "ppi-2026-09",
+      "date": "2026-10-15",
+      "timeManila": "20:30",
+      "title": "US September PPI",
+      "impact": "medium",
+      "status": "upcoming",
+      "notes": "Day after CPI per weekly review. Post-CPI HOLD 1–2 sessions rail applies."
     },
     {
       "id": "fomc-2026-10",

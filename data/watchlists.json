@@ -9,9 +9,9 @@
       "venues": [
         "coins"
       ],
-      "last": 86345.26,
+      "last": 85987.06,
       "currency": "USD",
-      "changePct": -0.1,
+      "changePct": 0.88,
       "thesis": "LT educational #1 + Coins-7 core. Multi-year map. Still flat into CPI — NOT a PLAN."
     },
     {
@@ -22,9 +22,9 @@
       "venues": [
         "coins"
       ],
-      "last": 2723.1,
+      "last": 2714.235,
       "currency": "USD",
-      "changePct": -0.3,
+      "changePct": 0.57,
       "thesis": "LT educational #2 + Coins-7 core. Multi-year map. Still flat into CPI — NOT a PLAN."
     },
     {
@@ -35,9 +35,9 @@
       "venues": [
         "coins"
       ],
-      "last": 121.64,
+      "last": 120.38,
       "currency": "USD",
-      "changePct": 0.14,
+      "changePct": -1.08,
       "thesis": "LT educational #3 + Coins-7 satellite. Multi-year map. Still flat into CPI — NOT a PLAN."
     },
     {
@@ -48,9 +48,9 @@
       "venues": [
         "coins"
       ],
-      "last": 14.25,
+      "last": 14.0745,
       "currency": "USD",
-      "changePct": 0.47,
+      "changePct": -0.1,
       "thesis": "LT educational #4 + Coins-7 satellite. Multi-year map. Soft scout miss short-horizon; LT education only — NOT a PLAN into CPI."
     },
     {
@@ -61,9 +61,9 @@
       "venues": [
         "coins"
       ],
-      "last": 795.71,
+      "last": 789.48,
       "currency": "USD",
-      "changePct": 0.82,
+      "changePct": -0.02,
       "thesis": "LT educational #5. Education on Coins-7 (not core). Soft scout miss short-horizon — NOT a PLAN into CPI."
     },
     {
@@ -74,9 +74,9 @@
       "venues": [
         "coins"
       ],
-      "last": 1.5165,
+      "last": 1.5105,
       "currency": "USD",
-      "changePct": -0.1,
+      "changePct": 0.62,
       "thesis": "LT educational #6. Education on Coins-7. Short-horizon wait hit/in-zone unfilled by rule — LT map only, NOT a PLAN into CPI."
     },
     {
@@ -139,9 +139,9 @@
       "venues": [
         "coins"
       ],
-      "last": 1.2149,
+      "last": 1.2169,
       "currency": "USD",
-      "changePct": -0.57,
+      "changePct": 1.98,
       "thesis": "OUT of Coins-7 / LT top 10 cut — NONE into CPI (Phantom headwind). Not educational core. NOT a PLAN."
     }
   ],
