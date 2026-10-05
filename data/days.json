@@ -238,5 +238,13 @@
     "tradeCount": 3,
     "coinsEquity": 30.1477,
     "gotradeEquity": 48.6384
+  },
+  {
+    "date": "2026-10-06",
+    "stance": "IN_TRADE",
+    "summary": "Tue 2026-10-06 morning Manila mark refresh. HOLD / NO TRADE through CPI Oct 14. Mon-close US marks; ETH qty corrected to broker net 0.01103342 (after fees). FOMC minutes Thu Oct 8 ~02:00 = noise; CPI Oct 14 ~20:30 next binary; PPI Oct 15.",
+    "tradeCount": 3,
+    "coinsEquity": 30.3093,
+    "gotradeEquity": 48.7588
   }
 ]

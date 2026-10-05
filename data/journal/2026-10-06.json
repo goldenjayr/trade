@@ -1,0 +1,78 @@
+{
+  "date": "2026-10-06",
+  "stance": "IN_TRADE",
+  "headline": "Tue morning Manila. Nasdaq record close Mon; MSFT +1.5% (Melius upgrade). HOLD both books / NO TRADE through CPI Wed Oct 14. No fills, no PLAN.",
+  "scout": {
+    "headline": "Tue 07:00. Crypto firmed (SUI +2.1%, XRP +0.8%, SOL +0.8%, BTC +0.4%); US dark, Gotrade skipped. No A+ / no new size.",
+    "bullets": [
+      "Crypto (Kraken last ~07:05 Manila Oct 6, vs 03:00 Binance baseline): BTC $85,964.70 (+0.4%) / ETH $2,717.14 (+0.3%) / SOL $121.06 (+0.8%) / XRP $1.5118 (+0.8%) / BNB $787.88 (+0.1%) / LINK $13.918 (+0.2%) / SUI $1.2183 (+2.1%). Firming drift, no zone tag.",
+      "Old waits (BTC $78–78.8k, XRP $1.33–1.36) expired Sep 11; no new armed wait this packet. Satellites map-only.",
+      "US dark ~19:00 ET Mon Oct 5 — Gotrade skipped per routine. Carry Mon live-cash marks: MSFT $527.86 (+2.00%) / GOOGL $347.63 (+1.20%). Book full, cash $0; no order pending.",
+      "Coins ETH naked 0.01103342 @ $2451.93 → $2,717.14 (~+10.8% / ~+$2.93 / ~₱183 at USDPHP 62.63 carried). SM/TP off by jayr's choice; mental inv $2378.37.",
+      "ISM services tonight ~22:00; FOMC minutes Thu Oct 8 ~02:00; CPI Wed Oct 14 ~20:30; PPI Thu Oct 15.",
+      "Coins cash ₱0.33 < ₱800 floor; Gotrade cash $0 / book full.",
+      "Mark refresh (Desk, Tue morning): MSFT $525.18 / GOOGL $346.47 Mon close → Gotrade ~+$2.09; ETH ~$2,717 naked → ~+$2.93; combined ~+$5.02 (~₱314). ETH qty corrected to broker net 0.01103342.",
+      "Overnight: spot BTC ETFs +$241M last week (3rd straight); ETH ETFs −$138M week + ~−$64M Oct 5 — soft spot for naked ETH. Nasdaq record close; MSFT +1.5% on Melius Buy ($665 PT); ISM services slowed."
+    ],
+    "sources": [
+      "Kraken public Ticker last ~07:05 Manila Oct 6 (SOL/XRP/LINK/BNB/SUI/ETH/BTC)",
+      "Coinbase spot cross-check ~07:05 Manila Oct 6 (BTC $85,939.96)",
+      "CNBC live cash ~15:01 ET Oct 5 carried (MSFT/GOOGL; US dark, skipped)",
+      "Gotrade Ultra ~14:53 Manila Oct 2 (last FILLED confirm; nothing queued since)",
+      "Weekly review 2026-10-05 (rails + catalyst dates)",
+      "Trade Desk Tue Oct 6 morning check-in (Mon-close US marks, ETH qty fix)"
+    ]
+  },
+  "analyst": {
+    "thesis": "HOLD open books through CPI Wed Oct 14. Nasdaq record close Mon; MSFT +1.5% (Melius Buy), GOOGL +0.9%. ETH ETF outflows a soft spot; ETH naked still working (~+10.8%). FOMC minutes Thu = noise. No zone hold, no new PLAN. NO TRADE on new entries.",
+    "levels": [
+      {
+        "symbol": "ETH",
+        "support": 2378.37,
+        "invalidation": "Mental $2378.37 only",
+        "note": "Entry $2451.93 / mark ~$2,717.14 / broker net qty 0.01103342 (after fees; not 0.01105). Naked (jayr waiver). Mental inv $2378.37 only. ~+$2.93 (~₱184)."
+      },
+      {
+        "symbol": "BTC",
+        "invalidation": "No new PLAN without desk greenlight",
+        "note": "Primary map — $85,628.64 (+0.3% 24h). Old $78-78.8k wait expired Sep 11. No new armed wait."
+      },
+      {
+        "symbol": "XRP",
+        "invalidation": "No new PLAN without desk greenlight",
+        "note": "Primary map — $1.4995 (−0.2% 24h). Old $1.33-1.36 wait expired Sep 11. No new armed wait."
+      },
+      {
+        "symbol": "MSFT",
+        "note": "LT hold / Mon close $525.18 (MV ~$21.08) vs fill $495.57 (~+$1.19). Chop $519–532 into CPI week; Melius upgrade = narrative, not a PLAN."
+      },
+      {
+        "symbol": "GOOGL",
+        "note": "LT hold / Mon close $346.47 (MV ~$27.68) vs fill $335.20 (~+$0.90). Quiet near highs — no clean add; cash $0."
+      }
+    ],
+    "notes": "Morning desk check-in 2026-10-06 Manila. Mon-close US marks; Kraken ETH ~07:05. No broker browser (nothing queued). No new orders."
+  },
+  "risk": {
+    "railsCheck": "HOLD through CPI Oct 14. Gotrade IN_TRADE (cash $0 / book full; MSFT/GOOGL LT holds). New Coins blocked while ETH naked (~$30 notional, 0.01103342 ETH; flag only per jayr waiver). FOMC minutes = noise, not a reason to add. Stance IN_TRADE, not ARMED — no PLAN.",
+    "sizeNote": "Do not add. Coins PHP cash ₱0.33; open ETH is risk, not dry powder. Gotrade cash $0.",
+    "kills": [
+      "HOLD both books / NO TRADE into CPI Wed Oct 14 ~20:30 Manila",
+      "No new Coins entries while naked",
+      "No new Gotrade without cash (cash $0)",
+      "Post-CPI: HOLD 1–2 full US sessions",
+      "Kill switch: 1 loser or −₱400 day (Coins) still on"
+    ],
+    "feeSkip": "Skip if fees ≥ ~⅓ edge — unchanged."
+  },
+  "desk": {
+    "decision": "Tue morning HOLD / NO TRADE through CPI Oct 14. Both books held; nothing queued. Combined open ~+$5.02 (~₱314). ETH qty fixed to broker net 0.01103342. No new orders, no PLAN.",
+    "actions": [
+      "03:00 Vision publish",
+      "HOLD open books only — no new orders",
+      "No broker browser (nothing queued; research marks)",
+      "Next Ops run: Tue 07:00 scout"
+    ],
+    "nextOpen": "FOMC minutes Thu Oct 8 ~02:00 Manila (noise only); CPI Wed Oct 14 ~20:30 (next binary — HOLD through it); PPI Thu Oct 15."
+  }
+}

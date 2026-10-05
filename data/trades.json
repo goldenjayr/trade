@@ -650,5 +650,31 @@
     "notional": 0,
     "skipped": true,
     "skipReason": "Book full (cash $0). Pre-CPI window: no new single-name size. Prefer NO TRADE."
+  },
+  {
+    "id": "SKIP-20261006-COINS-NEW",
+    "date": "2026-10-06",
+    "venue": "coins",
+    "symbol": "ETH",
+    "side": "buy",
+    "qty": 0,
+    "price": 0,
+    "fees": 0,
+    "notional": 0,
+    "skipped": true,
+    "skipReason": "HOLD / pre-CPI window. Naked ETH blocks new Coins; stance IN_TRADE not ARMED. Prefer NO TRADE."
+  },
+  {
+    "id": "SKIP-20261006-GOTRADE-NEW",
+    "date": "2026-10-06",
+    "venue": "gotrade",
+    "symbol": "CASH",
+    "side": "buy",
+    "qty": 0,
+    "price": 0,
+    "fees": 0,
+    "notional": 0,
+    "skipped": true,
+    "skipReason": "Book full (cash $0). Pre-CPI window: no new single-name size into the close run. Prefer NO TRADE."
   }
 ]
