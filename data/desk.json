@@ -2,7 +2,7 @@
   "asOf": "2026-10-06",
   "timezone": "Asia/Manila",
   "stance": "IN_TRADE",
-  "stanceReason": "Tue Oct 6 morning Manila — IN_TRADE HOLD / NO TRADE through CPI Wed Oct 14. ETH naked 0.01103342 @ ~$2,717 (~+$2.93; jayr waiver, no SM). MSFT $525.18 / GOOGL $346.47 Mon close (~+$2.09). Combined ~+$5.02 (~₱314). Gotrade cash $0 (book full); Coins blocked while naked. No PLAN.",
+  "stanceReason": "Tue Oct 6 23:00 CLOSE Manila — IN_TRADE HOLD / NO TRADE through CPI Wed Oct 14. ETH naked 0.01103342 @ ~$2,722 (~+$2.98; jayr waiver, no SM). MSFT $533.85 / GOOGL $347.74 live mid-session (~+$2.54). Combined ~+$5.52 (~₱346). Gotrade cash $0 (book full); Coins blocked while naked. No PLAN.",
   "primaries": [
     "BTC",
     "XRP"
@@ -13,19 +13,19 @@
       "label": "Coins.ph",
       "currency": "PHP",
       "cash": 0.33,
-      "equity": 30.3093,
+      "equity": 30.3584,
       "dayPnl": 0.16,
-      "totalPnl": 2.93,
+      "totalPnl": 2.36,
       "positions": [
         {
           "symbol": "ETH",
           "name": "Ethereum",
           "qty": 0.01103342,
           "avgCost": 2451.93,
-          "mark": 2717.14,
-          "marketValue": 29.9793,
-          "pnl": 2.9261,
-          "pnlPct": 0.108161
+          "mark": 2721.59,
+          "marketValue": 30.0284,
+          "pnl": 2.9752,
+          "pnlPct": 0.109976
         }
       ]
     },
@@ -34,7 +34,7 @@
       "label": "Gotrade",
       "currency": "USD",
       "cash": 0,
-      "equity": 48.7588,
+      "equity": 49.2083,
       "dayPnl": 0.12,
       "totalPnl": 2.09,
       "positions": [
@@ -43,20 +43,20 @@
           "name": "Microsoft",
           "qty": 0.040135601,
           "avgCost": 495.57,
-          "mark": 525.18,
-          "marketValue": 21.0784,
-          "pnl": 1.1884,
-          "pnlPct": 0.059749
+          "mark": 533.85,
+          "marketValue": 21.4264,
+          "pnl": 1.5364,
+          "pnlPct": 0.077245
         },
         {
           "symbol": "GOOGL",
           "name": "Alphabet",
           "qty": 0.079892601,
           "avgCost": 335.2,
-          "mark": 346.47,
-          "marketValue": 27.6804,
-          "pnl": 0.9004,
-          "pnlPct": 0.033622
+          "mark": 347.741,
+          "marketValue": 27.7819,
+          "pnl": 1.0019,
+          "pnlPct": 0.037412
         }
       ]
     }

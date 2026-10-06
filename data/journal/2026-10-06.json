@@ -1,9 +1,9 @@
 {
   "date": "2026-10-06",
   "stance": "IN_TRADE",
-  "headline": "Tue morning Manila. Nasdaq record close Mon; MSFT +1.5% (Melius upgrade). HOLD both books / NO TRADE through CPI Wed Oct 14. No fills, no PLAN.",
+  "headline": "Tue 23:00 CLOSE Manila. Evening grind higher (BTC ~$86.6k); US mid-session bid (MSFT +1.7%). HOLD both books / NO TRADE through CPI Wed Oct 14. No fills, no PLAN.",
   "scout": {
-    "headline": "Tue 07:00. Crypto firmed (SUI +2.1%, XRP +0.8%, SOL +0.8%, BTC +0.4%); US dark, Gotrade skipped. No A+ / no new size.",
+    "headline": "Tue 23:00 CLOSE. Evening grind higher (BTC ~$86.6k, ETH ~$2,722); US mid-session bid. HOLD / no new size.",
     "bullets": [
       "Crypto (Kraken last ~07:05 Manila Oct 6, vs 03:00 Binance baseline): BTC $85,964.70 (+0.4%) / ETH $2,717.14 (+0.3%) / SOL $121.06 (+0.8%) / XRP $1.5118 (+0.8%) / BNB $787.88 (+0.1%) / LINK $13.918 (+0.2%) / SUI $1.2183 (+2.1%). Firming drift, no zone tag.",
       "Old waits (BTC $78–78.8k, XRP $1.33–1.36) expired Sep 11; no new armed wait this packet. Satellites map-only.",
@@ -12,7 +12,13 @@
       "ISM services tonight ~22:00; FOMC minutes Thu Oct 8 ~02:00; CPI Wed Oct 14 ~20:30; PPI Thu Oct 15.",
       "Coins cash ₱0.33 < ₱800 floor; Gotrade cash $0 / book full.",
       "Mark refresh (Desk, Tue morning): MSFT $525.18 / GOOGL $346.47 Mon close → Gotrade ~+$2.09; ETH ~$2,717 naked → ~+$2.93; combined ~+$5.02 (~₱314). ETH qty corrected to broker net 0.01103342.",
-      "Overnight: spot BTC ETFs +$241M last week (3rd straight); ETH ETFs −$138M week + ~−$64M Oct 5 — soft spot for naked ETH. Nasdaq record close; MSFT +1.5% on Melius Buy ($665 PT); ISM services slowed."
+      "Overnight: spot BTC ETFs +$241M last week (3rd straight); ETH ETFs −$138M week + ~−$64M Oct 5 — soft spot for naked ETH. Nasdaq record close; MSFT +1.5% on Melius Buy ($665 PT); ISM services slowed.",
+      "Tue 15:00 (Coinbase spot ~15:01 Manila, Binance x-check): BTC $85,280.53 (+0.9% vs 11:00 $84,528.67; Binance $85,299.43) / XRP $1.49735 (flat vs $1.4974) / ETH $2,696.10 (+1.1% vs $2,665.50; Binance $2,697.25) / SOL $119.79 (−0.3% vs Kraken 11:00 $120.14) / BNB $778.85 (−0.3% vs $781.21) / LINK $13.8305 (+0.4% vs $13.77) / SUI $1.1895 (−0.5% vs $1.195). Morning fade partially retraced; chop, no zone tag.",
+      "Tue 15:00 books: US dark ~03:00 ET — Gotrade skipped per routine (crypto only); carry Mon-close MSFT $525.18 / GOOGL $346.47. Coins ETH naked 0.01103342 @ $2451.93 → $2,696.10 (~+10.0% / ~+$2.69); SM/TP off by jayr's choice, mental inv $2378.37. Next 24h: FOMC minutes Thu Oct 8 ~02:00 (noise); CPI Wed Oct 14 ~20:30 (binary — HOLD through it).",
+      "Tue 19:00 (Coinbase spot ~19:01 Manila; Binance x-check down this tick): BTC $86,150.43 (+1.0% vs 15:00 $85,280.53) / XRP $1.50785 (+0.7%) / ETH $2,713.45 (+0.6% vs $2,696.10) / SOL $120.265 (+0.4%) / BNB $783.45 (+0.6%) / LINK $14.049 (+1.6%) / SUI $1.1973 (+0.7%). Broad afternoon lift back toward the day's highs; still chop under the $86.7–87k rejection wall, no zone tag.",
+      "Tue 19:00 books: US ~07:00 ET premarket — Gotrade skipped per routine (crypto only); carry Mon-close MSFT $525.18 / GOOGL $346.47. Coins ETH naked 0.01103342 @ $2451.93 → $2,713.45 (~+10.7% / ~+$2.89); SM/TP off by jayr's choice, mental inv $2378.37. Map only: BTC rejected at $87k a third time (CoinDesk); $172M 24h liquidations both sides = range, not breakout; spot BTC ETFs −$89.8M Oct 5 after +$189.9M Oct 2. Next: FOMC minutes Thu Oct 8 ~02:00 (noise); CPI Wed Oct 14 ~20:30 (binary — HOLD through it).",
+      "Tue 23:00 CLOSE (Yahoo v8 ~23:02 Manila; Binance SUI x-check): BTC $86,618.13 (+0.5% vs 19:00 $86,150.43; Binance $86,656.86) / ETH $2,721.59 (+0.3%) / SOL $121.84 (+1.3%) / XRP $1.5228 (+1.0%) / BNB $786.01 (+0.3%) / LINK $14.067 (+0.1%) / SUI $1.2003 (+0.3%; Binance 24h +1.3%). Evening grind higher, still chop under the $86.7–87k wall; no zone tag.",
+      "Tue 23:00 books (US mid-session ~11:02 ET, Yahoo v8): SPY $780.53 +0.7% / QQQ $762.22 +0.8% / MSFT $533.85 +1.7% / GOOGL $347.74 +0.4% / NVDA $242.29 +1.4% / META $740.39 −0.2% / TSLA $381.28 +0.7%. Tape bid into the close run. Coins ETH naked 0.01103342 @ $2451.93 → $2,721.59 (~+11.0% / ~+$2.98 / ~₱187); SM/TP off by jayr's choice, mental inv $2378.37. Gotrade MSFT/GOOGL live ~+$2.54; combined ~+$5.52 (~₱346). HOLD / no new size through CPI."
     ],
     "sources": [
       "Kraken public Ticker last ~07:05 Manila Oct 6 (SOL/XRP/LINK/BNB/SUI/ETH/BTC)",
@@ -20,38 +26,44 @@
       "CNBC live cash ~15:01 ET Oct 5 carried (MSFT/GOOGL; US dark, skipped)",
       "Gotrade Ultra ~14:53 Manila Oct 2 (last FILLED confirm; nothing queued since)",
       "Weekly review 2026-10-05 (rails + catalyst dates)",
-      "Trade Desk Tue Oct 6 morning check-in (Mon-close US marks, ETH qty fix)"
+      "Trade Desk Tue Oct 6 morning check-in (Mon-close US marks, ETH qty fix)",
+      "Coinbase spot ~15:01 Manila Oct 6 (BTC/XRP/ETH/SOL/BNB/LINK/SUI)",
+      "Binance ticker x-check ~15:01 Manila Oct 6 (BTC $85,299.43 / ETH $2,697.25)",
+      "Coinbase spot ~19:01 Manila Oct 6 (BTC/XRP/ETH/SOL/BNB/LINK/SUI; Binance x-check failed this tick)",
+      "CoinDesk markets Oct 6 (BTC $87k third rejection; $172M 24h liquidations; spot BTC ETFs -$89.8M Oct 5)",
+      "Yahoo chart v8 ~23:02 Manila Oct 6 (BTC/ETH/SOL/XRP/BNB/LINK + full 11-name US live)",
+      "Binance 24h ticker ~23:02 Manila Oct 6 (SUI $1.2003; BTC $86,656.86 x-check)"
     ]
   },
   "analyst": {
-    "thesis": "HOLD open books through CPI Wed Oct 14. Nasdaq record close Mon; MSFT +1.5% (Melius Buy), GOOGL +0.9%. ETH ETF outflows a soft spot; ETH naked still working (~+10.8%). FOMC minutes Thu = noise. No zone hold, no new PLAN. NO TRADE on new entries.",
+    "thesis": "23:00 CLOSE HOLD carried — crypto ground +0.1 to +1.3% across the board vs 19:00 (BTC ~$86.6k pressing the $86.7–87k wall, ETH ~$2,722 naked still +11.0%), no zone tag anywhere. US mid-session bid (SPY +0.7%, MSFT +1.7% live ~+$2.54 book). No PLAN; NO TRADE on new entries through CPI Wed Oct 14.",
     "levels": [
       {
         "symbol": "ETH",
         "support": 2378.37,
         "invalidation": "Mental $2378.37 only",
-        "note": "Entry $2451.93 / mark ~$2,717.14 / broker net qty 0.01103342 (after fees; not 0.01105). Naked (jayr waiver). Mental inv $2378.37 only. ~+$2.93 (~₱184)."
+        "note": "Entry $2451.93 / 23:00 CLOSE mark ~$2,721.59 (Yahoo v8 ~23:02 Manila; +0.3% vs 19:00 $2,713.45) / broker net qty 0.01103342 (after fees; not 0.01105). Naked (jayr waiver). Mental inv $2378.37 only. ~+$2.98 (~₱187, +11.0%)."
       },
       {
         "symbol": "BTC",
         "invalidation": "No new PLAN without desk greenlight",
-        "note": "Primary map — $85,628.64 (+0.3% 24h). Old $78-78.8k wait expired Sep 11. No new armed wait."
+        "note": "Primary map — Yahoo v8 $86,618.13 (~23:02 Manila; +0.5% vs 19:00 $86,150.43; Binance x-check $86,656.86). Evening grind toward the $86.7–87k rejection wall, still chop. Old $78-78.8k wait expired Sep 11. No new armed wait."
       },
       {
         "symbol": "XRP",
         "invalidation": "No new PLAN without desk greenlight",
-        "note": "Primary map — $1.4995 (−0.2% 24h). Old $1.33-1.36 wait expired Sep 11. No new armed wait."
+        "note": "Primary map — Yahoo v8 $1.5228 (~23:02 Manila; +1.0% vs 19:00 $1.5079). Old $1.33-1.36 wait expired Sep 11. No new armed wait."
       },
       {
         "symbol": "MSFT",
-        "note": "LT hold / Mon close $525.18 (MV ~$21.08) vs fill $495.57 (~+$1.19). Chop $519–532 into CPI week; Melius upgrade = narrative, not a PLAN."
+        "note": "LT hold / live $533.85 mid-session (~23:02 Manila, +1.7% day; MV ~$21.43) vs fill $495.57 (~+$1.54). Bid into the close run; Melius upgrade = narrative, not a PLAN."
       },
       {
         "symbol": "GOOGL",
-        "note": "LT hold / Mon close $346.47 (MV ~$27.68) vs fill $335.20 (~+$0.90). Quiet near highs — no clean add; cash $0."
+        "note": "LT hold / live $347.74 mid-session (~23:02 Manila, +0.4% day; MV ~$27.78) vs fill $335.20 (~+$1.00). Quiet near highs — no clean add; cash $0."
       }
     ],
-    "notes": "Morning desk check-in 2026-10-06 Manila. Mon-close US marks; Kraken ETH ~07:05. No broker browser (nothing queued). No new orders."
+    "notes": "Morning desk check-in 2026-10-06 Manila. Mon-close US marks; Kraken ETH ~07:05. No broker browser (nothing queued). No new orders. 11:00 check (~11:02 Manila): Coinbase spot BTC $84,528.67 / XRP $1.4974 / ETH $2,665.50; Kraken BTC last $85,231.80, SOL $120.14 / BNB $781.21 / LINK $13.77 / SUI $1.195. Broad −0.8 to −1.9% drift vs 07:00, no zone tag. Coinbase SOL/BNB/LINK/SUI spot prints came back ~40% off true prints — discarded, Kraken used. Gotrade skipped per routine (US dark). No broker touched. 23:00 CLOSE (~23:02 Manila): Yahoo v8 crypto + full 11-name US live, Binance SUI x-check; evening grind higher, US mid-session bid; books ~+$5.52 combined. No broker touched."
   },
   "risk": {
     "railsCheck": "HOLD through CPI Oct 14. Gotrade IN_TRADE (cash $0 / book full; MSFT/GOOGL LT holds). New Coins blocked while ETH naked (~$30 notional, 0.01103342 ETH; flag only per jayr waiver). FOMC minutes = noise, not a reason to add. Stance IN_TRADE, not ARMED — no PLAN.",
@@ -66,12 +78,13 @@
     "feeSkip": "Skip if fees ≥ ~⅓ edge — unchanged."
   },
   "desk": {
-    "decision": "Tue morning HOLD / NO TRADE through CPI Oct 14. Both books held; nothing queued. Combined open ~+$5.02 (~₱314). ETH qty fixed to broker net 0.01103342. No new orders, no PLAN.",
+    "decision": "Tue 23:00 CLOSE HOLD / NO TRADE through CPI Oct 14. Both books held; nothing queued. Combined open ~+$5.52 (~₱346) on research marks. No new orders, no PLAN.",
     "actions": [
       "03:00 Vision publish",
       "HOLD open books only — no new orders",
       "No broker browser (nothing queued; research marks)",
-      "Next Ops run: Tue 07:00 scout"
+      "23:00 Vision publish",
+      "Next Ops run: Wed 03:00 scout"
     ],
     "nextOpen": "FOMC minutes Thu Oct 8 ~02:00 Manila (noise only); CPI Wed Oct 14 ~20:30 (next binary — HOLD through it); PPI Thu Oct 15."
   }

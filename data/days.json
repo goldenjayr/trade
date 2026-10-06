@@ -242,9 +242,9 @@
   {
     "date": "2026-10-06",
     "stance": "IN_TRADE",
-    "summary": "Tue 2026-10-06 morning Manila mark refresh. HOLD / NO TRADE through CPI Oct 14. Mon-close US marks; ETH qty corrected to broker net 0.01103342 (after fees). FOMC minutes Thu Oct 8 ~02:00 = noise; CPI Oct 14 ~20:30 next binary; PPI Oct 15.",
+    "summary": "Tue 2026-10-06 23:00 CLOSE Manila tick. HOLD / NO TRADE through CPI Oct 14. Yahoo v8 crypto + live 11-name US (Binance SUI x-check). FOMC minutes Thu Oct 8 ~02:00 = noise; CPI Oct 14 ~20:30 next binary; PPI Oct 15.",
     "tradeCount": 3,
-    "coinsEquity": 30.3093,
-    "gotradeEquity": 48.7588
+    "coinsEquity": 30.3584,
+    "gotradeEquity": 49.2083
   }
 ]
