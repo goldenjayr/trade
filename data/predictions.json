@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-06",
+  "asOf": "2026-10-07",
   "disclaimer": "Scenario calls with invalidation — not guaranteed predictions. Graded HIT / MISS / EXPIRED after the horizon. Cancelled and expired do not enter the hit rate.",
   "calls": [
     {
@@ -7,7 +7,7 @@
       "dateOpened": "2026-09-08",
       "symbol": "BNB",
       "venue": "coins",
-      "thesis": "Soft scout $728–737. Miss into CPI.",
+      "thesis": "Soft scout $728-737. Miss into CPI.",
       "direction": "long_wait",
       "entryZone": {
         "low": 728,
@@ -27,7 +27,7 @@
       "dateOpened": "2026-09-08",
       "symbol": "BTC",
       "venue": "coins",
-      "thesis": "Primary wait $78–78.8k. Hit then expired into CPI.",
+      "thesis": "Primary wait $78-78.8k. Hit then expired into CPI.",
       "direction": "long_wait",
       "entryZone": {
         "low": 78000,
@@ -39,7 +39,7 @@
       "horizon": "event",
       "status": "expired",
       "resolvedAt": "2026-09-11",
-      "outcomeNote": "HIT entry zone then EXPIRED/below. Zone print ≠ fill into CPI binary.",
+      "outcomeNote": "HIT entry zone then EXPIRED/below. Zone print /= fill into CPI binary.",
       "source": "analyst",
       "role": "primary"
     },
@@ -48,7 +48,7 @@
       "dateOpened": "2026-09-08",
       "symbol": "LINK",
       "venue": "coins",
-      "thesis": "Soft scout $12.50–12.65. Miss into CPI.",
+      "thesis": "Soft scout $12.50-12.65. Miss into CPI.",
       "direction": "long_wait",
       "entryZone": {
         "low": 12.5,
@@ -75,7 +75,7 @@
       "horizon": "event",
       "status": "expired",
       "resolvedAt": "2026-09-16",
-      "outcomeNote": "FOMC +25bps done. Stance expires as event map — open books remain IN_TRADE HOLD; no auto-arm for new size.",
+      "outcomeNote": "FOMC +25bps done. Stance expires as event map - open books remain IN_TRADE HOLD; no auto-arm for new size.",
       "source": "desk",
       "role": "stance"
     },
@@ -91,7 +91,7 @@
       "horizon": "event",
       "status": "cancelled",
       "resolvedAt": "2026-09-08",
-      "outcomeNote": "Cancelled at the open — no scenario, no clip.",
+      "outcomeNote": "Cancelled at the open - no scenario, no clip.",
       "source": "desk",
       "role": "scout"
     },
@@ -100,7 +100,7 @@
       "dateOpened": "2026-09-08",
       "symbol": "XRP",
       "venue": "coins",
-      "thesis": "Alt primary wait $1.33–1.36. Hit/in-zone unfilled into CPI.",
+      "thesis": "Alt primary wait $1.33-1.36. Hit/in-zone unfilled into CPI.",
       "direction": "long_wait",
       "entryZone": {
         "low": 1.33,
@@ -116,7 +116,7 @@
       "horizon": "event",
       "status": "hit_entry",
       "resolvedAt": "2026-09-11",
-      "outcomeNote": "HIT / IN ZONE but UNFILLED by desk rule — no resting limit into CPI.",
+      "outcomeNote": "HIT / IN ZONE but UNFILLED by desk rule - no resting limit into CPI.",
       "source": "analyst",
       "role": "primary"
     },
@@ -198,7 +198,7 @@
       "horizon": "event",
       "status": "expired",
       "resolvedAt": "2026-10-02",
-      "outcomeNote": "NFP soft (+29k / U 4.2%) printed 20:30 Manila. Event map expires — open books stay IN_TRADE HOLD; no auto-arm. Prefer NO TRADE into weekend; Mon reassess on jayr ask / A+.",
+      "outcomeNote": "NFP soft (+29k / U 4.2%) printed 20:30 Manila. Event map expires - open books stay IN_TRADE HOLD; no auto-arm. Prefer NO TRADE into weekend; Mon reassess on jayr ask / A+.",
       "source": "desk",
       "role": "stance"
     }

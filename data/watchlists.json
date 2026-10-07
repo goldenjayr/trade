@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-06",
+  "asOf": "2026-10-07",
   "crypto": [
     {
       "symbol": "BTC",
@@ -9,9 +9,9 @@
       "venues": [
         "coins"
       ],
-      "last": 86618.13,
+      "last": 83292.84,
       "currency": "USD",
-      "changePct": 0.54,
+      "changePct": -3.49,
       "thesis": "LT educational #1 + Coins-7 core. Multi-year map. Still flat into CPI — NOT a PLAN."
     },
     {
@@ -22,9 +22,9 @@
       "venues": [
         "coins"
       ],
-      "last": 2721.59,
+      "last": 2563.09,
       "currency": "USD",
-      "changePct": 0.3,
+      "changePct": -5.56,
       "thesis": "LT educational #2 + Coins-7 core. Multi-year map. Still flat into CPI — NOT a PLAN."
     },
     {
@@ -35,9 +35,9 @@
       "venues": [
         "coins"
       ],
-      "last": 121.84,
+      "last": 116.19,
       "currency": "USD",
-      "changePct": 1.31,
+      "changePct": -3.89,
       "thesis": "LT educational #3 + Coins-7 satellite. Multi-year map. Still flat into CPI — NOT a PLAN."
     },
     {
@@ -48,9 +48,9 @@
       "venues": [
         "coins"
       ],
-      "last": 14.067,
+      "last": 13.404,
       "currency": "USD",
-      "changePct": 0.13,
+      "changePct": -4.27,
       "thesis": "LT educational #4 + Coins-7 satellite. Multi-year map. Soft scout miss short-horizon; LT education only — NOT a PLAN into CPI."
     },
     {
@@ -61,9 +61,9 @@
       "venues": [
         "coins"
       ],
-      "last": 786.01,
+      "last": 766.51,
       "currency": "USD",
-      "changePct": 0.33,
+      "changePct": -2.32,
       "thesis": "LT educational #5. Education on Coins-7 (not core). Soft scout miss short-horizon — NOT a PLAN into CPI."
     },
     {
@@ -74,9 +74,9 @@
       "venues": [
         "coins"
       ],
-      "last": 1.5228,
+      "last": 1.4375,
       "currency": "USD",
-      "changePct": 0.99,
+      "changePct": -5.06,
       "thesis": "LT educational #6. Education on Coins-7. Short-horizon wait hit/in-zone unfilled by rule — LT map only, NOT a PLAN into CPI."
     },
     {
@@ -139,9 +139,9 @@
       "venues": [
         "coins"
       ],
-      "last": 1.2003,
+      "last": 1.1183,
       "currency": "USD",
-      "changePct": 0.25,
+      "changePct": -6.45,
       "thesis": "OUT of Coins-7 / LT top 10 cut — NONE into CPI (Phantom headwind). Not educational core. NOT a PLAN."
     }
   ],
@@ -167,9 +167,9 @@
       "venues": [
         "gotrade"
       ],
-      "last": 780.53,
+      "last": 775.495,
       "currency": "USD",
-      "changePct": 0.74,
+      "changePct": -0.47,
       "thesis": "US beta benchmark + optional ETF ballast. Educational LT map. Still NO TRADE into CPI/FOMC."
     },
     {
@@ -180,9 +180,9 @@
       "venues": [
         "gotrade"
       ],
-      "last": 762.22,
+      "last": 754.335,
       "currency": "USD",
-      "changePct": 0.8,
+      "changePct": -0.7,
       "thesis": "Nasdaq-100 duration risk into CPI. Map only. NOT a PLAN."
     },
     {
@@ -193,9 +193,9 @@
       "venues": [
         "gotrade"
       ],
-      "last": 717.465,
+      "last": 712.76,
       "currency": "USD",
-      "changePct": 0.72,
+      "changePct": -0.48,
       "thesis": "S&P 500 ballast twin to SPY. Educational. NOT a PLAN into CPI/FOMC."
     },
     {
@@ -206,9 +206,9 @@
       "venues": [
         "gotrade"
       ],
-      "last": 282.635,
+      "last": 278.68,
       "currency": "USD",
-      "changePct": -0.26,
+      "changePct": -0.96,
       "thesis": "Small-cap beta — often fades first on hike scare. Avoid into CPI print. NOT a PLAN."
     },
     {
@@ -219,9 +219,9 @@
       "venues": [
         "gotrade"
       ],
-      "last": 533.85,
+      "last": 528.325,
       "currency": "USD",
-      "changePct": 1.65,
+      "changePct": -0.18,
       "thesis": "LT educational #1 — Office/Azure/AI copilots; switching costs. Rich-fair vibe. Broadest beginner compounder. NOT a PLAN into CPI/FOMC."
     },
     {
@@ -245,9 +245,9 @@
       "venues": [
         "gotrade"
       ],
-      "last": 347.741,
+      "last": 345.76,
       "currency": "USD",
-      "changePct": 0.37,
+      "changePct": -0.55,
       "thesis": "LT educational #3 — Search/YouTube/Cloud. Fair-vs-megas vibe. Ads+AI. NOT a PLAN into CPI/FOMC."
     },
     {
@@ -284,9 +284,9 @@
       "venues": [
         "gotrade"
       ],
-      "last": 254.875,
+      "last": 254.25,
       "currency": "USD",
-      "changePct": 1.38,
+      "changePct": -0.8,
       "thesis": "LT educational #6 — retail+AWS+ads. Fair-rich vibe. CapEx fog. NOT a PLAN into CPI/FOMC."
     },
     {
@@ -297,9 +297,9 @@
       "venues": [
         "gotrade"
       ],
-      "last": 332.97,
+      "last": 333.345,
       "currency": "USD",
-      "changePct": 0.02,
+      "changePct": -0.09,
       "thesis": "LT educational #7 — iPhone+services ecosystem. Rich vibe. Mature cycle risk. NOT a PLAN."
     },
     {
@@ -323,9 +323,9 @@
       "venues": [
         "gotrade"
       ],
-      "last": 242.29,
+      "last": 238.27,
       "currency": "USD",
-      "changePct": 1.42,
+      "changePct": -0.41,
       "thesis": "LT educational #9 — AI compute/CUDA. Rich vibe. Must-own business, not beginner #1. NOT a PLAN into CPI/FOMC."
     },
     {
@@ -336,9 +336,9 @@
       "venues": [
         "gotrade"
       ],
-      "last": 740.39,
+      "last": 731.93,
       "currency": "USD",
-      "changePct": -0.2,
+      "changePct": -0.94,
       "thesis": "LT educational #10 — social ads. Fair-rich vibe. CapEx/reg fog. NOT a PLAN."
     },
     {
@@ -349,9 +349,9 @@
       "venues": [
         "gotrade"
       ],
-      "last": 381.278,
+      "last": 378.925,
       "currency": "USD",
-      "changePct": 0.67,
+      "changePct": -0.46,
       "thesis": "NOT LT core — narrative/robotaxi premium, contested moat. Satellite only. NOT a PLAN into CPI/FOMC."
     }
   ]
