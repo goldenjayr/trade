@@ -702,5 +702,57 @@
     "notional": 0,
     "skipped": true,
     "skipReason": "Book full (cash $0). Pre-CPI window: no new single-name size into a soft open. Prefer NO TRADE."
+  },
+  {
+    "id": "SKIP-20261008-COINS-NEW",
+    "date": "2026-10-08",
+    "venue": "coins",
+    "symbol": "ETH",
+    "side": "buy",
+    "qty": 0,
+    "price": 0,
+    "fees": 0,
+    "notional": 0,
+    "skipped": true,
+    "skipReason": "HOLD / pre-CPI window. Naked ETH blocks new Coins; FOMC-minutes drift is not a wait. Prefer NO TRADE."
+  },
+  {
+    "id": "SKIP-20261008-GOTRADE-NEW",
+    "date": "2026-10-08",
+    "venue": "gotrade",
+    "symbol": "CASH",
+    "side": "buy",
+    "qty": 0,
+    "price": 0,
+    "fees": 0,
+    "notional": 0,
+    "skipped": true,
+    "skipReason": "Book full (cash $0). Pre-CPI window: no new single-name size. Prefer NO TRADE."
+  },
+  {
+    "id": "SKIP-20261009-COINS-NEW",
+    "date": "2026-10-09",
+    "venue": "coins",
+    "symbol": "ETH",
+    "side": "buy",
+    "qty": 0,
+    "price": 0,
+    "fees": 0,
+    "notional": 0,
+    "skipped": true,
+    "skipReason": "HOLD / pre-CPI window. Naked ETH blocks new Coins; Friday drift is not a wait. Prefer NO TRADE."
+  },
+  {
+    "id": "SKIP-20261009-GOTRADE-NEW",
+    "date": "2026-10-09",
+    "venue": "gotrade",
+    "symbol": "CASH",
+    "side": "buy",
+    "qty": 0,
+    "price": 0,
+    "fees": 0,
+    "notional": 0,
+    "skipped": true,
+    "skipReason": "Book full (cash $0). Pre-CPI window: no new single-name size into the weekend. Prefer NO TRADE."
   }
 ]

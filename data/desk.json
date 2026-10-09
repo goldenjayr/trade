@@ -1,8 +1,8 @@
 {
-  "asOf": "2026-10-07",
+  "asOf": "2026-10-09",
   "timezone": "Asia/Manila",
   "stance": "IN_TRADE",
-  "stanceReason": "Wed Oct 7 21:35 Manila EOD - IN_TRADE HOLD / NO TRADE through CPI Wed Oct 14. ETH naked 0.01103342 @ $2451.93 -> ~$2,563 (~+$1.23; jayr waiver, no SM). MSFT $528.33 / GOOGL $345.76 at US cash open (~+$2.15). Combined ~+$3.38 (~₱212). Gotrade cash $0 (book full); Coins blocked while naked. No PLAN.",
+  "stanceReason": "Fri Oct 9 ~21:55 Manila EOD - IN_TRADE HOLD / NO TRADE through CPI Wed Oct 14. ETH naked 0.01103342 @ $2451.93 -> ~$2,485.13 (~+$0.37; jayr waiver, no SM). MSFT $529.08 / GOOGL $351.56 at Fri US open (~+$2.65). Combined ~+$3.02 (~₱190). Gotrade cash $0 (book full); Coins blocked while naked. No PLAN.",
   "primaries": [
     "BTC",
     "XRP"
@@ -13,19 +13,19 @@
       "label": "Coins.ph",
       "currency": "PHP",
       "cash": 0.33,
-      "equity": 28.6096,
-      "dayPnl": -1.75,
-      "totalPnl": 1.23,
+      "equity": 27.7495,
+      "dayPnl": -0.39,
+      "totalPnl": 0.37,
       "positions": [
         {
           "symbol": "ETH",
           "name": "Ethereum",
           "qty": 0.01103342,
           "avgCost": 2451.93,
-          "mark": 2563.09,
-          "marketValue": 28.2796,
-          "pnl": 1.2264,
-          "pnlPct": 0.045333
+          "mark": 2485.13,
+          "marketValue": 27.4195,
+          "pnl": 0.3663,
+          "pnlPct": 0.01354
         }
       ]
     },
@@ -34,29 +34,29 @@
       "label": "Gotrade",
       "currency": "USD",
       "cash": 0,
-      "equity": 48.8283,
-      "dayPnl": -0.19,
-      "totalPnl": 2.15,
+      "equity": 49.3219,
+      "dayPnl": 0.52,
+      "totalPnl": 2.65,
       "positions": [
         {
           "symbol": "MSFT",
           "name": "Microsoft",
           "qty": 0.040135601,
           "avgCost": 495.57,
-          "mark": 528.325,
-          "marketValue": 21.2046,
-          "pnl": 1.3146,
-          "pnlPct": 0.066094
+          "mark": 529.08,
+          "marketValue": 21.2349,
+          "pnl": 1.3449,
+          "pnlPct": 0.067617
         },
         {
           "symbol": "GOOGL",
           "name": "Alphabet",
           "qty": 0.079892601,
           "avgCost": 335.2,
-          "mark": 345.76,
-          "marketValue": 27.6237,
-          "pnl": 0.8437,
-          "pnlPct": 0.031505
+          "mark": 351.56,
+          "marketValue": 28.087,
+          "pnl": 1.307,
+          "pnlPct": 0.048805
         }
       ]
     }
@@ -130,8 +130,8 @@
       "timeManila": "02:00",
       "title": "FOMC September minutes",
       "impact": "medium",
-      "status": "upcoming",
-      "notes": "Thu early Manila (Wed 2:00 PM ET). Noise only - HOLD both books through it; not a reason to add."
+      "status": "done",
+      "notes": "Printed ~02:00 Manila Oct 8. Noise only — no size add; HOLD both books unchanged into CPI."
     },
     {
       "id": "cpi-2026-09",
