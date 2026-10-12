@@ -1,8 +1,8 @@
 {
-  "asOf": "2026-10-09",
+  "asOf": "2026-10-12",
   "timezone": "Asia/Manila",
   "stance": "IN_TRADE",
-  "stanceReason": "Fri Oct 9 ~21:55 Manila EOD - IN_TRADE HOLD / NO TRADE through CPI Wed Oct 14. ETH naked 0.01103342 @ $2451.93 -> ~$2,485.13 (~+$0.37; jayr waiver, no SM). MSFT $529.08 / GOOGL $351.56 at Fri US open (~+$2.65). Combined ~+$3.02 (~₱190). Gotrade cash $0 (book full); Coins blocked while naked. No PLAN.",
+  "stanceReason": "Mon Oct 12 ~21:55 Manila EOD - IN_TRADE HOLD / NO TRADE through CPI Wed Oct 14 and PPI + retail sales Thu Oct 15, then post-binary HOLD (no new size before Mon Oct 19, A+ only). ETH naked 0.01103342 @ $2451.93 -> ~$2,536.50 (~+$0.93; jayr waiver, no SM). MSFT $539.33 / GOOGL $354.42 live Mon US session (~+$3.29). Combined ~+$4.22 (~₱265). Gotrade cash $0 (book full); Coins blocked while naked. No PLAN.",
   "primaries": [
     "BTC",
     "XRP"
@@ -13,19 +13,19 @@
       "label": "Coins.ph",
       "currency": "PHP",
       "cash": 0.33,
-      "equity": 27.7495,
-      "dayPnl": -0.39,
-      "totalPnl": 0.37,
+      "equity": 28.3163,
+      "dayPnl": 0.4,
+      "totalPnl": 0.93,
       "positions": [
         {
           "symbol": "ETH",
           "name": "Ethereum",
           "qty": 0.01103342,
           "avgCost": 2451.93,
-          "mark": 2485.13,
-          "marketValue": 27.4195,
-          "pnl": 0.3663,
-          "pnlPct": 0.01354
+          "mark": 2536.5,
+          "marketValue": 27.9863,
+          "pnl": 0.9331,
+          "pnlPct": 0.034491
         }
       ]
     },
@@ -34,29 +34,29 @@
       "label": "Gotrade",
       "currency": "USD",
       "cash": 0,
-      "equity": 49.3219,
-      "dayPnl": 0.52,
-      "totalPnl": 2.65,
+      "equity": 49.9618,
+      "dayPnl": 0.39,
+      "totalPnl": 3.29,
       "positions": [
         {
           "symbol": "MSFT",
           "name": "Microsoft",
           "qty": 0.040135601,
           "avgCost": 495.57,
-          "mark": 529.08,
-          "marketValue": 21.2349,
-          "pnl": 1.3449,
-          "pnlPct": 0.067617
+          "mark": 539.33,
+          "marketValue": 21.6463,
+          "pnl": 1.7563,
+          "pnlPct": 0.088301
         },
         {
           "symbol": "GOOGL",
           "name": "Alphabet",
           "qty": 0.079892601,
           "avgCost": 335.2,
-          "mark": 351.56,
-          "marketValue": 28.087,
-          "pnl": 1.307,
-          "pnlPct": 0.048805
+          "mark": 354.42,
+          "marketValue": 28.3155,
+          "pnl": 1.5355,
+          "pnlPct": 0.057338
         }
       ]
     }
@@ -134,22 +134,47 @@
       "notes": "Printed ~02:00 Manila Oct 8. Noise only — no size add; HOLD both books unchanged into CPI."
     },
     {
+      "id": "bank-earnings-2026-q3",
+      "date": "2026-10-13",
+      "title": "US big-bank Q3 earnings (Tue/Wed)",
+      "impact": "medium",
+      "status": "upcoming",
+      "notes": "Tue Oct 13 - Wed Oct 14 US sessions. Tape read only; no size."
+    },
+    {
       "id": "cpi-2026-09",
       "date": "2026-10-14",
       "timeManila": "20:30",
       "title": "US September CPI",
       "impact": "high",
       "status": "upcoming",
-      "notes": "Next binary. Wed Oct 14 ~20:30 Manila. HOLD both books / NO TRADE through the print."
+      "notes": "Next binary. Wed Oct 14 20:30 Manila. HOLD both books / NO TRADE through the print; back-to-back with PPI Thu."
+    },
+    {
+      "id": "beige-book-2026-10",
+      "date": "2026-10-15",
+      "timeManila": "02:00",
+      "title": "Fed Beige Book",
+      "impact": "low",
+      "status": "upcoming",
+      "notes": "Thu Oct 15 ~02:00 Manila. Noise between CPI and PPI."
     },
     {
       "id": "ppi-2026-09",
       "date": "2026-10-15",
       "timeManila": "20:30",
-      "title": "US September PPI",
+      "title": "US September PPI + retail sales",
+      "impact": "high",
+      "status": "upcoming",
+      "notes": "Thu Oct 15 20:30 Manila, day after CPI. Post-binary wait starts after PPI: no new size before Mon Oct 19, A+ only."
+    },
+    {
+      "id": "tsmc-q3-2026",
+      "date": "2026-10-15",
+      "title": "TSMC Q3 earnings",
       "impact": "medium",
       "status": "upcoming",
-      "notes": "Day after CPI per weekly review. Post-CPI HOLD 1-2 sessions rail applies."
+      "notes": "Thu Oct 15. AI capex read-through for MSFT/GOOGL holds. No add (cash $0)."
     },
     {
       "id": "fomc-2026-10",
