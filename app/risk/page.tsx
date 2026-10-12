@@ -111,6 +111,24 @@ export default function RiskPage() {
       </div>
 
       <div className="grid gap-4 lg:grid-cols-2">
+        <Card className="lg:col-span-2">
+          <CardHeader>
+            <CardTitle>
+              <Term id="post-release-cooldown">Post-release cooldown</Term>
+            </CardTitle>
+            <CardDescription>Standing rail · Risk Desk, Oct 12 2026.</CardDescription>
+          </CardHeader>
+          <CardContent>
+            <p className="rounded-md border border-loss/25 bg-loss/8 px-2.5 py-1.5 text-sm leading-relaxed">
+              No new size for 1–2 <Term id="session">sessions</Term> after any major
+              release (<Term id="CPI">CPI</Term>, <Term id="PPI">PPI</Term> or{" "}
+              <Term id="FOMC">FOMC</Term>), even if a setup looks{" "}
+              <Term id="a-plus">A+</Term>. When <Term id="CPI">CPI</Term> and{" "}
+              <Term id="PPI">PPI</Term> come back to back, the wait starts after{" "}
+              <Term id="PPI">PPI</Term>.
+            </p>
+          </CardContent>
+        </Card>
         <Card>
           <CardHeader>
             <CardTitle>

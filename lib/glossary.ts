@@ -182,7 +182,22 @@ export const GLOSSARY = {
   PPI: {
     label: "PPI",
     definition:
-      "Producer Price Index — upstream inflation data that can move markets the day before CPI.",
+      "Producer Price Index — how much businesses pay for goods and materials. An early inflation read that can move markets.",
+  },
+  "post-release-cooldown": {
+    label: "post-release cooldown",
+    definition:
+      "Wait 1–2 trading sessions after a big economic report before adding any new position, because the first price moves after a report often reverse.",
+  },
+  session: {
+    label: "session",
+    definition:
+      "One trading day for that market. Crypto never closes, so the desk counts a session as one daily close (8:00 AM Manila).",
+  },
+  "a-plus": {
+    label: "A+",
+    definition:
+      "A top-grade setup: the cleanest chart, clear entry and stop, and good reward for the risk. Rare by design.",
   },
   "etf-flows": {
     label: "ETF flows",
