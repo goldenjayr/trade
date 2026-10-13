@@ -1,8 +1,8 @@
 {
-  "asOf": "2026-10-12",
+  "asOf": "2026-10-13",
   "timezone": "Asia/Manila",
   "stance": "IN_TRADE",
-  "stanceReason": "Mon Oct 12 ~21:55 Manila EOD - IN_TRADE HOLD / NO TRADE through CPI Wed Oct 14 and PPI + retail sales Thu Oct 15, then post-binary HOLD (no new size before Mon Oct 19, A+ only). ETH naked 0.01103342 @ $2451.93 -> ~$2,536.50 (~+$0.93; jayr waiver, no SM). MSFT $539.33 / GOOGL $354.42 live Mon US session (~+$3.29). Combined ~+$4.22 (~₱265). Gotrade cash $0 (book full); Coins blocked while naked. No PLAN.",
+  "stanceReason": "Tue Oct 13 ~21:45 Manila EOD - IN_TRADE HOLD / NO TRADE through CPI Wed Oct 14 and PPI + retail sales Thu Oct 15, then post-binary HOLD (no new size before Mon Oct 19, A+ only). ETH naked 0.01103342 @ $2451.93 -> ~$2,508.19 (~+$0.62; jayr waiver, no SM). MSFT $549.87 / GOOGL $356.48 live Tue US session (~+$3.88). Combined ~+$4.50 (~₱282). Gotrade cash $0 (book full); Coins blocked while naked. No PLAN.",
   "primaries": [
     "BTC",
     "XRP"
@@ -13,19 +13,19 @@
       "label": "Coins.ph",
       "currency": "PHP",
       "cash": 0.33,
-      "equity": 28.3163,
-      "dayPnl": 0.4,
-      "totalPnl": 0.93,
+      "equity": 28.0039,
+      "dayPnl": -0.31,
+      "totalPnl": 0.62,
       "positions": [
         {
           "symbol": "ETH",
           "name": "Ethereum",
           "qty": 0.01103342,
           "avgCost": 2451.93,
-          "mark": 2536.5,
-          "marketValue": 27.9863,
-          "pnl": 0.9331,
-          "pnlPct": 0.034491
+          "mark": 2508.19,
+          "marketValue": 27.6739,
+          "pnl": 0.6207,
+          "pnlPct": 0.022944
         }
       ]
     },
@@ -34,29 +34,29 @@
       "label": "Gotrade",
       "currency": "USD",
       "cash": 0,
-      "equity": 49.9618,
-      "dayPnl": 0.39,
-      "totalPnl": 3.29,
+      "equity": 50.5495,
+      "dayPnl": 0.65,
+      "totalPnl": 3.88,
       "positions": [
         {
           "symbol": "MSFT",
           "name": "Microsoft",
           "qty": 0.040135601,
           "avgCost": 495.57,
-          "mark": 539.33,
-          "marketValue": 21.6463,
-          "pnl": 1.7563,
-          "pnlPct": 0.088301
+          "mark": 549.87,
+          "marketValue": 22.0694,
+          "pnl": 2.1794,
+          "pnlPct": 0.109573
         },
         {
           "symbol": "GOOGL",
           "name": "Alphabet",
           "qty": 0.079892601,
           "avgCost": 335.2,
-          "mark": 354.42,
-          "marketValue": 28.3155,
-          "pnl": 1.5355,
-          "pnlPct": 0.057338
+          "mark": 356.48,
+          "marketValue": 28.4801,
+          "pnl": 1.7001,
+          "pnlPct": 0.063484
         }
       ]
     }
@@ -138,8 +138,8 @@
       "date": "2026-10-13",
       "title": "US big-bank Q3 earnings (Tue/Wed)",
       "impact": "medium",
-      "status": "upcoming",
-      "notes": "Tue Oct 13 - Wed Oct 14 US sessions. Tape read only; no size."
+      "status": "live",
+      "notes": "Tue Oct 13 - Wed Oct 14 US sessions (live Tue). Tape read only; no size."
     },
     {
       "id": "cpi-2026-09",

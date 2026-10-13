@@ -780,5 +780,31 @@
     "notional": 0,
     "skipped": true,
     "skipReason": "Book full (cash $0). CPI-PPI week: no new single-name size. Prefer NO TRADE."
+  },
+  {
+    "id": "SKIP-20261013-COINS-NEW",
+    "date": "2026-10-13",
+    "venue": "coins",
+    "symbol": "ETH",
+    "side": "buy",
+    "qty": 0,
+    "price": 0,
+    "fees": 0,
+    "notional": 0,
+    "skipped": true,
+    "skipReason": "HOLD / CPI-PPI week. Naked ETH blocks new Coins; soft crypto day is not a wait. Prefer NO TRADE."
+  },
+  {
+    "id": "SKIP-20261013-GOTRADE-NEW",
+    "date": "2026-10-13",
+    "venue": "gotrade",
+    "symbol": "CASH",
+    "side": "buy",
+    "qty": 0,
+    "price": 0,
+    "fees": 0,
+    "notional": 0,
+    "skipped": true,
+    "skipReason": "Book full (cash $0). CPI-PPI week: no new single-name size into CPI eve. Prefer NO TRADE."
   }
 ]

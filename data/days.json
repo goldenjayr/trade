@@ -270,5 +270,13 @@
     "tradeCount": 3,
     "coinsEquity": 28.3163,
     "gotradeEquity": 49.9618
+  },
+  {
+    "date": "2026-10-13",
+    "stance": "IN_TRADE",
+    "summary": "Tue 2026-10-13 ~21:45 Manila EOD. HOLD / NO TRADE through CPI Oct 14 + PPI/retail sales Oct 15. Coinbase spot + earlier 24h stats crypto + Yahoo v8 US marks (Tue regular session open ~21:30 Manila). Research marks, no order pending. Nothing queued; no broker browser. Bank earnings Tue/Wed tape-only.",
+    "tradeCount": 3,
+    "coinsEquity": 28.0039,
+    "gotradeEquity": 50.5495
   }
 ]
