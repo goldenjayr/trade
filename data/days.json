@@ -278,5 +278,13 @@
     "tradeCount": 3,
     "coinsEquity": 28.0039,
     "gotradeEquity": 50.5495
+  },
+  {
+    "date": "2026-10-14",
+    "stance": "IN_TRADE",
+    "summary": "Wed 2026-10-14 ~21:30 Manila EOD. Hot CPI printed 20:30 Manila; HOLD / NO TRADE into PPI+retail Thu Oct 15 20:30. Coinbase spot + 24h stats crypto + Yahoo v8 US Tue close marks (Wed US cash just opening ~21:30 Manila; best available close). Research marks, no order pending. Nothing queued; no broker browser. Bank earnings Tue/Wed tape-only done.",
+    "tradeCount": 0,
+    "coinsEquity": 27.5389,
+    "gotradeEquity": 50.0761
   }
 ]

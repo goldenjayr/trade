@@ -1,0 +1,77 @@
+{
+  "date": "2026-10-14",
+  "stance": "IN_TRADE",
+  "headline": "Wed ~21:30 EOD Manila. Hot CPI (3.7%/0.6% headline, 2.6%/0.3% core) printed 20:30; crypto soft post-print (BTC ~$82.5k, ETH ~$2,466). US Tue close MSFT $543.45 / GOOGL $353.78. HOLD both books / NO TRADE into PPI+retail Thu. No fills, no PLAN.",
+  "scout": {
+    "headline": "Wed EOD. Hot CPI done; soft crypto post-print. HOLD / no new size into PPI tomorrow.",
+    "bullets": [
+      "Overnight ~02:17: ETH Coinbase $2,503.48; Gotrade live Tue MSFT $546.44 / GOOGL $354.66; combined ~+$4.17.",
+      "Morning ~07:00: ETH $2,507.54 (~5.4% above mental $2378); Tue close MSFT $543.45 / GOOGL $353.78; combined ~+$4.02.",
+      "Midday ~12:15: ETH $2,509.37; combined ~+$4.04.",
+      "14:50 level: ETH $2,503.49; combined ~+$3.98. Pre-CPI HOLD.",
+      "21:00 level post-CPI: ETH ~$2,478.6; Gotrade Tue close MSFT/GOOGL; HOLD into PPI Thu.",
+      "EOD ~21:30 Coinbase: BTC $82,489.96 (-0.8% vs open) / ETH $2,466.04 (-1.3%, low $2,452.92) / SOL $105.01 (-1.5%) / XRP $1.3529 (-0.6%) / BNB $737.06 (-0.5%) / LINK $12.648 (-1.7%) / SUI $1.0251 (-1.3%). No zone tag.",
+      "Yahoo v8 Tue close (Wed cash opening): SPY $778.01 / QQQ $743.57 / MSFT $543.45 (+0.43% vs Mon $541.15) / GOOGL $353.78 (+0.30% vs Mon $352.72). Gotrade book ~+$3.41; ETH ~+$0.16; combined ~+$3.57 (~₱224 at USDPHP 62.87).",
+      "Coins cash ₱0.33 < ₱800 floor; Gotrade cash $0 / book full. Naked ETH blocks new Coins.",
+      "CPI hot vs cons — HOLD through. Tomorrow: Beige Book 02:00; PPI + retail sales 20:30; TSMC Q3 (MSFT/GOOGL AI read-through). No new size before Mon Oct 19."
+    ],
+    "sources": [
+      "Coinbase spot + exchange 24h stats ~21:30 Manila Oct 14 (all 7 crypto)",
+      "Yahoo v8 chart ~21:30 Manila (US Tue close / Wed open pending, PHP=X)",
+      "Trading Ops overnight/morning/midday/level watches Oct 14 + post-CPI ~21:00",
+      "Weekly review 2026-10-12 (rails + catalyst dates); CPI print notes"
+    ]
+  },
+  "analyst": {
+    "thesis": "EOD HOLD post hot CPI into PPI tomorrow. Crypto faded after the print (ETH ~$2,466 from ~$2,500s earlier; BTC ~$82.5k). US: Tue close MSFT/GOOGL modest green vs Mon; Wed cash just opening. Naked ETH ~+$0.16 with mental $2378 ~3.7% below mark. No PLAN; NO TRADE on new entries through PPI Thu, then post-binary HOLD to Mon Oct 19.",
+    "levels": [
+      {
+        "symbol": "ETH",
+        "support": 2378.37,
+        "invalidation": "Mental $2378.37 only",
+        "note": "Entry $2451.93 / EOD mark ~$2,466.04 (Coinbase ~21:30 Manila; -1.3% vs open, low $2,452.92) / broker net qty 0.01103342. Naked (jayr waiver). Mental inv $2378.37 ~3.7% below. ~+$0.16 (~₱10)."
+      },
+      {
+        "symbol": "BTC",
+        "invalidation": "No new PLAN without desk greenlight",
+        "note": "Primary map - Coinbase $82,489.96 (~21:30 Manila; -0.8% vs open). Above expired $78-78.8k wait; under $86.7-87k wall. No new armed wait."
+      },
+      {
+        "symbol": "XRP",
+        "invalidation": "No new PLAN without desk greenlight",
+        "note": "Primary map - Coinbase $1.3529 (~21:30 Manila; -0.6% vs open). Old wait expired Sep 11. No new armed wait."
+      },
+      {
+        "symbol": "MSFT",
+        "note": "LT hold / Tue close $543.45 (+0.43% vs Mon $541.15) vs fill $495.57 (~+$1.92). TSMC Q3 Thu is the AI read-through. Not a PLAN."
+      },
+      {
+        "symbol": "GOOGL",
+        "note": "LT hold / Tue close $353.78 (+0.30% vs Mon $352.72) vs fill $335.2 (~+$1.48). No clean add; cash $0."
+      }
+    ],
+    "notes": "Wed checks: ~02:17 overnight, ~07:00 morning, ~12:15 midday, 14:50 + ~21:00 post-CPI level - all HOLD / NO TRADE, research marks, no broker. EOD ~21:30: Coinbase spot + 24h stats all 7 crypto, Yahoo v8 US Tue close, USDPHP 62.87. Books ~+$3.57 combined. CPI hot (headline 3.7%/0.6%, core 2.6%/0.3%). No broker touched (nothing queued; research marks, no order pending)."
+  },
+  "risk": {
+    "railsCheck": "HOLD through PPI + retail sales Thu Oct 15 20:30 Manila after hot CPI; post-binary wait starts after PPI - no new size before Mon Oct 19, A+ only. Gotrade IN_TRADE (cash $0 / book full; MSFT/GOOGL LT holds). New Coins blocked while ETH naked (~$27.21 notional, 0.01103342 ETH; flag only per jayr waiver). Stance IN_TRADE, not ARMED - no PLAN.",
+    "sizeNote": "Do not add. Coins PHP cash ₱0.33; open ETH is risk, not dry powder. Gotrade cash $0. Sizes unchanged: Coins ₱800–1,200 (₱1,500 A+), Gotrade $15–25.",
+    "kills": [
+      "HOLD both books / NO TRADE into PPI + retail sales Thu Oct 15 20:30 Manila (CPI hot done)",
+      "Post-PPI: HOLD 1-2 US sessions; no new size before Mon Oct 19, A+ only",
+      "No new Coins entries while naked",
+      "No new Gotrade without cash (cash $0)",
+      "Kill switch: 1 loser or -₱400 day (Coins) still on"
+    ],
+    "feeSkip": "Skip if fees >= ~1/3 edge - unchanged."
+  },
+  "desk": {
+    "decision": "Wed EOD HOLD / NO TRADE post hot CPI into PPI Oct 15. Both books held; nothing queued. Combined open ~+$3.57 (~₱224) on research marks. No new orders, no PLAN.",
+    "actions": [
+      "HOLD open books only - no new orders",
+      "No broker browser (nothing queued; research marks, no order pending)",
+      "~21:30 EOD Vision publish (ingest + publish one step)",
+      "Next Ops: Thu overnight / morning; PPI + retail Thu 20:30 Manila; Beige Book 02:00; TSMC Q3"
+    ],
+    "nextOpen": "PPI + retail sales Thu Oct 15 20:30 Manila (HOLD through); Beige Book Thu 02:00; TSMC Q3 Thu; no new size before Mon Oct 19; FOMC Oct 27-28."
+  }
+}
