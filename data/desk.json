@@ -1,8 +1,8 @@
 {
-  "asOf": "2026-10-14",
+  "asOf": "2026-10-15",
   "timezone": "Asia/Manila",
   "stance": "IN_TRADE",
-  "stanceReason": "Wed Oct 14 ~21:30 Manila EOD - IN_TRADE HOLD / NO TRADE post hot CPI (headline 3.7%/0.6% vs 3.6%/0.6%; core 2.6%/0.3% vs 2.5%/0.2%) into PPI + retail sales Thu Oct 15 20:30 Manila; no new size before Mon Oct 19, A+ only. ETH naked 0.01103342 @ $2451.93 -> ~$2,466.04 (~+$0.16; jayr waiver, no SM). MSFT $543.45 / GOOGL $353.78 Tue close (~+$3.41). Combined ~+$3.57 (~₱224). Gotrade cash $0 (book full); Coins blocked while naked. No PLAN.",
+  "stanceReason": "Thu Oct 15 ~21:30 Manila EOD - IN_TRADE HOLD / NO TRADE post hot PPI + retail sales (PPI 1.3%/6.3% vs 0.6%/5.3%; core PPI 0.7% vs 0.3%; retail 0.8% vs 0.3%) on top of hot CPI; no new size before Mon Oct 19, A+ only. ETH naked 0.01103342 @ $2451.93 -> ~$2,336.20, BELOW mental inv $2378.37 since ~12:20 (~-$1.28; flatten-or-hold decision with jayr, no order). MSFT $533.69 / GOOGL $347.64 Wed close (~+$2.52). Combined ~+$1.24 (~₱78). Gotrade cash $0; Coins blocked while naked. No PLAN.",
   "primaries": [
     "BTC",
     "XRP"
@@ -13,19 +13,19 @@
       "label": "Coins.ph",
       "currency": "PHP",
       "cash": 0.33,
-      "equity": 27.5389,
-      "dayPnl": -0.47,
-      "totalPnl": 0.16,
+      "equity": 26.1063,
+      "dayPnl": -1.43,
+      "totalPnl": -1.28,
       "positions": [
         {
           "symbol": "ETH",
           "name": "Ethereum",
           "qty": 0.01103342,
           "avgCost": 2451.93,
-          "mark": 2466.04,
-          "marketValue": 27.2089,
-          "pnl": 0.1557,
-          "pnlPct": 0.005755
+          "mark": 2336.2,
+          "marketValue": 25.7763,
+          "pnl": -1.2769,
+          "pnlPct": -0.0472
         }
       ]
     },
@@ -34,29 +34,29 @@
       "label": "Gotrade",
       "currency": "USD",
       "cash": 0,
-      "equity": 50.0761,
-      "dayPnl": -0.47,
-      "totalPnl": 3.41,
+      "equity": 49.1939,
+      "dayPnl": -0.88,
+      "totalPnl": 2.52,
       "positions": [
         {
           "symbol": "MSFT",
           "name": "Microsoft",
           "qty": 0.040135601,
           "avgCost": 495.57,
-          "mark": 543.45,
-          "marketValue": 21.8117,
-          "pnl": 1.9217,
-          "pnlPct": 0.096616
+          "mark": 533.69,
+          "marketValue": 21.42,
+          "pnl": 1.53,
+          "pnlPct": 0.076923
         },
         {
           "symbol": "GOOGL",
           "name": "Alphabet",
           "qty": 0.079892601,
           "avgCost": 335.2,
-          "mark": 353.78,
-          "marketValue": 28.2644,
-          "pnl": 1.4844,
-          "pnlPct": 0.055429
+          "mark": 347.64,
+          "marketValue": 27.7739,
+          "pnl": 0.9939,
+          "pnlPct": 0.037114
         }
       ]
     }
@@ -156,8 +156,8 @@
       "timeManila": "02:00",
       "title": "Fed Beige Book",
       "impact": "low",
-      "status": "upcoming",
-      "notes": "Thu Oct 15 ~02:00 Manila. Noise between CPI and PPI."
+      "status": "done",
+      "notes": "Printed Thu ~02:00 Manila. Noise between CPI and PPI; no change."
     },
     {
       "id": "ppi-2026-09",
@@ -165,16 +165,16 @@
       "timeManila": "20:30",
       "title": "US September PPI + retail sales",
       "impact": "high",
-      "status": "upcoming",
-      "notes": "Thu Oct 15 20:30 Manila, day after hot CPI. Post-binary wait starts after PPI: no new size before Mon Oct 19, A+ only."
+      "status": "done",
+      "notes": "Hot: PPI 1.3%/6.3% (exp 0.6%/5.3%); core PPI 0.7% (exp 0.3%); retail 0.8% (exp 0.3%), ex-auto 0.9% (exp 0.6%). Post-binary HOLD; no new size before Mon Oct 19, A+ only."
     },
     {
       "id": "tsmc-q3-2026",
       "date": "2026-10-15",
       "title": "TSMC Q3 earnings",
       "impact": "medium",
-      "status": "upcoming",
-      "notes": "Thu Oct 15. AI capex read-through for MSFT/GOOGL holds. No add (cash $0)."
+      "status": "done",
+      "notes": "Reported Thu. TSM ADR ~$410.56 at US open (-4.5% vs Wed $430.00) - soft AI read-through for MSFT/GOOGL. No add (cash $0)."
     },
     {
       "id": "fomc-2026-10",

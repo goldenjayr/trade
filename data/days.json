@@ -286,5 +286,13 @@
     "tradeCount": 0,
     "coinsEquity": 27.5389,
     "gotradeEquity": 50.0761
+  },
+  {
+    "date": "2026-10-15",
+    "stance": "IN_TRADE",
+    "summary": "Thu 2026-10-15 ~21:30 Manila EOD. Hot PPI + retail sales printed 20:30 Manila. Coinbase spot + 24h stats crypto + Yahoo v8 US Wed close marks for books (Thu cash just opening ~21:30 Manila; opening prints noted in scout). Research marks, no order pending. Nothing queued; no broker browser. ETH broke mental inv $2378.37 at midday and stayed below through EOD; flatten-or-hold flagged to jayr, no decision recorded, no order placed.",
+    "tradeCount": 0,
+    "coinsEquity": 26.1063,
+    "gotradeEquity": 49.1939
   }
 ]

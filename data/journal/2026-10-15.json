@@ -1,0 +1,79 @@
+{
+  "date": "2026-10-15",
+  "stance": "IN_TRADE",
+  "headline": "Thu ~21:30 EOD Manila. Hot PPI + retail sales printed 20:30 after hot CPI; crypto red all day (BTC ~$80.0k, ETH ~$2,336 below mental $2378). US Thu cash opening red (QQQ ~$717.7, TSM ~-4.5%). HOLD both books / NO TRADE; ETH flatten-or-hold open with jayr. No fills, no PLAN.",
+  "scout": {
+    "headline": "Thu EOD. Hot PPI/retail on top of hot CPI; risk-off tape. ETH under mental inv. HOLD / no new size before Mon Oct 19.",
+    "bullets": [
+      "Overnight ~02:15: ETH Coinbase $2,426.49 (turned red, ~2.0% above mental); Gotrade live Wed MSFT $533.82 / GOOGL $347.63. Beige Book ~02:00 printed - noise, no change.",
+      "Morning ~07:00: ETH ~$2,417 (~1.6% above mental); Wed close MSFT $533.69 / GOOGL $347.64.",
+      "Midday ~12:20: ETH $2,367.98 BROKE mental inv $2378.37 (24h low $2,313.07); flatten-or-hold flagged to jayr, no order.",
+      "14:55 level: ETH $2,353.64 still below mental; combined ~+$1.44.",
+      "21:00 level post-PPI: PPI 1.3%/6.3% vs 0.6%/5.3%; core PPI 0.7% vs 0.3%; retail 0.8% vs 0.3%; ex-auto 0.9% vs 0.6% - all hot. ETH $2,350.07.",
+      "EOD ~21:30 Coinbase 24h: BTC $80,041.97 (-2.7%, low $80,000) / ETH $2,336.20 (-4.6%, low $2,313.07) / SOL $101.16 (-3.5%) / XRP $1.2930 (-4.1%) / BNB $716.04 (-2.7%) / LINK $11.842 (-5.7%, at low) / SUI $0.9675 (-5.2%).",
+      "Yahoo v8 Wed close: SPY $769.60 / QQQ $728.95 / MSFT $533.69 (-1.8%) / GOOGL $347.64 (-1.7%). Thu cash open ~21:32: SPY ~$765.84 / QQQ ~$717.75 / MSFT ~$532.46 / GOOGL ~$340.85 / NVDA ~$213.72 / TSM ~$410.56 (-4.5% vs Wed $430.00 after TSMC Q3).",
+      "Books on Wed close: Gotrade ~+$2.52; ETH ~-$1.28; combined ~+$1.24 (~₱78 at USDPHP 63.02). If Thu open holds, Gotrade ~+$1.94.",
+      "Coins cash ₱0.33 < ₱800 floor; Gotrade cash $0 / book full. Naked ETH blocks new Coins. BTC ~2.6% above old $78-78.8k wait (expired)."
+    ],
+    "sources": [
+      "Coinbase exchange 24h stats ~21:32 Manila Oct 15 (all 7 crypto)",
+      "Yahoo v8 chart ~21:32 Manila (US Wed close + Thu cash open, PHP=X)",
+      "Trading Ops overnight/morning/midday/14:55/21:00 watches Oct 15",
+      "Weekly review 2026-10-12 (rails + catalyst dates); PPI/retail print notes from 21:00 level watch"
+    ]
+  },
+  "analyst": {
+    "thesis": "EOD HOLD post hot PPI + retail on top of hot CPI - inflation impulse broadening, risk-off across crypto and US tech. ETH lost mental $2378.37 at midday and closed the Manila day ~$2,336 (~1.8% below); naked position ~-$1.28 is the open decision (jayr waiver, no SM). US: Wed close MSFT/GOOGL still green vs fills; Thu open softer (GOOGL ~$340.85, TSM -4.5% post TSMC Q3). No PLAN; post-binary HOLD to Mon Oct 19, A+ only.",
+    "levels": [
+      {
+        "symbol": "ETH",
+        "support": 2378.37,
+        "invalidation": "Mental $2378.37 - BROKEN (decision pending jayr)",
+        "note": "Entry $2451.93 / EOD mark ~$2,336.20 (Coinbase ~21:32 Manila; -4.6% 24h, low $2,313.07) / broker net qty 0.01103342. Naked (jayr waiver). BELOW mental inv $2378.37 by ~1.8% since ~12:20. ~-$1.28 (~₱80). Flatten-or-hold with jayr; no order."
+      },
+      {
+        "symbol": "BTC",
+        "invalidation": "No new PLAN without desk greenlight",
+        "note": "Primary map - Coinbase $80,041.97 (~21:32 Manila; -2.7% 24h, low $80,000). ~2.6% above expired $78-78.8k wait; no new armed wait into post-PPI HOLD."
+      },
+      {
+        "symbol": "XRP",
+        "invalidation": "No new PLAN without desk greenlight",
+        "note": "Primary map - Coinbase $1.2930 (~21:32 Manila; -4.1% 24h). Below old $1.33-1.36 wait (expired Sep 11). No new armed wait."
+      },
+      {
+        "symbol": "MSFT",
+        "note": "LT hold / Wed close $533.69 (-1.8% vs Tue $543.45) vs fill $495.57 (~+$1.53). Thu open ~$532.46. TSM -4.5% on TSMC Q3 - AI read-through soft. Not a PLAN."
+      },
+      {
+        "symbol": "GOOGL",
+        "note": "LT hold / Wed close $347.64 (-1.7% vs Tue $353.78) vs fill $335.20 (~+$0.99). Thu open ~$340.85 (~+$0.45 if held). No add; cash $0."
+      }
+    ],
+    "notes": "Thu checks: ~02:15 overnight, ~07:00 morning, ~12:20 midday (ETH broke mental), 14:55 + ~21:00 post-PPI level - all HOLD / NO TRADE, research marks, no broker. EOD ~21:32: Coinbase 24h stats all 7 crypto, Yahoo v8 US Wed close + Thu open, USDPHP 63.02. Books ~+$1.24 combined. No broker touched (nothing queued; research marks, no order pending)."
+  },
+  "risk": {
+    "railsCheck": "CPI + PPI/retail both hot and done; post-binary HOLD 1-2 US sessions - no new size before Mon Oct 19, A+ only. Gotrade IN_TRADE (cash $0 / book full; MSFT/GOOGL LT holds). ETH naked BELOW mental inv $2378.37 (~$25.78 notional, 0.01103342 ETH) - flatten-or-hold is jayr's call per waiver; no order without his explicit approval. New Coins blocked while naked. Stance IN_TRADE, not ARMED - no PLAN.",
+    "sizeNote": "Do not add. Coins PHP cash ₱0.33; open ETH is risk, not dry powder. Gotrade cash $0. Sizes unchanged: Coins ₱800–1,200 (₱1,500 A+), Gotrade $15–25.",
+    "kills": [
+      "Post CPI + PPI: HOLD 1-2 US sessions; no new size before Mon Oct 19, A+ only",
+      "ETH below mental $2378.37 - flatten-or-hold decision with jayr; no auto-order",
+      "No new Coins entries while naked",
+      "No new Gotrade without cash (cash $0)",
+      "No new Gotrade single-name into FOMC Oct 27-28",
+      "Kill switch: 1 loser or -₱400 day (Coins) still on"
+    ],
+    "feeSkip": "Skip if fees >= ~1/3 edge - unchanged."
+  },
+  "desk": {
+    "decision": "Thu EOD HOLD / NO TRADE post hot PPI + retail. Both books held; nothing queued. ETH under mental inv - flatten-or-hold open with jayr, no order. Combined open ~+$1.24 (~₱78) on research marks. No PLAN.",
+    "actions": [
+      "HOLD open books only - no new orders",
+      "ETH flatten-or-hold: awaiting jayr's explicit call (no auto-order)",
+      "No broker browser (nothing queued; research marks, no order pending)",
+      "~21:30 EOD Vision publish (ingest + publish one step)",
+      "Next Ops: Fri overnight 02:00 / morning 07:00"
+    ],
+    "nextOpen": "Fri Oct 16 US session (post-PPI HOLD); no new size before Mon Oct 19, A+ only; FOMC Oct 27-28."
+  }
+}
