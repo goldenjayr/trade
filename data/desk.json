@@ -1,8 +1,8 @@
 {
-  "asOf": "2026-10-15",
+  "asOf": "2026-10-16",
   "timezone": "Asia/Manila",
   "stance": "IN_TRADE",
-  "stanceReason": "Thu Oct 15 ~21:30 Manila EOD - IN_TRADE HOLD / NO TRADE post hot PPI + retail sales (PPI 1.3%/6.3% vs 0.6%/5.3%; core PPI 0.7% vs 0.3%; retail 0.8% vs 0.3%) on top of hot CPI; no new size before Mon Oct 19, A+ only. ETH naked 0.01103342 @ $2451.93 -> ~$2,336.20, BELOW mental inv $2378.37 since ~12:20 (~-$1.28; flatten-or-hold decision with jayr, no order). MSFT $533.69 / GOOGL $347.64 Wed close (~+$2.52). Combined ~+$1.24 (~₱78). Gotrade cash $0; Coins blocked while naked. No PLAN.",
+  "stanceReason": "Fri Oct 16 ~21:30 Manila EOD - IN_TRADE HOLD / NO TRADE post hot CPI/PPI+retail; no new size before Mon Oct 19, A+ only. ETH 8am Manila daily close CONFIRMED Coinbase $2,439.45 ABOVE mental $2,378.37 (~2.6%); spot ~$2,456.44 (~+$0.05 / ~3.3% above mental). Flatten-or-hold still open with jayr, no order. Gotrade Fri close MSFT $540.23 / GOOGL $348.88 (~+$2.89). Combined ~+$2.94 (~₱185). Gotrade cash $0; Coins blocked while naked. No PLAN. Ops cut to 7am+9pm only (midday/overnight paused).",
   "primaries": [
     "BTC",
     "XRP"
@@ -13,19 +13,19 @@
       "label": "Coins.ph",
       "currency": "PHP",
       "cash": 0.33,
-      "equity": 26.1063,
-      "dayPnl": -1.43,
-      "totalPnl": -1.28,
+      "equity": 27.4329,
+      "dayPnl": 1.33,
+      "totalPnl": 0.05,
       "positions": [
         {
           "symbol": "ETH",
           "name": "Ethereum",
           "qty": 0.01103342,
           "avgCost": 2451.93,
-          "mark": 2336.2,
-          "marketValue": 25.7763,
-          "pnl": -1.2769,
-          "pnlPct": -0.0472
+          "mark": 2456.44,
+          "marketValue": 27.1029,
+          "pnl": 0.0497,
+          "pnlPct": 0.001837
         }
       ]
     },
@@ -34,29 +34,29 @@
       "label": "Gotrade",
       "currency": "USD",
       "cash": 0,
-      "equity": 49.1939,
-      "dayPnl": -0.88,
-      "totalPnl": 2.52,
+      "equity": 49.5554,
+      "dayPnl": 0,
+      "totalPnl": 2.89,
       "positions": [
         {
           "symbol": "MSFT",
           "name": "Microsoft",
           "qty": 0.040135601,
           "avgCost": 495.57,
-          "mark": 533.69,
-          "marketValue": 21.42,
-          "pnl": 1.53,
-          "pnlPct": 0.076923
+          "mark": 540.23,
+          "marketValue": 21.6825,
+          "pnl": 1.7925,
+          "pnlPct": 0.090121
         },
         {
           "symbol": "GOOGL",
           "name": "Alphabet",
           "qty": 0.079892601,
           "avgCost": 335.2,
-          "mark": 347.64,
-          "marketValue": 27.7739,
-          "pnl": 0.9939,
-          "pnlPct": 0.037114
+          "mark": 348.88,
+          "marketValue": 27.8729,
+          "pnl": 1.0929,
+          "pnlPct": 0.04081
         }
       ]
     }

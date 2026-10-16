@@ -294,5 +294,13 @@
     "coinsCash": 0.33,
     "gotradeCash": 0,
     "usdphp": 63.02
+  },
+  {
+    "date": "2026-10-16",
+    "coinsEquity": 27.4329,
+    "gotradeEquity": 49.5554,
+    "coinsCash": 0.33,
+    "gotradeCash": 0,
+    "usdphp": 63.08
   }
 ]
