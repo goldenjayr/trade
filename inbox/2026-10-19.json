@@ -1,0 +1,496 @@
+{
+  "date": "2026-10-19",
+  "stance": "IN_TRADE",
+  "stanceReason": "Mon Oct 19 ~21:35 Manila EOD - IN_TRADE HOLD / NO TRADE. Post-CPI/PPI wait is over but the week runs NO TRADE by default (A+ only): naked ETH blocks new Coins and Gotrade cash is $0. ETH 8am Manila daily close CONFIRMED Coinbase $2,407.51 ABOVE $2,378 exit line (~1.2%); spot ~$2,416.32 (~-$0.39). Gotrade live Mon MSFT ~$530.51 / GOOGL ~$342.54 (~+$1.99), both above exit lines ($519 / $337). Combined ~+$1.60 (~\u20b1101). Exit lines decided by a close, never live. Next binary: MSFT/GOOGL earnings Oct 28 after US close + FOMC decision Thu Oct 29 02:00 Manila. No PLAN.",
+  "primaries": [
+    "BTC",
+    "XRP"
+  ],
+  "usdphp": 63.07,
+  "notes": "Mon 2026-10-19 ~21:35 Manila EOD. Weekly review set week Oct 19-23 NO TRADE by default (A+ only). Coinbase 24h stats crypto; Yahoo v8 live Mon US session marks for books (RTH open). Research marks, nothing queued, no broker browser. Flatten-or-hold question retired: exit lines are decided by a close (ETH 8am Manila Coinbase daily close vs $2,378; MSFT $519 / GOOGL $337 US regular-session close read at 7am brief); a close below means a SELL PLAN card for jayr to confirm, no auto order.",
+  "books": {
+    "coins": {
+      "venue": "coins",
+      "currency": "PHP",
+      "cash": 0.33,
+      "dayPnl": 0.26,
+      "totalPnl": -0.39,
+      "positions": [
+        {
+          "symbol": "ETH",
+          "name": "Ethereum",
+          "qty": 0.01103342,
+          "avgCost": 2451.93,
+          "mark": 2416.32
+        }
+      ]
+    },
+    "gotrade": {
+      "venue": "gotrade",
+      "currency": "USD",
+      "cash": 0,
+      "dayPnl": 0.21,
+      "totalPnl": 1.99,
+      "positions": [
+        {
+          "symbol": "MSFT",
+          "name": "Microsoft",
+          "qty": 0.040135601,
+          "avgCost": 495.57,
+          "mark": 530.51
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Alphabet",
+          "qty": 0.079892601,
+          "avgCost": 335.2,
+          "mark": 342.54
+        }
+      ]
+    }
+  },
+  "journal": {
+    "date": "2026-10-19",
+    "stance": "IN_TRADE",
+    "headline": "Mon ~21:35 EOD Manila. Week Oct 19-23 NO TRADE by default (A+ only). ETH 8am close $2,407.51 confirmed above $2,378 exit line. Crypto firmer (BTC ~$82.3k, ETH ~$2,416). US Mon live MSFT ~$530.51 / GOOGL ~$342.54. HOLD both books; no fills, no PLAN.",
+    "scout": {
+      "headline": "Mon EOD. Post-CPI/PPI wait over; week runs NO TRADE by default into MSFT/GOOGL earnings Oct 28 + FOMC Oct 29 02:00 Manila.",
+      "bullets": [
+        "Morning ~07:00: HOLD both books; ETH 8am closes Oct 17 $2,419.92 / Oct 18 $2,399.68 both above $2,378; Sun low $2,325.48.",
+        "Weekly review ~08:15: week Oct 19-23 NO TRADE by default; exit lines decided by a close, never live; flatten-or-hold retired.",
+        "21:07 level: ETH 8am Manila daily close CONFIRMED Coinbase $2,407.51 ABOVE $2,378 (~1.2%); MSFT/GOOGL above exit lines.",
+        "EOD ~21:34 Coinbase 24h: BTC $82,332 (+1.1%) / ETH $2,416.32 (+1.0%, low $2,325.48) / SOL $104.91 (+2.0%) / XRP $1.3096 (+2.2%) / BNB $727.71 (+1.4%) / LINK $12.05 (+1.5%) / SUI $1.00 (+3.4%).",
+        "Yahoo v8 live Mon: SPY $767.44 (+0.6%) / QQQ $719.59 (+1.4%) / MSFT $530.51 (+0.3%) / GOOGL $342.54 (+0.6%) / NVDA $215.99 (+0.9%) / META $704.84 (-0.6%).",
+        "Books: Gotrade ~+$1.99 (MSFT ~+$1.40 / GOOGL ~+$0.59); ETH ~-$0.39; combined ~+$1.60 (~\u20b1101 at USDPHP 63.07).",
+        "Coins cash \u20b10.33; Gotrade cash $0. Naked ETH blocks new Coins. MSFT still under $536 floor."
+      ],
+      "sources": [
+        "Coinbase exchange 24h stats ~21:34 Manila Oct 19 (all 7 crypto)",
+        "Coinbase ETH-USD daily candle (8am Manila close)",
+        "Yahoo v8 chart ~21:34 Manila (US Mon live session)",
+        "open.er-api.com USDPHP ~21:34 Manila",
+        "Trading Ops morning brief, weekly review, 21:00 level watch Oct 19"
+      ]
+    },
+    "analyst": {
+      "thesis": "EOD HOLD. Post-binary wait cleared Mon but nothing A+: ETH sits ~1.2% above its $2,378 exit line on the 8am close ($2,407.51), spot ~$2,416.32 (~-$0.39 vs fill). MSFT/GOOGL green vs fills and above exit lines. Next binary is MSFT/GOOGL earnings Oct 28 after close + FOMC Oct 29 02:00 Manila. No PLAN.",
+      "levels": [
+        {
+          "symbol": "ETH",
+          "support": 2378,
+          "invalidation": "Exit line $2,378 on the 8am Manila Coinbase daily close - ABOVE ($2,407.51)",
+          "note": "Entry $2451.93 / EOD mark ~$2,416.32 (Coinbase ~21:34 Manila; +1.0% 24h, low $2,325.48) / broker net qty 0.01103342. Naked. ~-$0.39 (~-\u20b125). A close below $2,378 = SELL PLAN card for jayr at the brief; no auto order."
+        },
+        {
+          "symbol": "BTC",
+          "invalidation": "No new PLAN without desk greenlight",
+          "note": "Primary map - Coinbase $82,332 (+1.1% 24h). Above expired $78-78.8k wait; NO TRADE week."
+        },
+        {
+          "symbol": "XRP",
+          "invalidation": "No new PLAN without desk greenlight",
+          "note": "Primary map - Coinbase $1.3096 (+2.2% 24h). Below old $1.33-1.36 wait. No armed wait."
+        },
+        {
+          "symbol": "MSFT",
+          "support": 519,
+          "invalidation": "Exit line $519 on US regular-session close",
+          "note": "LT hold / live Mon ~$530.51 vs fill $495.57 (~+$1.40). Under $536 floor, ~2.2% over exit. Earnings Oct 28 after close."
+        },
+        {
+          "symbol": "GOOGL",
+          "support": 337,
+          "invalidation": "Exit line $337 on US regular-session close",
+          "note": "LT hold / live Mon ~$342.54 vs fill $335.20 (~+$0.59). ~1.6% over exit. Earnings Oct 28 after close; cash $0, no add."
+        }
+      ],
+      "notes": "Mon checks: ~07:00 morning, ~08:15 weekly review, ~21:07 level - all HOLD / NO TRADE, research marks, no broker. EOD ~21:34: Coinbase 24h stats all 7 crypto, Yahoo v8 live Mon US session, USDPHP 63.07. Books ~+$1.60 combined."
+    },
+    "risk": {
+      "railsCheck": "Week Oct 19-23 NO TRADE by default (A+ only). Gotrade IN_TRADE (cash $0; MSFT/GOOGL LT holds above exit lines $519/$337). ETH naked above $2,378 exit line (~$26.7 notional, 0.01103342 ETH). Exit lines decided by a close, never live; a close below = SELL PLAN card for jayr, no auto order. New Coins blocked while naked. Stance IN_TRADE, not ARMED - no PLAN.",
+      "sizeNote": "Do not add. Coins PHP cash \u20b10.33; Gotrade cash $0. Sizes unchanged: Coins \u20b1800-1,200 (\u20b11,500 A+), Gotrade $15-25.",
+      "kills": [
+        "Week Oct 19-23: NO TRADE by default, A+ only",
+        "Exit lines by close only: ETH $2,378 (8am Manila Coinbase), MSFT $519 / GOOGL $337 (US close)",
+        "No new Coins entries while naked",
+        "No new Gotrade without cash (cash $0)",
+        "No new Gotrade single-name into MSFT/GOOGL earnings Oct 28 + FOMC Oct 29",
+        "Tue Oct 27 brief asks jayr hold-through-earnings vs trim; no answer = hold",
+        "Kill switch: 1 loser or -\u20b1400 day (Coins) still on"
+      ],
+      "feeSkip": "Skip if fees >= ~1/3 edge - unchanged."
+    },
+    "desk": {
+      "decision": "Mon EOD HOLD / NO TRADE. Both books held; nothing queued. ETH 8am close confirmed above $2,378; MSFT/GOOGL above exit lines. Combined open ~+$1.60 (~\u20b1101) on research marks. No PLAN.",
+      "actions": [
+        "HOLD open books only - no new orders",
+        "Exit lines read on closes at the 7am brief; SELL PLAN card only if a close breaks",
+        "No broker browser (nothing queued; research marks)",
+        "~21:30 EOD Vision publish (ingest + publish one step)",
+        "Next Ops: Tue Oct 20 morning 07:00"
+      ],
+      "nextOpen": "Tue Oct 20 US session - NO TRADE week, A+ only; MSFT/GOOGL earnings Oct 28 after close; FOMC decision Oct 29 02:00 Manila."
+    }
+  },
+  "catalysts": [
+    {
+      "id": "cpi-2026-09-11",
+      "date": "2026-09-11",
+      "timeManila": "20:30",
+      "title": "US August CPI",
+      "impact": "high",
+      "status": "done",
+      "notes": "Hot core into FOMC week"
+    },
+    {
+      "id": "fomc-2026-09-15",
+      "date": "2026-09-15",
+      "title": "FOMC meeting day 1",
+      "impact": "high",
+      "status": "done",
+      "notes": "Day 1 complete"
+    },
+    {
+      "id": "fomc-decision-2026-09-16",
+      "date": "2026-09-16",
+      "timeManila": "02:00",
+      "title": "FOMC decision + presser",
+      "impact": "high",
+      "status": "done",
+      "notes": "+25bps to 3.75-4.00%. Event kill cleared; still no new PLAN without A+; HOLD preferred on new size."
+    },
+    {
+      "id": "pce-2026-08",
+      "date": "2026-09-30",
+      "timeManila": "20:30",
+      "title": "US August PCE",
+      "impact": "high",
+      "status": "done",
+      "notes": "Aug PCE cool: headline 3.4% (exp ~3.7%), core 3.0% (exp ~3.3%). Bid US mid-session; NFP Fri still ahead - rail holds."
+    },
+    {
+      "id": "ism-mfg-2026-09",
+      "date": "2026-10-01",
+      "timeManila": "22:00",
+      "title": "US September ISM manufacturing",
+      "impact": "medium",
+      "status": "done",
+      "notes": "Sep mfg PMI 54.5 (Aug 54.6, consensus ~55) - 9th month of expansion; Prices Index jumped to 77.9. Not dovish into NFP."
+    },
+    {
+      "id": "nfp-2026-10-02",
+      "date": "2026-10-02",
+      "timeManila": "20:30",
+      "title": "US September NFP",
+      "impact": "high",
+      "status": "done",
+      "notes": "Soft print: +29k vs ~84-90k cons, U-rate 4.2%. Still NFP-weekend map-only - no new Gotrade single-name; Coins new only with SM restored + A+."
+    },
+    {
+      "id": "ism-svcs-2026-09",
+      "date": "2026-10-05",
+      "timeManila": "22:00",
+      "title": "US September ISM services",
+      "impact": "medium",
+      "status": "done",
+      "notes": "ISM services slowed in September. No change to the call; map-only into pre-CPI window."
+    },
+    {
+      "id": "fomc-minutes-2026-09",
+      "date": "2026-10-08",
+      "timeManila": "02:00",
+      "title": "FOMC September minutes",
+      "impact": "medium",
+      "status": "done",
+      "notes": "Printed ~02:00 Manila Oct 8. Noise only \u2014 no size add; HOLD both books unchanged into CPI."
+    },
+    {
+      "id": "bank-earnings-2026-q3",
+      "date": "2026-10-13",
+      "title": "US big-bank Q3 earnings (Tue/Wed)",
+      "impact": "medium",
+      "status": "done",
+      "notes": "Tue Oct 13 - Wed Oct 14 US sessions. Tape read only; no size."
+    },
+    {
+      "id": "cpi-2026-09",
+      "date": "2026-10-14",
+      "timeManila": "20:30",
+      "title": "US September CPI",
+      "impact": "high",
+      "status": "done",
+      "notes": "Hot vs cons: headline 3.7%/0.6% (exp 3.6%/0.6%); core 2.6%/0.3% (exp 2.5%/0.2%). HOLD both books into PPI Thu; no new size before Mon Oct 19."
+    },
+    {
+      "id": "beige-book-2026-10",
+      "date": "2026-10-15",
+      "timeManila": "02:00",
+      "title": "Fed Beige Book",
+      "impact": "low",
+      "status": "done",
+      "notes": "Printed Thu ~02:00 Manila. Noise between CPI and PPI; no change."
+    },
+    {
+      "id": "ppi-2026-09",
+      "date": "2026-10-15",
+      "timeManila": "20:30",
+      "title": "US September PPI + retail sales",
+      "impact": "high",
+      "status": "done",
+      "notes": "Hot: PPI 1.3%/6.3% (exp 0.6%/5.3%); core PPI 0.7% (exp 0.3%); retail 0.8% (exp 0.3%), ex-auto 0.9% (exp 0.6%). Post-binary HOLD; no new size before Mon Oct 19, A+ only."
+    },
+    {
+      "id": "tsmc-q3-2026",
+      "date": "2026-10-15",
+      "title": "TSMC Q3 earnings",
+      "impact": "medium",
+      "status": "done",
+      "notes": "Reported Thu. TSM ADR ~$410.56 at US open (-4.5% vs Wed $430.00) - soft AI read-through for MSFT/GOOGL. No add (cash $0)."
+    },
+    {
+      "id": "msft-googl-earnings-2026-q3",
+      "date": "2026-10-28",
+      "title": "MSFT + GOOGL Q3 earnings (after US close)",
+      "impact": "high",
+      "status": "upcoming",
+      "notes": "Results ~04:00-05:30 Manila Thu Oct 29. Tue Oct 27 brief asks jayr hold-through vs trim; no answer = hold tiny learning positions."
+    },
+    {
+      "id": "fomc-2026-10",
+      "date": "2026-10-29",
+      "timeManila": "02:00",
+      "title": "FOMC decision + presser (Oct 27-28 meeting)",
+      "impact": "high",
+      "status": "upcoming",
+      "notes": "Decision Thu Oct 29 02:00 Manila. No new Gotrade single-name into the window."
+    }
+  ],
+  "watchlistMarks": [
+    {
+      "symbol": "BTC",
+      "last": 82331.63,
+      "changePct": 1.11
+    },
+    {
+      "symbol": "ETH",
+      "last": 2416.32,
+      "changePct": 0.98
+    },
+    {
+      "symbol": "SOL",
+      "last": 104.91,
+      "changePct": 2.03
+    },
+    {
+      "symbol": "XRP",
+      "last": 1.3096,
+      "changePct": 2.22
+    },
+    {
+      "symbol": "BNB",
+      "last": 727.71,
+      "changePct": 1.38
+    },
+    {
+      "symbol": "LINK",
+      "last": 12.046,
+      "changePct": 1.47
+    },
+    {
+      "symbol": "SUI",
+      "last": 1.0009,
+      "changePct": 3.44
+    },
+    {
+      "symbol": "SPY",
+      "last": 767.44,
+      "changePct": 0.55
+    },
+    {
+      "symbol": "QQQ",
+      "last": 719.59,
+      "changePct": 1.38
+    },
+    {
+      "symbol": "VOO",
+      "last": 705.44,
+      "changePct": 0.55
+    },
+    {
+      "symbol": "IWM",
+      "last": 272.34,
+      "changePct": 0.7
+    },
+    {
+      "symbol": "AAPL",
+      "last": 343.55,
+      "changePct": 0.02
+    },
+    {
+      "symbol": "MSFT",
+      "last": 530.51,
+      "changePct": 0.28
+    },
+    {
+      "symbol": "NVDA",
+      "last": 215.99,
+      "changePct": 0.87
+    },
+    {
+      "symbol": "GOOGL",
+      "last": 342.54,
+      "changePct": 0.57
+    },
+    {
+      "symbol": "AMZN",
+      "last": 256.06,
+      "changePct": 2.42
+    },
+    {
+      "symbol": "META",
+      "last": 704.84,
+      "changePct": -0.63
+    },
+    {
+      "symbol": "TSLA",
+      "last": 360.15,
+      "changePct": 1.53
+    }
+  ],
+  "predictions": [
+    {
+      "conviction": 3,
+      "dateOpened": "2026-09-08",
+      "direction": "long_wait",
+      "entryZone": {
+        "high": 78800,
+        "low": 78000
+      },
+      "horizon": "event",
+      "id": "btc-wait-2026-09-08",
+      "invalidation": "Break below structure, or chase a market buy into CPI without a zone hold",
+      "invalidationPrice": 77200,
+      "outcomeNote": "HIT entry zone then EXPIRED/below. Zone print /= fill into CPI binary.",
+      "resolvedAt": "2026-09-11",
+      "role": "primary",
+      "source": "analyst",
+      "status": "expired",
+      "symbol": "BTC",
+      "thesis": "Primary wait $78-78.8k. Hit then expired into CPI.",
+      "venue": "coins"
+    },
+    {
+      "conviction": 4,
+      "dateOpened": "2026-09-08",
+      "direction": "long_wait",
+      "entryZone": {
+        "high": 1.36,
+        "low": 1.33
+      },
+      "horizon": "event",
+      "id": "xrp-wait-2026-09-08",
+      "invalidation": "Chase at $1.42 into CPI, or lose the 1.33 wait structure",
+      "invalidationPrice": 1.28,
+      "outcomeNote": "HIT / IN ZONE but UNFILLED by desk rule - no resting limit into CPI.",
+      "resolvedAt": "2026-09-11",
+      "role": "primary",
+      "source": "analyst",
+      "status": "hit_entry",
+      "symbol": "XRP",
+      "target": {
+        "t1": 1.41,
+        "t2": 1.44
+      },
+      "thesis": "Alt primary wait $1.33-1.36. Hit/in-zone unfilled into CPI.",
+      "venue": "coins"
+    },
+    {
+      "conviction": 2,
+      "dateOpened": "2026-09-08",
+      "direction": "long_wait",
+      "entryZone": {
+        "high": 737,
+        "low": 728
+      },
+      "horizon": "swing",
+      "id": "bnb-scout-2026-09-08",
+      "invalidation": "Scout-only. Any chase into CPI invalidates the idea.",
+      "outcomeNote": "MISS/below scout. Not PLAN-eligible.",
+      "resolvedAt": "2026-09-11",
+      "role": "scout",
+      "source": "analyst",
+      "status": "invalidated",
+      "symbol": "BNB",
+      "thesis": "Soft scout $728-737. Miss into CPI.",
+      "venue": "coins"
+    },
+    {
+      "conviction": 2,
+      "dateOpened": "2026-09-08",
+      "direction": "long_wait",
+      "entryZone": {
+        "high": 12.65,
+        "low": 12.5
+      },
+      "horizon": "swing",
+      "id": "link-scout-2026-09-08",
+      "invalidation": "Scout-only. No clip into CPI.",
+      "outcomeNote": "MISS/below scout. Not PLAN-eligible.",
+      "resolvedAt": "2026-09-11",
+      "role": "scout",
+      "source": "analyst",
+      "status": "invalidated",
+      "symbol": "LINK",
+      "thesis": "Soft scout $12.50-12.65. Miss into CPI.",
+      "venue": "coins"
+    },
+    {
+      "conviction": 6,
+      "dateOpened": "2026-09-08",
+      "direction": "none",
+      "horizon": "event",
+      "id": "sui-none-2026-09-08",
+      "invalidation": "Any long into the print",
+      "outcomeNote": "Cancelled at the open - no scenario, no clip.",
+      "resolvedAt": "2026-09-08",
+      "role": "scout",
+      "source": "desk",
+      "status": "cancelled",
+      "symbol": "SUI",
+      "thesis": "NONE into CPI. Relative strength is not a ticket.",
+      "venue": "coins"
+    },
+    {
+      "conviction": 6,
+      "dateOpened": "2026-09-08",
+      "direction": "none",
+      "horizon": "event",
+      "id": "macro-flat-cpi-fomc-2026-09-08",
+      "invalidation": "Desk grants permission, or a primary prints a clean post-event wait with Risk greenlight",
+      "outcomeNote": "FOMC +25bps done. Stance expires as event map - open books remain IN_TRADE HOLD; no auto-arm for new size.",
+      "resolvedAt": "2026-09-16",
+      "role": "stance",
+      "source": "desk",
+      "status": "expired",
+      "symbol": "MACRO",
+      "thesis": "FOMC complete. Event kill cleared. Still HOLD open books / no new PLAN without A+.",
+      "venue": "macro"
+    },
+    {
+      "conviction": 7,
+      "dateOpened": "2026-09-28",
+      "direction": "none",
+      "horizon": "event",
+      "id": "macro-nfp-week-2026-09-28",
+      "invalidation": "NFP week clears and desk grants A+ with rails green; or jayr asks for a specific PLAN",
+      "outcomeNote": "NFP soft (+29k / U 4.2%) printed 20:30 Manila. Event map expires - open books stay IN_TRADE HOLD; no auto-arm. Prefer NO TRADE into weekend; Mon reassess on jayr ask / A+.",
+      "resolvedAt": "2026-10-02",
+      "role": "stance",
+      "source": "desk",
+      "status": "expired",
+      "symbol": "MACRO",
+      "thesis": "NFP / first-Friday employment window (Fri Oct 2) + same-week PCE/ISM cluster. Map-only: no new Gotrade single-name; Coins new only if Stop-Market restored and A+ edge.",
+      "venue": "macro"
+    }
+  ]
+}

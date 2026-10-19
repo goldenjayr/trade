@@ -302,5 +302,13 @@
     "tradeCount": 0,
     "coinsEquity": 27.4329,
     "gotradeEquity": 49.5554
+  },
+  {
+    "date": "2026-10-19",
+    "stance": "IN_TRADE",
+    "summary": "Mon 2026-10-19 ~21:35 Manila EOD. Weekly review set week Oct 19-23 NO TRADE by default (A+ only). Coinbase 24h stats crypto; Yahoo v8 live Mon US session marks for books (RTH open). Research marks, nothing queued, no broker browser. Flatten-or-hold question retired: exit lines are decided by a close (ETH 8am Manila Coinbase daily close vs $2,378; MSFT $519 / GOOGL $337 US regular-session close read at 7am brief); a close below means a SELL PLAN card for jayr to confirm, no auto order.",
+    "tradeCount": 0,
+    "coinsEquity": 26.9903,
+    "gotradeEquity": 48.6587
   }
 ]

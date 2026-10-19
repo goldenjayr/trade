@@ -1,8 +1,8 @@
 {
-  "asOf": "2026-10-16",
+  "asOf": "2026-10-19",
   "timezone": "Asia/Manila",
   "stance": "IN_TRADE",
-  "stanceReason": "Fri Oct 16 ~21:30 Manila EOD - IN_TRADE HOLD / NO TRADE post hot CPI/PPI+retail; no new size before Mon Oct 19, A+ only. ETH 8am Manila daily close CONFIRMED Coinbase $2,439.45 ABOVE mental $2,378.37 (~2.6%); spot ~$2,456.44 (~+$0.05 / ~3.3% above mental). Flatten-or-hold still open with jayr, no order. Gotrade Fri close MSFT $540.23 / GOOGL $348.88 (~+$2.89). Combined ~+$2.94 (~₱185). Gotrade cash $0; Coins blocked while naked. No PLAN. Ops cut to 7am+9pm only (midday/overnight paused).",
+  "stanceReason": "Mon Oct 19 ~21:35 Manila EOD - IN_TRADE HOLD / NO TRADE. Post-CPI/PPI wait is over but the week runs NO TRADE by default (A+ only): naked ETH blocks new Coins and Gotrade cash is $0. ETH 8am Manila daily close CONFIRMED Coinbase $2,407.51 ABOVE $2,378 exit line (~1.2%); spot ~$2,416.32 (~-$0.39). Gotrade live Mon MSFT ~$530.51 / GOOGL ~$342.54 (~+$1.99), both above exit lines ($519 / $337). Combined ~+$1.60 (~₱101). Exit lines decided by a close, never live. Next binary: MSFT/GOOGL earnings Oct 28 after US close + FOMC decision Thu Oct 29 02:00 Manila. No PLAN.",
   "primaries": [
     "BTC",
     "XRP"
@@ -13,19 +13,19 @@
       "label": "Coins.ph",
       "currency": "PHP",
       "cash": 0.33,
-      "equity": 27.4329,
-      "dayPnl": 1.33,
-      "totalPnl": 0.05,
+      "equity": 26.9903,
+      "dayPnl": 0.26,
+      "totalPnl": -0.39,
       "positions": [
         {
           "symbol": "ETH",
           "name": "Ethereum",
           "qty": 0.01103342,
           "avgCost": 2451.93,
-          "mark": 2456.44,
-          "marketValue": 27.1029,
-          "pnl": 0.0497,
-          "pnlPct": 0.001837
+          "mark": 2416.32,
+          "marketValue": 26.6603,
+          "pnl": -0.3929,
+          "pnlPct": -0.014523
         }
       ]
     },
@@ -34,29 +34,29 @@
       "label": "Gotrade",
       "currency": "USD",
       "cash": 0,
-      "equity": 49.5554,
-      "dayPnl": 0,
-      "totalPnl": 2.89,
+      "equity": 48.6587,
+      "dayPnl": 0.21,
+      "totalPnl": 1.99,
       "positions": [
         {
           "symbol": "MSFT",
           "name": "Microsoft",
           "qty": 0.040135601,
           "avgCost": 495.57,
-          "mark": 540.23,
-          "marketValue": 21.6825,
-          "pnl": 1.7925,
-          "pnlPct": 0.090121
+          "mark": 530.51,
+          "marketValue": 21.2923,
+          "pnl": 1.4023,
+          "pnlPct": 0.070503
         },
         {
           "symbol": "GOOGL",
           "name": "Alphabet",
           "qty": 0.079892601,
           "avgCost": 335.2,
-          "mark": 348.88,
-          "marketValue": 27.8729,
-          "pnl": 1.0929,
-          "pnlPct": 0.04081
+          "mark": 342.54,
+          "marketValue": 27.3664,
+          "pnl": 0.5864,
+          "pnlPct": 0.021897
         }
       ]
     }
@@ -177,12 +177,21 @@
       "notes": "Reported Thu. TSM ADR ~$410.56 at US open (-4.5% vs Wed $430.00) - soft AI read-through for MSFT/GOOGL. No add (cash $0)."
     },
     {
-      "id": "fomc-2026-10",
-      "date": "2026-10-27",
-      "title": "FOMC meeting Oct 27-28",
+      "id": "msft-googl-earnings-2026-q3",
+      "date": "2026-10-28",
+      "title": "MSFT + GOOGL Q3 earnings (after US close)",
       "impact": "high",
       "status": "upcoming",
-      "notes": "Rate decision Oct 28 + presser. No new Gotrade single-name into the window."
+      "notes": "Results ~04:00-05:30 Manila Thu Oct 29. Tue Oct 27 brief asks jayr hold-through vs trim; no answer = hold tiny learning positions."
+    },
+    {
+      "id": "fomc-2026-10",
+      "date": "2026-10-29",
+      "timeManila": "02:00",
+      "title": "FOMC decision + presser (Oct 27-28 meeting)",
+      "impact": "high",
+      "status": "upcoming",
+      "notes": "Decision Thu Oct 29 02:00 Manila. No new Gotrade single-name into the window."
     }
   ]
 }
