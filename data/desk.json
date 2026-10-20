@@ -1,8 +1,8 @@
 {
-  "asOf": "2026-10-19",
+  "asOf": "2026-10-20",
   "timezone": "Asia/Manila",
   "stance": "IN_TRADE",
-  "stanceReason": "Mon Oct 19 ~21:35 Manila EOD - IN_TRADE HOLD / NO TRADE. Post-CPI/PPI wait is over but the week runs NO TRADE by default (A+ only): naked ETH blocks new Coins and Gotrade cash is $0. ETH 8am Manila daily close CONFIRMED Coinbase $2,407.51 ABOVE $2,378 exit line (~1.2%); spot ~$2,416.32 (~-$0.39). Gotrade live Mon MSFT ~$530.51 / GOOGL ~$342.54 (~+$1.99), both above exit lines ($519 / $337). Combined ~+$1.60 (~₱101). Exit lines decided by a close, never live. Next binary: MSFT/GOOGL earnings Oct 28 after US close + FOMC decision Thu Oct 29 02:00 Manila. No PLAN.",
+  "stanceReason": "Tue Oct 20 ~21:30 Manila EOD - IN_TRADE HOLD / NO TRADE. Week Oct 19-23 runs NO TRADE by default (A+ only): naked ETH blocks new Coins and Gotrade cash is $0. ETH 8am Manila daily close CONFIRMED Coinbase $2,405.08 ABOVE $2,378 exit line (~1.1%); spot ~$2,390.18 (~-$0.68); intraday low $2,369.51 dipped under $2,378 (reported once - the close decides; next close Wed Oct 21 8am). Gotrade Mon close MSFT $533.52 / GOOGL $344.18 (~+$2.24), both above lines; GOOGL is a long-term hold (no SELL PLAN). Combined ~+$1.56 (~₱98). Next binary: MSFT/GOOGL earnings Oct 28 after US close + FOMC Thu Oct 29 02:00 Manila. No PLAN.",
   "primaries": [
     "BTC",
     "XRP"
@@ -13,19 +13,19 @@
       "label": "Coins.ph",
       "currency": "PHP",
       "cash": 0.33,
-      "equity": 26.9903,
-      "dayPnl": 0.26,
-      "totalPnl": -0.39,
+      "equity": 26.7019,
+      "dayPnl": -0.29,
+      "totalPnl": -0.68,
       "positions": [
         {
           "symbol": "ETH",
           "name": "Ethereum",
           "qty": 0.01103342,
           "avgCost": 2451.93,
-          "mark": 2416.32,
-          "marketValue": 26.6603,
-          "pnl": -0.3929,
-          "pnlPct": -0.014523
+          "mark": 2390.18,
+          "marketValue": 26.3719,
+          "pnl": -0.6813,
+          "pnlPct": -0.025184
         }
       ]
     },
@@ -34,29 +34,29 @@
       "label": "Gotrade",
       "currency": "USD",
       "cash": 0,
-      "equity": 48.6587,
-      "dayPnl": 0.21,
-      "totalPnl": 1.99,
+      "equity": 48.9105,
+      "dayPnl": 0.25,
+      "totalPnl": 2.24,
       "positions": [
         {
           "symbol": "MSFT",
           "name": "Microsoft",
           "qty": 0.040135601,
           "avgCost": 495.57,
-          "mark": 530.51,
-          "marketValue": 21.2923,
-          "pnl": 1.4023,
-          "pnlPct": 0.070503
+          "mark": 533.52,
+          "marketValue": 21.4131,
+          "pnl": 1.5231,
+          "pnlPct": 0.076576
         },
         {
           "symbol": "GOOGL",
           "name": "Alphabet",
           "qty": 0.079892601,
           "avgCost": 335.2,
-          "mark": 342.54,
-          "marketValue": 27.3664,
-          "pnl": 0.5864,
-          "pnlPct": 0.021897
+          "mark": 344.18,
+          "marketValue": 27.4974,
+          "pnl": 0.7174,
+          "pnlPct": 0.026789
         }
       ]
     }
@@ -182,7 +182,7 @@
       "title": "MSFT + GOOGL Q3 earnings (after US close)",
       "impact": "high",
       "status": "upcoming",
-      "notes": "Results ~04:00-05:30 Manila Thu Oct 29. Tue Oct 27 brief asks jayr hold-through vs trim; no answer = hold tiny learning positions."
+      "notes": "Results ~04:00-05:30 Manila Thu Oct 29. Tue Oct 27 brief asks jayr hold-through vs trim for MSFT; GOOGL is a long-term hold (jayr, Oct 20). No answer = hold."
     },
     {
       "id": "fomc-2026-10",
