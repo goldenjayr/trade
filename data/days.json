@@ -318,5 +318,13 @@
     "tradeCount": 0,
     "coinsEquity": 26.7019,
     "gotradeEquity": 48.9105
+  },
+  {
+    "date": "2026-10-21",
+    "stance": "IN_TRADE",
+    "summary": "Wed 2026-10-21 ~21:30 Manila EOD. NO TRADE week (A+ only). Coinbase 24h stats crypto; Yahoo v8 Tue US regular-session close for books (Wed session opened 21:30 Manila; live opening prints noted only). Research marks, nothing queued, no broker browser. Exit lines decided by a close: ETH 8am Manila Coinbase daily close vs $2,378; MSFT $519 US close = SELL PLAN card for jayr to confirm. GOOGL is a long-term hold per jayr (Oct 20) - $337/$330 are info-only alerts, no SELL PLAN.",
+    "tradeCount": 0,
+    "coinsEquity": 27.5416,
+    "gotradeEquity": 48.5328
   }
 ]

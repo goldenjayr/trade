@@ -1,8 +1,8 @@
 {
-  "asOf": "2026-10-20",
+  "asOf": "2026-10-21",
   "timezone": "Asia/Manila",
   "stance": "IN_TRADE",
-  "stanceReason": "Tue Oct 20 ~21:30 Manila EOD - IN_TRADE HOLD / NO TRADE. Week Oct 19-23 runs NO TRADE by default (A+ only): naked ETH blocks new Coins and Gotrade cash is $0. ETH 8am Manila daily close CONFIRMED Coinbase $2,405.08 ABOVE $2,378 exit line (~1.1%); spot ~$2,390.18 (~-$0.68); intraday low $2,369.51 dipped under $2,378 (reported once - the close decides; next close Wed Oct 21 8am). Gotrade Mon close MSFT $533.52 / GOOGL $344.18 (~+$2.24), both above lines; GOOGL is a long-term hold (no SELL PLAN). Combined ~+$1.56 (~₱98). Next binary: MSFT/GOOGL earnings Oct 28 after US close + FOMC Thu Oct 29 02:00 Manila. No PLAN.",
+  "stanceReason": "Wed Oct 21 ~21:30 Manila EOD - IN_TRADE HOLD / NO TRADE. Week Oct 19-23 runs NO TRADE by default (A+ only): naked ETH blocks new Coins and Gotrade cash is $0. ETH 8am Manila daily close CONFIRMED Coinbase $2,446.62 ABOVE $2,378 exit line (~2.9%); spot ~$2,466.29 (~+$0.16). Gotrade Tue close MSFT $531.87 / GOOGL $340.28 (~+$1.86), both above lines; GOOGL is a long-term hold (no SELL PLAN). Wed US session just opened softer (MSFT ~$525.47 / GOOGL ~$332.56 live, GOOGL under its $337 info-only alert; close decides, reported once). Combined ~+$2.02 (~₱127). Next binary: MSFT/GOOGL earnings Oct 28 after US close + FOMC Thu Oct 29 02:00 Manila. No PLAN.",
   "primaries": [
     "BTC",
     "XRP"
@@ -13,19 +13,19 @@
       "label": "Coins.ph",
       "currency": "PHP",
       "cash": 0.33,
-      "equity": 26.7019,
-      "dayPnl": -0.29,
-      "totalPnl": -0.68,
+      "equity": 27.5416,
+      "dayPnl": 0.84,
+      "totalPnl": 0.16,
       "positions": [
         {
           "symbol": "ETH",
           "name": "Ethereum",
           "qty": 0.01103342,
           "avgCost": 2451.93,
-          "mark": 2390.18,
-          "marketValue": 26.3719,
-          "pnl": -0.6813,
-          "pnlPct": -0.025184
+          "mark": 2466.29,
+          "marketValue": 27.2116,
+          "pnl": 0.1584,
+          "pnlPct": 0.005855
         }
       ]
     },
@@ -34,29 +34,29 @@
       "label": "Gotrade",
       "currency": "USD",
       "cash": 0,
-      "equity": 48.9105,
-      "dayPnl": 0.25,
-      "totalPnl": 2.24,
+      "equity": 48.5328,
+      "dayPnl": -0.38,
+      "totalPnl": 1.86,
       "positions": [
         {
           "symbol": "MSFT",
           "name": "Microsoft",
           "qty": 0.040135601,
           "avgCost": 495.57,
-          "mark": 533.52,
-          "marketValue": 21.4131,
-          "pnl": 1.5231,
-          "pnlPct": 0.076576
+          "mark": 531.87,
+          "marketValue": 21.3469,
+          "pnl": 1.4569,
+          "pnlPct": 0.073248
         },
         {
           "symbol": "GOOGL",
           "name": "Alphabet",
           "qty": 0.079892601,
           "avgCost": 335.2,
-          "mark": 344.18,
-          "marketValue": 27.4974,
-          "pnl": 0.7174,
-          "pnlPct": 0.026789
+          "mark": 340.28,
+          "marketValue": 27.1859,
+          "pnl": 0.4059,
+          "pnlPct": 0.015157
         }
       ]
     }
