@@ -1,0 +1,84 @@
+{
+  "date": "2026-10-23",
+  "stance": "IN_TRADE",
+  "headline": "Fri ~21:30 EOD Manila. NO TRADE week (A+ only). ETH 8am close $2,385.86 confirmed just above $2,378 (0.33%). Thu US close MSFT $521.08 just above $519 / GOOGL $324.22 (LT hold); Fri open MSFT ~$518.89 live under the line - close decides. HOLD both books; no fills, no PLAN.",
+  "scout": {
+    "headline": "Fri EOD. Risk-off tail to the NO TRADE week: ETH and MSFT both sitting right on their exit lines into the weekend. Next binary MSFT/GOOGL earnings Oct 28 + FOMC Oct 29 02:00 Manila.",
+    "bullets": [
+      "Oct 22 8am Manila Coinbase close CONFIRMED $2,471.78 above $2,378; Oct 22 session intraday low $2,357.05 dipped under the line (reported once).",
+      "Oct 23 8am Manila Coinbase close CONFIRMED $2,385.86 - above $2,378 by only ~$7.86 (0.33%). Next close Sat Oct 24 8am.",
+      "EOD ~21:33 Coinbase 24h: BTC $81,643 (+0.0%) / ETH $2,401.32 (-0.3%) / SOL $104.34 (-0.6%) / XRP $1.3158 (-0.8%) / BNB $745.62 (+1.6%) / LINK $12.00 (-0.6%) / SUI $0.993 (+0.7%).",
+      "Yahoo v8 Thu close: SPY $763.96 / QQQ $704.47 / MSFT $521.08 (-2.2%) / GOOGL $324.22 (-3.1%) / NVDA $212.21 / AMZN $250.38 / META $648.85 (-7.0%).",
+      "Fri open (~21:33 live, not a close): MSFT ~$518.89 under $519 exit; GOOGL ~$321.32 under $330 info alert (LT hold, info only). Fri close decides MSFT - read at Mon Oct 26 7am brief.",
+      "Books: Gotrade ~+$0.15 (MSFT ~+$1.02 / GOOGL ~-$0.88); ETH ~-$0.56; combined ~-$0.41 (~₱-26 at USDPHP 63.53).",
+      "Coins cash ₱0.33; Gotrade cash $0. Naked ETH blocks new Coins. GOOGL long-term hold (jayr, Oct 20)."
+    ],
+    "sources": [
+      "Coinbase exchange 24h stats ~21:33 Manila Oct 23 (all 7 crypto)",
+      "Coinbase ETH-USD daily candles (8am Manila closes Oct 22 + Oct 23)",
+      "Yahoo v8 chart ~21:33 Manila (Thu US regular-session close + Fri opening prints)",
+      "open.er-api.com USDPHP ~21:33 Manila",
+      "Trading Ops 21:00 level watch Oct 23"
+    ]
+  },
+  "analyst": {
+    "thesis": "EOD HOLD. Nothing A+: ETH closed $2,385.86 at 8am, a hair (0.33%) above its $2,378 exit line, and trades ~$2,401.32 (~-$0.56 vs fill). MSFT closed Thu $521.08, $2.08 over its $519 exit, and opened Fri just under - the Fri close decides. GOOGL is a long-term hold. Next binary MSFT/GOOGL earnings Oct 28 after close + FOMC Oct 29 02:00 Manila. No PLAN.",
+    "levels": [
+      {
+        "symbol": "ETH",
+        "support": 2378,
+        "invalidation": "Exit line $2,378 on the 8am Manila Coinbase daily close - ABOVE ($2,385.86 Oct 23, only 0.33%)",
+        "note": "Entry $2451.93 / EOD mark ~$2,401.32 (Coinbase ~21:33 Manila) / broker net qty 0.01103342. Naked. ~-$0.56 (~₱-36). Next close Sat Oct 24 8am; a close below $2,378 = SELL PLAN card for jayr; no auto order."
+      },
+      {
+        "symbol": "BTC",
+        "invalidation": "No new PLAN without desk greenlight",
+        "note": "Primary map - Coinbase $81,643 (flat 24h). Above expired $78-78.8k wait; NO TRADE week."
+      },
+      {
+        "symbol": "XRP",
+        "invalidation": "No new PLAN without desk greenlight",
+        "note": "Primary map - Coinbase $1.3158 (-0.8% 24h). Just under old $1.33-1.36 wait band; no armed wait (NO TRADE week, naked ETH)."
+      },
+      {
+        "symbol": "MSFT",
+        "support": 519,
+        "invalidation": "Exit line $519 on US regular-session close",
+        "note": "Thu close $521.08 vs fill $495.57 (~+$1.02), only $2.08 over $519 exit; Fri open ~$518.89 live under the line - Fri close decides (Mon 7am brief). Earnings Oct 28 after close."
+      },
+      {
+        "symbol": "GOOGL",
+        "support": 337,
+        "invalidation": "Long-term hold per jayr (Oct 20) - $337/$330 info-only alerts, no SELL PLAN",
+        "note": "LT hold / Thu close $324.22 vs fill $335.20 (~-$0.88). Fri open ~$321.32 under $330 info alert (info only). Earnings Oct 28 after close; cash $0, no add."
+      }
+    ],
+    "notes": "Fri checks: ~21:05 level - HOLD / NO TRADE, research marks, no broker (morning brief run failed). EOD ~21:33: Coinbase 24h stats all 7 crypto, Yahoo v8 Thu US close, USDPHP 63.53. Books ~-$0.41 combined."
+  },
+  "risk": {
+    "railsCheck": "Week Oct 19-23 NO TRADE by default (A+ only). Gotrade IN_TRADE (cash $0; MSFT above $519 exit on Thu close by $2.08, Fri live under - close decides; GOOGL long-term hold, no SELL PLAN). ETH naked just above $2,378 exit line on the close (~$26.5 notional, 0.01103342 ETH). Exit lines decided by a close, never live; a close below = SELL PLAN card for jayr, no auto order. New Coins blocked while naked. Stance IN_TRADE, not ARMED - no PLAN.",
+    "sizeNote": "Do not add. Coins PHP cash ₱0.33; Gotrade cash $0. Sizes unchanged: Coins ₱800-1,200 (₱1,500 A+), Gotrade $15-25.",
+    "kills": [
+      "Week Oct 19-23: NO TRADE by default, A+ only",
+      "Exit lines by close only: ETH $2,378 (8am Manila Coinbase), MSFT $519 (US close)",
+      "GOOGL long-term hold - no SELL PLAN; $337/$330 info-only",
+      "No new Coins entries while naked",
+      "No new Gotrade without cash (cash $0)",
+      "No new Gotrade single-name into MSFT/GOOGL earnings Oct 28 + FOMC Oct 29",
+      "Tue Oct 27 brief asks jayr hold-through-earnings vs trim for MSFT (GOOGL = hold); no answer = hold",
+      "Kill switch: 1 loser or -₱400 day (Coins) still on"
+    ],
+    "feeSkip": "Skip if fees >= ~1/3 edge - unchanged."
+  },
+  "desk": {
+    "decision": "Fri EOD HOLD / NO TRADE. Both books held; nothing queued. ETH 8am close confirmed above $2,378 by 0.33%; MSFT above $519 on Thu close by $2.08 (Fri live under); GOOGL long-term hold. Combined open ~-$0.41 (~₱-26) on research marks. No PLAN.",
+    "actions": [
+      "HOLD open books only - no new orders",
+      "Exit lines read on closes; SELL PLAN card only if an ETH 8am close or the MSFT Fri US close breaks",
+      "No broker browser (nothing queued; research marks)",
+      "~21:30 EOD Vision publish (ingest + publish one step)",
+      "Next Ops: Mon Oct 26 weekly review 08:00 + morning 07:00 (MSFT Fri close vs $519; ETH weekend closes vs $2,378)"
+    ],
+    "nextOpen": "Mon Oct 26 - ETH Sat/Sun/Mon 8am closes vs $2,378; MSFT Fri close vs $519; Tue Oct 27 brief asks hold-through-earnings vs trim for MSFT (GOOGL = hold); MSFT/GOOGL earnings Oct 28 after close; FOMC Oct 29 02:00 Manila."
+  }
+}
