@@ -334,5 +334,13 @@
     "tradeCount": 0,
     "coinsEquity": 26.8248,
     "gotradeEquity": 46.8167
+  },
+  {
+    "date": "2026-10-26",
+    "stance": "REDUCE",
+    "summary": "Mon 2026-10-26 ~21:30 Manila EOD. Coinbase 24h stats crypto; Yahoo v8 Fri US regular-session close for books (Mon session opened 21:30 Manila; live prints noted only). Exit lines decided by a close: ETH 8am Manila Coinbase close vs $2,378 BROKE Oct 25 + Oct 26 -> SELL PLAN awaiting jayr 'confirm ETH sell' (no auto order). MSFT $519 US close exit. GOOGL long-term hold per jayr (Oct 20). No fills since Oct 23.",
+    "tradeCount": 0,
+    "coinsEquity": 25.8032,
+    "gotradeEquity": 46.6339
   }
 ]
