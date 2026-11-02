@@ -1,0 +1,79 @@
+{
+  "date": "2026-11-02",
+  "stance": "IN_TRADE",
+  "headline": "Mon ~21:30 EOD Manila. HOLD / NO TRADE. ETH held per jayr ('hold ETH, don't sell') - SELL PLAN closed; 8am close $2,272.23 under $2,378 is info only. MSFT pre-market $523.30 above $519; GOOGL $282.10 LT hold. Combined ~-5.02 (~₱-320).",
+  "scout": {
+    "headline": "Mon EOD. Crypto still soft (BTC under $78k); ETH held below the old $2,378 line by jayr's call. Busy US week: ISM mfg tonight, midterms + JOLTS Tue, ISM services/ADP midweek, NFP Fri.",
+    "bullets": [
+      "ETH 8am Manila Coinbase close Nov 2 $2,272.23 (under $2,378 - info only, sell plan closed as HOLD by jayr).",
+      "21:08 tape: BTC $77,638 / ETH $2,280.39 / SOL $93.95 / XRP $1.25 / BNB $703.36 / LINK $11.30 / SUI $0.885.",
+      "Gotrade: MSFT Fri Oct 30 close $521.91, Mon pre-market $523.30; GOOGL Fri close $279.84 (post-earnings), now $282.10.",
+      "Books: ETH ~-1.89 (~₱-121); Gotrade ~-3.13 (MSFT ~+1.11 / GOOGL ~-4.24); combined ~-5.02 (~₱-320 at USDPHP 63.70).",
+      "Coins cash ₱0.33; Gotrade cash $0. No trades or fills today."
+    ],
+    "sources": [
+      "Trading Ops 21:08 Manila level watch Nov 2",
+      "Coinbase ETH-USD 8am Manila daily close Nov 2",
+      "Fri Oct 30 US regular-session close + Mon pre-market prints",
+      "USDPHP 63.70"
+    ]
+  },
+  "analyst": {
+    "thesis": "HOLD. ETH under the old $2,378 line but jayr chose to hold - no sell plan re-presented; marks only. MSFT holds above its $519 close exit. GOOGL long-term hold after the post-earnings drop. No new PLAN into a macro-heavy week.",
+    "levels": [
+      {
+        "symbol": "ETH",
+        "support": 2378,
+        "invalidation": "$2,378 close line - info only; SELL PLAN closed as HOLD per jayr (Nov 2)",
+        "note": "Entry $2451.93 / mark $2,280.39 / qty 0.01103342. ~-1.89 (~₱-121). Nov 2 8am close $2,272.23. Re-raise only if jayr asks or a major event."
+      },
+      {
+        "symbol": "BTC",
+        "invalidation": "No new PLAN without desk greenlight",
+        "note": "Primary map - $77,638. No PLAN."
+      },
+      {
+        "symbol": "XRP",
+        "invalidation": "No new PLAN without desk greenlight",
+        "note": "Primary map - $1.25. No armed wait."
+      },
+      {
+        "symbol": "MSFT",
+        "support": 519,
+        "invalidation": "Exit line $519 on US regular-session close",
+        "note": "Fri close $521.91 ($2.91 above $519), pre-market $523.30 vs fill $495.57 (~+$1.11) - hold."
+      },
+      {
+        "symbol": "GOOGL",
+        "support": 337,
+        "invalidation": "Long-term hold per jayr (Oct 20) - $337/$330 info-only alerts, no SELL PLAN",
+        "note": "LT hold / Fri close $279.84 (post-earnings), now $282.10 vs fill $335.20 (~-$4.24). Cash $0, no add."
+      }
+    ],
+    "notes": "Mon checks: 7am brief, 8am weekly review, 9pm level watch (21:08). US DST ended Nov 1 - US events now ET+13 Manila."
+  },
+  "risk": {
+    "railsCheck": "ETH SELL PLAN closed as HOLD by jayr (Nov 2) - no sell plan re-presented; $2,378 info only. Gotrade IN_TRADE: MSFT above $519 on Fri close; GOOGL long-term hold. New Coins blocked while ETH open; Gotrade cash $0. Stance IN_TRADE HOLD / NO TRADE new.",
+    "sizeNote": "Do not add. Coins PHP cash ₱0.33; Gotrade cash $0. Sizes unchanged: Coins ₱800-1,200 (₱1,500 A+), Gotrade $15-25.",
+    "kills": [
+      "ETH held per jayr - do not re-present an ETH sell plan on the $2,378 line unless jayr asks or a major event",
+      "MSFT exit $519 on US regular-session close",
+      "GOOGL long-term hold - no SELL PLAN; $337/$330 info-only",
+      "No new Coins entries while ETH is open",
+      "No new Gotrade without cash (cash $0)",
+      "No new single-name into midterms (Tue Nov 3) / NFP (Fri Nov 6)",
+      "Kill switch: 1 loser or -₱400 day (Coins) still on"
+    ],
+    "feeSkip": "Skip if fees >= ~1/3 edge - unchanged."
+  },
+  "desk": {
+    "decision": "Mon EOD IN_TRADE HOLD / NO TRADE new. ETH held per jayr; MSFT above $519; GOOGL LT hold. Combined ~-5.02 (~₱-320). No orders.",
+    "actions": [
+      "No orders - nothing queued",
+      "Report ETH marks only (sell plan closed as HOLD)",
+      "HOLD Gotrade MSFT/GOOGL",
+      "~21:30 EOD Vision publish"
+    ],
+    "nextOpen": "Tue Nov 3 07:00 brief - MSFT Mon close vs $519; ETH 8am close (info only); ISM mfg result; midterms + JOLTS Tue (JOLTS ~23:00 Manila)."
+  }
+}
