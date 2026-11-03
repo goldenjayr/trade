@@ -1,0 +1,78 @@
+{
+  "date": "2026-11-03",
+  "stance": "IN_TRADE",
+  "headline": "Tue ~21:30 EOD Manila. HOLD / NO TRADE. MSFT SELL PLAN closed as HOLD - jayr: 'hold MSFT long term, don't sell'. ETH held (8am close $2,249.66, info only). MSFT $503.26 / GOOGL $279.88 both LT holds. Combined ~-6.03 (~₱-382).",
+  "scout": {
+    "headline": "Tue EOD. Crypto flat-soft (BTC ~$77.3k); US midterms today with results into Wed Manila; JOLTS 23:00 Manila. ISM services/ADP Wed, NFP Fri.",
+    "bullets": [
+      "ETH 8am Manila Coinbase close Nov 3 $2,249.66 (under $2,378 - info only, held per jayr).",
+      "~21:00 tape: BTC $77,283 / ETH $2,278.31 / SOL $93.01 / XRP $1.280 / BNB $700.26 / LINK $11.20 / SUI $0.893.",
+      "Gotrade: MSFT Mon Nov 2 close $507.12 (under old $519 line), Tue pre-market $503.26; GOOGL $279.88.",
+      "Books: ETH ~-1.92 (~₱-121); Gotrade ~-4.11 (MSFT ~+0.31 / GOOGL ~-4.42); combined ~-6.03 (~₱-382 at USDPHP 63.42).",
+      "Coins cash ₱0.33; Gotrade cash $0. No trades or fills today."
+    ],
+    "sources": [
+      "Trading Ops ~21:00 Manila level watch Nov 3",
+      "Coinbase ETH-USD 8am Manila daily close Nov 3",
+      "Mon Nov 2 US regular-session close + Tue pre-market prints",
+      "USDPHP 63.42"
+    ]
+  },
+  "analyst": {
+    "thesis": "HOLD. All three positions are jayr-directed holds: ETH (no sell on $2,378), GOOGL and now MSFT long-term holds. Marks only. No new PLAN into midterms results, ISM services/ADP and NFP Fri.",
+    "levels": [
+      {
+        "symbol": "ETH",
+        "support": 2378,
+        "invalidation": "$2,378 close line - info only; SELL PLAN closed as HOLD per jayr (Nov 2)",
+        "note": "Entry $2451.93 / mark $2,278.31 / qty 0.01103342. ~-1.92 (~₱-121). Nov 3 8am close $2,249.66. Re-raise only if jayr asks or a major event."
+      },
+      {
+        "symbol": "BTC",
+        "invalidation": "No new PLAN without desk greenlight",
+        "note": "Primary map - $77,283. No PLAN."
+      },
+      {
+        "symbol": "XRP",
+        "invalidation": "No new PLAN without desk greenlight",
+        "note": "Primary map - $1.280. No armed wait."
+      },
+      {
+        "symbol": "MSFT",
+        "support": 519,
+        "invalidation": "Long-term hold per jayr (Nov 3) - $519/$502 info-only, no SELL PLAN",
+        "note": "LT hold / Mon close $507.12, pre-market $503.26 vs fill $495.57 (~+$0.31). SELL PLAN closed as HOLD."
+      },
+      {
+        "symbol": "GOOGL",
+        "support": 337,
+        "invalidation": "Long-term hold per jayr (Oct 20) - $337/$330 info-only alerts, no SELL PLAN",
+        "note": "LT hold / $279.88 vs fill $335.20 (~-$4.42). Cash $0, no add."
+      }
+    ],
+    "notes": "Tue checks: 7am brief (MSFT SELL PLAN, answered HOLD), 9pm level watch. US events ET+13 Manila."
+  },
+  "risk": {
+    "railsCheck": "All open positions are jayr holds: ETH (Nov 2), GOOGL (Oct 20), MSFT (Nov 3) - no SELL PLANs on their old lines. New Coins blocked while ETH open; Gotrade cash $0. Stance IN_TRADE HOLD / NO TRADE new.",
+    "sizeNote": "Do not add. Coins PHP cash ₱0.33; Gotrade cash $0. Sizes unchanged: Coins ₱800-1,200 (₱1,500 A+), Gotrade $15-25.",
+    "kills": [
+      "ETH held per jayr - no ETH sell plan on the $2,378 line unless jayr asks or a major event",
+      "MSFT long-term hold per jayr (Nov 3) - no SELL PLAN; $519/$502 info-only",
+      "GOOGL long-term hold - no SELL PLAN; $337/$330 info-only",
+      "No new Coins entries while ETH is open",
+      "No new Gotrade without cash (cash $0)",
+      "No new single-name into midterms results / NFP (Fri Nov 6)",
+      "Kill switch: 1 loser or -₱400 day (Coins) still on"
+    ],
+    "feeSkip": "Skip if fees >= ~1/3 edge - unchanged."
+  },
+  "desk": {
+    "decision": "Tue EOD IN_TRADE HOLD / NO TRADE new. MSFT SELL PLAN closed as HOLD (LT hold per jayr). ETH and GOOGL held. Combined ~-6.03 (~₱-382). No orders.",
+    "actions": [
+      "No orders - MSFT SELL PLAN closed as HOLD by jayr",
+      "Report ETH/MSFT/GOOGL marks only",
+      "~21:30 EOD Vision publish"
+    ],
+    "nextOpen": "Wed Nov 4 07:00 brief - midterm results, JOLTS read; ETH 8am close (info only); ADP + ISM services Wed US."
+  }
+}

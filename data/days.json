@@ -350,5 +350,13 @@
     "tradeCount": 0,
     "coinsEquity": 25.4905,
     "gotradeEquity": 43.5407
+  },
+  {
+    "date": "2026-11-03",
+    "stance": "IN_TRADE",
+    "summary": "Tue 2026-11-03 ~21:30 Manila EOD, data from the ~21:00 level watch. MSFT moved to long-term hold per jayr (Nov 3) - $519/$502 info-only, no SELL PLAN. ETH SELL PLAN closed as HOLD (Nov 2); $2,378 info only. GOOGL LT hold (Oct 20). No trades or fills today. Vision packets Oct 27-30 were never published (not reconstructed).",
+    "tradeCount": 0,
+    "coinsEquity": 25.4676,
+    "gotradeEquity": 42.5589
   }
 ]
