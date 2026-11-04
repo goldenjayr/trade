@@ -1,8 +1,8 @@
 {
-  "asOf": "2026-11-03",
+  "asOf": "2026-11-04",
   "timezone": "Asia/Manila",
   "stance": "IN_TRADE",
-  "stanceReason": "Tue Nov 3 ~21:30 Manila EOD - IN_TRADE HOLD / NO TRADE on new entries. jayr ~07:09 Manila: 'hold MSFT long term, don't sell' - the MSFT SELL PLAN (Mon close $507.12 under $519) is CLOSED as HOLD; MSFT is now a long-term hold like GOOGL. ETH held per jayr (Nov 2); Nov 3 8am Coinbase close $2,249.66 (under $2,378, info only), spot $2,278.31 (~-1.92 / ~₱-121). Gotrade MSFT pre-market $503.26 (~+0.31), GOOGL $279.88 (~-4.42), book ~-4.11. Combined ~-6.03 (~₱-382 at USDPHP 63.42). US midterms + JOLTS tonight.",
+  "stanceReason": "Wed Nov 4 ~21:30 Manila EOD - IN_TRADE HOLD / NO TRADE on new entries. All open positions are jayr holds: ETH (Nov 2), GOOGL (Oct 20), MSFT (Nov 3). Nov 4 8am Coinbase ETH close $2,271.64 (under $2,378, info only), spot $2,314.76 (~-1.51 / ~₱-96). Gotrade MSFT pre-market $529.87 (~+1.38), GOOGL $282.04 (~-4.25), book ~-2.87. Combined ~-4.38 (~₱-278 at USDPHP 63.49). NFP Fri Nov 6 21:30 Manila.",
   "primaries": [
     "BTC",
     "XRP"
@@ -13,19 +13,19 @@
       "label": "Coins.ph",
       "currency": "PHP",
       "cash": 0.33,
-      "equity": 25.4676,
-      "dayPnl": -0.02,
-      "totalPnl": -1.92,
+      "equity": 25.8697,
+      "dayPnl": 0.41,
+      "totalPnl": -1.51,
       "positions": [
         {
           "symbol": "ETH",
           "name": "Ethereum",
           "qty": 0.01103342,
           "avgCost": 2451.93,
-          "mark": 2278.31,
-          "marketValue": 25.1376,
-          "pnl": -1.9156,
-          "pnlPct": -0.070809
+          "mark": 2314.76,
+          "marketValue": 25.5397,
+          "pnl": -1.5135,
+          "pnlPct": -0.055945
         }
       ]
     },
@@ -34,29 +34,29 @@
       "label": "Gotrade",
       "currency": "USD",
       "cash": 0,
-      "equity": 42.5589,
-      "dayPnl": -0.98,
-      "totalPnl": -4.11,
+      "equity": 43.7996,
+      "dayPnl": 1.24,
+      "totalPnl": -2.87,
       "positions": [
         {
           "symbol": "MSFT",
           "name": "Microsoft",
           "qty": 0.040135601,
           "avgCost": 495.57,
-          "mark": 503.26,
-          "marketValue": 20.1986,
-          "pnl": 0.3086,
-          "pnlPct": 0.015515
+          "mark": 529.87,
+          "marketValue": 21.2667,
+          "pnl": 1.3767,
+          "pnlPct": 0.069216
         },
         {
           "symbol": "GOOGL",
           "name": "Alphabet",
           "qty": 0.079892601,
           "avgCost": 335.2,
-          "mark": 279.88,
-          "marketValue": 22.3603,
-          "pnl": -4.4197,
-          "pnlPct": -0.165037
+          "mark": 282.04,
+          "marketValue": 22.5329,
+          "pnl": -4.2471,
+          "pnlPct": -0.158592
         }
       ]
     }
@@ -207,8 +207,8 @@
       "date": "2026-11-03",
       "title": "US midterm elections",
       "impact": "high",
-      "status": "upcoming",
-      "notes": "Voting Tue Nov 3 US; results flow into Wed Nov 4 Manila. No new single-name into the window."
+      "status": "done",
+      "notes": "Voting Tue Nov 3 US; results flowed into Wed Nov 4 Manila. Held all books."
     },
     {
       "id": "jolts-2026-09",
@@ -216,7 +216,7 @@
       "timeManila": "23:00",
       "title": "US JOLTS job openings",
       "impact": "medium",
-      "status": "upcoming",
+      "status": "done",
       "notes": "Tue 10:00 ET = 23:00 Manila."
     },
     {

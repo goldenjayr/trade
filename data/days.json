@@ -358,5 +358,13 @@
     "tradeCount": 0,
     "coinsEquity": 25.4676,
     "gotradeEquity": 42.5589
+  },
+  {
+    "date": "2026-11-04",
+    "stance": "IN_TRADE",
+    "summary": "Wed 2026-11-04 ~21:30 Manila EOD, data from the ~21:00 level watch. ETH, GOOGL, MSFT all jayr long/hold - no SELL PLANs. No trades or fills today. Vision packets Oct 27-30 were never published (not reconstructed).",
+    "tradeCount": 0,
+    "coinsEquity": 25.8697,
+    "gotradeEquity": 43.7996
   }
 ]

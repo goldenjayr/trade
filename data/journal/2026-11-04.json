@@ -1,0 +1,78 @@
+{
+  "date": "2026-11-04",
+  "stance": "IN_TRADE",
+  "headline": "Wed ~21:30 EOD Manila. HOLD / NO TRADE. ETH 8am close $2,271.64 (info only), spot $2,314.76. MSFT $529.87 / GOOGL $282.04 both LT holds. Combined ~-4.38 (~₱-278).",
+  "scout": {
+    "headline": "Wed EOD. Crypto firmer (BTC ~$78.2k) after midterms; ADP + ISM services tonight US; NFP Fri 21:30 Manila.",
+    "bullets": [
+      "ETH 8am Manila Coinbase close Nov 4 $2,271.64 (under $2,378 - info only, held per jayr).",
+      "~21:00 tape: BTC $78,235 / ETH $2,314.76 / SOL $92.62 / XRP $1.278 / BNB $699.09 / LINK $11.11 / SUI $0.900.",
+      "Gotrade: MSFT Tue close $520.99, Wed pre-market $529.87; GOOGL pre-market $282.04.",
+      "Books: ETH ~-1.51 (~₱-96); Gotrade ~-2.87 (MSFT ~+1.38 / GOOGL ~-4.25); combined ~-4.38 (~₱-278 at USDPHP 63.49).",
+      "Coins cash ₱0.33; Gotrade cash $0. No trades or fills today."
+    ],
+    "sources": [
+      "Trading Ops ~21:00 Manila level watch Nov 4",
+      "Coinbase ETH-USD 8am Manila daily close Nov 4",
+      "Tue Nov 3 US regular-session close + Wed pre-market prints",
+      "USDPHP 63.49"
+    ]
+  },
+  "analyst": {
+    "thesis": "HOLD. All three positions are jayr-directed holds (ETH, GOOGL, MSFT). Marks only. No new PLAN into ADP/ISM services and NFP Fri.",
+    "levels": [
+      {
+        "symbol": "ETH",
+        "support": 2378,
+        "invalidation": "$2,378 close line - info only; SELL PLAN closed as HOLD per jayr (Nov 2)",
+        "note": "Entry $2451.93 / mark $2,314.76 / qty 0.01103342. ~-1.51 (~₱-96). Nov 4 8am close $2,271.64. Re-raise only if jayr asks or a major event."
+      },
+      {
+        "symbol": "BTC",
+        "invalidation": "No new PLAN without desk greenlight",
+        "note": "Primary map - $78,235. No PLAN."
+      },
+      {
+        "symbol": "XRP",
+        "invalidation": "No new PLAN without desk greenlight",
+        "note": "Primary map - $1.278. No armed wait."
+      },
+      {
+        "symbol": "MSFT",
+        "support": 519,
+        "invalidation": "Long-term hold per jayr (Nov 3) - $519/$502 info-only, no SELL PLAN",
+        "note": "LT hold / Tue close $520.99, pre-market $529.87 vs fill $495.57 (~+$1.38)."
+      },
+      {
+        "symbol": "GOOGL",
+        "support": 337,
+        "invalidation": "Long-term hold per jayr (Oct 20) - $337/$330 info-only alerts, no SELL PLAN",
+        "note": "LT hold / $282.04 vs fill $335.20 (~-$4.25). Cash $0, no add."
+      }
+    ],
+    "notes": "Wed checks: 7am brief, 9pm level watch. US events ET+13 Manila."
+  },
+  "risk": {
+    "railsCheck": "All open positions are jayr holds: ETH (Nov 2), GOOGL (Oct 20), MSFT (Nov 3) - no SELL PLANs on their old lines. New Coins blocked while ETH open; Gotrade cash $0. Stance IN_TRADE HOLD / NO TRADE new.",
+    "sizeNote": "Do not add. Coins PHP cash ₱0.33; Gotrade cash $0. Sizes unchanged: Coins ₱800-1,200 (₱1,500 A+), Gotrade $15-25.",
+    "kills": [
+      "ETH held per jayr - no ETH sell plan on the $2,378 line unless jayr asks or a major event",
+      "MSFT long-term hold per jayr (Nov 3) - no SELL PLAN; $519/$502 info-only",
+      "GOOGL long-term hold - no SELL PLAN; $337/$330 info-only",
+      "No new Coins entries while ETH is open",
+      "No new Gotrade without cash (cash $0)",
+      "Kill switch: 1 loser or -₱400 day (Coins) still on",
+      "No new single-name into NFP (Fri Nov 6)"
+    ],
+    "feeSkip": "Skip if fees >= ~1/3 edge - unchanged."
+  },
+  "desk": {
+    "decision": "Wed EOD IN_TRADE HOLD / NO TRADE new. ETH, MSFT, GOOGL held per jayr. Combined ~-4.38 (~₱-278). No orders.",
+    "actions": [
+      "No orders",
+      "Report ETH/MSFT/GOOGL marks only",
+      "~21:30 EOD Vision publish"
+    ],
+    "nextOpen": "Thu Nov 5 07:00 brief - ADP + ISM services read; ETH 8am close (info only); NFP Fri 21:30 Manila."
+  }
+}
